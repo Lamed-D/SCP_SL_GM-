@@ -1,0 +1,159 @@
+[2021-02-09 21:02:54.894 +09:00] Logging started.
+[2021-02-09 21:02:54.898 +09:00] Timezone offset: +09:00
+[2021-02-09 21:02:54.922 +09:00] Waiting for players...
+[2021-02-09 21:03:08.449 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:53335.
+[2021-02-09 21:03:08.559 +09:00] Requested challenge for incoming connection from endpoint 211.187.127.126:51195.
+[2021-02-09 21:03:08.837 +09:00] Requested challenge for incoming connection from endpoint 175.116.70.90:56884.
+[2021-02-09 21:03:08.994 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:53336 has been accepted.
+[2021-02-09 21:03:09.025 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:53336.
+[2021-02-09 21:03:09.101 +09:00] Security challenge response of incoming connection from endpoint 211.187.127.126:51196 has been accepted.
+[2021-02-09 21:03:09.133 +09:00] Player 76561199112849985@steam preauthenticated from endpoint 211.187.127.126:51196.
+[2021-02-09 21:03:09.379 +09:00] Security challenge response of incoming connection from endpoint 175.116.70.90:56885 has been accepted.
+[2021-02-09 21:03:09.410 +09:00] Player 76561198956540241@steam preauthenticated from endpoint 175.116.70.90:56885.
+[2021-02-09 21:03:12.038 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 21:03:12.042 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:03:12.048 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 13724
+[2021-02-09 21:03:12.054 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:03:12.086 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:03:12.693 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:03:12.698 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 21:03:12.706 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:03:12.713 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 21:03:12.726 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:03:13.179 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 21:03:13.184 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:03:13.189 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 21:03:13.206 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:03:13.226 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:03:16.907 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 21:03:16.940 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:53336. Player ID assigned: 4. Auth token serial number: BRwU73s45NLY5/X4
+[2021-02-09 21:03:16.971 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-09 21:03:17.000 +09:00] Player Goldmilk777 (76561198254130933@steam) (4) connected with the IP: 192.168.0.1
+[2021-02-09 21:03:17.410 +09:00] Accepted authentication token of user 76561198956540241@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 21:03:17.442 +09:00] 76561198956540241@steam authenticated from endpoint 175.116.70.90:56885. Player ID assigned: 3. Auth token serial number: w6J8PwieE9p9Fb0B
+[2021-02-09 21:03:17.472 +09:00] Nickname of 76561198956540241@steam is now 사랑해요 댕댕씨.
+[2021-02-09 21:03:17.503 +09:00] Player 사랑해요 댕댕씨 (76561198956540241@steam) (3) connected with the IP: 175.116.70.90
+[2021-02-09 21:03:19.696 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-09 21:03:19.728 +09:00] Authentication token of player 76561198956540241@steam has been confirmed by central server.
+[2021-02-09 21:03:20.834 +09:00] Accepted authentication token of user 76561199112849985@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 21:03:20.864 +09:00] 76561199112849985@steam authenticated from endpoint 211.187.127.126:51196. Player ID assigned: 2. Auth token serial number: av1kLG7cJZqDrUUa
+[2021-02-09 21:03:20.895 +09:00] Nickname of 76561199112849985@steam is now 하냥.
+[2021-02-09 21:03:20.928 +09:00] Player 하냥 (76561199112849985@steam) (2) connected with the IP: 211.187.127.126
+[2021-02-09 21:03:25.118 +09:00] Authentication token of player 76561199112849985@steam has been confirmed by central server.
+[2021-02-09 21:03:40.191 +09:00] New round has been started.
+[2021-02-09 21:03:41.234 +09:00] [INFO] [BroadcastPlugin] 이 서버는 ombe1229의 브로드캐스트 플러그인을 사용 중입니다.
+[2021-02-09 21:03:41.265 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-09 21:03:41.297 +09:00] [INFO] [RespawnTimer] RespawnTimer coroutine started successfully! The timer will be refreshed every 1 second/s!
+[2021-02-09 21:04:05.611 +09:00] [STDOUT] Not allowed to access triangles/indices on mesh '106' (isReadable is false; Read/Write must be enabled in import settings)
+[2021-02-09 21:04:05.619 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:04:05.627 +09:00] [STDOUT] Not allowed to access vertices on mesh '106' (isReadable is false; Read/Write must be enabled in import settings)
+[2021-02-09 21:04:05.635 +09:00] [STDOUT] (Filename:  Line: 446)
+[2021-02-09 21:04:05.642 +09:00] [STDOUT] Not allowed to access normals on mesh '106' (isReadable is false; Read/Write must be enabled in import settings)
+[2021-02-09 21:04:05.651 +09:00] [STDOUT] (Filename:  Line: 446)
+[2021-02-09 21:04:05.658 +09:00] [STDOUT] Not allowed to access tangents on mesh '106' (isReadable is false; Read/Write must be enabled in import settings)
+[2021-02-09 21:04:05.667 +09:00] [STDOUT] (Filename:  Line: 446)
+[2021-02-09 21:04:05.675 +09:00] [STDOUT] Not allowed to call RecalculateNormals() on mesh '106'
+[2021-02-09 21:04:05.688 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:04:05.694 +09:00] [STDOUT] Not allowed to access normals on mesh '106' (isReadable is false; Read/Write must be enabled in import settings)
+[2021-02-09 21:04:05.704 +09:00] [STDOUT] (Filename:  Line: 446)
+[2021-02-09 21:05:44.117 +09:00] 
+[2021-02-09 21:05:44.123 +09:00] >>> softrestart
+[2021-02-09 21:05:44.196 +09:00] Server will softly restart in a couple of seconds.
+[2021-02-09 21:05:44.204 +09:00] [STDOUT] OnApplicationQuit: stopped client
+[2021-02-09 21:05:44.211 +09:00] [STDOUT] The referenced script (ChangeKeyBinding) on this Behaviour is missing!
+[2021-02-09 21:05:44.217 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 21:05:44.224 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'KeyBinding') is missing!
+[2021-02-09 21:05:44.229 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 21:05:44.234 +09:00] [STDOUT] A scripted object (probably ChangeKeyBinding?) has a different serialization layout when loading. (Read 32 bytes but expected 56 bytes)
+[2021-02-09 21:05:44.238 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 21:05:44.243 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 21:05:44.247 +09:00] [STDOUT] Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-09 21:05:44.252 +09:00] Player Goldmilk777 (76561198254130933@steam) (4) disconnected
+[2021-02-09 21:05:44.275 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:05:44.307 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:05:44.337 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-09 21:05:44.369 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-09 21:05:44.400 +09:00] Player 하냥 (76561199112849985@steam) (2) disconnected
+[2021-02-09 21:05:44.431 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:05:44.465 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:05:44.498 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-09 21:05:44.524 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-09 21:05:44.541 +09:00] Player 사랑해요 댕댕씨 (76561198956540241@steam) (3) disconnected
+[2021-02-09 21:05:44.573 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:05:44.605 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:05:44.624 +09:00] [STDOUT] OnApplicationQuit: stopped server
+[2021-02-09 21:05:44.632 +09:00] [STDOUT] ThreadAbortException
+[2021-02-09 21:05:44.637 +09:00] [STDOUT]   at (wrapper managed-to-native) System.Net.Sockets.Socket.Receive_internal(intptr,byte*,int,System.Net.Sockets.SocketFlags,int&,bool)
+[2021-02-09 21:05:44.642 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive_internal (System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32& error, System.Boolean blocking) [0x0000c] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-09 21:05:44.646 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError& errorCode) [0x0002e] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-09 21:05:44.651 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-09 21:05:44.657 +09:00] [STDOUT]   at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x000c1] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-09 21:05:44.664 +09:00] [STDOUT]   at ServerOutput.TcpConsole.Receive () [0x0000d] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-09 21:05:44.670 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-09 21:05:44.677 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-09 21:05:44.686 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-09 21:05:44.692 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-09 21:05:44.699 +09:00] [STDOUT] ServerOutput.TcpConsole:Receive()
+[2021-02-09 21:05:44.707 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart_Context(Object)
+[2021-02-09 21:05:44.717 +09:00] [STDOUT] System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-09 21:05:44.727 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-09 21:05:44.734 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+[2021-02-09 21:05:44.742 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart()
+[2021-02-09 21:05:44.750 +09:00] [STDOUT] (Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+[2021-02-09 21:05:44.761 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-09 21:05:44.769 +09:00] [STDOUT] UnloadTime: 107.374700 ms
+[2021-02-09 21:05:44.777 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-09 21:05:44.786 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-09 21:05:44.794 +09:00] [STDOUT] Setting 06AudioSettings_MenuMusic to 1
+[2021-02-09 21:05:44.803 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-09 21:05:44.817 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-09 21:05:44.927 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-09 21:05:44.936 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-09 21:05:44.943 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-09 21:05:44.950 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-09 21:05:44.959 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-09 21:05:44.967 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-09 21:05:44.973 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-09 21:05:44.980 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-09 21:05:44.986 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-09 21:05:44.993 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-09 21:05:45.007 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-09 21:05:45.014 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-09 21:05:45.020 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-09 21:05:45.026 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-09 21:05:45.033 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-09 21:05:45.042 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-09 21:05:45.051 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-09 21:05:45.063 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::13724
+[2021-02-09 21:05:45.091 +09:00] [STDOUT] Unloading 5167 unused Assets to reduce memory usage. Loaded Objects now: 30639.
+[2021-02-09 21:05:45.097 +09:00] [STDOUT] Total: 144.290600 ms (FindLiveObjects: 2.239100 ms CreateObjectMapping: 5.365800 ms MarkObjects: 121.156000 ms  DeleteObjects: 15.528700 ms)
+[2021-02-09 21:05:45.106 +09:00] [STDOUT] Setting up 6 worker threads for Enlighten.
+[2021-02-09 21:05:45.114 +09:00] [STDOUT]   Thread -> id: 3a80 -> priority: 1
+[2021-02-09 21:05:45.121 +09:00] [STDOUT]   Thread -> id: 2768 -> priority: 1
+[2021-02-09 21:05:45.128 +09:00] [STDOUT]   Thread -> id: 36c -> priority: 1
+[2021-02-09 21:05:45.134 +09:00] [STDOUT]   Thread -> id: 3df8 -> priority: 1
+[2021-02-09 21:05:45.141 +09:00] [STDOUT]   Thread -> id: 3c54 -> priority: 1
+[2021-02-09 21:05:45.147 +09:00] [STDOUT]   Thread -> id: 2cac -> priority: 1
+[2021-02-09 21:05:45.342 +09:00] Game process exited and has been killed, no need to kill it.
+[2021-02-09 21:05:45.348 +09:00] --- END OF LOG ---

@@ -1,0 +1,1335 @@
+[2021-02-05 20:51:31.796 +09:00] Logging started.
+[2021-02-05 20:51:31.800 +09:00] Timezone offset: +09:00
+[2021-02-05 20:51:31.824 +09:00] Waiting for players...
+[2021-02-05 20:51:47.164 +09:00] Requested challenge for incoming connection from endpoint 182.31.147.126:62608.
+[2021-02-05 20:51:47.195 +09:00] Requested challenge for incoming connection from endpoint 211.189.206.153:50016.
+[2021-02-05 20:51:47.555 +09:00] Requested challenge for incoming connection from endpoint 175.116.70.90:56347.
+[2021-02-05 20:51:47.569 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:63211.
+[2021-02-05 20:51:47.680 +09:00] Security challenge response of incoming connection from endpoint 182.31.147.126:62609 has been accepted.
+[2021-02-05 20:51:47.710 +09:00] Player 76561199120747418@steam preauthenticated from endpoint 182.31.147.126:62609.
+[2021-02-05 20:51:48.055 +09:00] Security challenge response of incoming connection from endpoint 211.189.206.153:50017 has been accepted.
+[2021-02-05 20:51:48.070 +09:00] Player 76561199032243617@steam preauthenticated from endpoint 211.189.206.153:50017.
+[2021-02-05 20:51:48.101 +09:00] Security challenge response of incoming connection from endpoint 175.116.70.90:56348 has been accepted.
+[2021-02-05 20:51:48.132 +09:00] Player 76561198956540241@steam preauthenticated from endpoint 175.116.70.90:56348.
+[2021-02-05 20:51:48.166 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:63212 has been accepted.
+[2021-02-05 20:51:48.195 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:63212.
+[2021-02-05 20:51:50.486 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 20:51:50.492 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 20:51:50.498 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 20:51:50.505 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 20:51:50.517 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 20:51:51.517 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 20:51:51.522 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 20:51:51.530 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 20:51:51.535 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 20:51:51.559 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 20:51:52.055 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 20:51:52.060 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 20:51:52.067 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 20:51:52.072 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 20:51:52.097 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 20:51:52.377 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 20:51:52.383 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 20:51:52.389 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 20:51:52.394 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 20:51:52.407 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 20:51:54.478 +09:00] Accepted authentication token of user 76561199120747418@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 20:51:54.510 +09:00] 76561199120747418@steam authenticated from endpoint 182.31.147.126:62609. Player ID assigned: 2. Auth token serial number: MbNlUm73dgKUtoh2
+[2021-02-05 20:51:54.541 +09:00] Nickname of 76561199120747418@steam is now 컴퓨터괴물(twich).
+[2021-02-05 20:51:54.570 +09:00] Player 컴퓨터괴물(twich) (76561199120747418@steam) (2) connected with the IP: 182.31.147.126
+[2021-02-05 20:51:56.399 +09:00] Accepted authentication token of user 76561198956540241@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 20:51:56.430 +09:00] 76561198956540241@steam authenticated from endpoint 175.116.70.90:56348. Player ID assigned: 3. Auth token serial number: oPpgqhLtc3gAIywk
+[2021-02-05 20:51:56.461 +09:00] Nickname of 76561198956540241@steam is now 눈사람.
+[2021-02-05 20:51:56.492 +09:00] Player 눈사람 (76561198956540241@steam) (3) connected with the IP: 175.116.70.90
+[2021-02-05 20:51:57.100 +09:00] Accepted authentication token of user 76561199032243617@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 20:51:57.130 +09:00] 76561199032243617@steam authenticated from endpoint 211.189.206.153:50017. Player ID assigned: 5. Auth token serial number: FFiNmdwnNldFsNXl
+[2021-02-05 20:51:57.161 +09:00] Nickname of 76561199032243617@steam is now 목디스크 치료자 땅콩이.
+[2021-02-05 20:51:57.194 +09:00] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) (5) connected with the IP: 211.189.206.153
+[2021-02-05 20:51:57.407 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 20:51:57.439 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:63212. Player ID assigned: 4. Auth token serial number: ypCPcLDdn6FKgJKc
+[2021-02-05 20:51:57.471 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-05 20:51:57.503 +09:00] Player Goldmilk777 (76561198254130933@steam) (4) connected with the IP: 192.168.0.1
+[2021-02-05 20:51:59.976 +09:00] Authentication token of player 76561199120747418@steam has been confirmed by central server.
+[2021-02-05 20:52:00.009 +09:00] Authentication token of player 76561198956540241@steam has been confirmed by central server.
+[2021-02-05 20:52:00.040 +09:00] Authentication token of player 76561199032243617@steam has been confirmed by central server.
+[2021-02-05 20:52:00.070 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-05 20:52:19.167 +09:00] New round has been started.
+[2021-02-05 20:52:20.189 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-05 20:52:21.166 +09:00] [STDOUT] MissingMethodException: Pickup Inventory.SetPickup(ItemType,single,UnityEngine.Vector3,UnityEngine.Quaternion,int,int,int)
+[2021-02-05 20:52:21.174 +09:00] [STDOUT]   at scp035.EventHandlers+<RotatePickup>d__38.MoveNext () [0x00027] in <116e70ea1d714546bd080baf372e410b>:0
+[2021-02-05 20:52:21.179 +09:00] [STDOUT]   at MEC.Timing.RunCoroutineInternal (System.Collections.Generic.IEnumerator`1[T] coroutine, MEC.Segment segment, System.Int32 layer, System.Boolean layerHasValue, System.String tag, MEC.CoroutineHandle handle, System.Boolean prewarm) [0x001ce] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-05 20:52:21.186 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-05 20:52:21.194 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-05 20:52:21.200 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-05 20:52:21.208 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-05 20:52:21.214 +09:00] [STDOUT] MEC.Timing:RunCoroutineInternal(IEnumerator`1, Segment, Int32, Boolean, String, CoroutineHandle, Boolean)
+[2021-02-05 20:52:21.221 +09:00] [STDOUT] MEC.Timing:RunCoroutine(IEnumerator`1)
+[2021-02-05 20:52:21.227 +09:00] [STDOUT] scp035.EventHandlers:<OnRoundStart>b__13_0()
+[2021-02-05 20:52:21.233 +09:00] [STDOUT] MEC.<_DelayedCall>d__310:MoveNext()
+[2021-02-05 20:52:21.240 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-05 20:52:21.248 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:21.255 +09:00] [STDOUT] (Filename: <116e70ea1d714546bd080baf372e410b> Line: 0)
+[2021-02-05 20:52:21.268 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:21.297 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:21.330 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:21.362 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:52:21.392 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:21.425 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:21.455 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:21.487 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:21.518 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:21.550 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:21.581 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:27.349 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:27.379 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:27.410 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:27.442 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:27.505 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:27.536 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:27.568 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:27.599 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:29.940 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:29.973 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:30.004 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:30.036 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:30.550 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:30.582 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:30.614 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:30.645 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:30.845 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:52:30.878 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:30.909 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:30.938 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:33.072 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:33.104 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:33.134 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:33.167 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:35.556 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:35.587 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:35.619 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:35.651 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:35.730 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:35.761 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:35.793 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:35.825 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:35.887 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:35.919 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:35.949 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:35.980 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:36.544 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:36.575 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:36.607 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:36.639 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:36.716 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:36.745 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:36.779 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:36.809 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:40.158 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:40.190 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:40.222 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:40.254 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:40.658 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:40.688 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:40.720 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:40.752 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:41.285 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the locker
+[2021-02-05 20:52:41.318 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:52:41.348 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:52:41.425 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:41.456 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:41.487 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:41.518 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:45.026 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:45.057 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:45.088 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:45.117 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:45.211 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:45.241 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:45.274 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:45.304 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:45.334 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:45.365 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:45.397 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:45.429 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:45.460 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:45.490 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:45.521 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:45.552 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:48.417 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:48.450 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:48.480 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:48.511 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:48.543 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:48.573 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:48.605 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:48.637 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:48.669 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:48.701 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:48.733 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:48.764 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:48.795 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:48.825 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:48.857 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:48.888 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:52.141 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:52.173 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:52.203 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:52.235 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:52.298 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:52.330 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:52.361 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:52.391 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:55.307 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:55.339 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:55.371 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:55.401 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:55.513 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:55.542 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:55.575 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:55.606 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:55.701 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:55.732 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:55.762 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:55.793 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:55.856 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:52:55.888 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:55.919 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:55.950 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:58.652 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:58.683 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:58.714 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:58.747 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:58.823 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:52:58.854 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:58.886 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:58.918 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:59.369 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:52:59.401 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:59.432 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:59.464 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:52:59.557 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:52:59.589 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:59.620 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:59.651 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:52:59.729 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:52:59.763 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:52:59.793 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:52:59.825 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:00.662 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:00.693 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:00.725 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:00.757 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:00.943 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:00.973 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:01.005 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:01.036 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:01.827 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:53:01.857 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:53:01.887 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:53:02.045 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:02.075 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:02.105 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:02.136 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:03.638 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:53:03.669 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:03.698 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:03.730 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:04.013 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:53:04.044 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:04.076 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:04.105 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:04.992 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:05.023 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:05.054 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:05.088 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:05.147 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:05.178 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:05.210 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:05.240 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:06.809 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:06.839 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:06.870 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:06.899 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:08.716 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:08.748 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:08.780 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:08.811 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:08.872 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:08.904 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:08.936 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:08.969 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:11.696 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:11.728 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:11.758 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:11.790 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:11.836 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:11.866 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:11.898 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:11.928 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:11.960 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:11.991 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:12.023 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:12.054 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:14.622 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:14.653 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:14.684 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:14.715 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:14.806 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:14.837 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:14.868 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:14.900 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:15.688 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:53:15.719 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:15.749 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:15.780 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:17.344 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:17.377 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:17.408 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:17.439 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:17.516 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:17.547 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:17.578 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:17.610 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:20.754 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:20.785 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:20.816 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:20.847 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:26.137 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:26.168 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:26.199 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:26.230 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:26.294 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:26.325 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:26.355 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:26.386 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:29.254 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:29.285 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:29.315 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:29.346 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:29.454 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:29.483 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:29.514 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:29.546 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:32.464 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:32.494 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:32.524 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:32.555 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:32.586 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:32.618 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-05 20:53:32.650 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:32.682 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:32.711 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Coin (35)
+[2021-02-05 20:53:32.743 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:32.776 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C None (0) | T Coin (35) | P None | P:string[]
+[2021-02-05 20:53:32.807 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Flashlight (15)
+[2021-02-05 20:53:32.838 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:32.870 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C None (0) | T Flashlight (15) | P None | P:string[]
+[2021-02-05 20:53:32.900 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Painkillers (34)
+[2021-02-05 20:53:32.933 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:32.964 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Medical (2) | T Painkillers (34) | P None | P:string[]
+[2021-02-05 20:53:32.994 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Medkit (14)
+[2021-02-05 20:53:33.026 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.058 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Medical (2) | T Medkit (14) | P None | P:string[]
+[2021-02-05 20:53:33.090 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:33.119 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-05 20:53:33.150 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:33.181 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:33.212 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Coin (35)
+[2021-02-05 20:53:33.245 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.277 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C None (0) | T Coin (35) | P None | P:string[]
+[2021-02-05 20:53:33.308 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Flashlight (15)
+[2021-02-05 20:53:33.340 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.370 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C None (0) | T Flashlight (15) | P None | P:string[]
+[2021-02-05 20:53:33.401 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Painkillers (34)
+[2021-02-05 20:53:33.432 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.463 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Medical (2) | T Painkillers (34) | P None | P:string[]
+[2021-02-05 20:53:33.494 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Medkit (14)
+[2021-02-05 20:53:33.524 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.555 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Medical (2) | T Medkit (14) | P None | P:string[]
+[2021-02-05 20:53:33.586 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:53:33.616 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-05 20:53:33.646 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:33.678 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:33.709 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Coin (35)
+[2021-02-05 20:53:33.741 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.772 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C None (0) | T Coin (35) | P None | P:string[]
+[2021-02-05 20:53:33.803 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Flashlight (15)
+[2021-02-05 20:53:33.835 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.865 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C None (0) | T Flashlight (15) | P None | P:string[]
+[2021-02-05 20:53:33.896 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Painkillers (34)
+[2021-02-05 20:53:33.929 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:33.958 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Medical (2) | T Painkillers (34) | P None | P:string[]
+[2021-02-05 20:53:33.989 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: Medkit (14)
+[2021-02-05 20:53:34.020 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:53:34.051 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Medical (2) | T Medkit (14) | P None | P:string[]
+[2021-02-05 20:53:36.106 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:36.139 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:36.171 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:36.200 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:38.979 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:39.009 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:39.040 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:39.073 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:39.713 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:39.744 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:39.774 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:39.806 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:42.733 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:42.764 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:42.796 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:42.828 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:45.632 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:45.662 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:45.692 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:45.724 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:45.787 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:45.818 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:45.848 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:45.880 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:48.777 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:48.808 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:48.838 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:48.869 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:53:48.933 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:48.965 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:48.996 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:49.027 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:53:52.714 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:53:52.745 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:53:52.775 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:53:52.808 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:09.451 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:54:09.482 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:09.514 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:09.544 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:12.003 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:12.033 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:12.065 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:12.097 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:12.190 +09:00] [STDOUT] 6.017075
+[2021-02-05 20:54:12.207 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:12.239 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:12.269 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:12.299 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:12.308 +09:00] [STDOUT] 6.059579
+[2021-02-05 20:54:12.425 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:12.442 +09:00] [STDOUT] 6.07011
+[2021-02-05 20:54:12.456 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:12.487 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:12.517 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:12.641 +09:00] [STDOUT] 6.162179
+[2021-02-05 20:54:12.744 +09:00] [STDOUT] 6.20803
+[2021-02-05 20:54:12.860 +09:00] [STDOUT] 6.261395
+[2021-02-05 20:54:12.978 +09:00] [STDOUT] 6.312675
+[2021-02-05 20:54:13.180 +09:00] [STDOUT] 6.400276
+[2021-02-05 20:54:13.280 +09:00] [STDOUT] 6.442273
+[2021-02-05 20:54:13.481 +09:00] [STDOUT] 6.525878
+[2021-02-05 20:54:13.599 +09:00] [STDOUT] 6.576034
+[2021-02-05 20:54:13.717 +09:00] [STDOUT] 6.627721
+[2021-02-05 20:54:14.020 +09:00] [STDOUT] 6.743082
+[2021-02-05 20:54:14.137 +09:00] [STDOUT] 6.797375
+[2021-02-05 20:54:14.239 +09:00] [STDOUT] 6.833029
+[2021-02-05 20:54:14.338 +09:00] [STDOUT] 6.861319
+[2021-02-05 20:54:14.441 +09:00] [STDOUT] 6.801284
+[2021-02-05 20:54:14.559 +09:00] [STDOUT] 6.579147
+[2021-02-05 20:54:14.660 +09:00] [STDOUT] 6.395657
+[2021-02-05 20:54:14.778 +09:00] [STDOUT] 6.150197
+[2021-02-05 20:54:14.879 +09:00] [STDOUT] 5.937652
+[2021-02-05 20:54:14.979 +09:00] [STDOUT] 5.712877
+[2021-02-05 20:54:15.080 +09:00] [STDOUT] 5.480387
+[2021-02-05 20:54:15.182 +09:00] [STDOUT] 5.227815
+[2021-02-05 20:54:15.282 +09:00] [STDOUT] 4.95106
+[2021-02-05 20:54:15.401 +09:00] [STDOUT] 4.746569
+[2021-02-05 20:54:15.502 +09:00] [STDOUT] 4.790597
+[2021-02-05 20:54:15.602 +09:00] [STDOUT] 4.979516
+[2021-02-05 20:54:15.718 +09:00] [STDOUT] 5.296898
+[2021-02-05 20:54:15.820 +09:00] [STDOUT] 5.525846
+[2021-02-05 20:54:16.692 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:54:16.724 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:16.755 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:16.785 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:16.816 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:16.847 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:16.879 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:16.910 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:16.971 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:17.003 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:17.034 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:17.065 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:19.359 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:19.392 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:19.422 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:19.453 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:19.544 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:19.576 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:19.608 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:19.639 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:20.885 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:20.917 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:20.950 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:20.979 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:21.072 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:21.103 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:21.134 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:21.164 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:23.082 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the locker
+[2021-02-05 20:54:23.114 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:23.144 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:23.174 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the locker
+[2021-02-05 20:54:23.204 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:23.234 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:23.265 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the locker
+[2021-02-05 20:54:23.295 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:23.327 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:23.358 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the locker
+[2021-02-05 20:54:23.389 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:23.420 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:24.122 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the locker
+[2021-02-05 20:54:24.152 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:24.183 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:24.215 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the locker
+[2021-02-05 20:54:24.244 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:24.274 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:24.540 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:24.572 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:24.604 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:24.634 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:28.173 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:28.202 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:28.234 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:28.265 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:31.303 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:31.335 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:31.365 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:31.397 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:31.505 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:31.537 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:31.569 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:31.602 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:33.436 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:33.468 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:33.500 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:33.531 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:33.658 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:33.689 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:33.721 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:33.752 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:35.392 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:35.424 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:35.456 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:35.488 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:37.272 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:37.304 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:37.337 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:37.366 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:37.511 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:37.539 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:37.569 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:37.600 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:40.336 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:54:40.367 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:40.398 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:40.429 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:42.637 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:54:42.669 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:42.698 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:42.729 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:54:42.761 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:42.793 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:42.979 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:54:43.008 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:43.039 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:43.069 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:54:43.099 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:43.130 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:43.597 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:54:43.628 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:43.659 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:43.690 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:54:43.720 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:43.751 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:44.138 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:44.170 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:44.201 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:44.233 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:44.296 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:44.328 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:44.360 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:44.391 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:47.321 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:47.351 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:47.381 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:47.412 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:47.491 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:47.522 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:47.552 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:47.583 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:50.334 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:50.366 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:50.397 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:50.429 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:50.491 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:50.521 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:50.551 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:50.585 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:54:53.677 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 20:54:53.707 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 20:54:53.738 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 20:54:59.538 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:59.569 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:59.602 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:59.632 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:54:59.692 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:54:59.723 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:54:59.754 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:54:59.784 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:55:01.040 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:55:01.073 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:55:01.105 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:55:01.136 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:55:01.167 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:55:01.196 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:55:01.228 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:55:01.259 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:55:01.862 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:55:01.894 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:55:01.926 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:55:01.955 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:55:08.163 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:55:08.192 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:55:08.223 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:55:08.255 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:55:08.332 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:55:08.363 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:55:08.394 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:55:08.426 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:07.951 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:07.983 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:08.014 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:08.044 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:57:08.075 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:08.106 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:08.138 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:08.170 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:10.002 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:57:10.031 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-05 20:57:10.062 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:10.094 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:57:10.236 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:57:10.268 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-05 20:57:10.298 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:10.329 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:10.360 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GrenadeFlash (26)
+[2021-02-05 20:57:10.392 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:57:10.423 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Grenade (5) | T GrenadeFlash (26) | P None | P:string[]
+[2021-02-05 20:57:10.454 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFLieutenant (7)
+[2021-02-05 20:57:10.485 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:57:10.517 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFLieutenant (7) | P Checkpoints, ExitGates, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, CHCKPOINT_ACC, EXIT_ACC, PEDESTAL_ACC
+[2021-02-05 20:57:10.547 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFLieutenant (7)
+[2021-02-05 20:57:13.343 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:13.374 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:13.406 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:13.435 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:57:13.512 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:13.541 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:13.573 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:13.604 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:15.978 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:16.009 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:16.040 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:16.071 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:57:16.105 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:16.134 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:16.163 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:16.195 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:36.911 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:36.942 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:36.973 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:37.002 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:57:37.129 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:37.160 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:37.192 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:37.223 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:42.819 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:42.850 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:42.882 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:42.913 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:57:42.961 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:42.993 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:43.025 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:43.056 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:44.749 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:57:44.781 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-05 20:57:44.813 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:44.845 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:44.876 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GrenadeFlash (26)
+[2021-02-05 20:57:44.908 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:57:44.940 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Grenade (5) | T GrenadeFlash (26) | P None | P:string[]
+[2021-02-05 20:57:44.969 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFLieutenant (7)
+[2021-02-05 20:57:45.000 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:57:45.031 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFLieutenant (7) | P Checkpoints, ExitGates, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, CHCKPOINT_ACC, EXIT_ACC, PEDESTAL_ACC
+[2021-02-05 20:57:45.063 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFLieutenant (7)
+[2021-02-05 20:57:45.094 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:57:45.126 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-05 20:57:45.157 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:45.189 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:57:45.220 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GrenadeFlash (26)
+[2021-02-05 20:57:45.251 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:57:45.281 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Grenade (5) | T GrenadeFlash (26) | P None | P:string[]
+[2021-02-05 20:57:45.312 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFLieutenant (7)
+[2021-02-05 20:57:45.344 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:57:45.374 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFLieutenant (7) | P Checkpoints, ExitGates, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, CHCKPOINT_ACC, EXIT_ACC, PEDESTAL_ACC
+[2021-02-05 20:57:45.406 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFLieutenant (7)
+[2021-02-05 20:57:49.807 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:49.839 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:49.870 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:49.900 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:57:49.961 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:57:49.992 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:57:50.023 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:57:50.055 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:58:09.671 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 20:58:09.702 +09:00] [DEBUG] [RemoteKeycard] Door permission: ExitGates
+[2021-02-05 20:58:09.733 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:58:09.764 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:58:09.796 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFCommander (8)
+[2021-02-05 20:58:09.827 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:58:09.856 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFCommander (8) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC, EXIT_ACC
+[2021-02-05 20:58:09.887 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFCommander (8)
+[2021-02-05 20:58:42.709 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-05 20:58:42.717 +09:00] [STDOUT] Parameter name: index
+[2021-02-05 20:58:42.723 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 20:58:42.731 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 20:58:42.738 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 20:58:42.746 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 20:58:42.753 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 20:58:42.760 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 20:58:42.768 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 20:58:42.776 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-05 20:59:11.856 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:11.888 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:11.916 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:11.947 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:59:12.012 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:12.042 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:12.072 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:12.102 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:17.468 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:17.501 +09:00] [DEBUG] [RemoteKeycard] Door permission: Checkpoints, ScpOverride
+[2021-02-05 20:59:17.529 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:17.559 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:17.591 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-05 20:59:17.623 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 20:59:17.656 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-05 20:59:17.687 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-05 20:59:19.385 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:19.417 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:19.447 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:19.476 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:59:19.524 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:59:19.556 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:19.588 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:19.620 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:19.666 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 20:59:19.696 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:19.728 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:19.760 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:32.070 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:32.100 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:32.131 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:32.163 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:59:32.226 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:32.259 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:32.289 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:32.321 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:39.354 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:39.386 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:39.417 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:39.449 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:59:39.525 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:39.556 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:39.587 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:39.618 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:42.840 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:42.872 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:42.903 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:42.933 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:59:43.026 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:43.057 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:43.089 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:43.118 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:48.051 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:48.082 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:48.115 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:48.146 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 20:59:48.223 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:48.253 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:48.284 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:48.315 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 20:59:54.190 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 20:59:54.222 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 20:59:54.252 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 20:59:54.284 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:00.423 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:00.453 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:00.485 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:00.514 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:00.544 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:00.576 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:00.608 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:00.640 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:00.673 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:00.703 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:00.735 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:00.765 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:00.797 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:00.829 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:00.861 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:00.893 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:03.511 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:03.542 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:03.573 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:03.605 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:03.683 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:03.713 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:03.744 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:03.776 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:09.383 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:09.415 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:09.445 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:09.476 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:09.507 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:09.538 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:09.568 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:09.600 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:09.630 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:09.661 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:09.692 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:09.722 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:13.422 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:13.452 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:13.484 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:13.513 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:17.496 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:17.527 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:17.558 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:17.588 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:17.727 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:17.760 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:17.792 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:17.823 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:17.853 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:17.883 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:17.915 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:17.947 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:18.010 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:18.042 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:18.073 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:18.104 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:18.166 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:18.197 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:18.228 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:18.260 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:23.947 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:23.979 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:24.010 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:24.040 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:24.418 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:24.449 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:24.479 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:24.510 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:24.572 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:24.604 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:24.635 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:24.666 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:24.726 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:24.757 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:24.789 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:24.822 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:28.275 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:28.306 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:28.335 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:28.367 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:28.691 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:28.722 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:28.753 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:28.784 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:28.892 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:28.924 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:28.956 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:28.986 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:32.678 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:32.708 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:32.737 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:32.768 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:32.879 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:32.911 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:32.943 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:32.973 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:33.080 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:33.112 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:33.142 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:33.172 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:35.906 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:35.938 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:35.970 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:36.001 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:40.619 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:40.650 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:40.682 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:40.713 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:40.823 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:40.856 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:40.886 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:40.916 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:40.978 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:41.009 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:41.040 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:41.069 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:43.835 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:00:43.863 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:43.895 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:43.927 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:43.989 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:44.019 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:44.050 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:44.081 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:44.172 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:44.202 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:44.234 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:44.266 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:00:52.326 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:52.357 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:52.387 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:52.418 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:55.434 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:55.466 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:55.496 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:55.527 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:59.748 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:59.781 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:59.812 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:00:59.843 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:00:59.934 +09:00] [DEBUG] [RemoteKeycard] Player 컴퓨터괴물(twich) (76561199120747418@steam) is trying to access the door
+[2021-02-05 21:00:59.965 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:00:59.996 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:01:00.027 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:01:08.672 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:01:08.704 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:01:08.736 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:01:08.766 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:01:09.786 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:01:09.816 +09:00] [DEBUG] [RemoteKeycard] Door permission: Checkpoints, ScpOverride
+[2021-02-05 21:01:09.849 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:01:09.880 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:01:09.911 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFCommander (8)
+[2021-02-05 21:01:09.942 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 21:01:09.974 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFCommander (8) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC, EXIT_ACC
+[2021-02-05 21:01:10.006 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFCommander (8)
+[2021-02-05 21:01:12.354 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:01:12.385 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:01:12.414 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:01:12.445 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:01:12.507 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:01:12.539 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:01:12.570 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:01:12.602 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:01:12.841 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-05 21:01:12.849 +09:00] [STDOUT] Parameter name: index
+[2021-02-05 21:01:12.857 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:01:12.864 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:01:12.871 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:01:12.878 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 21:01:12.885 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:01:12.894 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:01:12.901 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:01:12.909 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-05 21:01:59.766 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:01:59.798 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:01:59.831 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:01:59.862 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:02:01.663 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the generator
+[2021-02-05 21:02:01.694 +09:00] [DEBUG] [RemoteKeycard] Generator permissions: ArmoryLevelTwo
+[2021-02-05 21:02:01.723 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:02:01.755 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFCommander (8)
+[2021-02-05 21:02:01.786 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 21:02:01.817 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFCommander (8) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC, EXIT_ACC
+[2021-02-05 21:02:01.846 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFCommander (8)
+[2021-02-05 21:02:03.084 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:03.116 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:03.147 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:03.178 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:02:03.304 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:03.335 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:03.367 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:03.397 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:02:03.535 +09:00] Player 컴퓨터괴물(twich) (76561199120747418@steam) (2) disconnected
+[2021-02-05 21:02:03.566 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:02:03.598 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:02:05.193 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:05.221 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:05.253 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:05.283 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:02:05.393 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:05.421 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:05.453 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:05.484 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:02:06.866 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:06.898 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-05 21:02:06.928 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:06.961 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:02:06.992 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFCommander (8)
+[2021-02-05 21:02:07.024 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 21:02:07.056 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFCommander (8) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC, EXIT_ACC
+[2021-02-05 21:02:07.086 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFCommander (8)
+[2021-02-05 21:02:07.117 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:07.148 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-05 21:02:07.180 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:07.210 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:02:07.241 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFCommander (8)
+[2021-02-05 21:02:07.271 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 21:02:07.303 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFCommander (8) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC, EXIT_ACC
+[2021-02-05 21:02:07.334 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFCommander (8)
+[2021-02-05 21:02:13.908 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:13.940 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:13.973 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:14.005 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:02:15.912 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:15.942 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:15.973 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:16.003 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:02:19.073 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:19.104 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:19.134 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:19.165 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:02:19.244 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:19.277 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:19.307 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:19.336 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:02:21.689 +09:00] [INFO] [ChopperDrop-2.4] Spawning chopper!
+[2021-02-05 21:02:22.509 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the generator
+[2021-02-05 21:02:22.542 +09:00] [DEBUG] [RemoteKeycard] Generator permissions: ArmoryLevelTwo
+[2021-02-05 21:02:22.574 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:02:22.606 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardNTFCommander (8)
+[2021-02-05 21:02:22.636 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-05 21:02:22.667 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardNTFCommander (8) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC, EXIT_ACC
+[2021-02-05 21:02:22.698 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardNTFCommander (8)
+[2021-02-05 21:02:30.729 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:02:30.761 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:02:30.791 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:02:30.822 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:02:36.736 +09:00] [INFO] [ChopperDrop-2.4] Spawning 1 GunE11SR's
+[2021-02-05 21:02:36.768 +09:00] [INFO] [ChopperDrop-2.4] Spawning 3 Medkit's
+[2021-02-05 21:02:36.801 +09:00] [INFO] [ChopperDrop-2.4] Spawning 2 Adrenaline's
+[2021-02-05 21:02:36.833 +09:00] [INFO] [ChopperDrop-2.4] Spawning 2 Ammo762's
+[2021-02-05 21:02:58.145 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-05 21:02:58.153 +09:00] [STDOUT] Parameter name: index
+[2021-02-05 21:02:58.159 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:02:58.168 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:02:58.174 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:02:58.183 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 21:02:58.190 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:02:58.197 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:02:58.205 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:02:58.211 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-05 21:03:05.683 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:03:05.712 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:03:05.744 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen
+[2021-02-05 21:03:05.775 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:04:02.682 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-05 21:04:02.691 +09:00] [STDOUT] Parameter name: index
+[2021-02-05 21:04:02.699 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:04:02.707 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:04:02.713 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 21:04:02.722 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 21:04:02.729 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:02.738 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:02.746 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:02.754 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-05 21:04:02.784 +09:00] Round finished! Anomalies: 0 | Chaos: 1 | Facility Forces: 0 | D escaped percentage: 0 | S escaped percentage: : 1
+[2021-02-05 21:04:14.282 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-05 21:04:14.313 +09:00] Idle mode is now temporarily blocked.
+[2021-02-05 21:04:14.824 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-05 21:04:14.831 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:04:14.839 +09:00] Player Goldmilk777 (76561198254130933@steam) (4) disconnected
+[2021-02-05 21:04:14.844 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-05 21:04:14.850 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:04:14.854 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-05 21:04:14.859 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:04:14.865 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-05 21:04:14.869 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:04:14.875 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-05 21:04:14.909 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:04:14.940 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:04:14.971 +09:00] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) (5) disconnected
+[2021-02-05 21:04:15.006 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:04:15.035 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:04:15.066 +09:00] Player 눈사람 (76561198956540241@steam) (3) disconnected
+[2021-02-05 21:04:15.096 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-05 21:04:15.104 +09:00] [STDOUT] NullReferenceException
+[2021-02-05 21:04:15.110 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-05 21:04:15.116 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-05 21:04:15.122 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 21:04:15.128 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 21:04:15.135 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:15.143 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:15.152 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:15.161 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:04:15.170 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0
+[2021-02-05 21:04:15.176 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-05 21:04:15.182 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-05 21:04:15.189 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-05 21:04:15.195 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-05 21:04:15.203 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-05 21:04:15.209 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-05 21:04:15.216 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-05 21:04:15.222 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-05 21:04:15.229 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-05 21:04:15.235 +09:00] [STDOUT] NullReferenceException
+[2021-02-05 21:04:15.243 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-05 21:04:15.248 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-05 21:04:15.255 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 21:04:15.263 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:04:15.271 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 21:04:15.279 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:15.287 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:15.293 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:04:15.300 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0
+[2021-02-05 21:04:15.309 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-05 21:04:15.314 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-05 21:04:15.322 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-05 21:04:15.328 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-05 21:04:15.335 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-05 21:04:15.341 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-05 21:04:15.347 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-05 21:04:15.354 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-05 21:04:15.359 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-05 21:04:16.841 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-05 21:04:16.848 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.855 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-05 21:04:16.861 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.867 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-05 21:04:16.872 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.878 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.885 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.890 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.897 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.903 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.908 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.915 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.921 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.926 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.934 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.940 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.947 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.954 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.960 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.969 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.974 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.982 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:16.989 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:16.995 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:17.003 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.010 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:04:17.018 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.024 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.031 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.039 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.046 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.054 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.060 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.066 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.072 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.077 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.084 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.089 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.095 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.102 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.108 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.113 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:04:17.120 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.125 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-05 21:04:17.129 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:04:17.136 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.141 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.146 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.153 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.157 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.163 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.169 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.174 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.179 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.187 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.192 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.199 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.205 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.210 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.216 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.222 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.227 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.232 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.238 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.243 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.248 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.254 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.259 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.265 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.271 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.276 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.281 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.287 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.291 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.296 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.302 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-05 21:04:17.307 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.311 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.316 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.322 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.326 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.332 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.341 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.346 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.351 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.356 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.361 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.366 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.372 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.376 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.381 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.388 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.393 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.398 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.404 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.409 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:04:17.414 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.421 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:04:17.426 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.431 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.437 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-05 21:04:17.442 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.447 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-05 21:04:17.452 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.457 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.462 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:04:17.468 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.473 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.479 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.484 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.489 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-05 21:04:17.494 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.499 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-05 21:04:17.505 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.510 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.515 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-05 21:04:17.520 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.526 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-05 21:04:17.531 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.537 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.542 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:04:17.548 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.553 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.560 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.565 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.570 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:04:17.575 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.581 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.586 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.591 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.596 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:04:17.602 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.608 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.614 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.619 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.624 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-05 21:04:17.630 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.635 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:04:17.639 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.644 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.650 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.655 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.660 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:04:17.665 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.671 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.676 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.681 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.686 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:04:17.691 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.696 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.701 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.706 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.711 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:04:17.716 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:04:17.721 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:04:17.726 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:04:17.732 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:04:17.736 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 21:04:17.742 +09:00] [STDOUT] UnloadTime: 98.707500 ms
+[2021-02-05 21:04:17.748 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 21:04:17.754 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 21:04:17.759 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 21:04:17.764 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 21:04:17.769 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 21:04:17.774 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 21:04:17.779 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-05 21:04:17.784 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-05 21:04:17.789 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-05 21:04:17.833 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 21:04:17.839 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 21:04:17.843 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 21:04:17.848 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 21:04:17.853 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 21:04:17.859 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 21:04:17.865 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 21:04:17.870 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 21:04:17.876 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 21:04:17.881 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 21:04:17.886 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 21:04:17.891 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 21:04:17.896 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 21:04:17.901 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 21:04:17.907 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 21:04:17.912 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 21:04:17.917 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 21:04:17.923 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::8501
+[2021-02-05 21:04:17.930 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-05 21:04:17.949 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 21:04:17.954 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:04:17.996 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 693199045
+[2021-02-05 21:04:18.019 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 4858
+[2021-02-05 21:04:18.346 +09:00] [STDOUT] Unloading 286 unused Assets to reduce memory usage. Loaded Objects now: 117533.
+[2021-02-05 21:04:18.352 +09:00] [STDOUT] Total: 238.432900 ms (FindLiveObjects: 5.115300 ms CreateObjectMapping: 3.058800 ms MarkObjects: 229.798200 ms  DeleteObjects: 0.459900 ms)
+[2021-02-05 21:04:18.356 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 21:04:18.664 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-05 21:04:19.170 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 106881.
+[2021-02-05 21:04:19.176 +09:00] [STDOUT] Total: 185.462100 ms (FindLiveObjects: 4.989900 ms CreateObjectMapping: 2.982400 ms MarkObjects: 177.254900 ms  DeleteObjects: 0.234700 ms)
+[2021-02-05 21:04:19.225 +09:00] Incoming connections will be no longer delayed.
+[2021-02-05 21:04:19.256 +09:00] Idle mode is now available.
+[2021-02-05 21:04:19.285 +09:00] --- END OF LOG ---

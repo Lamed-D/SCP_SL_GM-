@@ -1,0 +1,33 @@
+[2021-02-07 07:47:15.939 +09:00] Logging started.
+[2021-02-07 07:47:15.944 +09:00] Timezone offset: +09:00
+[2021-02-07 07:47:15.966 +09:00] Waiting for players...
+[2021-02-07 07:47:24.388 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:53456.
+[2021-02-07 07:47:24.920 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:53457 has been accepted.
+[2021-02-07 07:47:24.952 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:53457.
+[2021-02-07 07:47:28.294 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 07:47:28.305 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 07:47:28.309 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 9805
+[2021-02-07 07:47:28.316 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 07:47:28.341 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 07:47:32.239 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 07:47:32.269 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:53457. Player ID assigned: 2. Auth token serial number: g93USUmgVsTDZpNT
+[2021-02-07 07:47:32.301 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-07 07:47:32.331 +09:00] Player Goldmilk777 (76561198254130933@steam) (2) connected with the IP: 192.168.0.1
+[2021-02-07 07:47:36.576 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-07 07:50:53.573 +09:00] Player Goldmilk777 (76561198254130933@steam) (2) disconnected
+[2021-02-07 07:50:53.605 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 07:50:53.635 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 07:50:53.664 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-07 07:50:53.694 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-07 07:50:53.726 +09:00] Server has entered the idle mode.
+[2021-02-07 07:51:30.777 +09:00] Refreshed public key of central server - key hash not changed.
+[2021-02-07 07:51:46.715 +09:00] 
+[2021-02-07 07:51:46.723 +09:00] >>> exit
+[2021-02-07 07:51:46.853 +09:00] --- END OF LOG ---

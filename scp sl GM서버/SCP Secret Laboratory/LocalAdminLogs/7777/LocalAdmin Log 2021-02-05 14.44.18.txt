@@ -1,0 +1,885 @@
+[2021-02-05 14:44:18.481 +09:00] Logging started.
+[2021-02-05 14:44:18.485 +09:00] Timezone offset: +09:00
+[2021-02-05 14:44:18.490 +09:00] Started new session on port 7777.
+[2021-02-05 14:44:18.494 +09:00] Trying to start server...
+[2021-02-05 14:44:18.500 +09:00] Executing: SCPSL.exe
+[2021-02-05 14:44:18.537 +09:00] [STDOUT] Mono path[0] = 'D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Managed'
+[2021-02-05 14:44:18.542 +09:00] [STDOUT] Mono config path = 'D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/MonoBleedingEdge/etc'
+[2021-02-05 14:44:18.564 +09:00] [STDOUT] Initialize engine version: 2019.4.16f1 (e05b6e02d63e)
+[2021-02-05 14:44:18.568 +09:00] [STDOUT] [Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/UnitySubsystems
+[2021-02-05 14:44:18.572 +09:00] [STDOUT] Forcing GfxDevice: Null
+[2021-02-05 14:44:18.577 +09:00] [STDOUT] GfxDevice: creating device client; threaded=0
+[2021-02-05 14:44:18.581 +09:00] [STDOUT] NullGfxDevice:
+[2021-02-05 14:44:18.586 +09:00] [STDOUT]     Version:  NULL 1.0 [1.0]
+[2021-02-05 14:44:18.591 +09:00] [STDOUT]     Renderer: Null Device
+[2021-02-05 14:44:18.595 +09:00] [STDOUT]     Vendor:   Unity Technologies
+[2021-02-05 14:44:18.599 +09:00] [STDOUT] Begin MonoManager ReloadAssembly
+[2021-02-05 14:44:18.722 +09:00] [STDOUT] - Completed reload, in  0.155 seconds
+[2021-02-05 14:44:18.813 +09:00] [STDOUT] ERROR: Shader Sandbox/VolumetricLight shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+[2021-02-05 14:44:18.817 +09:00] [STDOUT] ERROR: Shader Hidden/BilateralBlur shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+[2021-02-05 14:44:18.940 +09:00] [STDOUT] Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported.
+[2021-02-05 14:44:18.983 +09:00] [STDOUT] UnloadTime: 0.610200 ms
+[2021-02-05 14:44:18.991 +09:00] [STDOUT] Application target framerate set to 60
+[2021-02-05 14:44:19.387 +09:00] [STDOUT] Couldn't create a Convex Mesh from source mesh "BandDispencer" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[2021-02-05 14:44:19.393 +09:00] [STDOUT] (Filename:  Line: 91)
+[2021-02-05 14:44:19.510 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:19.517 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:19.594 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:19.599 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:19.605 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:19.610 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:19.615 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:19.622 +09:00] [STDOUT] The referenced script (SteamManager) on this Behaviour is missing!
+[2021-02-05 14:44:19.627 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:19.635 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'NetworkManager') is missing!
+[2021-02-05 14:44:19.639 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:19.645 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:44:19.916 +09:00] [STDOUT] WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+[2021-02-05 14:44:19.921 +09:00] [STDOUT] WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+[2021-02-05 14:44:19.926 +09:00] [STDOUT] Shader 'Easy Decal/ED Standard (Metallic, Vertex Alpha)': fallback shader 'Transparent' not found
+[2021-02-05 14:44:19.947 +09:00] [STDOUT] Shader 'HoloSight': failed to set fallback shader 'Diffuse'
+[2021-02-05 14:44:19.952 +09:00] [STDOUT] Shader 'DropletMask': failed to set fallback shader 'Diffuse'
+[2021-02-05 14:44:19.957 +09:00] [STDOUT] Shader 'sidefx/vertex_soft_body_shader': failed to set fallback shader 'Diffuse'
+[2021-02-05 14:44:19.962 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:44:19.966 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:44:19.971 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:44:19.976 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:44:19.982 +09:00] [STDOUT] UnloadTime: 3.821500 ms
+[2021-02-05 14:44:19.991 +09:00] [STDOUT] Thank you for using Mirror! https://mirror-networking.com
+[2021-02-05 14:44:20.069 +09:00] [STDOUT] Wine not detected! wine_get_version
+[2021-02-05 14:44:20.076 +09:00] SCP Secret Laboratory process started. Creating match...
+[2021-02-05 14:44:20.091 +09:00] [STDOUT] GPU Driver version for Null Device not found!
+[2021-02-05 14:44:20.096 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:44:20.103 +09:00] Server tickrate set to: 60
+[2021-02-05 14:44:20.109 +09:00] [STDOUT] GPU Driver version: 24.21.13.9924
+[2021-02-05 14:44:20.123 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 14:44:20.128 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 14:44:20.133 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 14:44:20.138 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 14:44:20.143 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 14:44:20.149 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 14:44:20.153 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 14:44:20.159 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 14:44:20.164 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 14:44:20.169 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 14:44:20.174 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 14:44:20.180 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 14:44:20.186 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 14:44:20.192 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 14:44:20.196 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 14:44:20.201 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 14:44:20.207 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 14:44:20.212 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::5000
+[2021-02-05 14:44:20.217 +09:00] Loading gameplay config...
+[2021-02-05 14:44:20.222 +09:00] [STDOUT] Time: 2021-02-05 14:44:20.032 +09:00
+[2021-02-05 14:44:20.228 +09:00] [STDOUT] GPU: Null Device
+[2021-02-05 14:44:20.234 +09:00] [STDOUT] GPU Driver version: Loading...
+[2021-02-05 14:44:20.238 +09:00] [STDOUT] VRAM: 128MB
+[2021-02-05 14:44:20.244 +09:00] [STDOUT] ShaderLevel: 3.0
+[2021-02-05 14:44:20.249 +09:00] [STDOUT] Vendor: Unity Technologies
+[2021-02-05 14:44:20.254 +09:00] [STDOUT] API: Null
+[2021-02-05 14:44:20.259 +09:00] [STDOUT] Info: NULL 1.0 [1.0]
+[2021-02-05 14:44:20.264 +09:00] [STDOUT] Resolution: 1424x720
+[2021-02-05 14:44:20.269 +09:00] [STDOUT] FPS Limit: 60
+[2021-02-05 14:44:20.275 +09:00] [STDOUT] Fullscreen: ExclusiveFullScreen
+[2021-02-05 14:44:20.279 +09:00] [STDOUT] CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+[2021-02-05 14:44:20.285 +09:00] [STDOUT] Threads: 12
+[2021-02-05 14:44:20.290 +09:00] [STDOUT] Frequency: 2208MHz
+[2021-02-05 14:44:20.295 +09:00] [STDOUT] RAM: 16307MB
+[2021-02-05 14:44:20.300 +09:00] [STDOUT] Audio Supported: False
+[2021-02-05 14:44:20.305 +09:00] [STDOUT] OS: Windows 10 20H2 Pro for Workstations 10.0.19042 64bit
+[2021-02-05 14:44:20.310 +09:00] [STDOUT] Unity: 2019.4.16f1
+[2021-02-05 14:44:20.315 +09:00] [STDOUT] Framework: Mono 5.11.0 (Visual Studio built mono)
+[2021-02-05 14:44:20.321 +09:00] [STDOUT] IL2CPP: False
+[2021-02-05 14:44:20.327 +09:00] [STDOUT] Version: 10.2.1
+[2021-02-05 14:44:20.333 +09:00] [STDOUT] Build: a7ae8e6524310884eac3ee75f1415793
+[2021-02-05 14:44:20.338 +09:00] [STDOUT] System Language: Korean (South Korea) (ko-KR)
+[2021-02-05 14:44:20.343 +09:00] [STDOUT] Game Language: English (default)
+[2021-02-05 14:44:20.347 +09:00] [STDOUT] Launch arguments: SCPSL.exe -batchmode -nographics -nodedicateddelete -port7777 -console55372 -id6756
+[2021-02-05 14:44:20.352 +09:00] [STDOUT] Build info:
+[2021-02-05 14:44:20.357 +09:00] [STDOUT] Game version: 10.2.1
+[2021-02-05 14:44:20.362 +09:00] [STDOUT] Preauth version: 10.2.1
+[2021-02-05 14:44:20.367 +09:00] [STDOUT] Backward compatibility: 10.2.0 and newer
+[2021-02-05 14:44:20.372 +09:00] [STDOUT] Build timestamp: 2021-01-07 21:59:41Z
+[2021-02-05 14:44:20.376 +09:00] [STDOUT] Build type: Release
+[2021-02-05 14:44:20.381 +09:00] [STDOUT] Build GUID: a7ae8e6524310884eac3ee75f1415793
+[2021-02-05 14:44:20.385 +09:00] [STDOUT] Unity version: 2019.4.16f1
+[2021-02-05 14:44:20.390 +09:00] [STDOUT] Private beta: False
+[2021-02-05 14:44:20.396 +09:00] Processing rate limits...
+[2021-02-05 14:44:20.401 +09:00] [STDOUT] Public beta: False
+[2021-02-05 14:44:20.405 +09:00] [STDOUT] Release candidate: False
+[2021-02-05 14:44:20.410 +09:00] [STDOUT] Streaming allowed: True
+[2021-02-05 14:44:20.415 +09:00] [STDOUT] Headless: True
+[2021-02-05 14:44:20.420 +09:00] [STDOUT] Modded: False
+[2021-02-05 14:44:20.425 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A5CA027830.dll
+[2021-02-05 14:44:20.429 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A5CA1E6C40.dll
+[2021-02-05 14:44:20.434 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6AB1D0080.dll
+[2021-02-05 14:44:20.438 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6AB41C530.dll
+[2021-02-05 14:44:20.443 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6AB4EBF50.dll
+[2021-02-05 14:44:20.449 +09:00] Rate limiting loaded
+[2021-02-05 14:44:20.460 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6AB614F70.dll
+[2021-02-05 14:44:20.469 +09:00] Loading sharing config...
+[2021-02-05 14:44:20.486 +09:00] Processing shares...
+[2021-02-05 14:44:20.494 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6AB682F10.dll
+[2021-02-05 14:44:20.515 +09:00] Config sharing loaded.
+[2021-02-05 14:44:20.520 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6AB6D2F50.dll
+[2021-02-05 14:44:20.531 +09:00] Config sharing loaded.
+[2021-02-05 14:44:20.548 +09:00] Validating bans...
+[2021-02-05 14:44:20.563 +09:00] Bans has been validated.
+[2021-02-05 14:44:20.593 +09:00] Whitelist has been loaded.
+[2021-02-05 14:44:20.609 +09:00] Whitelist has been loaded.
+[2021-02-05 14:44:20.640 +09:00] Loading saved mutes...
+[2021-02-05 14:44:20.654 +09:00] Can't load the mute file!
+[2021-02-05 14:44:20.671 +09:00] Loading saved mutes...
+[2021-02-05 14:44:20.691 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6ABBD7090.dll
+[2021-02-05 14:44:20.700 +09:00] Can't load the mute file!
+[2021-02-05 14:44:20.731 +09:00] Reserved slots list has been loaded.
+[2021-02-05 14:44:20.737 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/data-000001A6ABDFF390.dll
+[2021-02-05 14:44:20.748 +09:00] Reserved slots list has been loaded.
+[2021-02-05 14:44:20.779 +09:00] Server tickrate set to: 60
+[2021-02-05 14:44:20.810 +09:00] Hi there! Initializing console...
+[2021-02-05 14:44:20.842 +09:00] Done! Type 'help' to print the list of available commands.
+[2021-02-05 14:44:20.873 +09:00] Generatig session keys...
+[2021-02-05 14:44:20.902 +09:00] Session keys generated (ECDSA)!
+[2021-02-05 14:44:20.933 +09:00] Running as headless dedicated server. Skipping distribution platform detection.
+[2021-02-05 14:44:20.965 +09:00] Selected central server: GRA2 (https://gra2.scpslgame.com/)
+[2021-02-05 14:44:20.997 +09:00] [Exiled.Bootstrap] Exiled is loading...
+[2021-02-05 14:44:21.029 +09:00] [INFO] [Exiled.Loader] Initializing at D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server
+[2021-02-05 14:44:21.059 +09:00] Exiled.Loader - Version 2.1.30
+[2021-02-05 14:44:21.090 +09:00] [INFO] [Exiled.Loader] Loading dependencies at C:\Users\Dhhd\AppData\Roaming\EXILED\Plugins\dependencies
+[2021-02-05 14:44:21.121 +09:00] [INFO] [Exiled.Loader] Loaded dependency 0Harmony, Version=2.0.4.0, Culture=neutral, PublicKeyToken=null
+[2021-02-05 14:44:21.152 +09:00] [INFO] [Exiled.Loader] Loaded dependency Exiled.API, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null
+[2021-02-05 14:44:21.183 +09:00] [INFO] [Exiled.Loader] Loaded dependency System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[2021-02-05 14:44:21.214 +09:00] [INFO] [Exiled.Loader] Loaded dependency YamlDotNet, Version=9.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e
+[2021-02-05 14:44:21.244 +09:00] [INFO] [Exiled.Loader] Dependencies loaded successfully!
+[2021-02-05 14:44:21.275 +09:00] [INFO] [Exiled.Loader] Loading plugin configs...
+[2021-02-05 14:44:21.306 +09:00] [INFO] [Exiled.Loader] Plugin configs loaded successfully!
+[2021-02-05 14:44:21.338 +09:00] [INFO] [Exiled.API] Exiled.Events v2.1.30, made by Exiled Team, has been enabled!
+[2021-02-05 14:44:21.695 +09:00] Updated list of central servers.
+[2021-02-05 14:44:21.726 +09:00] Central servers count: 1
+[2021-02-05 14:44:22.032 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/libc
+[2021-02-05 14:44:22.039 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/libc.dll
+[2021-02-05 14:44:22.047 +09:00] [STDOUT] Fallback handler could not load library D:/SteamLibrary/steamapps/common/SCP Secret Laboratory Dedicated Server/SCPSL_Data/Mono/libc
+[2021-02-05 14:44:22.055 +09:00] [INFO] [Exiled.API] Exiled.Permissions v2.1.30, made by Exiled Team, has been enabled!
+[2021-02-05 14:44:22.088 +09:00] [INFO] [Exiled.API] Exiled.Updater v3.0.3, made by Exiled Team @ iRebbok, has been enabled!
+[2021-02-05 14:44:22.121 +09:00] Welcome to
+   ▄████████ ▀████    ▐████▀  ▄█   ▄█          ▄████████ ████████▄
+  ███    ███   ███▌   ████▀  ███  ███         ███    ███ ███   ▀███
+  ███    █▀     ███  ▐███    ███▌ ███         ███    █▀  ███    ███
+ ▄███▄▄▄        ▀███▄███▀    ███▌ ███        ▄███▄▄▄     ███    ███
+▀▀███▀▀▀        ████▀██▄     ███▌ ███       ▀▀███▀▀▀     ███    ███
+  ███    █▄    ▐███  ▀███    ███  ███         ███    █▄  ███    ███
+  ███    ███  ▄███     ███▄  ███  ███▌    ▄   ███    ███ ███   ▄███
+  ██████████ ████       ███▄ █▀   █████▄▄██   ██████████ ████████▀
+                                  ▀
+[2021-02-05 14:44:22.127 +09:00] [STDOUT] Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 27667.
+[2021-02-05 14:44:22.134 +09:00] [STDOUT] Total: 19.425600 ms (FindLiveObjects: 1.095800 ms CreateObjectMapping: 1.576200 ms MarkObjects: 16.594900 ms  DeleteObjects: 0.158200 ms)
+[2021-02-05 14:44:22.140 +09:00] [STDOUT] Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:44:22.151 +09:00] [STDOUT] Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27667.
+[2021-02-05 14:44:22.157 +09:00] [STDOUT] Total: 22.450200 ms (FindLiveObjects: 1.291400 ms CreateObjectMapping: 1.679600 ms MarkObjects: 19.439200 ms  DeleteObjects: 0.039300 ms)
+[2021-02-05 14:44:22.164 +09:00] [STDOUT] The referenced script (ChangeKeyBinding) on this Behaviour is missing!
+[2021-02-05 14:44:22.170 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:22.177 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'KeyBinding') is missing!
+[2021-02-05 14:44:22.183 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:22.189 +09:00] [STDOUT] A scripted object (probably ChangeKeyBinding?) has a different serialization layout when loading. (Read 32 bytes but expected 56 bytes)
+[2021-02-05 14:44:22.194 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:22.200 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:22.206 +09:00] [STDOUT] Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:44:22.212 +09:00] [STDOUT] UnloadTime: 2.475700 ms
+[2021-02-05 14:44:22.220 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-05 14:44:22.227 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-05 14:44:22.233 +09:00] [STDOUT] Setting 06AudioSettings_MenuMusic to 1
+[2021-02-05 14:44:22.240 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-05 14:44:22.264 +09:00] Loading configs...
+[2021-02-05 14:44:22.272 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 14:44:22.278 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 14:44:22.284 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 14:44:22.290 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 14:44:22.296 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 14:44:22.302 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 14:44:22.310 +09:00] Loading gameplay config...
+[2021-02-05 14:44:22.317 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 14:44:22.323 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 14:44:22.329 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 14:44:22.334 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 14:44:22.341 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 14:44:22.347 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 14:44:22.355 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 14:44:22.360 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 14:44:22.367 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 14:44:22.373 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 14:44:22.379 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 14:44:22.386 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::5000
+[2021-02-05 14:44:22.394 +09:00] Processing rate limits...
+[2021-02-05 14:44:22.403 +09:00] [STDOUT] Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 29319.
+[2021-02-05 14:44:22.410 +09:00] [STDOUT] Total: 33.009900 ms (FindLiveObjects: 1.233200 ms CreateObjectMapping: 1.832900 ms MarkObjects: 29.811900 ms  DeleteObjects: 0.130700 ms)
+[2021-02-05 14:44:22.417 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:44:22.423 +09:00] [STDOUT] Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 29319.
+[2021-02-05 14:44:22.430 +09:00] [STDOUT] Total: 30.275300 ms (FindLiveObjects: 1.156400 ms CreateObjectMapping: 1.737600 ms MarkObjects: 27.330600 ms  DeleteObjects: 0.050000 ms)
+[2021-02-05 14:44:22.437 +09:00] Rate limiting loaded
+[2021-02-05 14:44:22.467 +09:00] Loading sharing config...
+[2021-02-05 14:44:22.499 +09:00] Processing shares...
+[2021-02-05 14:44:22.531 +09:00] Config sharing loaded.
+[2021-02-05 14:44:22.562 +09:00] Validating bans...
+[2021-02-05 14:44:22.593 +09:00] Bans has been validated.
+[2021-02-05 14:44:22.624 +09:00] Whitelist has been loaded.
+[2021-02-05 14:44:22.655 +09:00] Loading saved mutes...
+[2021-02-05 14:44:22.686 +09:00] Can't load the mute file!
+[2021-02-05 14:44:22.718 +09:00] Reserved slots list has been loaded.
+[2021-02-05 14:44:22.750 +09:00] Server tickrate set to: 60
+[2021-02-05 14:44:22.780 +09:00] Config files loaded from C:\Users\Dhhd\AppData\Roaming\SCP Secret Laboratory\config/7777\
+[2021-02-05 14:44:22.812 +09:00] Ignoring duplicated subkey 76561198254130933@steam in dictionary Members in the config file.
+[2021-02-05 14:44:22.828 +09:00] Game version: 10.2.1
+[2021-02-05 14:44:22.860 +09:00] Scene Manager: Loaded scene 'FastMenu' [Assets/_Scenes/FastMenu.unity]
+[2021-02-05 14:44:22.890 +09:00] Online mode is ENABLED.
+[2021-02-05 14:44:22.922 +09:00] Query port disabled in config!
+[2021-02-05 14:44:22.956 +09:00] Starting server...
+[2021-02-05 14:44:22.986 +09:00] Obtaining your external IP address...
+[2021-02-05 14:44:23.017 +09:00] Loaded central server public key from cache.
+[2021-02-05 14:44:23.048 +09:00] SHA256 of public key: A363DD8BE5FC5205F49A2AFE0186872E013A711968E08C0829B8DA6A16E1A4F5
+[2021-02-05 14:44:23.080 +09:00] Downloading public key from central server...
+[2021-02-05 14:44:23.111 +09:00] [INFO] [Exiled.Updater] Found the smallest version of Exiled - Exiled.Loader, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null
+[2021-02-05 14:44:23.142 +09:00] [INFO] [Exiled.Updater] No new versions found, you're using the most recent version of Exiled!
+[2021-02-05 14:44:23.536 +09:00] Downloaded public key from central server.
+[2021-02-05 14:44:23.567 +09:00] SHA256 of public key: A363DD8BE5FC5205F49A2AFE0186872E013A711968E08C0829B8DA6A16E1A4F5
+[2021-02-05 14:44:23.598 +09:00] SHA256 of cached key matches, no need to update cache.
+[2021-02-05 14:44:23.630 +09:00] Done, your game-server IP will be 58.125.116.105
+[2021-02-05 14:44:23.661 +09:00] Initializing game server...
+[2021-02-05 14:44:23.692 +09:00] Server starting at all IPv4 addresses and port 7777
+[2021-02-05 14:44:23.724 +09:00] Server starting at all IPv6 addresses and port 7777
+[2021-02-05 14:44:23.784 +09:00] [STDOUT] UPnP failed! IGNORE IF SERVER IS HOSTED BY A HOSTING PROVIDER!
+[2021-02-05 14:44:23.792 +09:00] [STDOUT] Error 718: ConflictInMappingEntry
+[2021-02-05 14:44:23.800 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:44:23.850 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-05 14:44:23.856 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.864 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-05 14:44:23.869 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.881 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-05 14:44:23.887 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.893 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.899 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.904 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.910 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.916 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.922 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.928 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.934 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.939 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.944 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.950 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.957 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.963 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.968 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.974 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.979 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.984 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:23.990 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:23.994 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:24.000 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.006 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:44:24.011 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.016 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.021 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.027 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.032 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.038 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.042 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.048 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.053 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.058 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.062 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.067 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.072 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.076 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.081 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.085 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:44:24.089 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.094 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-05 14:44:24.098 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:44:24.104 +09:00] Loading cmd bindings...
+[2021-02-05 14:44:24.110 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.115 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.119 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.123 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.128 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.133 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.137 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.142 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.146 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.151 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.155 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.160 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.165 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.169 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.173 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.178 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.183 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.187 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.191 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.196 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.200 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.205 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.209 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.214 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.218 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.222 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.227 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.231 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.236 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.241 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.245 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-05 14:44:24.249 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.254 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.258 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.262 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.266 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.271 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.275 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.279 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.284 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.288 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.292 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.296 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.301 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.306 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.310 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.314 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.319 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.324 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.329 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.333 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:44:24.338 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.342 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:44:24.346 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.351 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.355 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-05 14:44:24.360 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.364 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-05 14:44:24.368 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.373 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.378 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:44:24.383 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.387 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.391 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.395 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.400 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-05 14:44:24.404 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.409 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-05 14:44:24.414 +09:00] Delayed connection incoming from endpoint 192.168.0.1:58912 by 5 seconds.
+[2021-02-05 14:44:24.419 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.424 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.429 +09:00] [STDOUT] WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
+[2021-02-05 14:44:24.434 +09:00] [STDOUT] WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+[2021-02-05 14:44:24.439 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-05 14:44:24.444 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.449 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-05 14:44:24.454 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.458 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.463 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:44:24.469 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.475 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.479 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.486 +09:00] Delayed connection incoming from endpoint 175.116.70.90:58194 by 5 seconds.
+[2021-02-05 14:44:24.491 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.497 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:44:24.502 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.507 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.512 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.517 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.522 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:44:24.527 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.533 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.538 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.544 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.549 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-05 14:44:24.554 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.559 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:44:24.565 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.570 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.577 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.584 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.591 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:44:24.596 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.603 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.608 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.615 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.620 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:44:24.625 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.631 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.637 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.642 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.647 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:44:24.652 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:44:24.658 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:44:24.663 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:44:24.668 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:44:24.673 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:44:24.678 +09:00] [STDOUT] UnloadTime: 2.812600 ms
+[2021-02-05 14:44:24.684 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:44:24.689 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:44:24.694 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:44:24.699 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:44:24.704 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:44:24.709 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:44:24.714 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-05 14:44:24.719 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-05 14:44:24.725 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-05 14:44:24.730 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 14:44:24.735 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 14:44:24.740 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 14:44:24.745 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 14:44:24.750 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 14:44:24.755 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 14:44:24.760 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 14:44:24.765 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 14:44:24.770 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 14:44:24.776 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 14:44:24.783 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 14:44:24.789 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 14:44:24.794 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 14:44:24.798 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 14:44:24.803 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 14:44:24.808 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 14:44:24.813 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 14:44:24.818 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::5000
+[2021-02-05 14:44:24.823 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 14:44:24.828 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:44:24.835 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-05 14:44:24.866 +09:00] Level loaded. Creating match...
+[2021-02-05 14:44:24.882 +09:00] Verification token reloaded.
+[2021-02-05 14:44:24.893 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 14:44:24.913 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 581574896
+[2021-02-05 14:44:24.944 +09:00] Generated round random salt: 1NiJCNDLmwEU+qfuzsoV54mTbKRTbdWwG4GiFLzbeVQ=
+[2021-02-05 14:44:25.254 +09:00] [STDOUT] Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 117308.
+[2021-02-05 14:44:25.259 +09:00] [STDOUT] Total: 160.970700 ms (FindLiveObjects: 5.155000 ms CreateObjectMapping: 3.972800 ms MarkObjects: 151.552600 ms  DeleteObjects: 0.289900 ms)
+[2021-02-05 14:44:25.264 +09:00] [STDOUT] Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:44:25.530 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-05 14:44:26.055 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 106512.
+[2021-02-05 14:44:26.062 +09:00] [STDOUT] Total: 131.025000 ms (FindLiveObjects: 6.343700 ms CreateObjectMapping: 4.971600 ms MarkObjects: 119.419500 ms  DeleteObjects: 0.289700 ms)
+[2021-02-05 14:44:26.139 +09:00] Incoming connections will be no longer delayed.
+[2021-02-05 14:44:26.171 +09:00] Idle mode is now available.
+[2021-02-05 14:44:26.216 +09:00] Waiting for players...
+[2021-02-05 14:44:28.859 +09:00] [WARN] [Exiled.Permissions] Permissions file at C:\Users\Dhhd\AppData\Roaming\EXILED\Configs\permissions.yml is missing, creating.
+[2021-02-05 14:44:28.890 +09:00] [WARN] [Exiled.Permissions] helper is not a valid permission group.
+[2021-02-05 14:44:29.480 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:58923.
+[2021-02-05 14:44:29.544 +09:00] Requested challenge for incoming connection from endpoint 175.116.70.90:58195.
+[2021-02-05 14:44:29.992 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:58924 has been accepted.
+[2021-02-05 14:44:30.022 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:58924.
+[2021-02-05 14:44:30.086 +09:00] Security challenge response of incoming connection from endpoint 175.116.70.90:58196 has been accepted.
+[2021-02-05 14:44:30.116 +09:00] Player 76561198956540241@steam preauthenticated from endpoint 175.116.70.90:58196.
+[2021-02-05 14:44:34.486 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 14:44:34.492 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:44:34.498 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 14:44:39.511 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 14:44:39.540 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:58924. Player ID assigned: 2. Auth token serial number: DKWNphaZP0DJfviO
+[2021-02-05 14:44:39.572 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-05 14:44:39.602 +09:00] Player Goldmilk777 (76561198254130933@steam) (2) connected with the IP: 192.168.0.1
+[2021-02-05 14:44:39.962 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 14:44:39.969 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:44:39.976 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 14:44:42.902 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-05 14:44:44.150 +09:00] Accepted authentication token of user 76561198956540241@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 14:44:44.182 +09:00] 76561198956540241@steam authenticated from endpoint 175.116.70.90:58196. Player ID assigned: 3. Auth token serial number: lEMbZQOpT4fTJBEk
+[2021-02-05 14:44:44.213 +09:00] Nickname of 76561198956540241@steam is now 눈사람.
+[2021-02-05 14:44:44.245 +09:00] Player 눈사람 (76561198956540241@steam) (3) connected with the IP: 175.116.70.90
+[2021-02-05 14:44:48.238 +09:00] Authentication token of player 76561198956540241@steam has been confirmed by central server.
+[2021-02-05 14:45:04.444 +09:00] New round has been started.
+[2021-02-05 14:50:24.833 +09:00] Refreshed public key of central server - key hash not changed.
+[2021-02-05 14:51:47.053 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-05 14:51:47.061 +09:00] [STDOUT] Parameter name: index
+[2021-02-05 14:51:47.069 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 14:51:47.075 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 14:51:47.083 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-05 14:51:47.089 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:51:47.095 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 14:51:47.102 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 14:51:47.108 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 14:51:47.116 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-05 14:51:47.126 +09:00] Round finished! Anomalies: 1 | Chaos: 1 | Facility Forces: 0 | D escaped percentage: 1 | S escaped percentage: : 1
+[2021-02-05 14:51:58.616 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-05 14:51:58.649 +09:00] Idle mode is now temporarily blocked.
+[2021-02-05 14:51:58.664 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-05 14:51:58.673 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.682 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-05 14:51:58.690 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.699 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-05 14:51:58.708 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.716 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.724 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.733 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.741 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.750 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.758 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.766 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.775 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.784 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.793 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.801 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.810 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.820 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.829 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.839 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.847 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.858 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.865 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.876 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.884 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.894 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 14:51:58.901 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.910 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:58.919 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.927 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:58.936 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.944 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:58.952 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.961 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:58.968 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.977 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:58.984 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:58.993 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:59.001 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:59.010 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:59.017 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:59.027 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 14:51:59.034 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:59.043 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-05 14:51:59.050 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 14:51:59.063 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.072 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.079 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.088 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.095 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.103 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.110 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.116 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.124 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.131 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.138 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.146 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.153 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.161 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.168 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.176 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.183 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.192 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.199 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.207 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.214 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.222 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.228 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.236 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.243 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.250 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.258 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.264 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.273 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.281 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.288 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-05 14:51:59.295 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.302 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.310 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.316 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.324 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.331 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.340 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.347 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.355 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.363 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.369 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.378 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.385 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.394 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.401 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.409 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.417 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.425 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.432 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.440 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 14:51:59.447 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.454 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 14:51:59.462 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.468 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.477 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-05 14:51:59.483 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.491 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-05 14:51:59.499 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.507 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.516 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:51:59.524 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.532 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.539 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.546 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.554 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-05 14:51:59.561 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.569 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-05 14:51:59.577 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.584 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.591 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-05 14:51:59.599 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.608 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-05 14:51:59.615 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.623 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.630 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:51:59.637 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.644 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.652 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.660 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.668 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:51:59.674 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.681 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.689 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.698 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.705 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:51:59.715 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.723 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.731 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.738 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.746 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-05 14:51:59.753 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.760 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:51:59.767 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.774 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.781 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.789 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.797 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:51:59.804 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.812 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.819 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.828 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.834 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 14:51:59.843 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.852 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.860 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.868 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.876 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 14:51:59.885 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 14:51:59.895 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 14:51:59.902 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 14:51:59.910 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 14:51:59.918 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:51:59.926 +09:00] [STDOUT] UnloadTime: 168.197900 ms
+[2021-02-05 14:51:59.934 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:51:59.942 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:51:59.950 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:51:59.959 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:51:59.967 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 14:51:59.974 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 14:51:59.982 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-05 14:51:59.989 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-05 14:51:59.997 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-05 14:52:00.016 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 14:52:00.023 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 14:52:00.030 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 14:52:00.038 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 14:52:00.045 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 14:52:00.053 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 14:52:00.060 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 14:52:00.067 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 14:52:00.075 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 14:52:00.082 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 14:52:00.089 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 14:52:00.097 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 14:52:00.104 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 14:52:00.111 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 14:52:00.117 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 14:52:00.125 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 14:52:00.132 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 14:52:00.140 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::5000
+[2021-02-05 14:52:00.148 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-05 14:52:00.183 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 14:52:00.191 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.198 +09:00] 
+[2021-02-05 14:52:00.205 +09:00] >>> restart
+[2021-02-05 14:52:00.220 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.227 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.233 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.240 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.246 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.252 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.259 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.265 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.272 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.278 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.285 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.291 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.297 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.304 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.310 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.317 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.323 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.330 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.336 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.343 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.349 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.355 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.362 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.369 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.375 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.382 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.387 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.394 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.400 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.407 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.414 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.420 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.426 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.433 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.439 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.446 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.452 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.458 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.465 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.471 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.477 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.484 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.490 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.497 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.504 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.510 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.517 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.523 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.529 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.535 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.542 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.548 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.555 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.561 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.568 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.574 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.580 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.587 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.593 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.599 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.606 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.613 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.619 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.626 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.632 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.639 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.645 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.652 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.658 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.667 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.675 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.683 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.691 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.698 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.707 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.716 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.724 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.731 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.738 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.748 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.757 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.766 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.776 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.783 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.790 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.796 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.806 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.814 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.822 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.830 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.838 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.845 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.856 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 1296007388
+[2021-02-05 14:52:00.864 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.871 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.879 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.885 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.892 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.899 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.905 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.912 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.919 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.926 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.933 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.940 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.947 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.956 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.964 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:00.972 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.979 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:00.986 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:00.993 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:01.000 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:01.007 +09:00] [STDOUT] NullReferenceException
+[2021-02-05 14:52:01.014 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-05 14:52:01.020 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 14:52:01.027 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-05 14:52:01.035 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.042 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.050 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.058 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.067 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-05 14:52:01.074 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-05 14:52:01.082 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-05 14:52:01.090 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.098 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.106 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.114 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.122 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:01.131 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-05 14:52:01.139 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 3600
+[2021-02-05 14:52:01.225 +09:00] [STDOUT] Unloading 281 unused Assets to reduce memory usage. Loaded Objects now: 117325.
+[2021-02-05 14:52:01.233 +09:00] [STDOUT] Total: 267.171600 ms (FindLiveObjects: 7.681400 ms CreateObjectMapping: 4.238900 ms MarkObjects: 254.663200 ms  DeleteObjects: 0.587400 ms)
+[2021-02-05 14:52:01.240 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 14:52:01.624 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-05 14:52:01.943 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:01.949 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:01.956 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:01.963 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:01.970 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:01.977 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:01.984 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:01.991 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.000 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.008 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.015 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.022 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.029 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.037 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.043 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.051 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.058 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.065 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.071 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.079 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.085 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.092 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.099 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=592]
+[2021-02-05 14:52:02.106 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.114 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:02.121 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.127 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:02.135 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.142 +09:00] [STDOUT] NullReferenceException
+[2021-02-05 14:52:02.148 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-05 14:52:02.155 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 14:52:02.162 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-05 14:52:02.170 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.176 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.185 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.192 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.200 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-05 14:52:02.208 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-05 14:52:02.215 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-05 14:52:02.221 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.229 +09:00] GOODBYE!
+[2021-02-05 14:52:02.238 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.246 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.255 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.263 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-05 14:52:02.270 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-05 14:52:02.277 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 103810.
+[2021-02-05 14:52:02.284 +09:00] [STDOUT] Total: 184.701000 ms (FindLiveObjects: 7.057500 ms CreateObjectMapping: 5.195100 ms MarkObjects: 172.038200 ms  DeleteObjects: 0.409600 ms)
+[2021-02-05 14:52:02.291 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:02.297 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.306 +09:00] Incoming connections will be no longer delayed.
+[2021-02-05 14:52:02.313 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:02.319 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.326 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:02.333 +09:00] Idle mode is now available.
+[2021-02-05 14:52:02.340 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 14:52:02.347 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=593]
+[2021-02-05 14:52:02.354 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)

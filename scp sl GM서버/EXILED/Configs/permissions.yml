@@ -1,0 +1,46 @@
+user:
+  default: true
+  inheritance: []
+  permissions:
+    - testplugin.user
+
+owner:
+  inheritance:
+    - moderator
+  permissions:
+    - testplugin.admin
+    - testplugin.*
+    - .*
+
+admin:
+  inheritance:
+    - moderator
+  permissions:
+    - testplugin.admin
+    - testplugin.*
+    - .*
+
+highadmin:
+  inheritance:
+    - moderator
+  permissions:
+    - testplugin.admin
+    - testplugin.*
+    - .*
+
+2admin:
+  inheritance:
+    - moderator
+  permissions:
+    - testplugin.admin
+    - testplugin.*
+
+moderator:
+  inheritance: []
+  permissions:
+    - testplugin.moderator
+
+helper:
+  inheritance: []
+  permissions:
+    - .*

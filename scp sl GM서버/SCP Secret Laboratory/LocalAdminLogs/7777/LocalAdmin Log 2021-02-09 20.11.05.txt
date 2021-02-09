@@ -1,0 +1,1986 @@
+[2021-02-09 20:11:05.580 +09:00] Logging started.
+[2021-02-09 20:11:05.586 +09:00] Timezone offset: +09:00
+[2021-02-09 20:11:05.610 +09:00] Waiting for players...
+[2021-02-09 20:11:22.368 +09:00] Requested challenge for incoming connection from endpoint 39.124.14.26:49453.
+[2021-02-09 20:11:22.416 +09:00] Requested challenge for incoming connection from endpoint 124.53.42.15:50351.
+[2021-02-09 20:11:22.528 +09:00] Requested challenge for incoming connection from endpoint 1.242.246.5:65437.
+[2021-02-09 20:11:22.558 +09:00] Requested challenge for incoming connection from endpoint 118.223.179.163:60635.
+[2021-02-09 20:11:22.653 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:52452.
+[2021-02-09 20:11:22.702 +09:00] Requested challenge for incoming connection from endpoint 175.116.70.90:50582.
+[2021-02-09 20:11:22.795 +09:00] Requested challenge for incoming connection from endpoint 182.209.41.17:61543.
+[2021-02-09 20:11:22.904 +09:00] Security challenge response of incoming connection from endpoint 39.124.14.26:49454 has been accepted.
+[2021-02-09 20:11:22.935 +09:00] Player 76561199008173793@steam preauthenticated from endpoint 39.124.14.26:49454.
+[2021-02-09 20:11:22.965 +09:00] Security challenge response of incoming connection from endpoint 124.53.42.15:36532 has been accepted.
+[2021-02-09 20:11:22.995 +09:00] Player 76561198971793383@steam preauthenticated from endpoint 124.53.42.15:36532.
+[2021-02-09 20:11:23.026 +09:00] Security challenge response of incoming connection from endpoint 1.242.246.5:65438 has been accepted.
+[2021-02-09 20:11:23.057 +09:00] Player 76561199062019912@steam preauthenticated from endpoint 1.242.246.5:65438.
+[2021-02-09 20:11:23.073 +09:00] Security challenge response of incoming connection from endpoint 118.223.179.163:60636 has been accepted.
+[2021-02-09 20:11:23.091 +09:00] Player 76561199111942612@steam preauthenticated from endpoint 118.223.179.163:60636.
+[2021-02-09 20:11:23.153 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:52453 has been accepted.
+[2021-02-09 20:11:23.184 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:52453.
+[2021-02-09 20:11:23.215 +09:00] Security challenge response of incoming connection from endpoint 175.116.70.90:50583 has been accepted.
+[2021-02-09 20:11:23.248 +09:00] Player 76561198956540241@steam preauthenticated from endpoint 175.116.70.90:50583.
+[2021-02-09 20:11:23.307 +09:00] Security challenge response of incoming connection from endpoint 182.209.41.17:49069 has been accepted.
+[2021-02-09 20:11:23.339 +09:00] Player 76561199104262415@steam preauthenticated from endpoint 182.209.41.17:49069.
+[2021-02-09 20:11:25.996 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:11:26.000 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:11:26.007 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:26.012 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 20:11:26.035 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:26.145 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:11:26.151 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:11:26.161 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:26.167 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 20:11:26.192 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:26.600 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:26.605 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:11:26.610 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:11:26.615 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 20:11:26.632 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:26.816 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:11:26.821 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:11:26.827 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 20:11:26.836 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:26.867 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:27.030 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:11:27.036 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:11:27.043 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:27.048 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 20:11:27.070 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:27.080 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:11:27.086 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:11:27.092 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 20:11:27.100 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:27.132 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:30.375 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:30.387 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:11:30.393 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:11:30.401 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 20:11:30.412 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:30.606 +09:00] Accepted authentication token of user 76561198971793383@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 20:11:30.638 +09:00] 76561198971793383@steam authenticated from endpoint 124.53.42.15:36532. Player ID assigned: 2. Auth token serial number: hNLnNp75fhLWjzrp
+[2021-02-09 20:11:30.671 +09:00] Accepted authentication token of user 76561199008173793@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 20:11:30.701 +09:00] 76561199008173793@steam authenticated from endpoint 39.124.14.26:49454. Player ID assigned: 3. Auth token serial number: rhO2iMqFYlEuEu8V
+[2021-02-09 20:11:30.733 +09:00] Nickname of 76561198971793383@steam is now ges125.
+[2021-02-09 20:11:30.765 +09:00] Player ges125 (76561198971793383@steam) (2) connected with the IP: 124.53.42.15
+[2021-02-09 20:11:30.795 +09:00] Nickname of 76561199008173793@steam is now 파파랏 엘라.
+[2021-02-09 20:11:30.826 +09:00] Player 파파랏 엘라 (76561199008173793@steam) (3) connected with the IP: 39.124.14.26
+[2021-02-09 20:11:31.191 +09:00] Accepted authentication token of user 76561198956540241@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 20:11:31.220 +09:00] 76561198956540241@steam authenticated from endpoint 175.116.70.90:50583. Player ID assigned: 4. Auth token serial number: DadsucEsqNjdTIBa
+[2021-02-09 20:11:31.252 +09:00] Nickname of 76561198956540241@steam is now 눈사람.
+[2021-02-09 20:11:31.285 +09:00] Player 눈사람 (76561198956540241@steam) (4) connected with the IP: 175.116.70.90
+[2021-02-09 20:11:31.782 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 20:11:31.814 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:52453. Player ID assigned: 5. Auth token serial number: acDidQqAlszaEypH
+[2021-02-09 20:11:31.846 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-09 20:11:31.877 +09:00] Player Goldmilk777 (76561198254130933@steam) (5) connected with the IP: 192.168.0.1
+[2021-02-09 20:11:32.278 +09:00] Accepted authentication token of user 76561199062019912@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 20:11:32.308 +09:00] 76561199062019912@steam authenticated from endpoint 1.242.246.5:65438. Player ID assigned: 7. Auth token serial number: C8dOEqeCQ1nbJF9W
+[2021-02-09 20:11:32.341 +09:00] Nickname of 76561199062019912@steam is now 바견.
+[2021-02-09 20:11:32.369 +09:00] Player 바견 (76561199062019912@steam) (7) connected with the IP: 1.242.246.5
+[2021-02-09 20:11:32.387 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.396 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.405 +09:00] Accepted authentication token of user 76561199111942612@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 20:11:32.413 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.421 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.430 +09:00] 76561199111942612@steam authenticated from endpoint 118.223.179.163:60636. Player ID assigned: 6. Auth token serial number: UklPmS8roMCJtq8k
+[2021-02-09 20:11:32.450 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.457 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.464 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.471 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.479 +09:00] Nickname of 76561199111942612@steam is now SCP-배고파.
+[2021-02-09 20:11:32.485 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.494 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.499 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.506 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.516 +09:00] Player SCP-배고파 (76561199111942612@steam) (6) connected with the IP: 118.223.179.163
+[2021-02-09 20:11:32.524 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.529 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.536 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.543 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.549 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.556 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.564 +09:00] Authentication token of player 76561198971793383@steam has been confirmed by central server.
+[2021-02-09 20:11:32.571 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.577 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.585 +09:00] Authentication token of player 76561199008173793@steam has been confirmed by central server.
+[2021-02-09 20:11:32.598 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.606 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.615 +09:00] Authentication token of player 76561198956540241@steam has been confirmed by central server.
+[2021-02-09 20:11:32.623 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.630 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.639 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.646 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.655 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-09 20:11:32.663 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.671 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.677 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.685 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.691 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.697 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.716 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.724 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.733 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.741 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.750 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.759 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.768 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.779 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.785 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.795 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.817 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.826 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.834 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.841 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.851 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.857 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.867 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.875 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.884 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.891 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.918 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.925 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.932 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.937 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.943 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.949 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.955 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.962 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.967 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.974 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.981 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.987 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:32.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.000 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.006 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.013 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.019 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.025 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.032 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.039 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.045 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.051 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.059 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.065 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.071 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.080 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.085 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.094 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.101 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.108 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.115 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.122 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.129 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.135 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.143 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.150 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.156 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.165 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.173 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.180 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.187 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.196 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.201 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.209 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.217 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.222 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.230 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.237 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.246 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.252 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.260 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.266 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.273 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.281 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.288 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.294 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.302 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.310 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.317 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.323 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.331 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.338 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.344 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.351 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.358 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.367 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.374 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.383 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.390 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.397 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.404 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.412 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.419 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.426 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.435 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.442 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.449 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.455 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.464 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.470 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.476 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.484 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.490 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.497 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.504 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.510 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.518 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.524 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.532 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.538 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.546 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.552 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.558 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.567 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.572 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.579 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.586 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.592 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.600 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.606 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.612 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.618 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.624 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.633 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.646 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.653 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.658 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.665 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.672 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.677 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.685 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.691 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.698 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.704 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.711 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.717 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.724 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.731 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.737 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.743 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.752 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.757 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.764 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.771 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.776 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.784 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.790 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.796 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.803 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.810 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.816 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.823 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.829 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.834 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.839 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.846 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.852 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.860 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.866 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.871 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.879 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.885 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.893 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.898 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.905 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.912 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.918 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.926 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.932 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.938 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.946 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.952 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.959 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.965 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.972 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.978 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.984 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.990 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:33.995 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.002 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.007 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.013 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.020 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.028 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.036 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.043 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.050 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.056 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.063 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.071 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.077 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.085 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.091 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.098 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.106 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.112 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.119 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.124 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.130 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.136 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.142 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.149 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.156 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.163 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.169 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.176 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.182 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.188 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.194 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.200 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.208 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.216 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.224 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.229 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.236 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.242 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.248 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.253 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.260 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.266 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.272 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.277 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.284 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.290 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.296 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.303 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.308 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.315 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.320 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.327 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.333 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.339 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.345 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.352 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.358 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.363 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.369 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.378 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.385 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.391 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.397 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.403 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.409 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.414 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.420 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.427 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.432 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.439 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.445 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.451 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.458 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.464 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.470 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.476 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.482 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.488 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.495 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.501 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.507 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.513 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.520 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.526 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.532 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.539 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.547 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.555 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.561 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.568 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.573 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.580 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.586 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.593 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.599 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.605 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.612 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.619 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.625 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.632 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.644 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.650 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.656 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.662 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.668 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.674 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.680 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.687 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.693 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.699 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.706 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.712 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.720 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.728 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.735 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.741 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.747 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.753 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.760 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.766 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.772 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.778 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.785 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.791 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.797 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.804 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.810 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.817 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.823 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.829 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.836 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.842 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.848 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.854 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.861 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.868 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.874 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.880 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.886 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.893 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.901 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.908 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.915 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.920 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.926 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.933 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.939 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.945 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.950 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.957 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.963 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.969 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.976 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.981 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.988 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.993 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:34.999 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.006 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.012 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.018 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.024 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.030 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.036 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.043 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.050 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.055 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.062 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.068 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.075 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.082 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.088 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.094 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.100 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.106 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.113 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.119 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.125 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.132 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.138 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.145 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.152 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.159 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.165 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.170 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.177 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.183 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.189 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.195 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.202 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.208 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.214 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.221 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.227 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.235 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.241 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.249 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.255 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.261 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.268 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.274 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.280 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.286 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.293 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.300 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.306 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.312 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.318 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.324 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.330 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.335 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.340 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.345 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.350 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.357 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.362 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.369 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.376 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.382 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.388 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.395 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.402 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.408 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.414 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.420 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.426 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.433 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.438 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.445 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.451 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.457 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.463 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.469 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.475 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.482 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.489 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.495 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.500 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.507 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.514 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.520 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.526 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.532 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.539 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.545 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.551 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.558 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.564 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.574 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.581 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.588 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.594 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.601 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.607 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.613 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.619 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.626 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.632 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.644 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.650 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.656 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.663 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.669 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.675 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.680 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.687 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.693 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.700 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.705 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.710 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.716 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.721 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.727 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.733 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.740 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.747 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.752 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.758 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.765 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.771 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.777 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.783 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.790 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.795 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.802 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.808 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.814 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.821 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.826 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.833 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.838 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.844 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.851 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.857 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.864 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.870 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.876 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.883 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.888 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.896 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.903 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.911 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.922 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.929 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.936 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.942 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.949 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.956 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.962 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.968 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.986 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.993 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:35.999 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.006 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.011 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.018 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.024 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.030 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.037 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.043 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.049 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.056 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.062 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.069 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.075 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.081 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.087 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.093 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.100 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.106 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.111 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.118 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.124 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.130 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.136 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.142 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.148 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.154 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.161 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.168 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.174 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.180 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.186 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.193 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.198 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.204 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.211 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.217 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.223 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.230 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.238 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.244 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.250 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.256 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.263 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.269 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.276 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.283 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.289 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.295 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.301 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.307 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.313 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.320 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.326 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.331 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.338 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.344 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.350 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.356 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.362 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.368 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.375 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.382 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.387 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.393 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.401 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.406 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.413 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.419 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.425 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.432 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.441 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.451 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.458 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.466 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.473 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.481 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.489 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.495 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.502 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.510 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.516 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.524 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.532 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.539 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.547 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.554 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.561 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.569 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.576 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.582 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.589 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.596 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.603 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.609 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.616 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.623 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.631 +09:00] Accepted authentication token of user 76561199104262415@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 20:11:36.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.644 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.650 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.656 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.663 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.669 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.676 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.682 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.688 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.695 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.701 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.709 +09:00] 76561199104262415@steam authenticated from endpoint 182.209.41.17:49069. Player ID assigned: 8. Auth token serial number: 5Jx6RcocS53L0fkA
+[2021-02-09 20:11:36.715 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.722 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.728 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.735 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.741 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.747 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.753 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.760 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.767 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.773 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.779 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.786 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.792 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.799 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.805 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.812 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.821 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.830 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.838 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.844 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.851 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.857 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.863 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.870 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.876 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.882 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.889 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.895 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.902 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.908 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.915 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.921 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.927 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.934 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.942 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.949 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.955 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.961 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.968 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.974 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.981 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.987 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:36.996 +09:00] Nickname of 76561199104262415@steam is now 콩순이 남편.
+[2021-02-09 20:11:37.003 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.010 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.017 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.023 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.030 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.035 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.041 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.047 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.053 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.061 +09:00] Player 콩순이 남편 (76561199104262415@steam) (8) connected with the IP: 182.209.41.17
+[2021-02-09 20:11:37.066 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.073 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.080 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.086 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.092 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.098 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.104 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.110 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.116 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.122 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.129 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.134 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.141 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.148 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.155 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.161 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.167 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.173 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.179 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.186 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.192 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.199 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.204 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.211 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.217 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.223 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.229 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.236 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.242 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.248 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.254 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.261 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.267 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.274 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.279 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.286 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.293 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.300 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.306 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.313 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.319 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.326 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.332 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.340 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.346 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.353 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.363 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.371 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.379 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.385 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.394 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.401 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.408 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.414 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.421 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.428 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.434 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.442 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.449 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.455 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.461 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.468 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.474 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.481 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.488 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.494 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.500 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.508 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.514 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.521 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.527 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.534 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.541 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.548 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.555 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.562 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.568 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.574 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.581 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.587 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.593 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.600 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.607 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.613 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.619 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.625 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.632 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.645 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.651 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.657 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.663 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.669 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.675 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.681 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.688 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.694 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.700 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.706 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.713 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.724 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.731 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.738 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.745 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.751 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.757 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.763 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.770 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.777 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.782 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.789 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.795 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.801 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.808 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.814 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.821 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.827 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.834 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.840 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.847 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.853 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.860 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.867 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.873 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.880 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.887 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.893 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.901 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.906 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.913 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.919 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.925 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.931 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.937 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.944 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.950 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.956 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.962 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.968 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.974 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.980 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.987 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:37.999 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.006 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.012 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.019 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.024 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.030 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.036 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.043 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.049 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.056 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.064 +09:00] Authentication token of player 76561199062019912@steam has been confirmed by central server.
+[2021-02-09 20:11:38.070 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.077 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.084 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.090 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.096 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.103 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.109 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.116 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.125 +09:00] Authentication token of player 76561199111942612@steam has been confirmed by central server.
+[2021-02-09 20:11:38.131 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.137 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.143 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.150 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.157 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.163 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.169 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.176 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.182 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.189 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.195 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.202 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.208 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.214 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.221 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.228 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.234 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.240 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.246 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.255 +09:00] Authentication token of player 76561199104262415@steam has been confirmed by central server.
+[2021-02-09 20:11:38.264 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.273 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.280 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.287 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.293 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.300 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.306 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.312 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.319 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.325 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.332 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.339 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.345 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.351 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.357 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.363 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.370 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.376 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.383 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.390 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.396 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.402 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.409 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.415 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.422 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.428 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.434 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.440 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.447 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.453 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.459 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.467 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.473 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.479 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.486 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.492 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.498 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.504 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.510 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.516 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.523 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.530 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.537 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.544 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.551 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.557 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.563 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.568 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.575 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.582 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.588 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.595 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.601 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.607 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.613 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.620 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.629 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.635 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.642 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.648 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.654 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.660 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.666 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.672 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.678 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.684 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.690 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.702 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.709 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.715 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.721 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.727 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.733 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.740 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.746 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.752 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.757 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.763 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.770 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.776 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.783 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.789 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.796 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.802 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.809 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.815 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.822 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.828 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.833 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.840 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.846 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.852 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.859 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.865 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.871 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.879 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.885 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.891 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.897 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.905 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.911 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.917 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.923 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.930 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.936 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.942 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.949 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.956 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.962 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.969 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.976 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.982 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.988 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:38.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.000 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.006 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.013 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.020 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.026 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.033 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.039 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.045 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.051 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.058 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.064 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.069 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.076 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.082 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.089 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.095 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.101 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.108 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.114 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.120 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.126 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.132 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.142 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.148 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.157 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.164 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.171 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.178 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.184 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.190 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.195 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.202 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.209 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.215 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.221 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.229 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.237 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.243 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.250 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.256 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.263 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.269 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.275 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.282 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.289 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.295 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.302 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.308 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.315 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.323 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.329 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.337 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.343 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.350 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.356 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.362 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.369 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.376 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.383 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.389 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.394 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.401 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.408 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.415 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.421 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.427 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.434 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.440 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.447 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.453 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.459 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.466 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.472 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.479 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.485 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.492 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.504 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.511 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.520 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.526 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.532 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.539 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.546 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.552 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.559 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.565 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.571 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.577 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.584 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.590 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.597 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.605 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.612 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.620 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.626 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.633 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.641 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.648 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.656 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.662 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.669 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.676 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.682 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.690 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.698 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.704 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.712 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.720 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.727 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.734 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.740 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.748 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.755 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.762 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.769 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.774 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.781 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.788 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.793 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.800 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.806 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.812 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.818 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.824 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.831 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.838 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.844 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.850 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.857 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.863 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.869 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.876 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.883 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.889 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.895 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.902 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.909 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.914 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.921 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.928 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.934 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.940 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.946 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.952 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.959 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.965 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.971 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.977 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.983 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.990 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:39.996 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.001 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.007 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.013 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.018 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.025 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.031 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.041 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.047 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.054 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.061 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.067 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.075 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.081 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.088 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.095 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.101 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.107 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.113 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.120 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.126 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.132 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.138 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.144 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.151 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.158 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.165 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.171 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.178 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.184 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.190 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.197 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.203 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.211 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.218 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.225 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.231 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.237 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.245 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.251 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.257 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.263 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.269 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.276 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.283 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.289 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.296 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.302 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.309 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.316 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.322 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.328 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.334 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.340 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.346 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.354 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.360 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.366 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.373 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.379 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.389 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.397 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.404 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.411 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.417 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.423 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.429 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.436 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.442 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.449 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.455 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.462 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.469 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.476 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.482 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.488 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.495 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.502 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.508 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.514 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.520 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.527 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.533 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.540 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.546 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.553 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.559 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.568 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.574 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.580 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.587 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.593 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.599 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.605 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.611 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.617 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.624 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.630 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.637 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.643 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.649 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.655 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.661 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.667 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.674 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.680 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.686 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.692 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.699 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.705 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.712 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.718 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.724 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.730 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.737 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.743 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.749 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.755 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.761 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.768 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.774 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.781 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.787 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.793 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.799 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.805 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.811 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.818 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.824 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.830 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.837 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.843 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.849 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.856 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.863 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.869 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.876 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.883 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.889 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.895 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.901 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.909 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.917 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.924 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.932 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.953 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.964 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.974 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.982 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.988 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:40.996 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.002 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.010 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.017 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.025 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.032 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.039 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.047 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.055 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.061 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.068 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.074 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.080 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.086 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.092 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.099 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.106 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.112 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.121 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.130 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.137 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.145 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.154 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.161 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.168 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.176 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.184 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.191 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.200 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.207 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.216 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.222 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.230 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.238 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.247 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.254 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.261 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.270 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.277 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.286 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.292 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.300 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.307 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.314 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.321 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.329 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.337 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.345 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.354 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.362 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.371 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.378 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.386 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.392 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.401 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.408 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.417 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.423 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.431 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.437 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.444 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.453 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.459 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.467 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.474 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.480 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.488 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.494 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.502 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.509 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.516 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.523 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.529 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.537 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.543 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.550 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.557 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.564 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.572 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.578 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.587 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.593 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.601 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.607 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.615 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.622 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.629 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.644 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.653 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.660 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.667 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.674 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.681 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.689 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.696 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.705 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.712 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.720 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.727 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.734 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.741 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.747 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.755 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.762 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.770 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.777 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.785 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.791 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.798 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.806 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.812 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.820 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.826 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.833 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.841 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.847 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.854 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.860 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.867 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.874 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.880 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.887 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.893 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.899 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.908 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.915 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.923 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.929 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.936 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.943 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.949 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.958 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.964 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.971 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.978 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.984 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.993 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:41.999 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.006 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.013 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.020 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.028 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.034 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.043 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.049 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.056 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.063 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.069 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.077 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.083 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.091 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.097 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.106 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.112 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.118 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.126 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.133 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.140 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.148 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.156 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.163 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.170 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.178 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.185 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.192 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.199 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.206 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.213 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.219 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.228 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.234 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.242 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.249 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.256 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.263 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.270 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.278 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.285 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.294 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.300 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.308 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.315 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.321 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.329 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.335 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.343 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.350 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.358 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.365 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.372 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.385 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.402 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.419 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.435 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.452 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.469 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.502 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.519 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.536 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.552 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.569 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.602 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.619 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.636 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.653 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.670 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.704 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.721 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.738 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.755 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.772 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.805 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.822 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.839 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.855 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.872 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.905 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.923 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.939 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.955 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.972 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:42.989 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.022 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.039 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.056 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.072 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.089 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.123 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.140 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.157 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.174 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.190 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.224 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.241 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.257 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.274 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.291 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.324 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.341 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.358 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.375 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.392 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.409 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.442 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.459 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.476 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.493 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.510 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.544 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.561 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.578 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.595 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.611 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.645 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.662 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.679 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.696 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.712 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.729 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.763 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.780 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.797 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.813 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.830 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.863 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.880 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.897 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.914 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.931 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.964 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.980 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:43.998 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.014 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.031 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.066 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.083 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.099 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.116 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.133 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.149 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.183 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.199 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.216 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.233 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.250 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.283 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.300 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.317 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.333 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.350 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.383 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.400 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.417 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.433 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.451 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.484 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.501 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.518 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.534 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.551 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.584 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.601 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:44.619 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-09 20:11:46.096 +09:00] Player 콩순이 남편 (76561199104262415@steam) (8) disconnected
+[2021-02-09 20:11:46.128 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:11:46.160 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:11:46.191 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-09 20:11:46.223 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-09 20:13:17.180 +09:00] New round has been started.
+[2021-02-09 20:13:18.246 +09:00] [INFO] [BroadcastPlugin] 이 서버는 ombe1229의 브로드캐스트 플러그인을 사용 중입니다.
+[2021-02-09 20:13:18.278 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-09 20:13:18.309 +09:00] [INFO] [RespawnTimer] RespawnTimer coroutine started successfully! The timer will be refreshed every 1 second/s!
+[2021-02-09 20:15:00.341 +09:00] Player 파파랏 엘라 (76561199008173793@steam) (3) disconnected
+[2021-02-09 20:15:00.374 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:15:00.405 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:16:32.497 +09:00] Round finished! Anomalies: 1 | Chaos: 0 | Facility Forces: 0 | D escaped percentage: 0 | S escaped percentage: : 0
+[2021-02-09 20:16:43.996 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-09 20:16:44.028 +09:00] Idle mode is now temporarily blocked.
+[2021-02-09 20:16:44.515 +09:00] Player Goldmilk777 (76561198254130933@steam) (5) disconnected
+[2021-02-09 20:16:44.528 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-09 20:16:44.537 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:16:44.548 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:16:44.553 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-09 20:16:44.559 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:16:44.564 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-09 20:16:44.568 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:16:44.573 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-09 20:16:44.578 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:16:44.582 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-09 20:16:44.587 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:16:44.595 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:16:44.623 +09:00] Player 바견 (76561199062019912@steam) (7) disconnected
+[2021-02-09 20:16:44.654 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:16:44.686 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:16:44.717 +09:00] Player SCP-배고파 (76561199111942612@steam) (6) disconnected
+[2021-02-09 20:16:44.751 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:16:44.783 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:16:44.808 +09:00] [STDOUT] NullReferenceException
+[2021-02-09 20:16:44.818 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-09 20:16:44.828 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-09 20:16:44.836 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-09 20:16:44.844 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-09 20:16:44.851 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-09 20:16:44.860 +09:00] Player ges125 (76561198971793383@steam) (2) disconnected
+[2021-02-09 20:16:44.866 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-09 20:16:44.871 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-09 20:16:44.878 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-09 20:16:44.884 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-09 20:16:44.890 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-09 20:16:44.898 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-09 20:16:44.905 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-09 20:16:44.911 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-09 20:16:44.917 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-09 20:16:44.923 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-09 20:16:44.931 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-09 20:16:44.937 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-09 20:16:44.947 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:16:44.970 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:16:45.001 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-09 20:16:45.033 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-09 20:16:45.065 +09:00] Player 눈사람 (76561198956540241@steam) (4) disconnected
+[2021-02-09 20:16:45.097 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 20:16:45.129 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 20:16:45.161 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-09 20:16:45.192 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-09 20:16:46.532 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-09 20:16:46.538 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.544 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-09 20:16:46.549 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.555 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-09 20:16:46.561 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.567 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.574 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.579 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.585 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.590 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.596 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.602 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.609 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.614 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.619 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.624 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.631 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.636 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.642 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.648 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.653 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.659 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.664 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.670 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.676 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.682 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-09 20:16:46.687 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.693 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.699 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.704 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.710 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.716 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.721 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.727 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.734 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.740 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.746 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.751 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.756 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.762 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.768 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.773 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-09 20:16:46.779 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.784 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-09 20:16:46.788 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-09 20:16:46.795 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:46.800 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.804 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.810 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:46.816 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:46.821 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:46.826 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.832 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.837 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:46.843 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:46.850 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:46.854 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.861 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.866 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:46.871 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:46.877 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:46.882 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.887 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.893 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:46.898 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:46.903 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:46.909 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.915 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.919 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:46.924 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:46.930 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:46.935 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.940 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.945 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:46.950 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:46.956 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-09 20:16:46.961 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.967 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.972 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:46.978 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:46.983 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:46.988 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:46.993 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:46.999 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.004 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.009 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:47.015 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.020 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:47.025 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.031 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.036 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:47.041 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.047 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:47.054 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.058 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.065 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-09 20:16:47.070 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.075 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-09 20:16:47.082 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.087 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.092 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-09 20:16:47.098 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.103 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-09 20:16:47.108 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.113 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.118 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-09 20:16:47.124 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.130 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.136 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.143 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.148 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-09 20:16:47.154 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.162 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-09 20:16:47.168 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.175 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.182 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-09 20:16:47.188 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.194 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-09 20:16:47.200 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.207 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.213 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-09 20:16:47.219 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.226 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.232 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.237 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.243 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-09 20:16:47.249 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.255 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.260 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.265 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.270 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-09 20:16:47.276 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.282 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.288 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.293 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.300 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-09 20:16:47.305 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.311 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-09 20:16:47.315 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.322 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.327 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.333 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.338 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-09 20:16:47.343 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.349 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.354 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.359 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.365 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-09 20:16:47.370 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.376 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.382 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.388 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.393 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-09 20:16:47.398 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-09 20:16:47.403 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-09 20:16:47.409 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-09 20:16:47.414 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-09 20:16:47.419 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-09 20:16:47.425 +09:00] [STDOUT] UnloadTime: 101.745400 ms
+[2021-02-09 20:16:47.431 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-09 20:16:47.437 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-09 20:16:47.442 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-09 20:16:47.447 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-09 20:16:47.453 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-09 20:16:47.458 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-09 20:16:47.464 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-09 20:16:47.469 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-09 20:16:47.475 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-09 20:16:47.484 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-09 20:16:47.489 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-09 20:16:47.495 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-09 20:16:47.500 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-09 20:16:47.506 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-09 20:16:47.512 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-09 20:16:47.517 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-09 20:16:47.522 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-09 20:16:47.528 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-09 20:16:47.533 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-09 20:16:47.538 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-09 20:16:47.544 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-09 20:16:47.549 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-09 20:16:47.554 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-09 20:16:47.559 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-09 20:16:47.564 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-09 20:16:47.569 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-09 20:16:47.575 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-09 20:16:47.579 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::9328
+[2021-02-09 20:16:47.585 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 20:16:47.590 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 20:16:47.621 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 584914748
+[2021-02-09 20:16:47.658 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 5244
+[2021-02-09 20:16:47.953 +09:00] [STDOUT] Unloading 281 unused Assets to reduce memory usage. Loaded Objects now: 117470.
+[2021-02-09 20:16:47.958 +09:00] [STDOUT] Total: 209.308800 ms (FindLiveObjects: 7.957000 ms CreateObjectMapping: 2.966500 ms MarkObjects: 197.986600 ms  DeleteObjects: 0.398400 ms)
+[2021-02-09 20:16:47.963 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-09 20:16:48.268 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-09 20:16:48.757 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 106830.
+[2021-02-09 20:16:48.763 +09:00] [STDOUT] Total: 151.129500 ms (FindLiveObjects: 4.517100 ms CreateObjectMapping: 2.967400 ms MarkObjects: 143.353700 ms  DeleteObjects: 0.291000 ms)
+[2021-02-09 20:16:48.824 +09:00] Incoming connections will be no longer delayed.
+[2021-02-09 20:16:48.857 +09:00] Idle mode is now available.
+[2021-02-09 20:16:48.885 +09:00] --- END OF LOG ---

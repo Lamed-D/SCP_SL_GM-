@@ -1,0 +1,160 @@
+[2021-02-05 21:17:45.271 +09:00] Logging started.
+[2021-02-05 21:17:45.275 +09:00] Timezone offset: +09:00
+[2021-02-05 21:17:45.297 +09:00] Waiting for players...
+[2021-02-05 21:17:52.469 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:49712.
+[2021-02-05 21:17:52.953 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:49713 has been accepted.
+[2021-02-05 21:17:52.985 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:49713.
+[2021-02-05 21:17:56.610 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 21:17:56.621 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:17:56.626 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 9124
+[2021-02-05 21:17:56.632 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:17:56.655 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:18:01.482 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 21:18:01.514 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:49713. Player ID assigned: 2. Auth token serial number: iEvtUzqdPzyNUjoz
+[2021-02-05 21:18:01.545 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-05 21:18:01.576 +09:00] Player Goldmilk777 (76561198254130933@steam) (2) connected with the IP: 192.168.0.1
+[2021-02-05 21:18:03.509 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-05 21:18:17.098 +09:00] Player Goldmilk777 (76561198254130933@steam) (2) disconnected
+[2021-02-05 21:18:17.113 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-05 21:18:17.130 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:18:17.161 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:18:17.191 +09:00] Server has entered the idle mode.
+[2021-02-05 21:18:38.100 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:63599.
+[2021-02-05 21:18:38.130 +09:00] Server has exited the idle mode.
+[2021-02-05 21:18:38.646 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:63600 has been accepted.
+[2021-02-05 21:18:38.678 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:63600.
+[2021-02-05 21:18:42.370 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 21:18:42.376 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:18:42.381 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 21:18:42.397 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:18:42.428 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:18:47.226 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 21:18:47.259 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:63600. Player ID assigned: 3. Auth token serial number: 92QTJD0iLt091/Em
+[2021-02-05 21:18:47.288 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-05 21:18:47.320 +09:00] Player Goldmilk777 (76561198254130933@steam) (3) connected with the IP: 192.168.0.1
+[2021-02-05 21:18:51.393 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-05 21:18:56.089 +09:00] New round has been started.
+[2021-02-05 21:18:56.606 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-05 21:18:57.585 +09:00] [STDOUT] MissingMethodException: Pickup Inventory.SetPickup(ItemType,single,UnityEngine.Vector3,UnityEngine.Quaternion,int,int,int)
+[2021-02-05 21:18:57.592 +09:00] [STDOUT]   at scp035.EventHandlers+<RotatePickup>d__38.MoveNext () [0x00027] in <116e70ea1d714546bd080baf372e410b>:0
+[2021-02-05 21:18:57.598 +09:00] [STDOUT]   at MEC.Timing.RunCoroutineInternal (System.Collections.Generic.IEnumerator`1[T] coroutine, MEC.Segment segment, System.Int32 layer, System.Boolean layerHasValue, System.String tag, MEC.CoroutineHandle handle, System.Boolean prewarm) [0x001ce] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-05 21:18:57.605 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-05 21:18:57.611 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-05 21:18:57.617 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-05 21:18:57.625 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-05 21:18:57.631 +09:00] [STDOUT] MEC.Timing:RunCoroutineInternal(IEnumerator`1, Segment, Int32, Boolean, String, CoroutineHandle, Boolean)
+[2021-02-05 21:18:57.639 +09:00] [STDOUT] MEC.Timing:RunCoroutine(IEnumerator`1)
+[2021-02-05 21:18:57.645 +09:00] [STDOUT] scp035.EventHandlers:<OnRoundStart>b__13_0()
+[2021-02-05 21:18:57.651 +09:00] [STDOUT] MEC.<_DelayedCall>d__310:MoveNext()
+[2021-02-05 21:18:57.659 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-05 21:18:57.665 +09:00] [STDOUT] (Filename: <116e70ea1d714546bd080baf372e410b> Line: 0)
+[2021-02-05 21:19:46.281 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 21:19:46.311 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:19:46.342 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:19:46.372 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:19:46.494 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-05 21:19:46.526 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:19:46.558 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:19:46.589 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:23:15.140 +09:00] 
+[2021-02-05 21:23:15.149 +09:00] >>> broxket
+[2021-02-05 21:23:15.203 +09:00] Command BROXKET does not exist!
+[2021-02-05 21:23:18.192 +09:00] 
+[2021-02-05 21:23:18.201 +09:00] >>> roxket
+[2021-02-05 21:23:18.225 +09:00] Command ROXKET does not exist!
+[2021-02-05 21:23:19.840 +09:00] 
+[2021-02-05 21:23:19.848 +09:00] >>> rocket
+[2021-02-05 21:23:19.888 +09:00] Usage: rocket ((player id / name) or (all / *)) (speed)
+[2021-02-05 21:23:25.709 +09:00] 
+[2021-02-05 21:23:25.716 +09:00] >>> rocket all
+[2021-02-05 21:23:25.758 +09:00] Usage: rocket ((player id / name) or (all / *)) (speed)
+[2021-02-05 21:23:32.327 +09:00] 
+[2021-02-05 21:23:32.336 +09:00] >>> rocket all 10
+[2021-02-05 21:23:32.391 +09:00] Everyone has been rocketed into the sky (We're going on a trip, in our favorite rocketship)
+[2021-02-05 21:23:42.894 +09:00] Player Goldmilk777 (76561198254130933@steam) (3) disconnected
+[2021-02-05 21:23:42.925 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:23:42.956 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:23:42.988 +09:00] Server has entered the idle mode.
+[2021-02-05 21:23:44.904 +09:00] 
+[2021-02-05 21:23:44.910 +09:00] >>> restart
+[2021-02-05 21:23:48.901 +09:00] Server has exited the idle mode.
+[2021-02-05 21:23:48.948 +09:00] GOODBYE!
+[2021-02-05 21:23:49.493 +09:00] 
+[2021-02-05 21:23:49.506 +09:00] >>> restart
+[2021-02-05 21:23:49.569 +09:00] GOODBYE!
+[2021-02-05 21:23:49.909 +09:00] [STDOUT] OnApplicationQuit: stopped client
+[2021-02-05 21:23:49.914 +09:00] [STDOUT] The referenced script (ChangeKeyBinding) on this Behaviour is missing!
+[2021-02-05 21:23:49.919 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:23:49.924 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'KeyBinding') is missing!
+[2021-02-05 21:23:49.929 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:23:49.934 +09:00] [STDOUT] A scripted object (probably ChangeKeyBinding?) has a different serialization layout when loading. (Read 32 bytes but expected 56 bytes)
+[2021-02-05 21:23:49.938 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:23:49.943 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:23:49.947 +09:00] [STDOUT] Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 21:23:50.376 +09:00] [STDOUT] OnApplicationQuit: stopped server
+[2021-02-05 21:23:50.381 +09:00] [STDOUT] ThreadAbortException
+[2021-02-05 21:23:50.385 +09:00] [STDOUT]   at (wrapper managed-to-native) System.Net.Sockets.Socket.Receive_internal(intptr,byte*,int,System.Net.Sockets.SocketFlags,int&,bool)
+[2021-02-05 21:23:50.390 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive_internal (System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32& error, System.Boolean blocking) [0x0000c] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 21:23:50.395 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError& errorCode) [0x0002e] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 21:23:50.399 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 21:23:50.405 +09:00] [STDOUT]   at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x000c1] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 21:23:50.411 +09:00] [STDOUT]   at ServerOutput.TcpConsole.Receive () [0x0000d] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 21:23:50.416 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-05 21:23:50.421 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-05 21:23:50.427 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-05 21:23:50.432 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-05 21:23:50.438 +09:00] [STDOUT] ServerOutput.TcpConsole:Receive()
+[2021-02-05 21:23:50.443 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart_Context(Object)
+[2021-02-05 21:23:50.448 +09:00] [STDOUT] System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-05 21:23:50.453 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-05 21:23:50.459 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+[2021-02-05 21:23:50.464 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart()
+[2021-02-05 21:23:50.469 +09:00] [STDOUT] (Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+[2021-02-05 21:23:50.474 +09:00] [STDOUT] UnloadTime: 61.322600 ms
+[2021-02-05 21:23:50.479 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-05 21:23:50.484 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-05 21:23:50.488 +09:00] [STDOUT] Setting 06AudioSettings_MenuMusic to 1
+[2021-02-05 21:23:50.494 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-05 21:23:50.597 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 21:23:50.604 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 21:23:50.609 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 21:23:50.614 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 21:23:50.620 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 21:23:50.625 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 21:23:50.630 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 21:23:50.635 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 21:23:50.640 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 21:23:50.644 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 21:23:50.649 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 21:23:50.653 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 21:23:50.658 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 21:23:50.662 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 21:23:50.667 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 21:23:50.671 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 21:23:50.676 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 21:23:50.681 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::9124
+[2021-02-05 21:23:50.839 +09:00] [STDOUT] Unloading 5165 unused Assets to reduce memory usage. Loaded Objects now: 30834.
+[2021-02-05 21:23:50.844 +09:00] [STDOUT] Total: 224.961300 ms (FindLiveObjects: 3.046500 ms CreateObjectMapping: 2.503500 ms MarkObjects: 152.081700 ms  DeleteObjects: 67.329000 ms)
+[2021-02-05 21:23:50.852 +09:00] [STDOUT] Setting up 6 worker threads for Enlighten.
+[2021-02-05 21:23:50.857 +09:00] [STDOUT]   Thread -> id: d30 -> priority: 1
+[2021-02-05 21:23:50.862 +09:00] [STDOUT]   Thread -> id: 2b50 -> priority: 1
+[2021-02-05 21:23:50.868 +09:00] [STDOUT]   Thread -> id: 988 -> priority: 1
+[2021-02-05 21:23:50.873 +09:00] [STDOUT]   Thread -> id: fec -> priority: 1
+[2021-02-05 21:23:50.878 +09:00] [STDOUT]   Thread -> id: ecc -> priority: 1
+[2021-02-05 21:23:50.883 +09:00] [STDOUT]   Thread -> id: 3880 -> priority: 1
+[2021-02-05 21:23:51.327 +09:00] Game process exited and has been killed, no need to kill it.
+[2021-02-05 21:23:51.333 +09:00] --- END OF LOG ---

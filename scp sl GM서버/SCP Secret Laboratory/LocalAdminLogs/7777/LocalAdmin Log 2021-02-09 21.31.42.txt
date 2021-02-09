@@ -1,0 +1,57 @@
+[2021-02-09 21:31:42.601 +09:00] Logging started.
+[2021-02-09 21:31:42.606 +09:00] Timezone offset: +09:00
+[2021-02-09 21:31:42.629 +09:00] Waiting for players...
+[2021-02-09 21:31:57.157 +09:00] Requested challenge for incoming connection from endpoint 124.153.148.198:51540.
+[2021-02-09 21:31:57.315 +09:00] Requested challenge for incoming connection from endpoint 175.116.70.90:62368.
+[2021-02-09 21:31:57.394 +09:00] Requested challenge for incoming connection from endpoint 211.187.127.126:52502.
+[2021-02-09 21:31:57.678 +09:00] Security challenge response of incoming connection from endpoint 124.153.148.198:51541 has been accepted.
+[2021-02-09 21:31:57.711 +09:00] Player 76561198392832602@steam preauthenticated from endpoint 124.153.148.198:51541.
+[2021-02-09 21:31:57.819 +09:00] Security challenge response of incoming connection from endpoint 175.116.70.90:62369 has been accepted.
+[2021-02-09 21:31:57.850 +09:00] Player 76561198956540241@steam preauthenticated from endpoint 175.116.70.90:62369.
+[2021-02-09 21:31:57.929 +09:00] Security challenge response of incoming connection from endpoint 211.187.127.126:52503 has been accepted.
+[2021-02-09 21:31:57.962 +09:00] Player 76561199112849985@steam preauthenticated from endpoint 211.187.127.126:52503.
+[2021-02-09 21:32:00.896 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 21:32:00.901 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:32:00.907 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:32:00.911 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 21:32:00.933 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:32:00.941 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 21:32:00.945 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:32:00.950 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 21:32:00.963 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:32:00.979 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:32:01.183 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-09 21:32:01.188 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-09 21:32:01.192 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-09 21:32:01.197 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-09 21:32:01.214 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-09 21:32:04.604 +09:00] Accepted authentication token of user 76561198956540241@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 21:32:04.634 +09:00] 76561198956540241@steam authenticated from endpoint 175.116.70.90:62369. Player ID assigned: 4. Auth token serial number: sg3W0vMIv7GjAFdV
+[2021-02-09 21:32:04.665 +09:00] Nickname of 76561198956540241@steam is now Mini 049.
+[2021-02-09 21:32:04.681 +09:00] Player Mini 049 (76561198956540241@steam) (4) connected with the IP: 175.116.70.90
+[2021-02-09 21:32:05.102 +09:00] Accepted authentication token of user 76561199112849985@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 21:32:05.132 +09:00] 76561199112849985@steam authenticated from endpoint 211.187.127.126:52503. Player ID assigned: 3. Auth token serial number: 2CAu0wCDoBqpYoH3
+[2021-02-09 21:32:05.164 +09:00] Accepted authentication token of user 76561198392832602@steam signed by Gravelines 2. No active global bans.
+[2021-02-09 21:32:05.194 +09:00] 76561198392832602@steam authenticated from endpoint 124.153.148.198:51541. Player ID assigned: 2. Auth token serial number: Q4acIj9aTmvjx3Nh
+[2021-02-09 21:32:05.226 +09:00] Nickname of 76561199112849985@steam is now 하냥.
+[2021-02-09 21:32:05.257 +09:00] Player 하냥 (76561199112849985@steam) (3) connected with the IP: 211.187.127.126
+[2021-02-09 21:32:05.290 +09:00] Nickname of 76561198392832602@steam is now Science Yasuo.
+[2021-02-09 21:32:05.320 +09:00] Player Science Yasuo (76561198392832602@steam) (2) connected with the IP: 124.153.148.198
+[2021-02-09 21:32:08.853 +09:00] Authentication token of player 76561198956540241@steam has been confirmed by central server.
+[2021-02-09 21:32:08.869 +09:00] Authentication token of player 76561199112849985@steam has been confirmed by central server.
+[2021-02-09 21:32:08.901 +09:00] Authentication token of player 76561198392832602@steam has been confirmed by central server.
+[2021-02-09 21:32:26.785 +09:00] New round has been started.
+[2021-02-09 21:32:27.799 +09:00] [INFO] [BroadcastPlugin] 이 서버는 ombe1229의 브로드캐스트 플러그인을 사용 중입니다.
+[2021-02-09 21:32:27.831 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-09 21:32:27.863 +09:00] [INFO] [RespawnTimer] RespawnTimer coroutine started successfully! The timer will be refreshed every 1 second/s!
+[2021-02-09 21:33:34.950 +09:00] 
+[2021-02-09 21:33:34.957 +09:00] >>> softrestart

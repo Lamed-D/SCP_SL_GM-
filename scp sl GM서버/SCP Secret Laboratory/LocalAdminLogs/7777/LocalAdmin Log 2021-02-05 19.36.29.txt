@@ -1,0 +1,68 @@
+[2021-02-05 19:36:29.775 +09:00] Logging started.
+[2021-02-05 19:36:29.779 +09:00] Timezone offset: +09:00
+[2021-02-05 19:36:29.802 +09:00] Waiting for players...
+[2021-02-05 19:36:30.750 +09:00] 
+[2021-02-05 19:36:30.755 +09:00] >>> restart
+[2021-02-05 19:36:30.782 +09:00] GOODBYE!
+[2021-02-05 19:36:31.784 +09:00] [STDOUT] OnApplicationQuit: stopped client
+[2021-02-05 19:36:31.788 +09:00] [STDOUT] The referenced script (ChangeKeyBinding) on this Behaviour is missing!
+[2021-02-05 19:36:31.792 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 19:36:31.796 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'KeyBinding') is missing!
+[2021-02-05 19:36:31.809 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 19:36:31.812 +09:00] [STDOUT] A scripted object (probably ChangeKeyBinding?) has a different serialization layout when loading. (Read 32 bytes but expected 56 bytes)
+[2021-02-05 19:36:31.816 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 19:36:31.820 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 19:36:31.824 +09:00] [STDOUT] Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 19:36:32.217 +09:00] [STDOUT] OnApplicationQuit: stopped server
+[2021-02-05 19:36:32.222 +09:00] [STDOUT] ThreadAbortException
+[2021-02-05 19:36:32.226 +09:00] [STDOUT]   at (wrapper managed-to-native) System.Net.Sockets.Socket.Receive_internal(intptr,byte*,int,System.Net.Sockets.SocketFlags,int&,bool)
+[2021-02-05 19:36:32.231 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive_internal (System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32& error, System.Boolean blocking) [0x0000c] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 19:36:32.235 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError& errorCode) [0x0002e] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 19:36:32.239 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 19:36:32.243 +09:00] [STDOUT]   at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x000c1] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-05 19:36:32.248 +09:00] [STDOUT]   at ServerOutput.TcpConsole.Receive () [0x0000d] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-05 19:36:32.253 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-05 19:36:32.258 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-05 19:36:32.265 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-05 19:36:32.270 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-05 19:36:32.276 +09:00] [STDOUT] ServerOutput.TcpConsole:Receive()
+[2021-02-05 19:36:32.283 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart_Context(Object)
+[2021-02-05 19:36:32.289 +09:00] [STDOUT] System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-05 19:36:32.295 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-05 19:36:32.301 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+[2021-02-05 19:36:32.307 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart()
+[2021-02-05 19:36:32.312 +09:00] [STDOUT] (Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+[2021-02-05 19:36:32.317 +09:00] [STDOUT] UnloadTime: 71.403100 ms
+[2021-02-05 19:36:32.322 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-05 19:36:32.326 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-05 19:36:32.331 +09:00] [STDOUT] Setting 06AudioSettings_MenuMusic to 1
+[2021-02-05 19:36:32.337 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-05 19:36:32.385 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 19:36:32.390 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 19:36:32.395 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 19:36:32.400 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 19:36:32.405 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 19:36:32.410 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 19:36:32.416 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 19:36:32.421 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 19:36:32.425 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 19:36:32.430 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 19:36:32.435 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 19:36:32.439 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 19:36:32.444 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 19:36:32.449 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 19:36:32.454 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 19:36:32.458 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 19:36:32.463 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 19:36:32.469 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::2739
+[2021-02-05 19:36:32.477 +09:00] [STDOUT] Unloading 4832 unused Assets to reduce memory usage. Loaded Objects now: 30962.
+[2021-02-05 19:36:32.482 +09:00] [STDOUT] Total: 76.705100 ms (FindLiveObjects: 1.418800 ms CreateObjectMapping: 2.313100 ms MarkObjects: 57.544500 ms  DeleteObjects: 15.428100 ms)
+[2021-02-05 19:36:32.490 +09:00] [STDOUT] Setting up 6 worker threads for Enlighten.
+[2021-02-05 19:36:32.496 +09:00] [STDOUT]   Thread -> id: 3948 -> priority: 1
+[2021-02-05 19:36:32.501 +09:00] [STDOUT]   Thread -> id: 39b4 -> priority: 1
+[2021-02-05 19:36:32.507 +09:00] [STDOUT]   Thread -> id: 1f24 -> priority: 1
+[2021-02-05 19:36:32.516 +09:00] [STDOUT]   Thread -> id: 1f78 -> priority: 1
+[2021-02-05 19:36:32.523 +09:00] [STDOUT]   Thread -> id: 3754 -> priority: 1
+[2021-02-05 19:36:32.530 +09:00] [STDOUT]   Thread -> id: 2d60 -> priority: 1
+[2021-02-05 19:36:32.707 +09:00] Game process exited and has been killed, no need to kill it.
+[2021-02-05 19:36:32.712 +09:00] --- END OF LOG ---

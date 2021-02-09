@@ -1,0 +1,1654 @@
+[2021-02-08 18:53:37.787 +09:00] Logging started.
+[2021-02-08 18:53:37.797 +09:00] Timezone offset: +09:00
+[2021-02-08 18:53:37.820 +09:00] Waiting for players...
+[2021-02-08 18:53:46.006 +09:00] Requested challenge for incoming connection from endpoint 211.187.127.126:51499.
+[2021-02-08 18:53:46.085 +09:00] Requested challenge for incoming connection from endpoint 211.37.72.148:62441.
+[2021-02-08 18:53:46.146 +09:00] Requested challenge for incoming connection from endpoint 1.251.203.56:58517.
+[2021-02-08 18:53:46.178 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:63612.
+[2021-02-08 18:53:46.209 +09:00] Requested challenge for incoming connection from endpoint 211.213.249.85:58073.
+[2021-02-08 18:53:46.350 +09:00] Requested challenge for incoming connection from endpoint 61.253.118.21:65192.
+[2021-02-08 18:53:46.366 +09:00] Requested challenge for incoming connection from endpoint 221.141.217.143:50168.
+[2021-02-08 18:53:46.554 +09:00] Requested challenge for incoming connection from endpoint 124.153.148.198:54170.
+[2021-02-08 18:53:46.569 +09:00] Security challenge response of incoming connection from endpoint 211.187.127.126:51501 has been accepted.
+[2021-02-08 18:53:46.585 +09:00] Player 76561199112849985@steam preauthenticated from endpoint 211.187.127.126:51501.
+[2021-02-08 18:53:46.602 +09:00] Security challenge response of incoming connection from endpoint 211.37.72.148:62442 has been accepted.
+[2021-02-08 18:53:46.631 +09:00] Player 76561199093352805@steam preauthenticated from endpoint 211.37.72.148:62442.
+[2021-02-08 18:53:46.647 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:63613 has been accepted.
+[2021-02-08 18:53:46.677 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:63613.
+[2021-02-08 18:53:46.709 +09:00] Security challenge response of incoming connection from endpoint 1.251.203.56:58518 has been accepted.
+[2021-02-08 18:53:46.741 +09:00] Player 76561199135612288@steam preauthenticated from endpoint 1.251.203.56:58518.
+[2021-02-08 18:53:46.770 +09:00] Security challenge response of incoming connection from endpoint 211.213.249.85:58074 has been accepted.
+[2021-02-08 18:53:46.801 +09:00] Player 76561198109926552@steam preauthenticated from endpoint 211.213.249.85:58074.
+[2021-02-08 18:53:46.833 +09:00] Requested challenge for incoming connection from endpoint 220.84.120.225:50156.
+[2021-02-08 18:53:46.863 +09:00] Security challenge response of incoming connection from endpoint 61.253.118.21:65193 has been accepted.
+[2021-02-08 18:53:46.894 +09:00] Player 76561199087358210@steam preauthenticated from endpoint 61.253.118.21:65193.
+[2021-02-08 18:53:46.926 +09:00] Security challenge response of incoming connection from endpoint 221.141.217.143:50169 has been accepted.
+[2021-02-08 18:53:46.956 +09:00] Player 76561198857629393@steam preauthenticated from endpoint 221.141.217.143:50169.
+[2021-02-08 18:53:47.063 +09:00] Security challenge response of incoming connection from endpoint 124.153.148.198:54171 has been accepted.
+[2021-02-08 18:53:47.096 +09:00] Player 76561198392832602@steam preauthenticated from endpoint 124.153.148.198:54171.
+[2021-02-08 18:53:47.374 +09:00] Security challenge response of incoming connection from endpoint 220.84.120.225:50157 has been accepted.
+[2021-02-08 18:53:47.407 +09:00] Player 76561199117410133@steam preauthenticated from endpoint 220.84.120.225:50157.
+[2021-02-08 18:53:49.051 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:49.056 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:49.061 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 9455
+[2021-02-08 18:53:49.067 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:49.086 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:49.561 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:49.566 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:49.572 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 11878
+[2021-02-08 18:53:49.581 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:49.608 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:49.629 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:49.634 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:49.642 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:49.648 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 13124
+[2021-02-08 18:53:49.667 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:49.869 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:49.874 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:49.878 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 13866
+[2021-02-08 18:53:49.885 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:49.914 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:50.275 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:50.280 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:50.285 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:50.290 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 14442
+[2021-02-08 18:53:50.307 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:50.333 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:50.339 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:50.344 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 14758
+[2021-02-08 18:53:50.352 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:50.386 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:50.537 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:50.543 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:50.548 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 15018
+[2021-02-08 18:53:50.557 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:50.589 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:53.220 +09:00] Player  () (4) disconnected
+[2021-02-08 18:53:53.252 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:53.284 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:53.314 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:53:53.345 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:53:53.377 +09:00] Server has entered the idle mode.
+[2021-02-08 18:53:54.235 +09:00] Accepted authentication token of user 76561198109926552@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:53:54.248 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:54.254 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:54.268 +09:00] 76561198109926552@steam authenticated from endpoint 211.213.249.85:58074. Player ID assigned: 2. Auth token serial number: 4090oWDaad0FbVL5
+[2021-02-08 18:53:54.297 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:53:54.303 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:53:54.308 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 17028
+[2021-02-08 18:53:54.315 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:54.326 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 18043
+[2021-02-08 18:53:54.346 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:54.377 +09:00] Accepted authentication token of user 76561198857629393@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:53:54.408 +09:00] 76561198857629393@steam authenticated from endpoint 221.141.217.143:50169. Player ID assigned: 5. Auth token serial number: 9Eky/A96fo3Eelkh
+[2021-02-08 18:53:54.440 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:53:54.472 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:53:55.239 +09:00] Nickname of 76561198109926552@steam is now UKUN.
+[2021-02-08 18:53:55.271 +09:00] Player UKUN (76561198109926552@steam) (2) connected with the IP: 211.213.249.85
+[2021-02-08 18:53:55.301 +09:00] Nickname of 76561198857629393@steam is now 크리.
+[2021-02-08 18:53:55.336 +09:00] Player 크리 (76561198857629393@steam) (5) connected with the IP: 221.141.217.143
+[2021-02-08 18:53:55.364 +09:00] Accepted authentication token of user 76561198392832602@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:53:55.394 +09:00] 76561198392832602@steam authenticated from endpoint 124.153.148.198:54171. Player ID assigned: 6. Auth token serial number: sO4MmEEkJZCtpny6
+[2021-02-08 18:53:55.425 +09:00] Accepted authentication token of user 76561199135612288@steam signed by Gravelines 1. No active global bans.
+[2021-02-08 18:53:55.457 +09:00] 76561199135612288@steam authenticated from endpoint 1.251.203.56:58518. Player ID assigned: 8. Auth token serial number: 0WSR/j9i59Suh9NE
+[2021-02-08 18:53:55.488 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:53:55.520 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:63613. Player ID assigned: 7. Auth token serial number: JXpi20uyxsatgOXD
+[2021-02-08 18:53:56.218 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-08 18:53:56.250 +09:00] Player Goldmilk777 (76561198254130933@steam) (7) connected with the IP: 192.168.0.1
+[2021-02-08 18:53:56.279 +09:00] Nickname of 76561198392832602@steam is now Science Yasuo(잼민이 혐오).
+[2021-02-08 18:53:56.311 +09:00] Player Science Yasuo(잼민이 혐오) (76561198392832602@steam) (6) connected with the IP: 124.153.148.198
+[2021-02-08 18:53:56.342 +09:00] Nickname of 76561199135612288@steam is now ducksung84.
+[2021-02-08 18:53:56.374 +09:00] Player ducksung84 (76561199135612288@steam) (8) connected with the IP: 1.251.203.56
+[2021-02-08 18:53:59.227 +09:00] Accepted authentication token of user 76561199093352805@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:53:59.258 +09:00] 76561199093352805@steam authenticated from endpoint 211.37.72.148:62442. Player ID assigned: 3. Auth token serial number: bg/XDq4i1b4djeb/
+[2021-02-08 18:54:00.233 +09:00] Nickname of 76561199093352805@steam is now 매미가되고싶은고구마.
+[2021-02-08 18:54:00.262 +09:00] Player 매미가되고싶은고구마 (76561199093352805@steam) (3) connected with the IP: 211.37.72.148
+[2021-02-08 18:54:00.294 +09:00] Accepted authentication token of user 76561199087358210@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:54:00.325 +09:00] 76561199087358210@steam authenticated from endpoint 61.253.118.21:65193. Player ID assigned: 10. Auth token serial number: 9XgSMx3RiUkd8SQA
+[2021-02-08 18:54:00.357 +09:00] Accepted authentication token of user 76561199117410133@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:54:00.389 +09:00] 76561199117410133@steam authenticated from endpoint 220.84.120.225:50157. Player ID assigned: 9. Auth token serial number: O37FetWPgM0T4vO3
+[2021-02-08 18:54:00.719 +09:00] Authentication token of player 76561198109926552@steam has been confirmed by central server.
+[2021-02-08 18:54:00.751 +09:00] Authentication token of player 76561198857629393@steam has been confirmed by central server.
+[2021-02-08 18:54:00.781 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-08 18:54:00.812 +09:00] Authentication token of player 76561198392832602@steam has been confirmed by central server.
+[2021-02-08 18:54:00.844 +09:00] Authentication token of player 76561199135612288@steam has been confirmed by central server.
+[2021-02-08 18:54:01.246 +09:00] Nickname of 76561199087358210@steam is now msn0088.
+[2021-02-08 18:54:01.279 +09:00] Player msn0088 (76561199087358210@steam) (10) connected with the IP: 61.253.118.21
+[2021-02-08 18:54:01.310 +09:00] Nickname of 76561199117410133@steam is now leemj10082009.
+[2021-02-08 18:54:01.340 +09:00] Player leemj10082009 (76561199117410133@steam) (9) connected with the IP: 220.84.120.225
+[2021-02-08 18:54:02.222 +09:00] Server has exited the idle mode.
+[2021-02-08 18:54:06.102 +09:00] Authentication token of player 76561199093352805@steam has been confirmed by central server.
+[2021-02-08 18:54:06.133 +09:00] Authentication token of player 76561199087358210@steam has been confirmed by central server.
+[2021-02-08 18:54:06.163 +09:00] Authentication token of player 76561199117410133@steam has been confirmed by central server.
+[2021-02-08 18:54:23.103 +09:00] New round has been started.
+[2021-02-08 18:54:24.032 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-08 18:54:24.064 +09:00] [INFO] [BroadcastPlugin] 이 서버는 ombe1229의 브로드캐스트 플러그인을 사용 중입니다.
+[2021-02-08 18:54:24.094 +09:00] [INFO] [RespawnTimer] RespawnTimer coroutine started successfully! The timer will be refreshed every 1 second/s!
+[2021-02-08 18:56:42.854 +09:00] Player ducksung84 (76561199135612288@steam) (8) disconnected
+[2021-02-08 18:56:42.885 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:56:42.916 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:56:42.946 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:56:42.979 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:57:32.533 +09:00] [STDOUT] 33.01641
+[2021-02-08 18:57:32.701 +09:00] [STDOUT] 31.67198
+[2021-02-08 18:57:32.709 +09:00] [STDOUT] 714.3986
+[2021-02-08 18:57:32.870 +09:00] [STDOUT] 30.16858
+[2021-02-08 18:57:32.876 +09:00] [STDOUT] 652.3542
+[2021-02-08 18:57:33.036 +09:00] [STDOUT] 28.73028
+[2021-02-08 18:57:33.043 +09:00] [STDOUT] 592.7197
+[2021-02-08 18:57:33.206 +09:00] [STDOUT] 27.17753
+[2021-02-08 18:57:33.214 +09:00] [STDOUT] 535.0251
+[2021-02-08 18:57:33.375 +09:00] [STDOUT] 25.82173
+[2021-02-08 18:57:33.381 +09:00] [STDOUT] 481.5102
+[2021-02-08 18:57:33.541 +09:00] [STDOUT] 24.28479
+[2021-02-08 18:57:33.548 +09:00] [STDOUT] 430.38
+[2021-02-08 18:57:33.695 +09:00] [STDOUT] 23.12301
+[2021-02-08 18:57:33.703 +09:00] [STDOUT] 383.4001
+[2021-02-08 18:57:33.863 +09:00] [STDOUT] 21.57141
+[2021-02-08 18:57:33.870 +09:00] [STDOUT] 339.8009
+[2021-02-08 18:57:33.965 +09:00] [STDOUT] 28.74194
+[2021-02-08 18:57:34.033 +09:00] [STDOUT] 20.68738
+[2021-02-08 18:57:34.040 +09:00] [STDOUT] 304.1743
+[2021-02-08 18:57:34.066 +09:00] [STDOUT] 28.98442
+[2021-02-08 18:57:34.072 +09:00] [STDOUT] 507.4044
+[2021-02-08 18:57:34.703 +09:00] [STDOUT] 17.6864
+[2021-02-08 18:57:34.803 +09:00] [STDOUT] 19.6145
+[2021-02-08 18:57:34.855 +09:00] [STDOUT] 17.69659
+[2021-02-08 18:57:34.861 +09:00] [STDOUT] 205.1632
+[2021-02-08 18:57:34.920 +09:00] [STDOUT] 18.54336
+[2021-02-08 18:57:34.927 +09:00] [STDOUT] 210.8405
+[2021-02-08 18:57:35.021 +09:00] [STDOUT] 17.53054
+[2021-02-08 18:57:35.028 +09:00] [STDOUT] 201.7581
+[2021-02-08 18:57:35.033 +09:00] [STDOUT] 17.67674
+[2021-02-08 18:57:35.041 +09:00] [STDOUT] 191.094
+[2021-02-08 18:57:35.189 +09:00] [STDOUT] 17.11642
+[2021-02-08 18:57:35.195 +09:00] [STDOUT] 193.8292
+[2021-02-08 18:57:35.240 +09:00] [STDOUT] 15.88412
+[2021-02-08 18:57:35.246 +09:00] [STDOUT] 164.8217
+[2021-02-08 18:57:35.341 +09:00] [STDOUT] 15.06349
+[2021-02-08 18:57:35.348 +09:00] [STDOUT] 140.2749
+[2021-02-08 18:57:35.359 +09:00] [STDOUT] 17.77031
+[2021-02-08 18:57:35.366 +09:00] [STDOUT] 196.0364
+[2021-02-08 18:57:35.459 +09:00] [STDOUT] 14.0668
+[2021-02-08 18:57:35.466 +09:00] [STDOUT] 123.243
+[2021-02-08 18:57:35.527 +09:00] [STDOUT] 19.24314
+[2021-02-08 18:57:35.533 +09:00] [STDOUT] 220.5682
+[2021-02-08 18:57:35.562 +09:00] [STDOUT] 13.13583
+[2021-02-08 18:57:35.568 +09:00] [STDOUT] 107.2149
+[2021-02-08 18:57:35.661 +09:00] [STDOUT] 12.38739
+[2021-02-08 18:57:35.668 +09:00] [STDOUT] 94.53858
+[2021-02-08 18:57:35.678 +09:00] [STDOUT] 19.73127
+[2021-02-08 18:57:35.685 +09:00] [STDOUT] 245.3951
+[2021-02-08 18:57:35.729 +09:00] [STDOUT] 44.83386
+[2021-02-08 18:57:35.779 +09:00] [STDOUT] 11.38296
+[2021-02-08 18:57:35.786 +09:00] [STDOUT] 81.5965
+[2021-02-08 18:57:35.847 +09:00] [STDOUT] 19.75594
+[2021-02-08 18:57:35.854 +09:00] [STDOUT] 251.2138
+[2021-02-08 18:57:35.897 +09:00] [STDOUT] 10.44565
+[2021-02-08 18:57:35.904 +09:00] [STDOUT] 68.23115
+[2021-02-08 18:57:35.915 +09:00] [STDOUT] 45.03259
+[2021-02-08 18:57:35.921 +09:00] [STDOUT] 1582.984
+[2021-02-08 18:57:35.999 +09:00] [STDOUT] 9.794557
+[2021-02-08 18:57:36.006 +09:00] [STDOUT] 58.27503
+[2021-02-08 18:57:36.016 +09:00] [STDOUT] 19.75902
+[2021-02-08 18:57:36.024 +09:00] [STDOUT] 251.2138
+[2021-02-08 18:57:36.116 +09:00] [STDOUT] 9.963754
+[2021-02-08 18:57:36.123 +09:00] [STDOUT] 55.85876
+[2021-02-08 18:57:36.186 +09:00] [STDOUT] 19.7896
+[2021-02-08 18:57:36.192 +09:00] [STDOUT] 251.2138
+[2021-02-08 18:57:36.219 +09:00] [STDOUT] 10.70882
+[2021-02-08 18:57:36.226 +09:00] [STDOUT] 61.87706
+[2021-02-08 18:57:36.319 +09:00] [STDOUT] 11.61409
+[2021-02-08 18:57:36.328 +09:00] [STDOUT] 72.46996
+[2021-02-08 18:57:36.353 +09:00] [STDOUT] 19.81161
+[2021-02-08 18:57:36.361 +09:00] [STDOUT] 251.2138
+[2021-02-08 18:57:36.371 +09:00] [STDOUT] 17.82722
+[2021-02-08 18:57:36.435 +09:00] [STDOUT] 12.5568
+[2021-02-08 18:57:36.441 +09:00] [STDOUT] 84.31857
+[2021-02-08 18:57:36.520 +09:00] [STDOUT] 19.7835
+[2021-02-08 18:57:36.525 +09:00] [STDOUT] 251.2138
+[2021-02-08 18:57:36.532 +09:00] [STDOUT] 16.6433
+[2021-02-08 18:57:36.657 +09:00] [STDOUT] 14.4109
+[2021-02-08 18:57:36.665 +09:00] [STDOUT] 104.0031
+[2021-02-08 18:57:36.793 +09:00] [STDOUT] 14.26832
+[2021-02-08 18:57:36.799 +09:00] [STDOUT] 178.2469
+[2021-02-08 18:57:36.859 +09:00] [STDOUT] 17.16714
+[2021-02-08 18:57:36.866 +09:00] [STDOUT] 218.4823
+[2021-02-08 18:57:37.178 +09:00] [STDOUT] 36.36471
+[2021-02-08 18:57:37.346 +09:00] [STDOUT] 11.45253
+[2021-02-08 18:57:37.514 +09:00] [STDOUT] 11.44927
+[2021-02-08 18:57:37.521 +09:00] [STDOUT] 90.71532
+[2021-02-08 18:57:37.680 +09:00] [STDOUT] 11.40462
+[2021-02-08 18:57:37.687 +09:00] [STDOUT] 93.41243
+[2021-02-08 18:57:37.849 +09:00] [STDOUT] 12.51643
+[2021-02-08 18:57:37.856 +09:00] [STDOUT] 107.0026
+[2021-02-08 18:57:38.018 +09:00] [STDOUT] 13.66949
+[2021-02-08 18:57:38.024 +09:00] [STDOUT] 129.2186
+[2021-02-08 18:57:38.135 +09:00] [STDOUT] 29.08867
+[2021-02-08 18:57:38.186 +09:00] [STDOUT] 14.08715
+[2021-02-08 18:57:38.193 +09:00] [STDOUT] 140.8364
+[2021-02-08 18:57:38.355 +09:00] [STDOUT] 15.19564
+[2021-02-08 18:57:38.362 +09:00] [STDOUT] 153.6625
+[2021-02-08 18:57:38.521 +09:00] [STDOUT] 16.64681
+[2021-02-08 18:57:38.528 +09:00] [STDOUT] 182.2533
+[2021-02-08 18:57:38.690 +09:00] [STDOUT] 17.46984
+[2021-02-08 18:57:38.698 +09:00] [STDOUT] 209.6858
+[2021-02-08 18:57:38.842 +09:00] [STDOUT] 17.45771
+[2021-02-08 18:57:38.848 +09:00] [STDOUT] 220.9615
+[2021-02-08 18:57:39.008 +09:00] [STDOUT] 24.50722
+[2021-02-08 18:57:39.854 +09:00] [STDOUT] 18.73689
+[2021-02-08 18:57:39.861 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:40.040 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:40.193 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:41.469 +09:00] [STDOUT] 15.5721
+[2021-02-08 18:57:41.654 +09:00] [STDOUT] 15.98662
+[2021-02-08 18:57:41.662 +09:00] [STDOUT] 175.1525
+[2021-02-08 18:57:41.822 +09:00] [STDOUT] 16.27248
+[2021-02-08 18:57:41.829 +09:00] [STDOUT] 179.0848
+[2021-02-08 18:57:41.973 +09:00] [STDOUT] 17.07365
+[2021-02-08 18:57:41.980 +09:00] [STDOUT] 192.8436
+[2021-02-08 18:57:42.006 +09:00] [STDOUT] 8.495683
+[2021-02-08 18:57:42.110 +09:00] [STDOUT] 8.024419
+[2021-02-08 18:57:42.343 +09:00] [STDOUT] 19.62825
+[2021-02-08 18:57:42.349 +09:00] [STDOUT] 230.2794
+[2021-02-08 18:57:42.544 +09:00] [STDOUT] 6.080458
+[2021-02-08 18:57:42.661 +09:00] [STDOUT] 5.497545
+[2021-02-08 18:57:42.763 +09:00] [STDOUT] 5.495609
+[2021-02-08 18:57:42.866 +09:00] [STDOUT] 4.703413
+[2021-02-08 18:57:43.488 +09:00] [STDOUT] 4.458618
+[2021-02-08 18:57:43.503 +09:00] [STDOUT] 9.027704
+[2021-02-08 18:57:43.656 +09:00] [STDOUT] 5.788848
+[2021-02-08 18:57:43.663 +09:00] [STDOUT] 16.73961
+[2021-02-08 18:57:43.823 +09:00] [STDOUT] 7.147349
+[2021-02-08 18:57:43.829 +09:00] [STDOUT] 27.69213
+[2021-02-08 18:57:43.958 +09:00] [STDOUT] 7.31921
+[2021-02-08 18:57:43.976 +09:00] [STDOUT] 8.570846
+[2021-02-08 18:57:43.982 +09:00] [STDOUT] 40.98985
+[2021-02-08 18:57:44.059 +09:00] [STDOUT] 6.445761
+[2021-02-08 18:57:44.066 +09:00] [STDOUT] 26.90802
+[2021-02-08 18:57:44.160 +09:00] [STDOUT] 10.07727
+[2021-02-08 18:57:44.167 +09:00] [STDOUT] 57.59453
+[2021-02-08 18:57:44.178 +09:00] [STDOUT] 5.426613
+[2021-02-08 18:57:44.185 +09:00] [STDOUT] 19.89418
+[2021-02-08 18:57:44.312 +09:00] [STDOUT] 11.12601
+[2021-02-08 18:57:44.318 +09:00] [STDOUT] 74.78719
+[2021-02-08 18:57:44.378 +09:00] [STDOUT] 4.160259
+[2021-02-08 18:57:44.385 +09:00] [STDOUT] 12.77977
+[2021-02-08 18:57:44.480 +09:00] [STDOUT] 4.162272
+[2021-02-08 18:57:44.486 +09:00] [STDOUT] 9.768933
+[2021-02-08 18:57:44.492 +09:00] [STDOUT] 12.62037
+[2021-02-08 18:57:44.500 +09:00] [STDOUT] 93.5303
+[2021-02-08 18:57:44.596 +09:00] [STDOUT] 4.158696
+[2021-02-08 18:57:44.602 +09:00] [STDOUT] 9.768933
+[2021-02-08 18:57:44.647 +09:00] [STDOUT] 14.09025
+[2021-02-08 18:57:44.653 +09:00] [STDOUT] 119.0172
+[2021-02-08 18:57:44.698 +09:00] [STDOUT] 4.173054
+[2021-02-08 18:57:44.705 +09:00] [STDOUT] 9.768933
+[2021-02-08 18:57:44.983 +09:00] [STDOUT] 17.04242
+[2021-02-08 18:57:44.989 +09:00] [STDOUT] 162.1675
+[2021-02-08 18:57:45.136 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:45.153 +09:00] [STDOUT] 18.55372
+[2021-02-08 18:57:45.167 +09:00] [STDOUT] 214.5616
+[2021-02-08 18:57:45.303 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:45.321 +09:00] [STDOUT] 19.2992
+[2021-02-08 18:57:45.327 +09:00] [STDOUT] 243.1403
+[2021-02-08 18:57:45.470 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:45.487 +09:00] [STDOUT] 19.29567
+[2021-02-08 18:57:45.494 +09:00] [STDOUT] 253.3353
+[2021-02-08 18:57:45.639 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:45.655 +09:00] [STDOUT] 19.32556
+[2021-02-08 18:57:45.663 +09:00] [STDOUT] 253.3353
+[2021-02-08 18:57:45.807 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:45.822 +09:00] [STDOUT] 19.36915
+[2021-02-08 18:57:45.829 +09:00] [STDOUT] 253.3353
+[2021-02-08 18:57:45.959 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:45.976 +09:00] [STDOUT] 19.3596
+[2021-02-08 18:57:45.983 +09:00] [STDOUT] 253.3353
+[2021-02-08 18:57:46.110 +09:00] [STDOUT] 4.456306
+[2021-02-08 18:57:46.160 +09:00] [STDOUT] 16.28722
+[2021-02-08 18:57:46.167 +09:00] [STDOUT] 213.0162
+[2021-02-08 18:57:46.329 +09:00] [STDOUT] 11.85925
+[2021-02-08 18:57:46.335 +09:00] [STDOUT] 130.1288
+[2021-02-08 18:57:46.479 +09:00] [STDOUT] 7.820839
+[2021-02-08 18:57:46.486 +09:00] [STDOUT] 62.46602
+[2021-02-08 18:57:46.648 +09:00] [STDOUT] 7.522538
+[2021-02-08 18:57:46.655 +09:00] [STDOUT] 39.79033
+[2021-02-08 18:57:46.815 +09:00] [STDOUT] 8.169417
+[2021-02-08 18:57:46.821 +09:00] [STDOUT] 40.79123
+[2021-02-08 18:57:46.985 +09:00] [STDOUT] 9.614342
+[2021-02-08 18:57:46.992 +09:00] [STDOUT] 51.17168
+[2021-02-08 18:57:47.153 +09:00] [STDOUT] 10.91257
+[2021-02-08 18:57:47.160 +09:00] [STDOUT] 68.83736
+[2021-02-08 18:57:48.462 +09:00] [STDOUT] 35.89686
+[2021-02-08 18:57:50.699 +09:00] [STDOUT] 14.95078
+[2021-02-08 18:57:50.866 +09:00] [STDOUT] 12.21761
+[2021-02-08 18:57:50.967 +09:00] [STDOUT] 12.18727
+[2021-02-08 18:57:51.070 +09:00] [STDOUT] 12.08209
+[2021-02-08 18:57:51.270 +09:00] [STDOUT] 32.77175
+[2021-02-08 18:57:51.391 +09:00] [STDOUT] 9.598974
+[2021-02-08 18:57:51.491 +09:00] [STDOUT] 8.899978
+[2021-02-08 18:57:51.607 +09:00] [STDOUT] 8.107309
+[2021-02-08 18:57:51.710 +09:00] [STDOUT] 7.667482
+[2021-02-08 18:57:51.825 +09:00] [STDOUT] 7.164893
+[2021-02-08 18:57:52.042 +09:00] [STDOUT] 6.989768
+[2021-02-08 18:57:52.060 +09:00] [STDOUT] 29.41992
+[2021-02-08 18:57:52.113 +09:00] [STDOUT] 32.24608
+[2021-02-08 18:57:52.143 +09:00] [STDOUT] 7.136631
+[2021-02-08 18:57:52.228 +09:00] [STDOUT] 27.84042
+[2021-02-08 18:57:52.397 +09:00] [STDOUT] 28.78049
+[2021-02-08 18:57:52.480 +09:00] [STDOUT] 6.496306
+[2021-02-08 18:57:52.487 +09:00] [STDOUT] 32.26138
+[2021-02-08 18:57:52.585 +09:00] [STDOUT] 25.20549
+[2021-02-08 18:57:52.700 +09:00] [STDOUT] 6.12715
+[2021-02-08 18:57:52.735 +09:00] [STDOUT] 24.69462
+[2021-02-08 18:57:52.802 +09:00] [STDOUT] 5.774938
+[2021-02-08 18:57:52.873 +09:00] [STDOUT] 22.7549
+[2021-02-08 18:57:52.907 +09:00] [STDOUT] 22.87209
+[2021-02-08 18:57:53.041 +09:00] [STDOUT] 22.88184
+[2021-02-08 18:57:53.048 +09:00] [STDOUT] 364.2618
+[2021-02-08 18:57:53.293 +09:00] [STDOUT] 14.86173
+[2021-02-08 18:57:53.299 +09:00] [STDOUT] 237.6252
+[2021-02-08 18:57:53.412 +09:00] [STDOUT] 13.7747
+[2021-02-08 18:57:53.418 +09:00] [STDOUT] 143.9925
+[2021-02-08 18:57:53.561 +09:00] [STDOUT] 13.62703
+[2021-02-08 18:57:53.566 +09:00] [STDOUT] 131.5149
+[2021-02-08 18:57:53.746 +09:00] [STDOUT] 14.04789
+[2021-02-08 18:57:53.753 +09:00] [STDOUT] 133.4917
+[2021-02-08 18:57:54.285 +09:00] [STDOUT] 22.02841
+[2021-02-08 18:57:54.401 +09:00] [STDOUT] 21.73002
+[2021-02-08 18:57:54.408 +09:00] [STDOUT] 369.3626
+[2021-02-08 18:57:54.858 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:54.994 +09:00] [STDOUT] 20.02659
+[2021-02-08 18:57:55.044 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:55.178 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:55.195 +09:00] [STDOUT] 21.09811
+[2021-02-08 18:57:55.201 +09:00] [STDOUT] 320.4101
+[2021-02-08 18:57:55.311 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:55.346 +09:00] [STDOUT] 21.68638
+[2021-02-08 18:57:55.353 +09:00] [STDOUT] 355.3947
+[2021-02-08 18:57:55.446 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:55.453 +09:00] [STDOUT] 27.3569
+[2021-02-08 18:57:55.458 +09:00] [STDOUT] 471.9001
+[2021-02-08 18:57:55.580 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:55.599 +09:00] [STDOUT] 27.97858
+[2021-02-08 18:57:55.606 +09:00] [STDOUT] 616.0732
+[2021-02-08 18:57:55.763 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:55.780 +09:00] [STDOUT] 24.0118
+[2021-02-08 18:57:55.787 +09:00] [STDOUT] 539.7138
+[2021-02-08 18:57:55.899 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:56.051 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:56.825 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:56.958 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:57.150 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:57.281 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:57.453 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:57.587 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:57.655 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:57.771 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:58.157 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:58.310 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:58.480 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:58.648 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:58.983 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:59.151 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:59.319 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:59.487 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:59.655 +09:00] [STDOUT] NaN
+[2021-02-08 18:57:59.976 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:00.143 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:00.313 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:00.462 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:00.632 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:00.968 +09:00] [STDOUT] 1.306217
+[2021-02-08 18:58:01.305 +09:00] [STDOUT] 9.180166
+[2021-02-08 18:58:03.307 +09:00] [STDOUT] 9.533089
+[2021-02-08 18:58:03.475 +09:00] [STDOUT] 9.457534
+[2021-02-08 18:58:03.643 +09:00] [STDOUT] 9.216859
+[2021-02-08 18:58:04.131 +09:00] [STDOUT] 8.417401
+[2021-02-08 18:58:11.626 +09:00] [STDOUT] 5.60915
+[2021-02-08 18:58:11.811 +09:00] [STDOUT] 5.824283
+[2021-02-08 18:58:11.979 +09:00] [STDOUT] 7.068628
+[2021-02-08 18:58:12.686 +09:00] [STDOUT] 9.882045
+[2021-02-08 18:58:13.009 +09:00] [STDOUT] 9.689837
+[2021-02-08 18:58:15.382 +09:00] [STDOUT] 12.42598
+[2021-02-08 18:58:15.551 +09:00] [STDOUT] 11.11447
+[2021-02-08 18:58:15.719 +09:00] [STDOUT] 10.01542
+[2021-02-08 18:58:15.887 +09:00] [STDOUT] 9.016548
+[2021-02-08 18:58:16.056 +09:00] [STDOUT] 8.494894
+[2021-02-08 18:58:16.222 +09:00] [STDOUT] 9.34918
+[2021-02-08 18:58:16.391 +09:00] [STDOUT] 9.657065
+[2021-02-08 18:58:16.557 +09:00] [STDOUT] 8.839879
+[2021-02-08 18:58:16.726 +09:00] [STDOUT] 7.811642
+[2021-02-08 18:58:16.759 +09:00] [STDOUT] 9.06476
+[2021-02-08 18:58:16.894 +09:00] [STDOUT] 7.647679
+[2021-02-08 18:58:16.960 +09:00] [STDOUT] 7.114452
+[2021-02-08 18:58:17.060 +09:00] [STDOUT] 8.528986
+[2021-02-08 18:58:17.077 +09:00] [STDOUT] 6.653716
+[2021-02-08 18:58:17.177 +09:00] [STDOUT] 5.994108
+[2021-02-08 18:58:17.227 +09:00] [STDOUT] 8.717669
+[2021-02-08 18:58:17.296 +09:00] [STDOUT] 5.495774
+[2021-02-08 18:58:17.381 +09:00] [STDOUT] 9.628346
+[2021-02-08 18:58:17.414 +09:00] [STDOUT] 5.881354
+[2021-02-08 18:58:17.515 +09:00] [STDOUT] 6.474677
+[2021-02-08 18:58:17.548 +09:00] [STDOUT] 10.83121
+[2021-02-08 18:58:17.632 +09:00] [STDOUT] 7.294584
+[2021-02-08 18:58:17.717 +09:00] [STDOUT] 11.96151
+[2021-02-08 18:58:17.734 +09:00] [STDOUT] 8.020318
+[2021-02-08 18:58:17.852 +09:00] [STDOUT] 8.826473
+[2021-02-08 18:58:17.887 +09:00] [STDOUT] 12.97976
+[2021-02-08 18:58:17.954 +09:00] [STDOUT] 9.646345
+[2021-02-08 18:58:18.054 +09:00] [STDOUT] 14.12266
+[2021-02-08 18:58:18.072 +09:00] [STDOUT] 10.2945
+[2021-02-08 18:58:18.188 +09:00] [STDOUT] 11.23701
+[2021-02-08 18:58:18.222 +09:00] [STDOUT] 15.11459
+[2021-02-08 18:58:18.289 +09:00] [STDOUT] 12.21593
+[2021-02-08 18:58:18.373 +09:00] [STDOUT] 16.34561
+[2021-02-08 18:58:18.558 +09:00] [STDOUT] 16.54651
+[2021-02-08 18:58:18.625 +09:00] [STDOUT] 15.15169
+[2021-02-08 18:58:18.727 +09:00] [STDOUT] 16.71624
+[2021-02-08 18:58:18.743 +09:00] [STDOUT] 15.80483
+[2021-02-08 18:58:18.845 +09:00] [STDOUT] 15.42528
+[2021-02-08 18:58:19.216 +09:00] [STDOUT] 12.47913
+[2021-02-08 18:58:19.301 +09:00] [STDOUT] 11.81555
+[2021-02-08 18:58:19.317 +09:00] [STDOUT] 15.36559
+[2021-02-08 18:58:19.381 +09:00] [STDOUT] 12.57623
+[2021-02-08 18:58:19.416 +09:00] [STDOUT] 11.06669
+[2021-02-08 18:58:19.550 +09:00] [STDOUT] 10.82875
+[2021-02-08 18:58:19.618 +09:00] [STDOUT] 9.310822
+[2021-02-08 18:58:19.636 +09:00] [STDOUT] 12.3103
+[2021-02-08 18:58:19.643 +09:00] [STDOUT] 118.3556
+[2021-02-08 18:58:19.721 +09:00] [STDOUT] 9.219039
+[2021-02-08 18:58:19.727 +09:00] [STDOUT] 6.881791
+[2021-02-08 18:58:19.821 +09:00] [STDOUT] 4.215772
+[2021-02-08 18:58:20.391 +09:00] [STDOUT] 7.107167
+[2021-02-08 18:58:20.560 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:20.727 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:20.879 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:20.898 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:20.996 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:21.048 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:21.216 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:21.383 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:24.513 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:58:25.324 +09:00] [STDOUT] 4.411057
+[2021-02-08 18:58:26.431 +09:00] [STDOUT] 6.429288
+[2021-02-08 18:58:26.598 +09:00] [STDOUT] 6.442091
+[2021-02-08 18:58:26.766 +09:00] [STDOUT] 6.471751
+[2021-02-08 18:58:26.916 +09:00] [STDOUT] 3.929334
+[2021-02-08 18:58:26.934 +09:00] [STDOUT] 6.478837
+[2021-02-08 18:58:27.018 +09:00] [STDOUT] 3.518935
+[2021-02-08 18:58:27.100 +09:00] [STDOUT] 6.458121
+[2021-02-08 18:58:27.271 +09:00] [STDOUT] 6.426134
+[2021-02-08 18:58:27.321 +09:00] [STDOUT] 3.472301
+[2021-02-08 18:58:27.436 +09:00] [STDOUT] 3.657468
+[2021-02-08 18:58:27.443 +09:00] [STDOUT] 6.388187
+[2021-02-08 18:58:27.538 +09:00] [STDOUT] 3.99508
+[2021-02-08 18:58:27.605 +09:00] [STDOUT] 6.330051
+[2021-02-08 18:58:27.639 +09:00] [STDOUT] 4.32764
+[2021-02-08 18:58:27.756 +09:00] [STDOUT] 4.67521
+[2021-02-08 18:58:27.773 +09:00] [STDOUT] 6.235324
+[2021-02-08 18:58:27.857 +09:00] [STDOUT] 4.937019
+[2021-02-08 18:58:27.938 +09:00] [STDOUT] 6.1351
+[2021-02-08 18:58:27.965 +09:00] [STDOUT] 5.187304
+[2021-02-08 18:58:28.068 +09:00] [STDOUT] 5.417439
+[2021-02-08 18:58:28.102 +09:00] [STDOUT] 6.007737
+[2021-02-08 18:58:28.185 +09:00] [STDOUT] 5.498504
+[2021-02-08 18:58:28.270 +09:00] [STDOUT] 5.939714
+[2021-02-08 18:58:28.431 +09:00] [STDOUT] 6.098111
+[2021-02-08 18:58:28.599 +09:00] [STDOUT] 5.923927
+[2021-02-08 18:58:28.769 +09:00] [STDOUT] 6.010448
+[2021-02-08 18:58:29.606 +09:00] [STDOUT] 6.837767
+[2021-02-08 18:58:29.776 +09:00] [STDOUT] 6.48176
+[2021-02-08 18:58:29.941 +09:00] [STDOUT] 6.397113
+[2021-02-08 18:58:30.094 +09:00] [STDOUT] 6.258342
+[2021-02-08 18:58:30.262 +09:00] [STDOUT] 6.250677
+[2021-02-08 18:58:30.432 +09:00] [STDOUT] 6.373637
+[2021-02-08 18:58:30.600 +09:00] [STDOUT] 6.546777
+[2021-02-08 18:58:30.767 +09:00] [STDOUT] 6.696044
+[2021-02-08 18:58:30.937 +09:00] [STDOUT] 6.733148
+[2021-02-08 18:58:31.092 +09:00] [STDOUT] 6.633038
+[2021-02-08 18:58:32.102 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:32.451 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:32.600 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:35.363 +09:00] [STDOUT] 4.401727
+[2021-02-08 18:58:35.904 +09:00] [STDOUT] 7.723153
+[2021-02-08 18:58:36.004 +09:00] [STDOUT] 8.357034
+[2021-02-08 18:58:36.009 +09:00] [STDOUT] 44.79745
+[2021-02-08 18:58:36.207 +09:00] [STDOUT] 9.676964
+[2021-02-08 18:58:36.213 +09:00] [STDOUT] 56.49018
+[2021-02-08 18:58:36.223 +09:00] [STDOUT] 14.54134
+[2021-02-08 18:58:36.423 +09:00] [STDOUT] 14.1432
+[2021-02-08 18:58:36.845 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:58:36.852 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:58:36.860 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:58:36.869 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:58:38.001 +09:00] [STDOUT] 5.544411
+[2021-02-08 18:58:38.301 +09:00] [STDOUT] 6.459247
+[2021-02-08 18:58:38.637 +09:00] [STDOUT] 6.540874
+[2021-02-08 18:58:38.806 +09:00] [STDOUT] 6.672036
+[2021-02-08 18:58:38.973 +09:00] [STDOUT] 6.728722
+[2021-02-08 18:58:43.052 +09:00] [STDOUT] 10.17623
+[2021-02-08 18:58:44.572 +09:00] [STDOUT] 12.16896
+[2021-02-08 18:58:51.632 +09:00] [STDOUT] 5.400757
+[2021-02-08 18:58:51.851 +09:00] [STDOUT] 4.915691
+[2021-02-08 18:58:52.277 +09:00] [STDOUT] 6.203131
+[2021-02-08 18:58:52.461 +09:00] [STDOUT] 6.802713
+[2021-02-08 18:58:52.468 +09:00] [STDOUT] 22.41578
+[2021-02-08 18:58:53.302 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:53.407 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:53.506 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:53.618 +09:00] [STDOUT] NaN
+[2021-02-08 18:58:53.837 +09:00] [STDOUT] 2.907059
+[2021-02-08 18:58:53.937 +09:00] [STDOUT] 3.642492
+[2021-02-08 18:58:56.441 +09:00] [STDOUT] 18.90542
+[2021-02-08 18:58:56.494 +09:00] [STDOUT] 18.56234
+[2021-02-08 18:58:56.542 +09:00] [STDOUT] 18.53308
+[2021-02-08 18:58:56.643 +09:00] [STDOUT] 17.51214
+[2021-02-08 18:58:57.954 +09:00] [STDOUT] 4.822265
+[2021-02-08 18:58:58.071 +09:00] [STDOUT] 8.460453
+[2021-02-08 18:58:58.239 +09:00] [STDOUT] 4.907269
+[2021-02-08 18:58:58.374 +09:00] [STDOUT] 4.727778
+[2021-02-08 18:58:58.744 +09:00] [STDOUT] 16.47384
+[2021-02-08 18:58:58.912 +09:00] [STDOUT] 17.51756
+[2021-02-08 18:58:58.919 +09:00] [STDOUT] 182.4353
+[2021-02-08 18:58:59.061 +09:00] [STDOUT] 10.55907
+[2021-02-08 18:58:59.097 +09:00] [STDOUT] 18.69197
+[2021-02-08 18:58:59.104 +09:00] [STDOUT] 206.7956
+[2021-02-08 18:58:59.163 +09:00] [STDOUT] 10.25828
+[2021-02-08 18:58:59.267 +09:00] [STDOUT] 9.696145
+[2021-02-08 18:58:59.351 +09:00] [STDOUT] 19.03772
+[2021-02-08 18:58:59.357 +09:00] [STDOUT] 235.1352
+[2021-02-08 18:58:59.368 +09:00] [STDOUT] 10.31916
+[2021-02-08 18:58:59.467 +09:00] [STDOUT] 19.48001
+[2021-02-08 18:58:59.473 +09:00] [STDOUT] 258.038
+[2021-02-08 18:59:01.436 +09:00] [STDOUT] 9.52837
+[2021-02-08 18:59:01.573 +09:00] [STDOUT] 28.63422
+[2021-02-08 18:59:01.675 +09:00] [STDOUT] 28.15088
+[2021-02-08 18:59:01.682 +09:00] [STDOUT] 585.2008
+[2021-02-08 18:59:01.758 +09:00] [STDOUT] 10.05451
+[2021-02-08 18:59:01.766 +09:00] [STDOUT] 55.12056
+[2021-02-08 18:59:01.775 +09:00] [STDOUT] 28.05131
+[2021-02-08 18:59:01.782 +09:00] [STDOUT] 576.0306
+[2021-02-08 18:59:01.975 +09:00] [STDOUT] 27.66323
+[2021-02-08 18:59:01.983 +09:00] [STDOUT] 560.9
+[2021-02-08 18:59:02.076 +09:00] [STDOUT] 27.11982
+[2021-02-08 18:59:02.084 +09:00] [STDOUT] 546.0389
+[2021-02-08 18:59:02.533 +09:00] [STDOUT] 3.592958
+[2021-02-08 18:59:02.632 +09:00] [STDOUT] 3.101254
+[2021-02-08 18:59:02.883 +09:00] [STDOUT] 31.39058
+[2021-02-08 18:59:03.274 +09:00] [STDOUT] 2.38169
+[2021-02-08 18:59:04.135 +09:00] [STDOUT] 2.962408
+[2021-02-08 18:59:04.252 +09:00] [STDOUT] 3.424798
+[2021-02-08 18:59:04.353 +09:00] [STDOUT] 4.839108
+[2021-02-08 18:59:04.469 +09:00] [STDOUT] 5.41991
+[2021-02-08 18:59:04.476 +09:00] [STDOUT] 20.86726
+[2021-02-08 18:59:06.680 +09:00] [STDOUT] 24.05633
+[2021-02-08 18:59:06.782 +09:00] [STDOUT] 24.29073
+[2021-02-08 18:59:06.788 +09:00] [STDOUT] 395.5115
+[2021-02-08 18:59:06.884 +09:00] [STDOUT] 24.55513
+[2021-02-08 18:59:06.890 +09:00] [STDOUT] 403.6577
+[2021-02-08 18:59:06.984 +09:00] [STDOUT] 24.6778
+[2021-02-08 18:59:06.992 +09:00] [STDOUT] 412.0245
+[2021-02-08 18:59:07.085 +09:00] [STDOUT] 24.96281
+[2021-02-08 18:59:07.093 +09:00] [STDOUT] 420.4871
+[2021-02-08 18:59:07.287 +09:00] [STDOUT] 25.53079
+[2021-02-08 18:59:07.295 +09:00] [STDOUT] 433.3511
+[2021-02-08 18:59:07.388 +09:00] [STDOUT] 25.82255
+[2021-02-08 18:59:07.394 +09:00] [STDOUT] 446.4666
+[2021-02-08 18:59:07.490 +09:00] [STDOUT] 26.14003
+[2021-02-08 18:59:07.496 +09:00] [STDOUT] 455.28
+[2021-02-08 18:59:07.590 +09:00] [STDOUT] 26.29047
+[2021-02-08 18:59:07.598 +09:00] [STDOUT] 464.1787
+[2021-02-08 18:59:07.692 +09:00] [STDOUT] 26.53558
+[2021-02-08 18:59:07.699 +09:00] [STDOUT] 473.172
+[2021-02-08 18:59:07.794 +09:00] [STDOUT] 26.62577
+[2021-02-08 18:59:07.800 +09:00] [STDOUT] 482.2631
+[2021-02-08 18:59:07.893 +09:00] [STDOUT] 27.06312
+[2021-02-08 18:59:07.900 +09:00] [STDOUT] 492.3656
+[2021-02-08 18:59:08.282 +09:00] [STDOUT] 28.14545
+[2021-02-08 18:59:08.288 +09:00] [STDOUT] 515.0883
+[2021-02-08 18:59:08.381 +09:00] [STDOUT] 28.05124
+[2021-02-08 18:59:08.388 +09:00] [STDOUT] 536.9703
+[2021-02-08 18:59:08.583 +09:00] [STDOUT] 28.5572
+[2021-02-08 18:59:08.590 +09:00] [STDOUT] 550.7222
+[2021-02-08 18:59:08.686 +09:00] [STDOUT] 28.92161
+[2021-02-08 18:59:08.694 +09:00] [STDOUT] 565.3859
+[2021-02-08 18:59:08.786 +09:00] [STDOUT] 28.98785
+[2021-02-08 18:59:08.793 +09:00] [STDOUT] 575.2964
+[2021-02-08 18:59:09.140 +09:00] [STDOUT] 7.735171
+[2021-02-08 18:59:09.342 +09:00] [STDOUT] 5.655591
+[2021-02-08 18:59:09.476 +09:00] [STDOUT] 4.5345
+[2021-02-08 18:59:09.743 +09:00] [STDOUT] 5.085662
+[2021-02-08 18:59:09.879 +09:00] [STDOUT] 5.401347
+[2021-02-08 18:59:10.013 +09:00] [STDOUT] 20.92124
+[2021-02-08 18:59:10.031 +09:00] [STDOUT] 5.934785
+[2021-02-08 18:59:10.114 +09:00] [STDOUT] 20.47132
+[2021-02-08 18:59:10.197 +09:00] [STDOUT] 6.507059
+[2021-02-08 18:59:10.331 +09:00] [STDOUT] 6.937313
+[2021-02-08 18:59:10.416 +09:00] [STDOUT] 19.94724
+[2021-02-08 18:59:10.517 +09:00] [STDOUT] 7.495596
+[2021-02-08 18:59:10.603 +09:00] [STDOUT] 20.55945
+[2021-02-08 18:59:10.653 +09:00] [STDOUT] 7.899853
+[2021-02-08 18:59:10.704 +09:00] [STDOUT] 20.71534
+[2021-02-08 18:59:10.754 +09:00] [STDOUT] 20.53196
+[2021-02-08 18:59:10.821 +09:00] [STDOUT] 21.03745
+[2021-02-08 18:59:11.006 +09:00] [STDOUT] 9.050053
+[2021-02-08 18:59:11.012 +09:00] [STDOUT] 21.66201
+[2021-02-08 18:59:11.023 +09:00] [STDOUT] 19.573
+[2021-02-08 18:59:11.029 +09:00] [STDOUT] 238.1084
+[2021-02-08 18:59:11.107 +09:00] [STDOUT] 21.7654
+[2021-02-08 18:59:11.139 +09:00] [STDOUT] 9.227425
+[2021-02-08 18:59:11.208 +09:00] [STDOUT] 21.69731
+[2021-02-08 18:59:11.276 +09:00] [STDOUT] 9.5993
+[2021-02-08 18:59:11.308 +09:00] [STDOUT] 21.9254
+[2021-02-08 18:59:11.410 +09:00] [STDOUT] 22.22516
+[2021-02-08 18:59:11.510 +09:00] [STDOUT] 22.72681
+[2021-02-08 18:59:11.611 +09:00] [STDOUT] 23.07123
+[2021-02-08 18:59:11.760 +09:00] [STDOUT] 18.1357
+[2021-02-08 18:59:11.777 +09:00] [STDOUT] 10.12084
+[2021-02-08 18:59:11.930 +09:00] [STDOUT] 15.09837
+[2021-02-08 18:59:11.936 +09:00] [STDOUT] 165.6279
+[2021-02-08 18:59:13.408 +09:00] [STDOUT] 14.75853
+[2021-02-08 18:59:14.367 +09:00] [STDOUT] 19.23888
+[2021-02-08 18:59:14.535 +09:00] [STDOUT] 19.2993
+[2021-02-08 18:59:14.542 +09:00] [STDOUT] 264.631
+[2021-02-08 18:59:15.761 +09:00] [STDOUT] 11.24571
+[2021-02-08 18:59:15.862 +09:00] [STDOUT] 10.4829
+[2021-02-08 18:59:15.965 +09:00] [STDOUT] 9.639589
+[2021-02-08 18:59:16.066 +09:00] [STDOUT] 9.03263
+[2021-02-08 18:59:16.166 +09:00] [STDOUT] 9.46842
+[2021-02-08 18:59:16.453 +09:00] [STDOUT] 10.49541
+[2021-02-08 18:59:16.554 +09:00] [STDOUT] 11.23177
+[2021-02-08 18:59:16.587 +09:00] [STDOUT] 18.46345
+[2021-02-08 18:59:16.594 +09:00] [STDOUT] 10.39659
+[2021-02-08 18:59:16.654 +09:00] [STDOUT] 12.15144
+[2021-02-08 18:59:16.739 +09:00] [STDOUT] 9.5552
+[2021-02-08 18:59:16.756 +09:00] [STDOUT] 12.65285
+[2021-02-08 18:59:16.922 +09:00] [STDOUT] 13.37793
+[2021-02-08 18:59:17.023 +09:00] [STDOUT] 13.82876
+[2021-02-08 18:59:24.621 +09:00] [STDOUT] 7.394548
+[2021-02-08 18:59:32.074 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:32.209 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:32.324 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:32.611 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:32.694 +09:00] [STDOUT] 4.874907
+[2021-02-08 18:59:32.729 +09:00] [STDOUT] 1.223925
+[2021-02-08 18:59:32.829 +09:00] [STDOUT] 5.615684
+[2021-02-08 18:59:32.896 +09:00] [STDOUT] 2.119231
+[2021-02-08 18:59:32.961 +09:00] [STDOUT] 5.705986
+[2021-02-08 18:59:32.967 +09:00] [STDOUT] 19.36646
+[2021-02-08 18:59:33.014 +09:00] [STDOUT] 2.724516
+[2021-02-08 18:59:33.080 +09:00] [STDOUT] 5.489778
+[2021-02-08 18:59:33.088 +09:00] [STDOUT] 17.61514
+[2021-02-08 18:59:33.133 +09:00] [STDOUT] 3.205461
+[2021-02-08 18:59:33.247 +09:00] [STDOUT] 3.79973
+[2021-02-08 18:59:33.385 +09:00] [STDOUT] 4.071404
+[2021-02-08 18:59:33.500 +09:00] [STDOUT] 4.42493
+[2021-02-08 18:59:33.723 +09:00] [STDOUT] 3.913091
+[2021-02-08 18:59:33.839 +09:00] [STDOUT] 4.874243
+[2021-02-08 18:59:33.856 +09:00] [STDOUT] 4.050036
+[2021-02-08 18:59:33.961 +09:00] [STDOUT] 5.324858
+[2021-02-08 18:59:33.977 +09:00] [STDOUT] 3.944209
+[2021-02-08 18:59:34.094 +09:00] [STDOUT] 5.713339
+[2021-02-08 18:59:34.102 +09:00] [STDOUT] 4.292638
+[2021-02-08 18:59:34.211 +09:00] [STDOUT] 5.578562
+[2021-02-08 18:59:34.263 +09:00] [STDOUT] 4.252521
+[2021-02-08 18:59:34.938 +09:00] [STDOUT] 4.795278
+[2021-02-08 18:59:36.739 +09:00] [STDOUT] 2.961223
+[2021-02-08 18:59:36.879 +09:00] [STDOUT] 3.150461
+[2021-02-08 18:59:37.007 +09:00] [STDOUT] 4.723788
+[2021-02-08 18:59:39.465 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:39.721 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:39.822 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:39.838 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:39.956 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:39.988 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:40.089 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:40.109 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:40.205 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:40.258 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:40.338 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:40.471 +09:00] [STDOUT] NaN
+[2021-02-08 18:59:40.991 +09:00] [STDOUT] 7.614691
+[2021-02-08 18:59:41.495 +09:00] [STDOUT] 8.346317
+[2021-02-08 18:59:41.614 +09:00] [STDOUT] 8.217423
+[2021-02-08 18:59:41.621 +09:00] [STDOUT] 44.70886
+[2021-02-08 18:59:41.749 +09:00] [STDOUT] 8.157204
+[2021-02-08 18:59:41.755 +09:00] [STDOUT] 44.70886
+[2021-02-08 18:59:41.881 +09:00] [STDOUT] 7.940515
+[2021-02-08 18:59:41.887 +09:00] [STDOUT] 44.70886
+[2021-02-08 18:59:42.002 +09:00] [STDOUT] 7.602879
+[2021-02-08 18:59:42.011 +09:00] [STDOUT] 42.88429
+[2021-02-08 18:59:42.136 +09:00] [STDOUT] 6.706669
+[2021-02-08 18:59:42.144 +09:00] [STDOUT] 35.74503
+[2021-02-08 18:59:42.270 +09:00] [STDOUT] 5.602353
+[2021-02-08 18:59:42.278 +09:00] [STDOUT] 25.73335
+[2021-02-08 18:59:42.402 +09:00] [STDOUT] 5.222575
+[2021-02-08 18:59:42.410 +09:00] [STDOUT] 19.75483
+[2021-02-08 18:59:42.539 +09:00] [STDOUT] 5.246468
+[2021-02-08 18:59:42.545 +09:00] [STDOUT] 18.30553
+[2021-02-08 18:59:42.659 +09:00] [STDOUT] 5.302154
+[2021-02-08 18:59:42.668 +09:00] [STDOUT] 18.52214
+[2021-02-08 18:59:42.776 +09:00] [STDOUT] 5.977921
+[2021-02-08 18:59:42.783 +09:00] [STDOUT] 21.15928
+[2021-02-08 18:59:51.206 +09:00] [STDOUT] 16.56552
+[2021-02-08 18:59:51.341 +09:00] [STDOUT] 15.60853
+[2021-02-08 18:59:51.347 +09:00] [STDOUT] 157.6096
+[2021-02-08 18:59:51.474 +09:00] [STDOUT] 14.68967
+[2021-02-08 18:59:51.481 +09:00] [STDOUT] 137.6272
+[2021-02-08 18:59:51.842 +09:00] [STDOUT] 12.07162
+[2021-02-08 18:59:51.849 +09:00] [STDOUT] 99.52673
+[2021-02-08 18:59:51.961 +09:00] [STDOUT] 11.00368
+[2021-02-08 18:59:51.969 +09:00] [STDOUT] 70.37305
+[2021-02-08 18:59:52.214 +09:00] [STDOUT] 9.075934
+[2021-02-08 18:59:52.349 +09:00] [STDOUT] 7.950758
+[2021-02-08 18:59:52.601 +09:00] [STDOUT] 6.490928
+[2021-02-08 18:59:52.737 +09:00] [STDOUT] 5.8912
+[2021-02-08 18:59:53.246 +09:00] [STDOUT] 5.32418
+[2021-02-08 18:59:57.661 +09:00] [STDOUT] 3.426213
+[2021-02-08 18:59:58.234 +09:00] [STDOUT] 23.68613
+[2021-02-08 18:59:58.319 +09:00] [STDOUT] 5.734407
+[2021-02-08 18:59:58.471 +09:00] [STDOUT] 23.6891
+[2021-02-08 18:59:58.740 +09:00] [STDOUT] 23.22726
+[2021-02-08 18:59:58.808 +09:00] [STDOUT] 5.372656
+[2021-02-08 18:59:59.697 +09:00] [STDOUT] 12.63135
+[2021-02-08 19:00:00.152 +09:00] [STDOUT] 18.35322
+[2021-02-08 19:00:00.303 +09:00] [STDOUT] 18.35278
+[2021-02-08 19:00:00.320 +09:00] [STDOUT] 14.13494
+[2021-02-08 19:00:00.419 +09:00] [STDOUT] 18.34511
+[2021-02-08 19:00:00.455 +09:00] [STDOUT] 16.05139
+[2021-02-08 19:00:00.554 +09:00] [STDOUT] 18.34418
+[2021-02-08 19:00:00.588 +09:00] [STDOUT] 17.00023
+[2021-02-08 19:00:00.705 +09:00] [STDOUT] 17.09468
+[2021-02-08 19:00:00.806 +09:00] [STDOUT] 18.34433
+[2021-02-08 19:00:00.843 +09:00] [STDOUT] 16.56151
+[2021-02-08 19:00:00.942 +09:00] [STDOUT] 18.34544
+[2021-02-08 19:00:01.093 +09:00] [STDOUT] 16.16433
+[2021-02-08 19:00:01.229 +09:00] [STDOUT] 15.33903
+[2021-02-08 19:00:01.349 +09:00] [STDOUT] 14.48026
+[2021-02-08 19:00:01.461 +09:00] [STDOUT] 13.81435
+[2021-02-08 19:00:01.602 +09:00] [STDOUT] 12.75686
+[2021-02-08 19:00:05.769 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:06.805 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:06.907 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:07.023 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:07.261 +09:00] [STDOUT] 4.547332
+[2021-02-08 19:00:07.702 +09:00] [STDOUT] 4.566454
+[2021-02-08 19:00:07.718 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:08.630 +09:00] [STDOUT] 4.233293
+[2021-02-08 19:00:08.967 +09:00] [STDOUT] 5.470029
+[2021-02-08 19:00:08.974 +09:00] [STDOUT] 11.66068
+[2021-02-08 19:00:09.302 +09:00] [STDOUT] 6.377596
+[2021-02-08 19:00:09.311 +09:00] [STDOUT] 18.66338
+[2021-02-08 19:00:09.533 +09:00] [STDOUT] 8.926337
+[2021-02-08 19:00:09.539 +09:00] [STDOUT] 36.63943
+[2021-02-08 19:00:09.650 +09:00] [STDOUT] 9.860935
+[2021-02-08 19:00:09.657 +09:00] [STDOUT] 64.65398
+[2021-02-08 19:00:09.767 +09:00] [STDOUT] 10.96668
+[2021-02-08 19:00:09.773 +09:00] [STDOUT] 79.29739
+[2021-02-08 19:00:09.882 +09:00] [STDOUT] 9.821892
+[2021-02-08 19:00:09.888 +09:00] [STDOUT] 77.56583
+[2021-02-08 19:00:14.836 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:14.939 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:15.155 +09:00] [STDOUT] NaN
+[2021-02-08 19:00:15.913 +09:00] [STDOUT] 6.43164
+[2021-02-08 19:00:17.497 +09:00] [STDOUT] 9.65332
+[2021-02-08 19:00:17.951 +09:00] [STDOUT] 13.0311
+[2021-02-08 19:00:18.170 +09:00] [STDOUT] 14.58144
+[2021-02-08 19:00:18.176 +09:00] [STDOUT] 103.5929
+[2021-02-08 19:00:18.286 +09:00] [STDOUT] 15.66019
+[2021-02-08 19:00:18.292 +09:00] [STDOUT] 125.4373
+[2021-02-08 19:00:18.506 +09:00] [STDOUT] 17.41419
+[2021-02-08 19:00:18.512 +09:00] [STDOUT] 151.9348
+[2021-02-08 19:00:19.076 +09:00] [STDOUT] 22.01075
+[2021-02-08 19:00:23.416 +09:00] Requested challenge for incoming connection from endpoint 58.237.121.251:49471.
+[2021-02-08 19:00:23.960 +09:00] Security challenge response of incoming connection from endpoint 58.237.121.251:49472 has been accepted.
+[2021-02-08 19:00:23.991 +09:00] Player 76561198977412318@steam preauthenticated from endpoint 58.237.121.251:49472.
+[2021-02-08 19:00:25.991 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:00:27.311 +09:00] [STDOUT] 15.20365
+[2021-02-08 19:00:27.428 +09:00] [STDOUT] 15.5161
+[2021-02-08 19:00:27.548 +09:00] [STDOUT] 15.58007
+[2021-02-08 19:00:27.648 +09:00] [STDOUT] 15.2228
+[2021-02-08 19:00:27.983 +09:00] [STDOUT] 15.85129
+[2021-02-08 19:00:28.302 +09:00] [STDOUT] 16.36835
+[2021-02-08 19:00:28.308 +09:00] [STDOUT] 200.5457
+[2021-02-08 19:00:28.418 +09:00] [STDOUT] 16.11311
+[2021-02-08 19:00:28.425 +09:00] [STDOUT] 205.8995
+[2021-02-08 19:00:28.639 +09:00] [STDOUT] 16.38413
+[2021-02-08 19:00:28.646 +09:00] [STDOUT] 207.1691
+[2021-02-08 19:00:28.756 +09:00] [STDOUT] 16.79269
+[2021-02-08 19:00:28.763 +09:00] [STDOUT] 210.8575
+[2021-02-08 19:00:28.856 +09:00] [STDOUT] 16.87697
+[2021-02-08 19:00:28.864 +09:00] [STDOUT] 216.038
+[2021-02-08 19:00:28.975 +09:00] [STDOUT] 22.08161
+[2021-02-08 19:00:28.982 +09:00] [STDOUT] 284.7568
+[2021-02-08 19:00:29.310 +09:00] [STDOUT] 14.55667
+[2021-02-08 19:00:29.318 +09:00] [STDOUT] 246.8983
+[2021-02-08 19:00:29.849 +09:00] [STDOUT] 7.380843
+[2021-02-08 19:00:35.609 +09:00] [STDOUT] 9.026582
+[2021-02-08 19:00:35.709 +09:00] [STDOUT] 9.189014
+[2021-02-08 19:00:36.078 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:00:36.084 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:00:36.091 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:00:36.102 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:00:36.110 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:00:36.133 +09:00] [STDOUT] 9.977645
+[2021-02-08 19:00:36.231 +09:00] [STDOUT] 10.12707
+[2021-02-08 19:00:36.550 +09:00] [STDOUT] 10.8955
+[2021-02-08 19:00:36.856 +09:00] [STDOUT] 11.64007
+[2021-02-08 19:00:36.955 +09:00] [STDOUT] 12.16411
+[2021-02-08 19:00:37.493 +09:00] [STDOUT] 13.53839
+[2021-02-08 19:00:37.610 +09:00] [STDOUT] 13.62698
+[2021-02-08 19:00:38.116 +09:00] [STDOUT] 8.399097
+[2021-02-08 19:00:38.216 +09:00] [STDOUT] 8.330811
+[2021-02-08 19:00:38.315 +09:00] [STDOUT] 8.474052
+[2021-02-08 19:00:38.536 +09:00] [STDOUT] 8.652452
+[2021-02-08 19:00:38.771 +09:00] [STDOUT] 9.053244
+[2021-02-08 19:00:39.291 +09:00] [STDOUT] 10.18712
+[2021-02-08 19:00:39.496 +09:00] [STDOUT] 23.89359
+[2021-02-08 19:00:39.715 +09:00] [STDOUT] 10.8889
+[2021-02-08 19:00:39.815 +09:00] [STDOUT] 24.41259
+[2021-02-08 19:00:40.035 +09:00] [STDOUT] 11.53121
+[2021-02-08 19:00:41.626 +09:00] Accepted authentication token of user 76561198977412318@steam signed by Gravelines 1. No active global bans.
+[2021-02-08 19:00:41.660 +09:00] 76561198977412318@steam authenticated from endpoint 58.237.121.251:49472. Player ID assigned: 11. Auth token serial number: Ovj8SvjBZbarXj5J
+[2021-02-08 19:00:41.690 +09:00] Nickname of 76561198977412318@steam is now 머니샵.
+[2021-02-08 19:00:41.721 +09:00] Player 머니샵 (76561198977412318@steam) (11) connected with the IP: 58.237.121.251
+[2021-02-08 19:00:41.756 +09:00] [INFO] [ScpUtils] 머니샵 is not present on DB, creating account!
+[2021-02-08 19:00:43.783 +09:00] [STDOUT] 68.80276
+[2021-02-08 19:00:44.070 +09:00] [STDOUT] 68.63625
+[2021-02-08 19:00:44.169 +09:00] [STDOUT] 68.60268
+[2021-02-08 19:00:44.289 +09:00] [STDOUT] 11.4783
+[2021-02-08 19:00:44.303 +09:00] [STDOUT] 68.76058
+[2021-02-08 19:00:44.910 +09:00] [STDOUT] 5.59515
+[2021-02-08 19:00:46.651 +09:00] Authentication token of player 76561198977412318@steam has been confirmed by central server.
+[2021-02-08 19:00:46.761 +09:00] [STDOUT] 9.950641
+[2021-02-08 19:00:47.000 +09:00] [STDOUT] 50.9279
+[2021-02-08 19:00:47.101 +09:00] [STDOUT] 49.89411
+[2021-02-08 19:00:47.107 +09:00] [STDOUT] 1998.578
+[2021-02-08 19:00:47.301 +09:00] [STDOUT] 12.27519
+[2021-02-08 19:00:47.540 +09:00] [STDOUT] 13.69657
+[2021-02-08 19:00:47.547 +09:00] [STDOUT] 123.2339
+[2021-02-08 19:00:48.070 +09:00] [STDOUT] 15.50693
+[2021-02-08 19:00:53.281 +09:00] [STDOUT] 12.17632
+[2021-02-08 19:00:53.939 +09:00] [STDOUT] 14.2235
+[2021-02-08 19:00:54.708 +09:00] [STDOUT] 11.23059
+[2021-02-08 19:00:55.093 +09:00] [STDOUT] 23.53141
+[2021-02-08 19:00:55.197 +09:00] [STDOUT] 24.10336
+[2021-02-08 19:00:55.204 +09:00] [STDOUT] 463.0929
+[2021-02-08 19:00:55.278 +09:00] [STDOUT] 13.19795
+[2021-02-08 19:00:55.294 +09:00] [STDOUT] 23.84742
+[2021-02-08 19:00:55.380 +09:00] [STDOUT] 23.37585
+[2021-02-08 19:00:55.396 +09:00] [STDOUT] 13.52762
+[2021-02-08 19:00:55.446 +09:00] [STDOUT] 22.80251
+[2021-02-08 19:00:55.481 +09:00] [STDOUT] 22.80455
+[2021-02-08 19:00:55.497 +09:00] [STDOUT] 13.86547
+[2021-02-08 19:00:55.733 +09:00] [STDOUT] 21.34817
+[2021-02-08 19:00:55.921 +09:00] [STDOUT] 20.19807
+[2021-02-08 19:00:56.139 +09:00] [STDOUT] 19.02238
+[2021-02-08 19:00:56.277 +09:00] [STDOUT] 18.50604
+[2021-02-08 19:00:56.398 +09:00] [STDOUT] 14.7361
+[2021-02-08 19:00:57.091 +09:00] [STDOUT] 18.15151
+[2021-02-08 19:00:58.365 +09:00] [STDOUT] 22.49449
+[2021-02-08 19:00:58.585 +09:00] [STDOUT] 23.218
+[2021-02-08 19:00:58.592 +09:00] [STDOUT] 304.5392
+[2021-02-08 19:00:58.719 +09:00] [STDOUT] 23.23278
+[2021-02-08 19:00:58.727 +09:00] [STDOUT] 314.816
+[2021-02-08 19:00:58.822 +09:00] [STDOUT] 22.99534
+[2021-02-08 19:00:58.828 +09:00] [STDOUT] 311.7888
+[2021-02-08 19:00:58.955 +09:00] [STDOUT] 4.807782
+[2021-02-08 19:00:59.056 +09:00] [STDOUT] 3.848184
+[2021-02-08 19:00:59.142 +09:00] [STDOUT] 3.077986
+[2021-02-08 19:00:59.221 +09:00] [STDOUT] 24.99415
+[2021-02-08 19:00:59.240 +09:00] [STDOUT] 2.402847
+[2021-02-08 19:00:59.961 +09:00] [STDOUT] 5.926294
+[2021-02-08 19:01:00.064 +09:00] [STDOUT] 6.587087
+[2021-02-08 19:01:00.070 +09:00] [STDOUT] 26.46962
+[2021-02-08 19:01:00.162 +09:00] [STDOUT] 7.093249
+[2021-02-08 19:01:00.168 +09:00] [STDOUT] 34.47979
+[2021-02-08 19:01:00.970 +09:00] [STDOUT] 8.119648
+[2021-02-08 19:01:01.073 +09:00] [STDOUT] 8.258026
+[2021-02-08 19:01:01.080 +09:00] [STDOUT] 47.69636
+[2021-02-08 19:01:01.192 +09:00] [STDOUT] 8.540213
+[2021-02-08 19:01:01.198 +09:00] [STDOUT] 50.94563
+[2021-02-08 19:01:01.594 +09:00] [STDOUT] 13.42388
+[2021-02-08 19:01:01.677 +09:00] [STDOUT] 13.17784
+[2021-02-08 19:01:01.686 +09:00] [STDOUT] 107.4079
+[2021-02-08 19:01:01.778 +09:00] [STDOUT] 13.16826
+[2021-02-08 19:01:01.785 +09:00] [STDOUT] 104.9075
+[2021-02-08 19:01:02.689 +09:00] [STDOUT] 11.56436
+[2021-02-08 19:01:04.223 +09:00] [STDOUT] 10.59446
+[2021-02-08 19:01:05.953 +09:00] [STDOUT] 8.879239
+[2021-02-08 19:01:06.356 +09:00] [STDOUT] 8.67977
+[2021-02-08 19:01:06.508 +09:00] [STDOUT] 8.4914
+[2021-02-08 19:01:14.338 +09:00] [STDOUT] 4.527614
+[2021-02-08 19:01:20.955 +09:00] [STDOUT] 6.385582
+[2021-02-08 19:01:21.072 +09:00] [STDOUT] 6.509509
+[2021-02-08 19:01:25.088 +09:00] [STDOUT] 10.80874
+[2021-02-08 19:01:25.340 +09:00] [STDOUT] 11.52333
+[2021-02-08 19:01:25.346 +09:00] [STDOUT] 88.43877
+[2021-02-08 19:01:25.439 +09:00] [STDOUT] 11.44695
+[2021-02-08 19:01:25.540 +09:00] [STDOUT] 12.26497
+[2021-02-08 19:01:25.658 +09:00] [STDOUT] 13.23326
+[2021-02-08 19:01:25.776 +09:00] [STDOUT] 14.4858
+[2021-02-08 19:01:25.894 +09:00] [STDOUT] 15.25342
+[2021-02-08 19:01:26.012 +09:00] [STDOUT] 15.85048
+[2021-02-08 19:01:26.131 +09:00] [STDOUT] 17.65032
+[2021-02-08 19:01:26.350 +09:00] [STDOUT] 19.10668
+[2021-02-08 19:01:26.467 +09:00] [STDOUT] 20.03912
+[2021-02-08 19:01:26.881 +09:00] [STDOUT] 15.73218
+[2021-02-08 19:01:27.455 +09:00] [STDOUT] 25.33101
+[2021-02-08 19:01:27.573 +09:00] [STDOUT] 26.94007
+[2021-02-08 19:01:27.690 +09:00] [STDOUT] 26.91979
+[2021-02-08 19:01:27.789 +09:00] [STDOUT] 28.10348
+[2021-02-08 19:01:28.592 +09:00] [STDOUT] 26.73988
+[2021-02-08 19:01:32.754 +09:00] [STDOUT] 9.516757
+[2021-02-08 19:01:32.852 +09:00] [STDOUT] 9.361998
+[2021-02-08 19:01:33.189 +09:00] [STDOUT] 9.318315
+[2021-02-08 19:01:33.407 +09:00] [STDOUT] 9.183386
+[2021-02-08 19:01:33.643 +09:00] [STDOUT] 9.092704
+[2021-02-08 19:01:33.759 +09:00] [STDOUT] 8.950449
+[2021-02-08 19:01:33.978 +09:00] [STDOUT] 8.466856
+[2021-02-08 19:01:34.098 +09:00] [STDOUT] 8.314746
+[2021-02-08 19:01:34.216 +09:00] [STDOUT] 8.470076
+[2021-02-08 19:01:35.003 +09:00] [STDOUT] 7.175267
+[2021-02-08 19:01:35.694 +09:00] [STDOUT] 6.732655
+[2021-02-08 19:01:35.810 +09:00] [STDOUT] 6.45643
+[2021-02-08 19:01:35.911 +09:00] [STDOUT] 6.477341
+[2021-02-08 19:01:36.028 +09:00] [STDOUT] 6.240158
+[2021-02-08 19:01:36.380 +09:00] [STDOUT] 5.945654
+[2021-02-08 19:01:36.481 +09:00] [STDOUT] 5.850045
+[2021-02-08 19:01:36.599 +09:00] [STDOUT] 13.48528
+[2021-02-08 19:01:36.608 +09:00] [STDOUT] 5.661555
+[2021-02-08 19:01:36.917 +09:00] [STDOUT] 16.1537
+[2021-02-08 19:01:37.020 +09:00] [STDOUT] 14.87097
+[2021-02-08 19:01:37.490 +09:00] [STDOUT] 11.37506
+[2021-02-08 19:01:37.823 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:38.936 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:39.038 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:39.141 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:39.477 +09:00] [STDOUT] 6.222948
+[2021-02-08 19:01:39.543 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:39.666 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:39.864 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:39.966 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:40.081 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:40.403 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:40.714 +09:00] [STDOUT] 3.140114
+[2021-02-08 19:01:40.831 +09:00] [STDOUT] 7.627926
+[2021-02-08 19:01:41.016 +09:00] [STDOUT] 11.68318
+[2021-02-08 19:01:41.051 +09:00] [STDOUT] 4.06126
+[2021-02-08 19:01:41.152 +09:00] [STDOUT] 4.00907
+[2021-02-08 19:01:41.158 +09:00] [STDOUT] 7.68283
+[2021-02-08 19:01:41.252 +09:00] [STDOUT] 4.003147
+[2021-02-08 19:01:42.382 +09:00] [STDOUT] 7.027138
+[2021-02-08 19:01:43.930 +09:00] [STDOUT] 6.399799
+[2021-02-08 19:01:44.520 +09:00] [STDOUT] 6.226795
+[2021-02-08 19:01:44.638 +09:00] [STDOUT] 6.269934
+[2021-02-08 19:01:45.375 +09:00] [STDOUT] 6.680091
+[2021-02-08 19:01:46.398 +09:00] [STDOUT] 7.618313
+[2021-02-08 19:01:49.545 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:49.660 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:49.779 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:49.998 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:50.234 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:50.352 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:50.469 +09:00] [STDOUT] 2.112119
+[2021-02-08 19:01:51.058 +09:00] [STDOUT] 6.304432
+[2021-02-08 19:01:51.122 +09:00] [STDOUT] 4.111529
+[2021-02-08 19:01:51.275 +09:00] [STDOUT] 4.278069
+[2021-02-08 19:01:51.282 +09:00] [STDOUT] 8.816686
+[2021-02-08 19:01:51.409 +09:00] [STDOUT] 6.4854
+[2021-02-08 19:01:51.764 +09:00] [STDOUT] 6.226943
+[2021-02-08 19:01:51.999 +09:00] [STDOUT] 6.174961
+[2021-02-08 19:01:52.115 +09:00] [STDOUT] 6.322107
+[2021-02-08 19:01:52.591 +09:00] [STDOUT] 5.633804
+[2021-02-08 19:01:52.941 +09:00] [STDOUT] 3.04469
+[2021-02-08 19:01:53.419 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:53.537 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:53.655 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:53.771 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:54.009 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:54.363 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:54.495 +09:00] [STDOUT] NaN
+[2021-02-08 19:01:59.880 +09:00] [STDOUT] 9.74625
+[2021-02-08 19:01:59.998 +09:00] [STDOUT] 9.612469
+[2021-02-08 19:02:00.115 +09:00] [STDOUT] 9.375265
+[2021-02-08 19:02:00.349 +09:00] [STDOUT] 8.506195
+[2021-02-08 19:02:00.467 +09:00] [STDOUT] 7.980955
+[2021-02-08 19:02:00.836 +09:00] [STDOUT] 4.321328
+[2021-02-08 19:02:00.953 +09:00] [STDOUT] 0.90353
+[2021-02-08 19:02:01.071 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:01.187 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:01.541 +09:00] [STDOUT] 4.376537
+[2021-02-08 19:02:12.760 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-08 19:02:12.770 +09:00] [STDOUT] Parameter name: index
+[2021-02-08 19:02:12.776 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:12.784 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:12.791 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:12.798 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:02:12.805 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:12.813 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:12.823 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:12.831 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-08 19:02:14.664 +09:00] [STDOUT] 3.471152
+[2021-02-08 19:02:14.798 +09:00] [STDOUT] 0.6532266
+[2021-02-08 19:02:15.068 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:15.200 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:15.615 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:15.730 +09:00] [STDOUT] 2.351708
+[2021-02-08 19:02:15.830 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:15.862 +09:00] [STDOUT] 4.057471
+[2021-02-08 19:02:16.662 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:16.831 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:17.165 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:17.198 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:17.333 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:17.340 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:17.884 +09:00] [STDOUT] 7.950804
+[2021-02-08 19:02:18.813 +09:00] [STDOUT] 7.008502
+[2021-02-08 19:02:19.623 +09:00] [STDOUT] 5.038084
+[2021-02-08 19:02:20.326 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:20.428 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:20.561 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:21.064 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:27.598 +09:00] [STDOUT] 7.121197
+[2021-02-08 19:02:27.750 +09:00] [STDOUT] 6.85355
+[2021-02-08 19:02:27.852 +09:00] [STDOUT] 6.533033
+[2021-02-08 19:02:42.468 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-08 19:02:42.476 +09:00] [STDOUT] Parameter name: index
+[2021-02-08 19:02:42.483 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.491 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.499 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.508 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:02:42.517 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.526 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.534 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.543 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-08 19:02:42.553 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-08 19:02:42.559 +09:00] [STDOUT] Parameter name: index
+[2021-02-08 19:02:42.568 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.577 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.585 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.594 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:02:42.603 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.611 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.619 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.627 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-08 19:02:42.636 +09:00] [STDOUT] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[2021-02-08 19:02:42.643 +09:00] [STDOUT] Parameter name: index
+[2021-02-08 19:02:42.652 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException (System.ExceptionArgument argument, System.ExceptionResource resource) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.660 +09:00] [STDOUT]   at System.ThrowHelper.ThrowArgumentOutOfRangeException () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.668 +09:00] [STDOUT]   at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <9577ac7a62ef43179789031239ba8798>:0
+[2021-02-08 19:02:42.675 +09:00] [STDOUT]   at Mirror.SyncList`1[T].get_Item (System.Int32 i) [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:02:42.683 +09:00] [STDOUT]   at MicroHID.GetEnergy () [0x0003a] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.691 +09:00] [STDOUT]   at MicroHID.UpdateServerside () [0x0001f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.700 +09:00] [STDOUT]   at MicroHID.Update () [0x00035] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:02:42.710 +09:00] [STDOUT] (Filename: <9577ac7a62ef43179789031239ba8798> Line: 0)
+[2021-02-08 19:02:43.151 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:43.255 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:43.354 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:43.438 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:43.540 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:43.729 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:43.742 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:43.893 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:44.044 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:44.060 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:44.161 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:44.214 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:44.380 +09:00] [STDOUT] 3.644128
+[2021-02-08 19:02:44.513 +09:00] [STDOUT] 4.161702
+[2021-02-08 19:02:44.548 +09:00] [STDOUT] 4.491881
+[2021-02-08 19:02:44.632 +09:00] [STDOUT] 5.098433
+[2021-02-08 19:02:44.715 +09:00] [STDOUT] 7.109155
+[2021-02-08 19:02:44.733 +09:00] [STDOUT] 5.280622
+[2021-02-08 19:02:44.835 +09:00] [STDOUT] 5.362908
+[2021-02-08 19:02:44.866 +09:00] [STDOUT] 3.335246
+[2021-02-08 19:02:44.882 +09:00] [STDOUT] 6.686069
+[2021-02-08 19:02:44.966 +09:00] [STDOUT] 3.486606
+[2021-02-08 19:02:45.033 +09:00] [STDOUT] 6.529765
+[2021-02-08 19:02:45.152 +09:00] [STDOUT] 3.281969
+[2021-02-08 19:02:45.202 +09:00] [STDOUT] 5.632689
+[2021-02-08 19:02:45.270 +09:00] [STDOUT] 1.702374
+[2021-02-08 19:02:45.352 +09:00] [STDOUT] 4.896519
+[2021-02-08 19:02:45.371 +09:00] [STDOUT] 1.480254
+[2021-02-08 19:02:45.378 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.473 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.479 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.522 +09:00] [STDOUT] 5.747626
+[2021-02-08 19:02:45.572 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.672 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.772 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.875 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.908 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:45.978 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:46.080 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:46.179 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:46.298 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:46.347 +09:00] [STDOUT] 12.34443
+[2021-02-08 19:02:46.396 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:46.498 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:46.551 +09:00] [STDOUT] 11.72969
+[2021-02-08 19:02:46.601 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:46.683 +09:00] [STDOUT] 15.08867
+[2021-02-08 19:02:46.850 +09:00] [STDOUT] 15.59153
+[2021-02-08 19:02:46.870 +09:00] [STDOUT] 10.15235
+[2021-02-08 19:02:46.986 +09:00] [STDOUT] 9.45856
+[2021-02-08 19:02:47.020 +09:00] [STDOUT] 14.15413
+[2021-02-08 19:02:47.036 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:47.155 +09:00] [STDOUT] NaN
+[2021-02-08 19:02:47.170 +09:00] [STDOUT] 13.1126
+[2021-02-08 19:02:47.304 +09:00] [STDOUT] 5.73505
+[2021-02-08 19:02:47.677 +09:00] [STDOUT] 10.41404
+[2021-02-08 19:02:47.827 +09:00] [STDOUT] 9.32684
+[2021-02-08 19:02:47.998 +09:00] [STDOUT] 9.594033
+[2021-02-08 19:02:48.148 +09:00] [STDOUT] 9.099027
+[2021-02-08 19:02:48.318 +09:00] [STDOUT] 7.296658
+[2021-02-08 19:02:48.483 +09:00] [STDOUT] 5.336857
+[2021-02-08 19:02:49.315 +09:00] [STDOUT] 4.701113
+[2021-02-08 19:02:49.485 +09:00] [STDOUT] 5.294269
+[2021-02-08 19:02:49.639 +09:00] [STDOUT] 5.48736
+[2021-02-08 19:02:49.820 +09:00] [STDOUT] 5.347025
+[2021-02-08 19:02:49.976 +09:00] [STDOUT] 5.289588
+[2021-02-08 19:02:54.634 +09:00] [STDOUT] 5.582584
+[2021-02-08 19:02:54.733 +09:00] [STDOUT] 5.650527
+[2021-02-08 19:02:54.836 +09:00] [STDOUT] 5.690947
+[2021-02-08 19:02:54.934 +09:00] [STDOUT] 5.679092
+[2021-02-08 19:02:55.439 +09:00] [STDOUT] 5.96261
+[2021-02-08 19:02:55.541 +09:00] [STDOUT] 6.056255
+[2021-02-08 19:02:55.641 +09:00] [STDOUT] 6.184862
+[2021-02-08 19:02:56.162 +09:00] [STDOUT] 7.217687
+[2021-02-08 19:02:56.380 +09:00] [STDOUT] 8.011125
+[2021-02-08 19:02:56.681 +09:00] [STDOUT] 9.010783
+[2021-02-08 19:02:56.780 +09:00] [STDOUT] 9.250414
+[2021-02-08 19:02:56.984 +09:00] [STDOUT] 9.896534
+[2021-02-08 19:02:57.201 +09:00] [STDOUT] 10.71989
+[2021-02-08 19:02:57.521 +09:00] [STDOUT] 12.41098
+[2021-02-08 19:02:57.643 +09:00] [STDOUT] 13.10478
+[2021-02-08 19:02:58.265 +09:00] [STDOUT] 13.86988
+[2021-02-08 19:03:01.114 +09:00] Round finished! Anomalies: 3 | Chaos: 0 | Facility Forces: 0 | D escaped percentage: 0 | S escaped percentage: : 0
+[2021-02-08 19:03:12.611 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-08 19:03:12.641 +09:00] Idle mode is now temporarily blocked.
+[2021-02-08 19:03:13.125 +09:00] Player Goldmilk777 (76561198254130933@steam) (7) disconnected
+[2021-02-08 19:03:13.133 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.138 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.143 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-08 19:03:13.148 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.153 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-08 19:03:13.158 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.163 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.169 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.175 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.180 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.184 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.190 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.194 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.199 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.204 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.209 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.213 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:03:13.217 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.223 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:03:13.227 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.231 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-08 19:03:13.235 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.241 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-08 19:03:13.245 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.249 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.254 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.259 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.263 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.269 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:13.275 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.280 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.284 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.289 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.294 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:03:13.298 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.303 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:03:13.308 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.313 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:03:13.317 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.322 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:03:13.327 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.331 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.336 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.341 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.345 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.350 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.354 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.360 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.365 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.369 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:03:13.375 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:13.383 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:13.406 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:13.412 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:03:13.418 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:03:13.424 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.431 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.437 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.442 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.448 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.455 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:03:13.460 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:13.468 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:03:13.476 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.483 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.489 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:13.495 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:13.501 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:13.507 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:13.512 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:13.518 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:03:13.523 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:13.528 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:03:13.534 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:03:13.541 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.548 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:03:13.554 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.560 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.565 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.571 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.576 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:13.582 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:03:13.588 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.595 +09:00] Player 매미가되고싶은고구마 (76561199093352805@steam) (3) disconnected
+[2021-02-08 19:03:13.601 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.608 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:13.613 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:13.618 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:13.623 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:13.628 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:13.633 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:03:13.638 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:13.643 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:03:13.647 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:03:13.653 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.658 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.663 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.672 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:13.678 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.684 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.691 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:13.699 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:03:13.706 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.712 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.718 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:13.725 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:13.730 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:13.736 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:13.743 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:13.749 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:03:13.758 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:13.764 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:13.770 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:03:13.777 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:03:13.783 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.789 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.796 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.802 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.809 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.816 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:03:13.824 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:13.830 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:03:13.836 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.843 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.849 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:13.856 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:13.864 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:03:13.869 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:13.876 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:13.881 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:13.887 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:03:13.893 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:13.901 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:03:13.907 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:03:13.913 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.920 +09:00] Player 크리 (76561198857629393@steam) (5) disconnected
+[2021-02-08 19:03:13.927 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:03:13.932 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.939 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.945 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:03:13.951 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:13.958 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:03:13.964 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.974 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:13.981 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:13.987 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:13.995 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:14.001 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:14.008 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:14.015 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:14.021 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:03:14.030 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:14.062 +09:00] Player leemj10082009 (76561199117410133@steam) (9) disconnected
+[2021-02-08 19:03:14.095 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:14.126 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:14.158 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:03:14.189 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:03:14.221 +09:00] Player Science Yasuo(잼민이 혐오) (76561198392832602@steam) (6) disconnected
+[2021-02-08 19:03:14.252 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:14.284 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:14.315 +09:00] Player 머니샵 (76561198977412318@steam) (11) disconnected
+[2021-02-08 19:03:14.347 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:14.380 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:14.411 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:03:14.443 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:03:14.475 +09:00] Player UKUN (76561198109926552@steam) (2) disconnected
+[2021-02-08 19:03:14.507 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:14.539 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:14.569 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:03:14.594 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:14.602 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_transform(UnityEngine.Component)
+[2021-02-08 19:03:14.607 +09:00] [STDOUT]   at Exiled.API.Features.Player.get_Scale () [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:14.614 +09:00] [STDOUT]   at miniScp049.Components.miniScp049Controller.<Start>b__3_0 () [0x00000] in <486ed30cf06443e296d786441ff4ed7b>:0
+[2021-02-08 19:03:14.620 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:14.628 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:14.636 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:14.643 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:14.651 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:14.657 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:14.663 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:14.669 +09:00] [STDOUT] (Filename: <96f016e0fff44e9998579596fcb76126> Line: 0)
+[2021-02-08 19:03:14.674 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:14.680 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_transform(UnityEngine.Component)
+[2021-02-08 19:03:14.687 +09:00] [STDOUT]   at Exiled.API.Features.Player.get_Scale () [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:14.692 +09:00] [STDOUT]   at miniScp049.Components.miniScp049Controller.<Start>b__3_0 () [0x00000] in <486ed30cf06443e296d786441ff4ed7b>:0
+[2021-02-08 19:03:14.698 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:14.704 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:14.710 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:14.717 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:14.723 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:14.729 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:14.735 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:14.740 +09:00] [STDOUT] (Filename: <96f016e0fff44e9998579596fcb76126> Line: 0)
+[2021-02-08 19:03:14.746 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:03:14.751 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_transform(UnityEngine.Component)
+[2021-02-08 19:03:14.758 +09:00] [STDOUT]   at Exiled.API.Features.Player.get_Scale () [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:03:14.766 +09:00] [STDOUT]   at miniScp049.Components.miniScp049Controller.<Start>b__3_0 () [0x00000] in <486ed30cf06443e296d786441ff4ed7b>:0
+[2021-02-08 19:03:14.773 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:14.780 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:03:14.789 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:03:14.796 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:03:14.803 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:03:14.808 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:03:14.814 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:03:14.820 +09:00] [STDOUT] (Filename: <96f016e0fff44e9998579596fcb76126> Line: 0)
+[2021-02-08 19:03:14.828 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:03:14.854 +09:00] Player msn0088 (76561199087358210@steam) (10) disconnected
+[2021-02-08 19:03:14.870 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:14.902 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:14.933 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:03:14.966 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:03:15.161 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-08 19:03:15.172 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.181 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-08 19:03:15.188 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.194 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-08 19:03:15.199 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.207 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.213 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.221 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.227 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.234 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.241 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.247 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.254 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.260 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.266 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.273 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.279 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.286 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.292 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.298 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.304 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.310 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.316 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.323 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.329 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.334 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:03:15.341 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.346 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.352 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.358 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.363 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.370 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.376 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.382 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.389 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.395 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.401 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.408 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.413 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.419 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.425 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.430 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:03:15.435 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.442 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-08 19:03:15.447 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:03:15.452 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.458 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.463 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.468 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.475 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.479 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.484 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.490 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.495 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.500 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.505 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.510 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.515 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.520 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.526 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.531 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.536 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.542 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.547 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.552 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.557 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.562 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.567 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.573 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.578 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.583 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.588 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.593 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.598 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.603 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.609 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-08 19:03:15.614 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.618 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.624 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.629 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.633 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.639 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.644 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.649 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.654 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.659 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.664 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.669 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.675 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.680 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.684 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.690 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.695 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.700 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.705 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.710 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:03:15.715 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.719 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:03:15.726 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.730 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.735 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-08 19:03:15.741 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.747 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-08 19:03:15.753 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.759 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.764 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:03:15.768 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.773 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:15.779 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.784 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.789 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-08 19:03:15.794 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.799 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-08 19:03:15.804 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.810 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.814 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-08 19:03:15.819 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.825 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-08 19:03:15.830 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.835 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.840 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:03:15.846 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.851 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:15.856 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.862 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.868 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:03:15.873 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.879 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:15.884 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.889 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.894 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:03:15.899 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.904 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:15.909 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.915 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.920 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-08 19:03:15.925 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.930 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:03:15.935 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.940 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:15.945 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.950 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.955 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:03:15.960 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.965 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:15.970 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:15.976 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:15.981 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:03:15.986 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:15.991 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:15.996 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:16.001 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:16.006 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:03:16.012 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:03:16.016 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:03:16.021 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:03:16.026 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:03:16.031 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-08 19:03:16.035 +09:00] [STDOUT] UnloadTime: 128.301400 ms
+[2021-02-08 19:03:16.041 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 19:03:16.046 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 19:03:16.051 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 19:03:16.056 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 19:03:16.062 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 19:03:16.067 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 19:03:16.073 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-08 19:03:16.077 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-08 19:03:16.083 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-08 19:03:16.152 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-08 19:03:16.157 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-08 19:03:16.161 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-08 19:03:16.167 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-08 19:03:16.172 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-08 19:03:16.177 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-08 19:03:16.182 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-08 19:03:16.188 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-08 19:03:16.193 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-08 19:03:16.198 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-08 19:03:16.203 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-08 19:03:16.208 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-08 19:03:16.213 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-08 19:03:16.218 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-08 19:03:16.223 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-08 19:03:16.228 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-08 19:03:16.233 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-08 19:03:16.238 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::18043
+[2021-02-08 19:03:16.245 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-08 19:03:16.263 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:16.269 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:16.310 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 965124670
+[2021-02-08 19:03:16.332 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 9625
+[2021-02-08 19:03:16.679 +09:00] [STDOUT] Unloading 313 unused Assets to reduce memory usage. Loaded Objects now: 117570.
+[2021-02-08 19:03:16.684 +09:00] [STDOUT] Total: 260.152800 ms (FindLiveObjects: 5.665300 ms CreateObjectMapping: 2.845300 ms MarkObjects: 250.790100 ms  DeleteObjects: 0.851200 ms)
+[2021-02-08 19:03:16.689 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-08 19:03:16.945 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-08 19:03:17.386 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 104067.
+[2021-02-08 19:03:17.391 +09:00] [STDOUT] Total: 188.523500 ms (FindLiveObjects: 4.783400 ms CreateObjectMapping: 2.628400 ms MarkObjects: 180.818900 ms  DeleteObjects: 0.292200 ms)
+[2021-02-08 19:03:17.420 +09:00] Incoming connections will be no longer delayed.
+[2021-02-08 19:03:17.453 +09:00] Idle mode is now available.
+[2021-02-08 19:03:17.481 +09:00] --- END OF LOG ---

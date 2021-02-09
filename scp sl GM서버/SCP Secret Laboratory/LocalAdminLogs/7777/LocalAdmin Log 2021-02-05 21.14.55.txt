@@ -1,0 +1,585 @@
+[2021-02-05 21:14:55.714 +09:00] Logging started.
+[2021-02-05 21:14:55.727 +09:00] Timezone offset: +09:00
+[2021-02-05 21:14:55.741 +09:00] Waiting for players...
+[2021-02-05 21:15:09.399 +09:00] Requested challenge for incoming connection from endpoint 211.189.206.153:57881.
+[2021-02-05 21:15:09.461 +09:00] Requested challenge for incoming connection from endpoint 175.116.70.90:60078.
+[2021-02-05 21:15:09.757 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:60184.
+[2021-02-05 21:15:09.928 +09:00] Security challenge response of incoming connection from endpoint 211.189.206.153:57883 has been accepted.
+[2021-02-05 21:15:09.959 +09:00] Player 76561199032243617@steam preauthenticated from endpoint 211.189.206.153:57883.
+[2021-02-05 21:15:09.990 +09:00] Security challenge response of incoming connection from endpoint 175.116.70.90:60079 has been accepted.
+[2021-02-05 21:15:10.005 +09:00] Player 76561198956540241@steam preauthenticated from endpoint 175.116.70.90:60079.
+[2021-02-05 21:15:10.258 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:60185 has been accepted.
+[2021-02-05 21:15:10.289 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:60185.
+[2021-02-05 21:15:13.507 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 21:15:13.513 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:15:13.519 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:15:13.524 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 21:15:13.550 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:15:14.032 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 21:15:14.037 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:15:14.044 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:15:14.049 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 21:15:14.068 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:15:14.313 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 21:15:14.317 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:15:14.322 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-05 21:15:14.331 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:15:14.361 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <6d3bfed2bf6540d48416dcdcb1d09a46>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:15:18.283 +09:00] Accepted authentication token of user 76561198956540241@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 21:15:18.311 +09:00] 76561198956540241@steam authenticated from endpoint 175.116.70.90:60079. Player ID assigned: 2. Auth token serial number: rD9MgempGg4idO2E
+[2021-02-05 21:15:18.343 +09:00] Nickname of 76561198956540241@steam is now 눈사람.
+[2021-02-05 21:15:18.374 +09:00] Player 눈사람 (76561198956540241@steam) (2) connected with the IP: 175.116.70.90
+[2021-02-05 21:15:19.262 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 21:15:19.293 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:60185. Player ID assigned: 3. Auth token serial number: tQD3rYEqiCrGXcbQ
+[2021-02-05 21:15:19.325 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-05 21:15:19.355 +09:00] Player Goldmilk777 (76561198254130933@steam) (3) connected with the IP: 192.168.0.1
+[2021-02-05 21:15:19.791 +09:00] Accepted authentication token of user 76561199032243617@steam signed by Gravelines 2. No active global bans.
+[2021-02-05 21:15:19.822 +09:00] 76561199032243617@steam authenticated from endpoint 211.189.206.153:57883. Player ID assigned: 4. Auth token serial number: 9FohMX0LmNNSPNF2
+[2021-02-05 21:15:19.854 +09:00] Nickname of 76561199032243617@steam is now 목디스크 치료자 땅콩이.
+[2021-02-05 21:15:19.884 +09:00] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) (4) connected with the IP: 211.189.206.153
+[2021-02-05 21:15:23.781 +09:00] Authentication token of player 76561198956540241@steam has been confirmed by central server.
+[2021-02-05 21:15:23.812 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-05 21:15:23.842 +09:00] Authentication token of player 76561199032243617@steam has been confirmed by central server.
+[2021-02-05 21:15:42.026 +09:00] New round has been started.
+[2021-02-05 21:15:43.066 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-05 21:15:44.031 +09:00] [STDOUT] MissingMethodException: Pickup Inventory.SetPickup(ItemType,single,UnityEngine.Vector3,UnityEngine.Quaternion,int,int,int)
+[2021-02-05 21:15:44.039 +09:00] [STDOUT]   at scp035.EventHandlers+<RotatePickup>d__38.MoveNext () [0x00027] in <116e70ea1d714546bd080baf372e410b>:0
+[2021-02-05 21:15:44.045 +09:00] [STDOUT]   at MEC.Timing.RunCoroutineInternal (System.Collections.Generic.IEnumerator`1[T] coroutine, MEC.Segment segment, System.Int32 layer, System.Boolean layerHasValue, System.String tag, MEC.CoroutineHandle handle, System.Boolean prewarm) [0x001ce] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-05 21:15:44.052 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-05 21:15:44.057 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-05 21:15:44.062 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-05 21:15:44.068 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-05 21:15:44.074 +09:00] [STDOUT] MEC.Timing:RunCoroutineInternal(IEnumerator`1, Segment, Int32, Boolean, String, CoroutineHandle, Boolean)
+[2021-02-05 21:15:44.079 +09:00] [STDOUT] MEC.Timing:RunCoroutine(IEnumerator`1)
+[2021-02-05 21:15:44.087 +09:00] [STDOUT] scp035.EventHandlers:<OnRoundStart>b__13_0()
+[2021-02-05 21:15:44.094 +09:00] [STDOUT] MEC.<_DelayedCall>d__310:MoveNext()
+[2021-02-05 21:15:44.101 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-05 21:15:44.108 +09:00] [STDOUT] (Filename: <116e70ea1d714546bd080baf372e410b> Line: 0)
+[2021-02-05 21:15:44.310 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:44.341 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:44.372 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:44.404 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:46.126 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:46.158 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:46.188 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:46.220 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:46.312 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:46.343 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:46.375 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:46.406 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:46.469 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:46.500 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:46.532 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:46.563 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:48.458 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:48.490 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:48.521 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:48.554 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:48.634 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:48.666 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:48.698 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:48.731 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:50.040 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:50.072 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:50.103 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:50.134 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:50.211 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:50.242 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:50.272 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:50.303 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:50.348 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:50.380 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:50.411 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:50.443 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:51.491 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:51.523 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:51.554 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:51.586 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:51.697 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:51.730 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:51.760 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:51.791 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:53.459 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:53.490 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:53.521 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:53.550 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:53.614 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:53.646 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:53.678 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:53.708 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:54.925 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:54.956 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:54.987 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:55.019 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:55.128 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:55.159 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:55.191 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:55.222 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:55.363 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:55.395 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:55.427 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:55.456 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:56.516 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:56.548 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:56.579 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:56.609 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:56.716 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:56.747 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:56.778 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:56.808 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:57.450 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:57.481 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:57.513 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:57.542 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:57.654 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:57.685 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:57.716 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:57.747 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:57.808 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:15:57.840 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:57.871 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:57.902 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:15:58.432 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:58.463 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:15:58.494 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:15:58.525 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:15:59.962 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:15:59.991 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:00.023 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:00.055 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:00.133 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:00.164 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:00.196 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:00.226 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:00.817 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:00.847 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:00.878 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:00.911 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:03.210 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:03.241 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:03.272 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:03.304 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:03.397 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:03.427 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:03.458 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:03.489 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:05.231 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:05.262 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:05.293 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:05.324 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:05.727 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:05.757 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:05.788 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:05.819 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:05.958 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:05.988 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:06.019 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:06.050 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:06.891 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:06.923 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:06.954 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:06.983 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:07.094 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:07.127 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:07.158 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:07.187 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:08.792 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:08.823 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:08.854 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:08.885 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:08.947 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:08.977 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:09.008 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:09.040 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:10.568 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:10.598 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:10.629 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:10.660 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:10.754 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:10.785 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:10.817 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:10.849 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:12.485 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:12.516 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:12.548 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:12.579 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:12.611 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:12.642 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:12.672 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:12.704 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:12.768 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:12.799 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:12.831 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:12.861 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:15.034 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:16:15.065 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:16:15.096 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:16:15.128 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:16:15.158 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:16:15.190 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:16:15.594 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:16:15.625 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:16:15.657 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:16:15.689 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:16:15.720 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:16:15.751 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:16:16.819 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:16.850 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:16.880 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:16.912 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:17.129 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:16:17.160 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:16:17.190 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:16:17.223 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:16:17.254 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:16:17.284 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:16:19.865 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:19.896 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:19.927 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:19.958 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:20.053 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:20.084 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:20.116 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:20.146 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:20.238 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:20.269 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:20.300 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:20.331 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:24.090 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:24.119 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:24.151 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:24.183 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:24.277 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:24.310 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:24.340 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:24.372 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:27.656 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:27.687 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:27.719 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:27.750 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:27.842 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:27.873 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:27.904 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:27.937 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:27.998 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:28.030 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:28.062 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:28.094 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:28.174 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:28.206 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:28.237 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:28.268 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:28.951 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:28.982 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:29.014 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:29.046 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:29.140 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:29.172 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:29.203 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:29.235 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:30.776 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:30.808 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:30.838 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:30.868 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:30.931 +09:00] [DEBUG] [RemoteKeycard] Player 눈사람 (76561198956540241@steam) is trying to access the door
+[2021-02-05 21:16:30.964 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:30.994 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:31.026 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:37.527 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:37.557 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:37.587 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:37.618 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:37.680 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:37.710 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:37.741 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:37.773 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:41.153 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:41.184 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:41.216 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:41.246 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:41.323 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:41.353 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:41.385 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:41.418 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:43.526 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:43.556 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:43.588 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:43.618 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:43.680 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:43.712 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:43.744 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:43.774 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:49.262 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:49.294 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:49.324 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:49.355 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:16:49.465 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:49.495 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:49.527 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:49.558 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-05 21:16:52.456 +09:00] Player 눈사람 (76561198956540241@steam) (2) disconnected
+[2021-02-05 21:16:52.487 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:16:52.518 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:16:57.799 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:16:57.831 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:16:57.863 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:16:57.895 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:17:03.602 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:17:03.632 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:17:03.664 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:17:03.694 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:17:07.762 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the door
+[2021-02-05 21:17:07.794 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-05 21:17:07.825 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-05 21:17:07.856 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-05 21:17:09.836 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:17:09.867 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:17:09.898 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:17:09.927 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:17:09.957 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:17:09.989 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:17:10.205 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:17:10.236 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:17:10.266 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:17:10.297 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:17:10.329 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:17:10.360 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:17:11.180 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:17:11.212 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:17:11.243 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:17:11.274 +09:00] [DEBUG] [RemoteKeycard] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) is trying to access the locker
+[2021-02-05 21:17:11.303 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-05 21:17:11.334 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-05 21:17:28.722 +09:00] Round finished! Anomalies: 0 | Chaos: 1 | Facility Forces: 0 | D escaped percentage: 1 | S escaped percentage: : 1
+[2021-02-05 21:17:40.241 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-05 21:17:40.273 +09:00] Idle mode is now temporarily blocked.
+[2021-02-05 21:17:40.736 +09:00] Player Goldmilk777 (76561198254130933@steam) (3) disconnected
+[2021-02-05 21:17:40.766 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-05 21:17:40.798 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:17:40.828 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:17:40.859 +09:00] Player 목디스크 치료자 땅콩이 (76561199032243617@steam) (4) disconnected
+[2021-02-05 21:17:40.893 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-05 21:17:40.922 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.30.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-05 21:17:40.954 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <921b9b1fc3d34d9da07d036374c6f912>:0
+[2021-02-05 21:17:42.779 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-05 21:17:42.786 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.792 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-05 21:17:42.797 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.804 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-05 21:17:42.810 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.817 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.823 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.828 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.834 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.841 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.846 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.851 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.858 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.863 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.868 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.875 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.880 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.886 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.892 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.897 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.902 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.909 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.914 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.920 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.926 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.932 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-05 21:17:42.936 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.943 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:42.948 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.954 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:42.960 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.965 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:42.971 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.977 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:42.982 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.987 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:42.993 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:42.998 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:43.003 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:43.009 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:43.015 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:43.019 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-05 21:17:43.025 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:43.030 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-05 21:17:43.034 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-05 21:17:43.040 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.045 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.050 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.055 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.063 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.068 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.075 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.079 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.085 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.091 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.096 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.101 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.108 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.113 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.118 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.124 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.130 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.136 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.143 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.150 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.155 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.162 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.166 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.172 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.178 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.183 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.188 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.195 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.200 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.205 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.212 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-05 21:17:43.218 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.225 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.233 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.239 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.246 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.250 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.256 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.262 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.269 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.274 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.281 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.285 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.290 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.297 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.302 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.307 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.313 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.318 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.322 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.328 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-05 21:17:43.333 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.338 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-05 21:17:43.343 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.349 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.353 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-05 21:17:43.359 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.366 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-05 21:17:43.371 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.376 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.382 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:17:43.387 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.392 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.397 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.402 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.408 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-05 21:17:43.413 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.418 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-05 21:17:43.424 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.429 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.434 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-05 21:17:43.439 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.445 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-05 21:17:43.452 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.457 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.463 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:17:43.469 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.476 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.481 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.487 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.492 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:17:43.498 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.503 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.508 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.514 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.519 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:17:43.525 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.530 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.535 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.540 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.546 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-05 21:17:43.551 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.556 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:17:43.562 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.567 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.571 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.576 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.581 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:17:43.586 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.591 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.595 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.600 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.605 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-05 21:17:43.610 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.615 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.621 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.626 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.632 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-05 21:17:43.637 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-05 21:17:43.642 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-05 21:17:43.647 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-05 21:17:43.653 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-05 21:17:43.658 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 21:17:43.663 +09:00] [STDOUT] UnloadTime: 92.625800 ms
+[2021-02-05 21:17:43.668 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 21:17:43.674 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 21:17:43.679 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 21:17:43.684 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 21:17:43.689 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-05 21:17:43.694 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-05 21:17:43.699 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-05 21:17:43.704 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-05 21:17:43.709 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-05 21:17:43.749 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-05 21:17:43.754 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-05 21:17:43.759 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-05 21:17:43.764 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-05 21:17:43.769 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-05 21:17:43.774 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-05 21:17:43.779 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-05 21:17:43.784 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-05 21:17:43.790 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-05 21:17:43.795 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-05 21:17:43.800 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-05 21:17:43.805 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-05 21:17:43.810 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-05 21:17:43.815 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-05 21:17:43.820 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-05 21:17:43.825 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-05 21:17:43.830 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-05 21:17:43.835 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::7565
+[2021-02-05 21:17:43.843 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-05 21:17:43.858 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-05 21:17:43.863 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-05 21:17:43.916 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 1705561258
+[2021-02-05 21:17:43.929 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 4375
+[2021-02-05 21:17:44.328 +09:00] [STDOUT] Unloading 281 unused Assets to reduce memory usage. Loaded Objects now: 117573.
+[2021-02-05 21:17:44.333 +09:00] [STDOUT] Total: 266.668400 ms (FindLiveObjects: 5.055400 ms CreateObjectMapping: 3.004100 ms MarkObjects: 258.195100 ms  DeleteObjects: 0.413400 ms)
+[2021-02-05 21:17:44.338 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-05 21:17:44.623 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-05 21:17:45.141 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 107187.
+[2021-02-05 21:17:45.147 +09:00] [STDOUT] Total: 215.039900 ms (FindLiveObjects: 4.802300 ms CreateObjectMapping: 2.564900 ms MarkObjects: 207.433400 ms  DeleteObjects: 0.238800 ms)
+[2021-02-05 21:17:45.206 +09:00] Incoming connections will be no longer delayed.
+[2021-02-05 21:17:45.235 +09:00] Idle mode is now available.
+[2021-02-05 21:17:45.265 +09:00] --- END OF LOG ---

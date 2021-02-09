@@ -1,0 +1,1064 @@
+[2021-02-06 10:38:45.859 +09:00] Logging started.
+[2021-02-06 10:38:45.866 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:45.873 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:45.881 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.896 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.901 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.907 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.914 +09:00] Waiting for players...
+[2021-02-06 10:38:45.920 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:45.927 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:45.933 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:45.939 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.945 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.950 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.958 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.964 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:45.970 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:45.978 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:45.985 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:45.992 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:45.999 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.005 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.011 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.018 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.024 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.030 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.038 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.044 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.051 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.058 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.067 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.075 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.084 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.091 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.097 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.103 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.110 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.116 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.123 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.129 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.136 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.143 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.149 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.155 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.161 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.168 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.175 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.181 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.187 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.193 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.200 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.207 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:46.213 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:46.220 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:46.227 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:46.234 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.240 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.248 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.257 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.267 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:46.274 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:46.282 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:46.289 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.297 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.304 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.311 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.320 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.327 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:46.335 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.342 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.349 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.356 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.363 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.369 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.377 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.383 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.389 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.395 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.402 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.409 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.416 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.423 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.430 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.436 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.443 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.449 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.455 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.462 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.469 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.475 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.482 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.489 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.496 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.503 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.509 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.516 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.522 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.529 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.536 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.542 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.549 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.556 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.563 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.571 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.578 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.585 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.593 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.601 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.610 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.618 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.625 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.632 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.639 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.647 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.653 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:46.660 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.666 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.673 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.679 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.685 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.694 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:46.700 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.707 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.713 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.720 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.726 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.732 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.738 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.744 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.752 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.758 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:46.765 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.772 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.778 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.784 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.790 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.796 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:46.802 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:46.809 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:46.815 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:46.822 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.829 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.836 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.843 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.850 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:46.857 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:46.863 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:46.871 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.879 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.888 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.898 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.905 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:46.912 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:46.920 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.926 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.934 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:46.940 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.946 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.953 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.960 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.967 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.973 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:46.979 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.985 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:46.992 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:46.998 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.005 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.011 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.018 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.025 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.031 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.038 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.044 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.051 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:47.057 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:47.064 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:47.070 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:47.077 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.084 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.090 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.097 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.105 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:47.111 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:47.118 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:47.124 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.132 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.139 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.146 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.153 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.161 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:47.168 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.174 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.181 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.189 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.196 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.202 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.208 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.215 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.221 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.228 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.234 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.241 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.248 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.254 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.261 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.267 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.274 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.283 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.291 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.301 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.307 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.313 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.320 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.326 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.333 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.340 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.347 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.354 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.361 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.367 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.374 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.380 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.386 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.393 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.399 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.406 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.412 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.419 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.427 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.433 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.439 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.446 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.452 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:47.458 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:47.464 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:47.471 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:47.478 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.485 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.491 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.498 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.505 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:47.512 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:47.519 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:47.534 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.541 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.548 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.556 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.563 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:47.569 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:47.577 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.583 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.591 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.597 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.603 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.610 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.616 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.623 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.629 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.636 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.642 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.649 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.655 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.661 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.667 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.674 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.680 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.686 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.694 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.701 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.708 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.714 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.720 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.726 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.733 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.739 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.746 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.752 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.758 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.765 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.771 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.777 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.783 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.791 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.798 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.805 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.815 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:47.822 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.829 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.836 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.842 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.849 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.856 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.862 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.869 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.875 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.881 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:47.887 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.894 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.901 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.908 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:47.915 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.921 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.928 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.934 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:47.941 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.947 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.954 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.960 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.967 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.973 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:47.979 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.986 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:47.992 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:47.999 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.005 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.012 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:48.018 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:48.024 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:48.031 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:48.037 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.046 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.052 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.059 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.067 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:48.074 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:48.081 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:48.087 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.094 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.102 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.109 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.116 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.124 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:48.131 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.138 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.145 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.153 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.164 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.171 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.179 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.186 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.194 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.200 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.207 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.215 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.222 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.230 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.236 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.244 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.251 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.258 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.265 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.273 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.280 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.288 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.297 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:48.304 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.310 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:48.320 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.327 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:48.336 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.343 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.351 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.357 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.367 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.374 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:48.382 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:48.389 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:48.396 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:48.404 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.412 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.419 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.427 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.434 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:48.443 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:48.450 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:48.458 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.466 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.472 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.480 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.487 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.495 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:48.503 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.510 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.517 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.524 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.531 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.538 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.545 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.552 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.560 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.568 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.577 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.584 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.592 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.598 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.605 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.611 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.616 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.621 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.628 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.636 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.641 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.646 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.651 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.655 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.661 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:48.666 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.670 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:48.675 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.680 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:48.685 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.690 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.695 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.701 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.706 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.710 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.715 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.720 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.725 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.730 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.735 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.741 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.746 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.751 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.756 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.761 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:48.766 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:48.771 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:48.776 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:48.781 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.786 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.791 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.796 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.802 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:48.807 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:48.813 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:48.818 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.823 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.828 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.834 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.839 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:48.844 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:48.850 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.855 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.860 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.864 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.869 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.874 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.879 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.884 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.889 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.893 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.898 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.903 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.908 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:48.913 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.917 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.922 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.927 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.931 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.936 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:48.941 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.945 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.950 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.954 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.958 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.963 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:48.967 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.972 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.976 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.981 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:48.986 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:48.991 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:48.995 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.001 +09:00] 
+[2021-02-06 10:38:49.006 +09:00] >>> restart
+[2021-02-06 10:38:49.011 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.016 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.022 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.026 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.031 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.036 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.040 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.045 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.051 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.056 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.060 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.065 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.070 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.074 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.079 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.084 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.089 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.094 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.099 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.104 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.109 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.114 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.119 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.124 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.129 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.134 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.139 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.144 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.151 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.159 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.168 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.177 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.185 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.193 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.200 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.205 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.210 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.215 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.220 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.225 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.231 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.236 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.241 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.246 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.251 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.255 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.260 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.265 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.270 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.274 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.279 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.284 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.289 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.294 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.299 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.304 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.309 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.314 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.319 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.323 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.328 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.333 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.338 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.343 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.348 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.353 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.358 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.363 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.367 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.372 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.378 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.383 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.387 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.392 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.397 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.402 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.407 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.412 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.417 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.422 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.427 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.431 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.436 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.441 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.446 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.451 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.456 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.460 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.465 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.469 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.474 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.479 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.483 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.488 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.492 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.497 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.502 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.507 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.512 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.517 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.522 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.527 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.531 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.535 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.540 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.545 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.549 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.554 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.558 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.563 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.568 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.573 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.578 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.583 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.588 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.593 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.598 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.603 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.609 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.614 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.619 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.624 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.629 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.634 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.640 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.645 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.650 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.654 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.659 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.665 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.671 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.677 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.682 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.688 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.693 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.699 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.705 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.711 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.717 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.723 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.729 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.734 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.739 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.745 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.750 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.756 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.761 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.767 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.772 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.778 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.784 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.790 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.795 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.800 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.805 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.810 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.815 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.821 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.827 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.831 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.837 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.841 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.847 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.851 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.857 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:49.862 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.867 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.872 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.877 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.881 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.886 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.891 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.896 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.902 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.908 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:49.918 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.923 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.928 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.932 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.937 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.942 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:49.947 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.952 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:49.959 +09:00] GOODBYE!
+[2021-02-06 10:38:49.963 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.968 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.973 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.978 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:49.982 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.987 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:49.992 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:49.997 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.001 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.006 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.011 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.016 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.021 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.025 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.030 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.035 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.040 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.045 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.049 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.054 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:50.059 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:50.063 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:50.068 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:50.073 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.078 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.083 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.088 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.094 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:50.099 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:50.104 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:50.109 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.114 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.119 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.124 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.130 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.135 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:50.141 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.146 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.151 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.156 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.161 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.165 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.170 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.175 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.181 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.185 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.190 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.195 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.199 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.204 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.209 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.214 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.219 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.224 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.229 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.233 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.238 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.243 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.247 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.252 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.257 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.261 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.266 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.271 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.276 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.280 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.286 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.290 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.295 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.300 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.304 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.309 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.314 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.318 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.323 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.328 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.333 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.338 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.344 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.351 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.361 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.366 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.371 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.376 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.381 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.386 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.391 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.397 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.402 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.407 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.414 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.419 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.424 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.430 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.436 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.442 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.447 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.455 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.461 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.467 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.473 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.480 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.488 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.495 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.503 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.513 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.522 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.530 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.536 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:50.541 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:50.546 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:50.552 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:50.558 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.564 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.570 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.576 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.582 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:50.588 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:50.594 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:50.600 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.605 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.610 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.616 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.622 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:50.627 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:50.633 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.638 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.644 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.649 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.654 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.659 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.665 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.670 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.676 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.681 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.686 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.691 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.697 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.701 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.706 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.711 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.716 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.720 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.725 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.731 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.736 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.741 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.747 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:50.751 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.757 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.763 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.768 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.774 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.779 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.784 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.790 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.795 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.800 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.805 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.810 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.816 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.821 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.825 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.830 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.835 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.840 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.845 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.850 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.855 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.860 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.865 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.870 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.875 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.880 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:50.885 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.890 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.895 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.900 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.906 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.911 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:50.916 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.923 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.931 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.939 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.945 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.950 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:50.956 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.961 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.966 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.971 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:50.976 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.982 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:50.988 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:50.994 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:51.002 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.009 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:51.014 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.019 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.025 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.030 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.036 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.042 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.047 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.054 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.059 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.064 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.068 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.073 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.078 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.083 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.088 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.092 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:51.098 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:51.103 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:51.108 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:51.114 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.119 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.124 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.130 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.136 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:51.140 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:51.145 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:51.151 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.156 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.161 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.166 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.172 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.178 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:51.183 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.188 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.193 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.198 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.204 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:51.213 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.218 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:51.223 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.228 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:51.233 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.237 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.243 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.247 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.252 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.257 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.261 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.266 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.271 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.276 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:51.280 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.285 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:51.291 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.296 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:51.300 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.305 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:51.310 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.314 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.319 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.324 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.329 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.333 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:51.339 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:51.343 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:51.348 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:51.354 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.359 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.364 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.369 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.375 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:51.380 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:51.385 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:51.390 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.395 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.401 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.407 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.412 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.418 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:51.424 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.430 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.435 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.440 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.446 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.451 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.456 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.461 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.467 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.473 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.480 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.486 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.492 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:51.497 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.503 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:51.508 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.514 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=572]
+[2021-02-06 10:38:51.520 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.525 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:51.530 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.536 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:51.543 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.550 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=575]
+[2021-02-06 10:38:51.556 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.561 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:51.567 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.573 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:51.578 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.583 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=577]
+[2021-02-06 10:38:51.588 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.593 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.597 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.601 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.605 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.610 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=576]
+[2021-02-06 10:38:51.614 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.618 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.622 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.626 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.631 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.635 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=574]
+[2021-02-06 10:38:51.640 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.644 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.649 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.653 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.657 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.661 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.666 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.671 +09:00] [STDOUT] Spawned object not found when handling Command message [netId=573]
+[2021-02-06 10:38:51.676 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-06 10:38:51.681 +09:00] [STDOUT] NullReferenceException
+[2021-02-06 10:38:51.685 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-06 10:38:51.690 +09:00] [STDOUT]   at PlayerMovementSync.ReceiveRotation (Mirror.NetworkConnection connection, PlayerMovementSync+RotationMessage rotation) [0x00006] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:51.695 +09:00] [STDOUT]   at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,PlayerMovementSync+RotationMessage].invoke_void_T1_T2(Mirror.NetworkConnection,PlayerMovementSync/RotationMessage)
+[2021-02-06 10:38:51.700 +09:00] [STDOUT]   at Mirror.MessagePacker+<>c__DisplayClass7_0`1[T].<MessageHandler>b__0 (Mirror.NetworkMessage networkMessage) [0x000ba] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.705 +09:00] [STDOUT]   at Mirror.NetworkConnection.InvokeHandler (System.Int32 msgType, Mirror.NetworkReader reader, System.Int32 channelId) [0x00032] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.710 +09:00] [STDOUT]   at Mirror.NetworkConnection.TransportReceive (System.ArraySegment`1[T] buffer, System.Int32 channelId) [0x00075] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.715 +09:00] [STDOUT]   at Mirror.NetworkServer.OnDataReceived (System.Int32 connectionId, System.ArraySegment`1[T] data, System.Int32 channelId) [0x0000f] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.720 +09:00] [STDOUT]   at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`3[System.Int32,System.ArraySegment`1[System.Byte],System.Int32].invoke_void_T0_T1_T2(int,System.ArraySegment`1<byte>,int)
+[2021-02-06 10:38:51.725 +09:00] [STDOUT]   at UnityEngine.Events.InvokableCall`3[T1,T2,T3].Invoke (T1 args0, T2 args1, T3 args2) [0x00010] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:51.731 +09:00] [STDOUT]   at UnityEngine.Events.UnityEvent`3[T0,T1,T2].Invoke (T0 arg0, T1 arg1, T2 arg2) [0x00025] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-06 10:38:51.736 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorServer.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliverymethod) [0x00018] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.742 +09:00] [STDOUT]   at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnNetworkReceive (LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod) [0x00008] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.748 +09:00] [STDOUT]   at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x000a0] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.752 +09:00] [STDOUT]   at LiteNetLib.NetManager.PollEvents () [0x00044] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.757 +09:00] [STDOUT]   at Mirror.LiteNetLib4Mirror.LiteNetLib4MirrorTransport.LateUpdate () [0x0000c] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-06 10:38:51.762 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-06 10:38:51.766 +09:00] [STDOUT] OnApplicationQuit: stopped client
+[2021-02-06 10:38:51.771 +09:00] [STDOUT] The referenced script (ChangeKeyBinding) on this Behaviour is missing!
+[2021-02-06 10:38:51.776 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-06 10:38:51.780 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'KeyBinding') is missing!
+[2021-02-06 10:38:51.785 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-06 10:38:51.789 +09:00] [STDOUT] A scripted object (probably ChangeKeyBinding?) has a different serialization layout when loading. (Read 32 bytes but expected 56 bytes)
+[2021-02-06 10:38:51.793 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-06 10:38:51.797 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-06 10:38:51.802 +09:00] [STDOUT] Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-06 10:38:51.838 +09:00] [STDOUT] OnApplicationQuit: stopped server
+[2021-02-06 10:38:51.849 +09:00] [STDOUT] ThreadAbortException
+[2021-02-06 10:38:51.859 +09:00] [STDOUT]   at (wrapper managed-to-native) System.Net.Sockets.Socket.Receive_internal(intptr,byte*,int,System.Net.Sockets.SocketFlags,int&,bool)
+[2021-02-06 10:38:51.866 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive_internal (System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32& error, System.Boolean blocking) [0x0000c] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-06 10:38:51.874 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError& errorCode) [0x0002e] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-06 10:38:51.880 +09:00] [STDOUT]   at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-06 10:38:51.886 +09:00] [STDOUT]   at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x000c1] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0
+[2021-02-06 10:38:51.891 +09:00] [STDOUT]   at ServerOutput.TcpConsole.Receive () [0x0000d] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-06 10:38:51.896 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-06 10:38:51.901 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-06 10:38:51.907 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-06 10:38:51.912 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-06 10:38:51.917 +09:00] [STDOUT] ServerOutput.TcpConsole:Receive()
+[2021-02-06 10:38:51.922 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart_Context(Object)
+[2021-02-06 10:38:51.927 +09:00] [STDOUT] System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-06 10:38:51.932 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+[2021-02-06 10:38:51.936 +09:00] [STDOUT] System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+[2021-02-06 10:38:51.941 +09:00] [STDOUT] System.Threading.ThreadHelper:ThreadStart()
+[2021-02-06 10:38:51.946 +09:00] [STDOUT] (Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+[2021-02-06 10:38:51.951 +09:00] [STDOUT] UnloadTime: 57.468600 ms
+[2021-02-06 10:38:51.955 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-06 10:38:51.960 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-06 10:38:51.965 +09:00] [STDOUT] Setting 06AudioSettings_MenuMusic to 1
+[2021-02-06 10:38:51.970 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-06 10:38:51.990 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-06 10:38:51.994 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-06 10:38:51.999 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-06 10:38:52.003 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-06 10:38:52.008 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-06 10:38:52.013 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-06 10:38:52.018 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-06 10:38:52.023 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-06 10:38:52.028 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-06 10:38:52.033 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-06 10:38:52.038 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-06 10:38:52.043 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-06 10:38:52.049 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-06 10:38:52.054 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-06 10:38:52.059 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-06 10:38:52.065 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-06 10:38:52.071 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-06 10:38:52.076 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::5948
+[2021-02-06 10:38:52.083 +09:00] [STDOUT] Unloading 4833 unused Assets to reduce memory usage. Loaded Objects now: 30929.
+[2021-02-06 10:38:52.088 +09:00] [STDOUT] Total: 68.242000 ms (FindLiveObjects: 1.392500 ms CreateObjectMapping: 2.200100 ms MarkObjects: 51.923700 ms  DeleteObjects: 12.725200 ms)
+[2021-02-06 10:38:52.100 +09:00] [STDOUT] Setting up 6 worker threads for Enlighten.
+[2021-02-06 10:38:52.106 +09:00] [STDOUT]   Thread -> id: 3b18 -> priority: 1
+[2021-02-06 10:38:52.116 +09:00] [STDOUT]   Thread -> id: 209c -> priority: 1
+[2021-02-06 10:38:52.122 +09:00] [STDOUT]   Thread -> id: 508 -> priority: 1
+[2021-02-06 10:38:52.129 +09:00] [STDOUT]   Thread -> id: 7f0 -> priority: 1
+[2021-02-06 10:38:52.137 +09:00] [STDOUT]   Thread -> id: 1a48 -> priority: 1
+[2021-02-06 10:38:52.143 +09:00] [STDOUT]   Thread -> id: 2e80 -> priority: 1
+[2021-02-06 10:38:52.305 +09:00] Game process exited and has been killed, no need to kill it.
+[2021-02-06 10:38:52.311 +09:00] --- END OF LOG ---

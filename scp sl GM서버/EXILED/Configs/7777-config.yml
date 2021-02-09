@@ -1,0 +1,820 @@
+exiled_loader:
+# Indicates whether the plugin is enabled or not
+  is_enabled: true
+  # Indicates whether outdated plugins should be loaded or not
+  should_load_outdated_plugins: true
+  # The working environment type (Development, Testing, Production, Ptb)
+  environment: Production
+exiled_events:
+# Indicates whether the plugin is enabled or not
+  is_enabled: true
+  # Indicates whether SCP-173 can be blocked or not by the tutorial
+  can_tutorial_block_scp173: true
+  # Indicates whether SCP-096 can be triggered or not by the tutorial
+  can_tutorial_trigger_scp096: true
+  # Indicates whether the name tracking is enabled or not
+  is_name_tracking_enabled: true
+  # Indicates whether the inventory should be dropped before being set as spectator, through commands or plugins
+  should_drop_inventory: true
+  # Indicates whether the blood can be spawned or not
+  can_spawn_blood: true
+  should_reload_configs_at_round_restart: false
+  # Indicates whether bans should be logged or not
+  should_log_bans: true
+  # The maximum shield amount for Scp096
+  scp096_max_shield_amount: 375
+remote_keycard:
+  is_enabled: true
+  handle_lockers_access: true
+  handle_generators_access: true
+  handle_outside_panel_access: true
+  cards: []
+CD:
+  is_enabled: true
+  chopper_items:
+    MicroHID: 1
+    KeycardFacilityManager: 1
+    Medkit: 3
+    Adrenaline: 3
+  chopper_time: 550
+  chopper_text: <color=lime>지상에 보급이 왔습니다!</color>
+wait_and_chill_reborn:
+  is_enabled: true
+  # Should debug messages be shown in a server console?
+  show_debug_messages: false
+  # Determines if any kind of message at all will be displayed
+  display_wait_message: true
+  # List of lobbys (rooms) where players can spawn: (TOWER(1-3), SHELTER, 173)
+  lobby_room:
+  - TOWER1
+  - TOWER2
+  - TOWER3
+  - SHELTER
+  - 173
+  # List of roles that players can spawn:
+  roles_to_choose:
+  - Scp049
+  - Scp0492
+  - Scp096
+  - Scp106
+  - Scp173
+  - Scp93953
+  - Scp93989
+  # Allow dealing damage to other players, while in lobby:
+  alow_damage: false
+  # Disallow players triggering SCP-096 and stopping from moving SCP-173, while in lobby:
+  turned_players: true
+  # Give players an effect of SCP-207, while in lobby: (set 0 to disable)
+  cola_multiplier: 4
+  # Use hints instead of broadcasts for text stuff:
+  use_hints: true
+  # Determines the position of the Hint on the users screen (32 = Top, 0 = Middle, -15 = Below)
+  hint_vert_pos: 25
+  # Text traslations:
+  top_message: <size=40><color=yellow><b>The game will be starting soon, %seconds</b></color></size>
+  bottom_message: <size=30><i>%players</i></size>
+  server_is_paused: Server is paused
+  round_is_being_started: Round is being started
+  one_second_remain: second remain
+  x_seconds_remains: seconds remains
+  one_player_connected: player has connected
+  x_players_connected: players have connected
+rainbow_tags:
+  is_enabled: true
+  use_custom_sequence: false
+  tag_interval: 0.5
+  active_groups:
+  - owner
+  - admin
+  - highadmin
+  - moderator
+  custom_sequence:
+  - red
+  - orange
+  - yellow
+  - green
+  - blue_green
+  - magenta
+scp1162:
+# Is the plugin enabled?
+  is_enabled: true
+  # Use Hints instead of Broadcast?
+  use_hints: true
+  # Can SCP-1162 spawn corpses?
+  can_spawn_corpses: true
+  # Change the message that displays when you drop an item through SCP-1162.
+  item_drop_message: <i>You try to drop the item through <color=yellow>SCP-1162</color> to get another...</i>
+  item_drop_message_duration: 5
+  # The list of items.
+  chances:
+  - KeycardO5
+  - SCP500
+  - MicroHID
+  - KeycardNTFCommander
+  - KeycardContainmentEngineer
+  - SCP268
+  - GunCOM15
+  - GrenadeFrag
+  - SCP207
+  - Adrenaline
+  - GunUSP
+  - KeycardFacilityManager
+  - Medkit
+  - KeycardNTFLieutenant
+  - KeycardSeniorGuard
+  - Disarmer
+  - KeycardZoneManager
+  - KeycardScientistMajor
+  - KeycardGuard
+  - Radio
+  - Ammo556
+  - Ammo762
+  - Ammo9mm
+  - GrenadeFlash
+  - WeaponManagerTablet
+  - KeycardScientist
+  - KeycardJanitor
+  - Coin
+  - Flashlight
+broadcast_plugin:
+  is_enabled: true
+ST106:
+# # # Configurations and translations related to Stalky-106 will be here. # # #
+  is_enabled: true
+  preferences:
+    announce_ready: true
+    cooldown: 40
+    initial_cooldown: 80
+    # Should SCP-106 automatically teleport when stalking, or should he teleport manually?
+    auto_tp: true
+    # Delay for the auto-teleportation. Ignored if auto_tp is false.
+    auto_delay: 0.200000003
+    # Forces SCP-106 to be teleported. If he's jumping, it will "wait" until he's on the ground to teleport him. Frame-perfect trick allows SCP-106 to move while teleporting, set this to false if players abuse it.
+    force_auto_tp: false
+    # ignore_teams and ignore_roles will ignore said teams and roles when searching for a player to stalk
+    ignore_teams:
+    - SCP
+    - CHI
+    - TUT
+    ignore_roles:
+    - Scp106
+    - Scp079
+    # Changes behaviour of stalk by only allowing to stalk players in the same zone as Larry
+    same_zone_only: false
+    # The minimum amount of targetable players to be able to stalk.
+    minimum_alive_targets: 0
+    # The minimum amount of alive players (any role) to be able to stalk.
+    minimum_alive_players: 0
+    # The minimum amount of players connected in the server for Stalky to work.
+    minimum_players: 0
+  translations:
+  # The names to be displayed when stalking (example, if ClassD is D-BOI, it will say D-BOI instead.
+    role_display_names:
+      Scp173: <color=#F00>SCP-173</color>
+      ClassD: <color=#FF8E00>Class D</color>
+      Spectator: Spectator
+      Scp106: <color=#F00>SCP-106</color>
+      NtfScientist: <color=#0096FF>NTF Scientist</color>
+      Scp049: <color=#F00>SCP-049</color>
+      Scp096: <color=#f00>SCP-096</color>
+      Scp0492: <color=#f00>Zombie</color>
+      NtfLieutenant: <color=#0096FF>NTF Lieutenant</color>
+      NtfCommander: <color=#0096FF>NTF Commander</color>
+      NtfCadet: <color=#0096FF>NTF Cadet</color>
+      Tutorial: Tutorial
+      FacilityGuard: <color=#59636f>Facility Guard</color>
+      Scp93953: <color=#f00>SCP-939-53</color>
+      Scp93989: <color=#f00>SCP-939-89</color>
+    welcome_broadcast: <size=80><color=#0020ed><b>Stalk</b></color></size>\nIn this server, you can <color=#0020ed><b>stalk</b></color> humans by double-clicking the portal creation button in the <b>[TAB]</b> menu.
+    stalk_ready: '\n<b><color=#0020ed><b>Stalk</b></color> is <color=#00e861>ready</color></b>.\n<size=30>Double-click your portal creating tool to use it.</size>'
+    double_click: '\nClick the portal creation tool again to <color=#ff0955><b>Stalk</b></color> a random player.'
+    stalk_message: '\n<i>You will <color=#0020ed><b>stalk</b></color> <b>$player</b>, who is a $class</i>\n<size=30><color=#FFFFFF66>Cooldown: $cd</color></size>'
+    no_targets_left: '\nNo targets found.'
+    console_info: Stalky106 enables additional functionality to SCP-106 by giving him the ability to place a portal to a random player, bringing him closer to the lore
+    cooldown_message: '\nYou have to wait $time seconds to use <color=#0020ed><b>Stalk</b></color>.'
+    min_players: "\\nYou can't stalk when there's less than $count players in this server."
+    min_alive: "\\nYou can't stalk when there's less than $count players alive."
+    min_targets_alive: "\\nYou can't stalk when there's less than $count targets alive."
+    error: '\nAn error ocurred. Please, try it again.'
+CommonUtilities:
+# Wether or not debug messages should be shown.
+  debug: false
+  # Wether or not SCP-049 should be able to talk to humans.
+  scp049_speech: true
+  # Whether or not MTF/CI can 'escape' while disarmed to switch teams.
+  disarm_switch_teams: true
+  # Whether or not disarmed people will be prevented from interacting with doors/elevators.
+  restrictive_disarming: true
+  # The text displayed at the timed interval specified below.
+  timed_broadcast: <color=lime>This server is running </color><color=red>EXILED Common-Utilities</color><color=lime>, enjoy your stay!</color>
+  # The time each timed broadcast will be displayed.
+  timed_broadcast_duration: 5
+  # The delay between each timed broadcast. To disable timed broadcasts, set this to 0
+  timed_broadcast_delay: 0
+  # The message displayed to the player when they first join the server. Setting this to empty will disable these broadcasts.
+  join_message: <color=lime>Welcome %player%! Please read our rules!</color>
+  # The amount of time (in seconds) the join message is displayed.
+  join_message_duration: 5
+  # The amount of time (in seconds) after the round starts, before the facilities auto-nuke will start.
+  autonuke_time: 1200
+  # Wether or not the nuke should be unable to be disabled during the auto-nuke countdown.
+  autonuke_lock: true
+  # The list of items Class-D should have. Valid formatting should be ItemType:Chance where ItemType is the item to give them, and Chance is the percent chance of them spawning with it. You can specify the same item multiple times. This is true for all Inventory configs.
+  class_d_inventory:
+    slot1:
+    - Coin:100
+    slot2:
+    - Flashlight:30
+    slot3:
+    - KeycardJanitor:15
+    slot4:
+    - Medkit:1
+    - Painkillers:10
+    slot5: []
+    slot6: []
+    slot7: []
+    slot8: []
+  chaos_inventory:
+    slot1:
+    - GunLogicer:100
+    slot2:
+    - Flashlight:100
+    slot3:
+    - KeycardChaosInsurgency:100
+    slot4:
+    - Medkit:100
+    slot5:
+    - Disarmer:100
+    slot6:
+    - GrenadeFlash:100
+    slot7: []
+    slot8: []
+  scientist_inventory:
+    slot1:
+    - KeycardScientist:75
+    - KeycardScientistMajor:100
+    slot2:
+    - Medkit:100
+    slot3:
+    - Flashlight:15
+    slot4: []
+    slot5: []
+    slot6: []
+    slot7: []
+    slot8: []
+  guard_inventory:
+    slot1: []
+    slot2: []
+    slot3: []
+    slot4: []
+    slot5: []
+    slot6: []
+    slot7: []
+    slot8: []
+  cadet_inventory:
+    slot1: []
+    slot2: []
+    slot3: []
+    slot4: []
+    slot5: []
+    slot6: []
+    slot7: []
+    slot8: []
+  lieutenant_inventory:
+    slot1: []
+    slot2: []
+    slot3: []
+    slot4: []
+    slot5: []
+    slot6: []
+    slot7: []
+    slot8: []
+  commander_inventory:
+    slot1: []
+    slot2: []
+    slot3: []
+    slot4: []
+    slot5: []
+    slot6: []
+    slot7: []
+    slot8: []
+  ntf_sci_inventory:
+    slot1: []
+    slot2: []
+    slot3: []
+    slot4: []
+    slot5: []
+    slot6: []
+    slot7: []
+    slot8: []
+  # The list of custom 914 recipies for the Rough setting. Valid formatting should be OriginalItemType:NewItemType:Chance where OriginalItem is the item being upgraded, NewItem is the item to upgrade to, and Chance is the percent chance of the upgrade happening. You can specify multiple upgrade choices for the same item.
+  scp914_item_changes:
+    Rough: []
+    Coarse: []
+    OneToOne: []
+    Fine: []
+    VeryFine: []
+  # The list of custom 914 recipies for 914. Valid formatting is OriginalRole:NewRole:Chance - IE: ClassD:Spectator:100 - for each knob setting defined.
+  scp914_class_changes:
+    Rough: []
+    Coarse: []
+    OneToOne: []
+    Fine: []
+    VeryFine: []
+  # The frequency (in seconds) between ragdoll cleanups. Set to 0 to disable.
+  ragdoll_cleanup_delay: 0
+  # If ragdoll cleanup should only happen in the Pocket Dimension or not.
+  ragdoll_cleanup_only_pocket: false
+  # The frequency (in seconds) between item cleanups. Set to 0 to disable.
+  item_cleanup_delay: 0
+  # If item cleanup should only happen in the Pocket Dimension or not.
+  item_cleanup_only_pocket: false
+  # A list of all SCP roles and their damage modifiers. The number here is a multiplier, not a raw damage amount. Thus, setting it to 1 = normal damage, 1.5 = 50% more damage, and 0.5 = 50% less damage.
+  scp_damage_multipliers:
+    Scp173: 1
+  # A list of all Weapons and their damage modifiers. The number here is a multiplier, not a raw damage amount. Thus, setting it to 1 = normal damage, 1.5 = 50% more damage, and 0.5 = 50% less damage.
+  weapon_damage_multipliers:
+    GunE11SR: 1
+  # A list of roles and how much health they should be given when they kill someone.
+  health_on_kill:
+    Scp049: 65
+    Scp0492: 35
+    Scp096: 50
+    Scp106: 85
+    Scp173: 80
+    Scp93953: 50
+    Scp93989: 50
+  # A list of roles and what their default starting health should be.
+  health_values:
+    Scp049: 1800
+    Scp096: 1500
+    Scp106: 1000
+    Scp173: 3500
+    Scp93953: 2200
+    Scp93989: 2200
+  # If the plugin is enabled or not.
+  is_enabled: true
+scp_swap:
+  is_enabled: true
+  display_start_message: true
+  swap_allow_new_scps: false
+  swap_timeout: 60
+  swap_request_timeout: 20
+  start_message_time: 15
+  display_message_text: <color=yellow> <b> 다른 SCP와 교체 할 수 있다는 것을 알고 계셨습니까? </b> </color> 게임 콘솔(` ~)에 <color=orange> .scpswap (역할 번호) </color>을 입력하면됩니다.
+  swap_blacklist:
+  - 10
+scp008_x:
+  is_enabled: true
+  # Only enable this if you're looking for bug sources!
+  debug_mode: false
+  # Display plugins stats at the end of the round?
+  summary_stats: false
+  infection_chance: 100
+  cure_chance: 50
+  # Toggle players getting infected via area of effect
+  aoe_infection: false
+  # Set AOE infection to run when infected players turn?
+  aoe_turned: false
+  # Set the percentage chance players will get infected by area of effect
+  aoe_chance: 50
+  # Allow SCP-049 to instantly revive targets?
+  buff_doctor: false
+  zombie_health: 350
+  # How much AHP should be given to Zombies?
+  scp008_buff: 10
+  max_ahp: 100
+  cassie_announce: true
+  announcement: SCP 0 0 8 containment breach detected . Allremaining
+  zombie_damage: 24
+  # This is the text that will be displayed to SCP-049-2 players on spawn
+  suicide_broadcast: ''
+  # Text displayed to players after they've been infected
+  infection_alert: 당신은 감염되었습니다! SCP-500 또는 힐팩을 사용해서 치료하십시오!
+  # Text displayed to newly turned SCP-049-2 players
+  spawn_hint: Players you hit will be infected with SCP-008!
+  # Should players keep their inventory after turning into a zombie? Items cannot be used by them.
+  retain_inventory: true
+UIURescueSquad:
+# Is the plugin enabled?
+  is_enabled: true
+  # How many mtfs respawns must have happened to spawn UIU
+  respawns: 1
+  # Probability of a UIU Squad replacing a MTF spawn
+  probability: 50
+  # Spawn position
+  spawn_pos_x: 170
+  spawn_pos_y: 985
+  spawn_pos_z: 29
+  # Entrance broadcast announcement message (null to disable it)
+  announcement_text: <b>The <color=#FFFA4B>UIU </color>가 시설 내에 진입했습니다.</b>
+  # Entrance broadcast announcement message time
+  announcement_time: 10
+  # Disable NTF default Announce
+  disable_n_t_f_announce: true
+  # **ONLY WORKS IF DisableNTFAnnounce = true** Entrance Cassie Message
+  announcement_cassie: The U I U Squad HasEntered AwaitingRecontainment {scpnum}
+  announcment_cassie_no_scp: The U I U Squad HasEntered NoSCPsLeft
+  # Use hints instead of broadcasts?
+  use_hints_here: false
+  # UIU Player broadcast (null to disable it)
+  u_i_u_broadcast: <i>당신은</i><color=yellow><b> UIU부대에 소속된 인원입니다</b></color>, <i> </i><color=#0377fc><b>MTF를</b></color><i> 도와 일을 마치세요!</i>
+  # UIU Player broadcast (null to disable it)
+  u_i_u_broadcast_time: 10
+  # UIU Soldier life (NTF CADET)
+  u_i_u_soldier_life: 185
+  # The items UIUs soldiers spawn with
+  u_i_u_soldier_inventory:
+  - KeycardNTFLieutenant
+  - GunE11SR
+  - Disarmer
+  - Medkit
+  - Adrenaline
+  - Radio
+  - GrenadeFrag
+  - GrenadeFlash
+  # Ammo UIUs soldiers spawn with. (5.56, 7.62, 9mm)
+  u_i_u_soldier_ammo:
+  - 500
+  - 500
+  - 500
+  # UIU Soldier Rank (instead of Nine-Tailed Fox Cadet role)
+  u_i_u_soldier_rank: UIU Soldier
+  # UIU Agent life (NTF LIEUTENANT)
+  u_i_u_agent_life: 200
+  # The items UIUs agents spawn with
+  u_i_u_agent_inventory:
+  - KeycardO5
+  - GunLogicer
+  - GunE11SR
+  - Disarmer
+  - Medkit
+  - Adrenaline
+  - Radio
+  - GrenadeFrag
+  # Ammo UIUs agents spawn with (5.56, 7.62, 9mm)
+  u_i_u_agent_ammo:
+  - 500
+  - 500
+  - 500
+  # UIU Agent Rank (instead of Nine-Tailed Fox Lieutenant role)
+  u_i_u_agent_rank: UIU Agent
+  # UIU Leader life (NTF COMMANDER)
+  u_i_u_leader_life: 235
+  # The items UIU leader spawn with.
+  u_i_u_leader_inventory:
+  - KeycardNTFCommander
+  - MicroHID
+  - GunE11SR
+  - Disarmer
+  - Medkit
+  - Adrenaline
+  - Radio
+  - GrenadeFrag
+  # Ammo UIUs leader spawn with. (5.56, 7.62, 9mm)
+  u_i_u_leader_ammo:
+  - 500
+  - 500
+  - 500
+  # UIU Leader Rank (instead of Nine-Tailed Fox Commander role)
+  u_i_u_leader_rank: UIU Leader
+  # Should plugin change colors for units? (leave empty for default color)
+  guard_unit_color: '#797D7F'
+  ntf_unit_color: '#0887E5'
+  uiu_unit_color: yellow
+mini_scp049:
+# Whether or not the plugin is enabled.
+  is_enabled: true
+  # The size multiplier for 49
+  size: 0.660000026
+  # Whether or not to show a broadcast message to 049 when he spawns, explaining this plugin to them.
+  show_spawn_broadcast_message: true
+  # The duration of the spawn broadcast.
+  spawn_broadcast_message_duration: 15
+  # The message to broadcast to the 049.
+  spawn_broadcast_message: 당신은 미니 SCP-049입니다!
+  s_c_p049_health: 500
+exiled_updater:
+# Indicates whether the plugin is enabled or not
+  is_enabled: true
+  # Indicates whether the debug should be shown or not
+  should_debug_be_shown: false
+  # Indicates whether testing releases have to be downloaded or not
+  should_download_testing_releases: false
+  # Indicates which assemblies should be excluded from the update
+  exclude_assemblies: []
+AT:
+# Enable/Disable AdminTools.
+  is_enabled: true
+  # Should the tutorial class be in God Mode? Default: true
+  god_tuts: false
+serpents_hand:
+# If Serpents Hand is enabled.
+  is_enabled: true
+  # The items Serpents Hand spawn with.
+  spawn_items:
+  - 21
+  - 15
+  - 26
+  - 12
+  - 14
+  - 10
+  # The change for Serpents Hand to spawn instead of Chaos.
+  spawn_chance: 50
+  # The amount of health Serpents Hand has.
+  health: 120
+  # The maximum size of a Serpents Hand squad.
+  max_squad: 8
+  # How many respawn waves must occur before considering Serpents Hand to spawn.
+  respawn_delay: 1
+  # The message announced by CASSIE when Serpents hand spawn.
+  entry_announcement: SERPENTS HAND HASENTERED
+  # The message announced by CASSIE when Chaos spawn.
+  ci_entry_announcement: ''
+  # The broadcast sent to Serpents Hand when they spawn.
+  spawn_broadcast: >-
+    <size=60>당신은 <color=#03F555><b>뱀의손입니다.</b></color></size>
+
+    <i>SCP를 <color="red">다른 모든 인원을 죽임으로써</color> 도와주세요!</i>
+  # Determines if friendly fire between Serpents Hand and SCPs is enabled.
+  friendly_fire: false
+  # Determines if Serpents Hand should teleport to SCP-106 after exiting his pocket dimension.
+  teleport_to106: true
+  # Determines if Serpents Hand should be able to hurt SCPs after the round ends.
+  end_round_friendly_fire: false
+  # [IMPORTANT] Set this config to false if Chaos and SCPs CANNOT win together on your server.
+  scps_win_with_chaos: true
+better_scp939:
+# Whether or not the plugin is enabled.
+  is_enabled: true
+  # If 939 should be faster that a human's sprint.
+  is_faster_than_humans: true
+  # If 939 should get slowed down after biting someone.
+  should_get_slowed: true
+  # The size multiplier for 939.
+  size: 0.899999976
+  # How much 939 should be slowed after biting someone.
+  slow_amount: 10
+  # The base amount of damage 939 should deal.
+  base_damage: 40
+  # The duration of the slowdown after 939 bites.
+  force_slow_down_time: 3
+  # The maximum amount of extra damage 939 can deal at full anger.
+  bonus_attack_maximum: 150
+  # The maximum value for his anger meter, larger values means it takes longer to fill.
+  anger_meter_maximum: 500
+  # The time in between each time the anger meter will decay, larger values means it takes longer to decay.
+  anger_meter_decay_time: 1
+  # The amount of anger that will decay each anger_meter_decay_time seconds.
+  anger_meter_decay_value: 3
+  # How much anger 939 should spawn with.
+  starting_anger: 0
+  # Whether or not to show a broadcast message to 939 when he spawns, explaining this plugin to them.
+  show_spawn_broadcast_message: true
+  # The duration of the spawn broadcast.
+  spawn_broadcast_message_duration: 15
+  # The message to broadcast to the 939.
+  spawn_broadcast_message: >-
+    <size=20><color=#00FFFF> SCP-939 <color=#FF0000>의 업그레이드 버전으로 스폰되었습니다</color>!
+
+    당신은 인간보다 빠르며 피해를 입으면 <color=#FF0000> 분노 </color>가 증가합니다.
+
+    더 많은 분노는 인간에게 더 많은 피해를 입히는 것을 의미합니다.
+
+    누군가를 <color=#FF0000> 다친 </color> 후 <color=#FF0000> {0} </color> 초 동안 속도가 느려집니다.</color> </size>
+  # Whether or not 939's anger meter should be reset after his slowdown from biting someone ends.
+  reset_anger_after_hit_slow_down: false
+auto_f_f_toggle:
+  is_enabled: true
+575:
+# Whether or not randomly timed events should occur. If false, all events will be at the same interval apart.
+  random_events: true
+  # Whether or not tesla gates should be disabled during blackouts.
+  disable_teslas: true
+  # The delay before the first event of each round, in seconds.
+  initial_delay: 250
+  # The minimum number of seconds a blackout event can last.
+  duration_min: 20
+  # The maximum number of seconds a blackout event can last. If RandomEvents is disabled, this will be the duration for every event.
+  duration_max: 35
+  # The minimum amount of seconds between each event.
+  delay_min: 180
+  # The maximum amount of seconds between each event. If RandomEvents is disabled, this will be the delay between every event.
+  delay_max: 500
+  # The percentage change that SCP-575 events will occur in any particular round.
+  spawn_chance: 45
+  # Whether or not people in dark rooms should take damage if they have no light source in their hand.
+  enable_keter: true
+  # Whether or not blackouts should only affect Heavy Containment.
+  only_heavy: false
+  # Whether or not SCP-575's "roar" should happen after a blackout starts.
+  voice: true
+  # How much damage per 5 seconds should be inflicted if EnableKeter is set to true.
+  keter_damage: 10
+  # Whether or not the plugin is enabled.
+  is_enabled: true
+  # Name displayed in player's death information.
+  killed_by: SCP-575
+  # Message said by Cassie.
+  cassie_message_start: facility power system failure in 3 . 2 . 1 .
+  cassie_keter: pitch_0.15 .g7
+  cassie_message_end: facility power system now operational
+  # Broadcast shown when a player is damaged by SCP-575.
+  damage_broadcast: You were damaged by SCP-575! Equip a flashlight!
+  damage_broadcast_duration: 5
+s_c_p_utils:
+  is_enabled: true
+  # Should SCPs be warned for quitting or suicide?
+  enable_s_c_p_suicide_auto_warn: true
+  # Should round autorestart if there is only one player left?
+  enable_round_restart_check: true
+  # Are quits as SCP considered a warnable offence?
+  quit_equals_suicide: true
+  # Should welcome message be shown?
+  welcome_enabled: true
+  # Should decontamination message be shown?
+  decontamination_message_enabled: false
+  # Should SCPs be kicked for quitting or suicide after a certain threshold?
+  auto_kick_on_s_c_p_suicide: true
+  # Should SCPs be banned for quitting or suicide after a certain threshold?
+  enable_s_c_p_suicide_auto_ban: true
+  # Should ban duration multiply after each ban for quit / suicide as SCP?
+  multiply_ban_duration_each_ban: true
+  # Should player preferences be reset after badge expire?
+  reset_preferenced_on_badge_expire: true
+  # Should a player with a banned game be autokicked?
+  auto_kick_banned_names: true
+  # Should Tutorials be considered as SCP? If true they will get warned for suicides / quits if enabled
+  are_tutorials_s_c_p: false
+  # Broadcast in admin chat auto kick and bans for quitting or suicide as SCP
+  broadcast_sanctions: true
+  # Broadcast in admin chat auto warns for quitting or suicide as SCP
+  broadcast_warns: false
+  # Should the nickname gets resetted if the user when joins doesn't have the permission to execute the command? You can bypass it using scputils_preference_persist command
+  keep_name_without_permission: false
+  # Should the color gets resetted if the user when joins doesn't have the permission to execute the command? You can bypass it using scputils_preference_persist command
+  keep_color_without_permission: false
+  # Should the badge visibility gets resetted if the user when joins doesn't have the permission to execute the command? You can bypass it using scputils_preference_persist command
+  keep_badge_visibility_without_permission: false
+  # Autowarn message for suiciding as SCP
+  suicide_warn_message: >-
+    <color=red>WARN:
+
+    As per server rules SCP's suicide is an offence, doing it too much will result in a ban!</color>
+  # Welcome message (if enabled)
+  welcome_message: <color=green>Welcome to the server!</color>
+  # Decontamination message (if enabled)
+  decontamination_message: <color=yellow>Decontamination has started</color>
+  # Suicide auto-kick reason (if enabled)
+  suicide_kick_message: Suicide as SCP
+  # Auto-kick message for using a restricted nickname
+  auto_kick_banned_name_message: You're using a restricted nickname or too similar to a restricted one, please change it
+  # Suicide auto-ban reason (if enabled)
+  auto_ban_message: Exceeded SCP suicide limit
+  # Message if player is not authorized to use this command
+  unauthorized_nick_name_change: <color=red>Permission denied.</color>
+  # Message if player is not authorized to use this command
+  unauthorized_color_change: <color=red>Permission denied.</color>
+  # Message if player is not authorized to use this command
+  unauthorized_badge_change_visibility: <color=red>Permission denied.</color>
+  # Message if player try to change his nickname to a restricted one
+  invalid_nickname_text: This nickname has been restricted by server owner, please use another nickname!
+  # Database name, change it only if you are running multiple servers
+  database_name: SCPUtils
+  # In which folder database should be stored?
+  database_folder: EXILED
+  # Welcome message duration (if enabled)
+  welcome_message_duration: 12
+  # Decontamination message duration (if enabled)
+  decontamination_message_duration: 10
+  # Auto-restart time if there is only one player in server (if enabled)
+  auto_restart_time: 15
+  # Auto-warn message duration (if enabled)
+  auto_warn_message_duration: 30
+  # Which is the minimun number of suicides before the player may not receive any kick o ban ignoring the SCP suicides / quit percentage? (if enabled)
+  scp_suicide_tollerance: 5
+  # SCP Suicide / Quit base ban duration (if enabled)
+  auto_ban_duration: 15
+  # Which is the max length of a nickname using change name command?
+  nickname_max_length: 32
+  # If 079 trigger tesla for how many seconds player shouldn't get warned for suicide? (2 is enough for most of servers)
+  scp079_tesla_event_wait: 2
+  # Which quit / suicide percentage as SCP a player require before getting banned? (You can add tollerence in settings)
+  auto_ban_threshold: 30.5
+  # Which quit / suicide percentage as SCP a player require before getting kicked? (You can add tollerence in settings)
+  auto_kick_threshold: 15.5
+  # Which colors are restricted on .scputils_change_color command?
+  restricted_role_colors:
+  - Color1
+  - Color2
+  # Which nicknames are restricted on .scputils_change_nickname command?
+  banned_nick_names:
+  - '@everyone'
+  - '@here'
+  - Admin
+  # Which ASNs should be blacklisted? Players to connect from blacklisted ASN should be whitelisted via scputils_whitelist_asn command (50889 is geforce now ASN)
+  a_s_n_blacklist:
+  - 50889
+  # Which message non-whitelisted players should get while connecting from blacklisted ASN?
+  asn_kick_message: The ASN you are connecting from is blacklisted from this server, please contact server staff to request to being whitelisted
+  # You have to add the team you want to protect from the target as key and enemy teams on the list as value, on github documentation you can see all the teams.
+  cuffed_immunity_players: {}
+  # Indicates if the protected teams should be cuffed to get the protection, if you don't add a team it will get protection regardless
+  cuffed_protected_teams: []
+  # Indicates in which zones the protected team is protected, Zone list: Surface, Entrance, HeavyContainment, LightContainment, Unspecified
+  cuffed_safe_zones: {}
+  # With which SCPs users are allowed to speak using V to humans without any badge (remove the disallowed SCPs)? (This will bypass permissions check so everyone will be able to speak with those SCPs regardless rank)
+  allowed_scps:
+  - Scp049
+  - Scp0492
+  - Scp079
+  - Scp096
+  - Scp106
+  - Scp173
+  - Scp93953
+  - Scp93989
+dc_replace:
+  is_enabled: true
+text_chat:
+# Indicates whether the plugin is enabled or not
+  is_enabled: true
+  # The database name
+  database_name: TextChat
+  # The public chat color
+  public_chat_color: cyan
+  # The private chat color
+  private_chat_color: magenta
+  # The maximum length of a single message
+  max_message_length: 75
+  # Indicates whether bad words have to be censored or not
+  should_censor_bad_words: false
+  # The character that would replace bad words
+  censor_bad_words_char: '*'
+  # The list of bad words
+  bad_words: []
+  # Indicates whether the chat have to be saved into the database or not
+  should_save_chat_to_database: true
+  # Indicates whether spectators can send messages to alive players or not
+  can_spectator_send_messages_to_alive: false
+  # The broadcast shown to muted players
+  chat_muted_broadcast:
+  # The broadcast content
+    content: 'You have been muted from the chat for {0} minutes, reason: {1}'
+    # The broadcast duration
+    duration: 10
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  # The broadcast which warns you about a new private message
+  private_message_notification_broadcast:
+  # The broadcast content
+    content: You received a private message!
+    # The broadcast duration
+    duration: 6
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  # Indicates whether the slow mode is enabled or not
+  is_slow_mode_enabled: true
+  # The slowmode cooldown, in seconds
+  slow_mode_cooldown: 0.75
+  # The plugin language
+  language: ko
+exiled_permissions:
+# Indicates whether the debug should be shown or not
+  should_debug_be_shown: false
+  # The permissions folder path
+  folder: C:\Users\Dhhd\AppData\Roaming\EXILED\Configs
+  # The permissions full path
+  full_path: C:\Users\Dhhd\AppData\Roaming\EXILED\Configs\permissions.yml
+  # Indicates whether the plugin is enabled or not
+  is_enabled: true
+respawn_timer:
+  is_enabled: true
+  # How often (in seconds) should timer be refreshed?
+  interval: 1
+  # Should a timer be lower or higher on the screen? (values from 0 to 14, 0 - very high, 14 - very low)
+  text_lowering: 8
+  # Should a timer show an exact number of minutes?
+  show_minutes: true
+  # Should a timer show an exact number of seconds?
+  show_seconds: true
+  # Should a timer be only shown, when a spawnning sequence has begun? (NTF Helicopter / Chaos Car arrives)
+  show_timer_only_on_spawn: false
+  # Should the NTF and CI respawn tickets be shown?
+  show_tickets: true
+  # Translations: (do NOT change text in { }, you can for example bold them)
+  you_will_respawn_in: '<color=orange>You will respawn in: </color>'
+  you_will_spawn_as: 'You will spawn as: '
+  ntf: <color=blue>Nine-Tailed Fox</color>
+  ci: <color=green>Chaos Insurgency</color>
+  sh: <color=red>Serpent's Hand</color>
+  uiu: <color=#1078e0>Unusual Incidents Unit</color>
+  ntf_tickets: '<color=blue>NTF Tickets: </color>'
+  ci_tickets: '<color=green>CI Tickets: </color>'
+  seconds: ' <b>{seconds} s</b>'
+  minutes: <b>{minutes} min.</b>
+  ntf_tickets_num: '{ntf_tickets_num}'
+  ci_tickets_num: '{ci_tickets_num}'

@@ -1,0 +1,1483 @@
+[2021-02-07 14:14:38.212 +09:00] Logging started.
+[2021-02-07 14:14:38.217 +09:00] Timezone offset: +09:00
+[2021-02-07 14:14:38.240 +09:00] Waiting for players...
+[2021-02-07 14:14:46.998 +09:00] Requested challenge for incoming connection from endpoint 121.184.27.209:65230.
+[2021-02-07 14:14:47.075 +09:00] Requested challenge for incoming connection from endpoint 175.116.70.90:61918.
+[2021-02-07 14:14:47.184 +09:00] Requested challenge for incoming connection from endpoint 116.46.185.49:60773.
+[2021-02-07 14:14:47.214 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:56592.
+[2021-02-07 14:14:47.433 +09:00] Requested challenge for incoming connection from endpoint 59.22.246.228:63294.
+[2021-02-07 14:14:47.513 +09:00] Security challenge response of incoming connection from endpoint 121.184.27.209:65231 has been accepted.
+[2021-02-07 14:14:47.543 +09:00] Player 76561199044409090@steam preauthenticated from endpoint 121.184.27.209:65231.
+[2021-02-07 14:14:47.590 +09:00] Security challenge response of incoming connection from endpoint 175.116.70.90:61919 has been accepted.
+[2021-02-07 14:14:47.605 +09:00] Player 76561198956540241@steam preauthenticated from endpoint 175.116.70.90:61919.
+[2021-02-07 14:14:47.685 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:56593 has been accepted.
+[2021-02-07 14:14:47.716 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:56593.
+[2021-02-07 14:14:47.747 +09:00] Security challenge response of incoming connection from endpoint 116.46.185.49:60774 has been accepted.
+[2021-02-07 14:14:47.778 +09:00] Player 76561199071968537@steam preauthenticated from endpoint 116.46.185.49:60774.
+[2021-02-07 14:14:47.962 +09:00] Security challenge response of incoming connection from endpoint 59.22.246.228:63295 has been accepted.
+[2021-02-07 14:14:47.995 +09:00] Player 76561198986042822@steam preauthenticated from endpoint 59.22.246.228:63295.
+[2021-02-07 14:14:50.385 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:14:50.391 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:14:50.397 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 9697
+[2021-02-07 14:14:50.406 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:14:50.443 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:14:50.680 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:14:50.685 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:14:50.690 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 12132
+[2021-02-07 14:14:50.697 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:14:50.721 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:14:50.964 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:14:50.969 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:14:50.974 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 13491
+[2021-02-07 14:14:50.980 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:14:51.004 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:14:51.063 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:14:51.069 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:14:51.073 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 14221
+[2021-02-07 14:14:51.079 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:14:51.097 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:14:51.112 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:14:51.118 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:14:51.122 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 14610
+[2021-02-07 14:14:51.129 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:14:51.163 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:14:54.670 +09:00] Accepted authentication token of user 76561199044409090@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:14:54.700 +09:00] 76561199044409090@steam authenticated from endpoint 121.184.27.209:65231. Player ID assigned: 2. Auth token serial number: gk2VUuk/o8Y0iS21
+[2021-02-07 14:14:54.732 +09:00] Accepted authentication token of user 76561198956540241@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:14:54.762 +09:00] 76561198956540241@steam authenticated from endpoint 175.116.70.90:61919. Player ID assigned: 4. Auth token serial number: 6THyUcqyqCYjuq17
+[2021-02-07 14:14:54.793 +09:00] Nickname of 76561199044409090@steam is now Benedit.
+[2021-02-07 14:14:54.825 +09:00] Player Benedit (76561199044409090@steam) (2) connected with the IP: 121.184.27.209
+[2021-02-07 14:14:54.858 +09:00] Nickname of 76561198956540241@steam is now 사과.
+[2021-02-07 14:14:54.889 +09:00] Player 사과 (76561198956540241@steam) (4) connected with the IP: 175.116.70.90
+[2021-02-07 14:14:55.215 +09:00] Accepted authentication token of user 76561198986042822@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:14:55.248 +09:00] 76561198986042822@steam authenticated from endpoint 59.22.246.228:63295. Player ID assigned: 3. Auth token serial number: zhAKYodJdcHR8F2U
+[2021-02-07 14:14:55.279 +09:00] Nickname of 76561198986042822@steam is now POMXC.
+[2021-02-07 14:14:55.310 +09:00] Player POMXC (76561198986042822@steam) (3) connected with the IP: 59.22.246.228
+[2021-02-07 14:14:56.202 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:14:56.232 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:56593. Player ID assigned: 5. Auth token serial number: MLbQZGejbkVZna5s
+[2021-02-07 14:14:56.264 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-07 14:14:56.295 +09:00] Player Goldmilk777 (76561198254130933@steam) (5) connected with the IP: 192.168.0.1
+[2021-02-07 14:14:56.326 +09:00] Authentication token of player 76561199044409090@steam has been confirmed by central server.
+[2021-02-07 14:14:56.342 +09:00] Authentication token of player 76561198956540241@steam has been confirmed by central server.
+[2021-02-07 14:14:56.373 +09:00] Authentication token of player 76561198986042822@steam has been confirmed by central server.
+[2021-02-07 14:14:56.403 +09:00] Accepted authentication token of user 76561199071968537@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:14:56.434 +09:00] 76561199071968537@steam authenticated from endpoint 116.46.185.49:60774. Player ID assigned: 6. Auth token serial number: WAblskjYE4O4OzpE
+[2021-02-07 14:14:56.466 +09:00] Nickname of 76561199071968537@steam is now (korea )D-1269.
+[2021-02-07 14:14:56.498 +09:00] Player (korea )D-1269 (76561199071968537@steam) (6) connected with the IP: 116.46.185.49
+[2021-02-07 14:15:01.633 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-07 14:15:01.665 +09:00] Authentication token of player 76561199071968537@steam has been confirmed by central server.
+[2021-02-07 14:15:18.484 +09:00] New round has been started.
+[2021-02-07 14:15:19.529 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-07 14:15:19.561 +09:00] [INFO] [BroadcastPlugin] 이 서버는 ombe1229의 브로드캐스트 플러그인을 사용 중입니다.
+[2021-02-07 14:15:19.593 +09:00] [INFO] [RespawnTimer] RespawnTimer coroutine started successfully! The timer will be refreshed every 1 second/s!
+[2021-02-07 14:15:20.811 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:20.843 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:20.873 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:20.906 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:20.980 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:21.011 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:21.042 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:21.072 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:21.104 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:21.136 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:21.169 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:21.199 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:21.230 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:21.262 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:21.294 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:21.325 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:21.357 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:21.389 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:21.421 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:21.451 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:21.482 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:21.513 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:21.543 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:21.574 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:21.620 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:21.650 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:21.681 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:21.713 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:22.086 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:22.117 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:22.148 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:22.179 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:22.318 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:22.350 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:22.381 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:22.412 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:22.897 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:22.929 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:22.961 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:22.993 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:23.258 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:23.291 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:23.322 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:23.354 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:23.463 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:23.493 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:23.526 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:23.559 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:25.318 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:25.350 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:25.382 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:25.412 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:25.583 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:25.614 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:25.645 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:25.676 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:25.721 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:25.753 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:25.784 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:25.816 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:25.895 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:25.927 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:25.958 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:25.989 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:26.083 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:26.114 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:26.145 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:26.176 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:27.421 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:27.451 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:27.483 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:27.515 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:27.626 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:27.657 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:27.687 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:27.719 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:27.861 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:27.892 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:27.923 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:27.953 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:28.479 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:28.510 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:28.541 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:28.572 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:28.620 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:28.650 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:28.681 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:28.713 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:28.821 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:28.852 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:28.884 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:28.916 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:29.055 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:29.087 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:29.118 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:29.149 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:31.305 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:31.337 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:31.369 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:31.400 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:31.463 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:31.492 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:31.524 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:31.555 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:31.586 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:31.617 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:31.648 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:31.680 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:31.711 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:31.743 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:31.775 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:31.806 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:32.322 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:32.354 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:32.386 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:32.418 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:32.528 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:32.560 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:32.591 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:32.621 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:32.961 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:32.993 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:33.025 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:33.054 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:33.147 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:33.179 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:33.210 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:33.242 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:34.571 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:34.602 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:34.634 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:34.663 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:34.742 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:34.774 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:34.805 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:34.834 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:35.831 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:35.863 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:35.896 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:35.926 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:36.172 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:36.209 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:36.236 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:36.268 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:36.299 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:36.329 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:36.359 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:36.389 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:36.420 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:36.450 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:36.480 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:36.512 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:36.543 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:36.574 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:36.606 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:36.637 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:38.505 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the locker
+[2021-02-07 14:15:38.537 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:15:38.569 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:15:38.603 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the locker
+[2021-02-07 14:15:38.633 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:15:38.664 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:15:38.822 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the locker
+[2021-02-07 14:15:38.854 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:15:38.886 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:15:38.917 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the locker
+[2021-02-07 14:15:38.949 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:15:38.981 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:15:40.164 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:40.194 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:40.224 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:40.254 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:40.286 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the locker
+[2021-02-07 14:15:40.316 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:15:40.346 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:15:40.378 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the locker
+[2021-02-07 14:15:40.409 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:15:40.440 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:15:41.501 +09:00] Refreshed public key of central server - key hash not changed.
+[2021-02-07 14:15:41.717 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:41.749 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:41.779 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:41.809 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:43.340 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the locker
+[2021-02-07 14:15:43.371 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:15:43.402 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:15:43.918 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:43.949 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:43.980 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:44.013 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:44.153 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:44.184 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:44.216 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:44.247 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:44.279 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:44.310 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:44.341 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:44.373 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:44.531 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:44.562 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:44.594 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:44.624 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:45.443 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:45.473 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:45.505 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:45.535 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:48.129 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:48.160 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:48.192 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:48.223 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:48.285 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:15:48.316 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:48.347 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:48.377 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:48.407 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:48.437 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:48.468 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:48.500 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:48.609 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:48.639 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:48.670 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:48.701 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:48.915 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:48.945 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:48.977 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:49.010 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:49.928 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:49.959 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:49.992 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:50.023 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:50.147 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:50.179 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:50.209 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:50.240 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:51.741 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:51.772 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:51.804 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:51.834 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:51.914 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:51.946 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:51.979 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:52.010 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:52.925 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:52.956 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:52.988 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:53.019 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:53.316 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:53.348 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:53.379 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:53.409 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:54.874 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:54.905 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:54.938 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:54.969 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:55.046 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:55.077 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:55.107 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:55.136 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:55.200 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:55.230 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:55.261 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:55.292 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:56.240 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:15:56.271 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:56.303 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:56.335 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:57.071 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:57.100 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:57.130 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:57.161 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:57.455 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:57.486 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:57.517 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:57.548 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:57.641 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:57.672 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:57.704 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:57.735 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:58.854 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:58.884 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:58.916 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:58.948 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:59.613 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:15:59.644 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:15:59.675 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:59.705 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:15:59.736 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardScientist (1)
+[2021-02-07 14:15:59.766 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:15:59.797 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardScientist (1) | P ContainmentLevelOne, ContainmentLevelTwo | P:string[] CONT_LVL_1, CONT_LVL_2
+[2021-02-07 14:15:59.830 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardScientist (1)
+[2021-02-07 14:15:59.861 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:15:59.891 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:15:59.922 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:15:59.952 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:15:59.983 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:00.014 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:00.044 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:00.076 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:00.107 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:00.139 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:00.170 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:00.200 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:00.231 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:00.263 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:00.293 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:00.325 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:00.356 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:00.388 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:00.420 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:00.452 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:02.308 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:16:02.342 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:16:02.372 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:02.402 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:02.432 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardScientist (1)
+[2021-02-07 14:16:02.463 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:16:02.495 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardScientist (1) | P ContainmentLevelOne, ContainmentLevelTwo | P:string[] CONT_LVL_1, CONT_LVL_2
+[2021-02-07 14:16:02.527 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardScientist (1)
+[2021-02-07 14:16:02.559 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:16:02.591 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:16:02.623 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:02.654 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:02.684 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardScientist (1)
+[2021-02-07 14:16:02.715 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:16:02.746 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardScientist (1) | P ContainmentLevelOne, ContainmentLevelTwo | P:string[] CONT_LVL_1, CONT_LVL_2
+[2021-02-07 14:16:02.777 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardScientist (1)
+[2021-02-07 14:16:02.808 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:16:02.839 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:16:02.869 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:02.900 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:02.932 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardScientist (1)
+[2021-02-07 14:16:02.963 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:16:02.996 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardScientist (1) | P ContainmentLevelOne, ContainmentLevelTwo | P:string[] CONT_LVL_1, CONT_LVL_2
+[2021-02-07 14:16:03.028 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardScientist (1)
+[2021-02-07 14:16:03.060 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:16:03.090 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:16:03.122 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:03.153 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:03.185 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardScientist (1)
+[2021-02-07 14:16:03.216 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:16:03.248 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardScientist (1) | P ContainmentLevelOne, ContainmentLevelTwo | P:string[] CONT_LVL_1, CONT_LVL_2
+[2021-02-07 14:16:03.279 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardScientist (1)
+[2021-02-07 14:16:03.341 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:03.370 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:03.402 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:03.433 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:03.496 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:03.526 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:03.557 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:03.589 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:07.484 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the locker
+[2021-02-07 14:16:07.516 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:16:07.546 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:16:07.579 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the locker
+[2021-02-07 14:16:07.610 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:16:07.642 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:16:07.672 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the locker
+[2021-02-07 14:16:07.701 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:16:07.733 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:16:07.764 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the locker
+[2021-02-07 14:16:07.795 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:16:07.826 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:16:07.979 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the locker
+[2021-02-07 14:16:08.009 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:16:08.040 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:16:08.070 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the locker
+[2021-02-07 14:16:08.101 +09:00] [DEBUG] [RemoteKeycard] Locker permissions:
+[2021-02-07 14:16:08.132 +09:00] [DEBUG] [RemoteKeycard] Locker access is allowed
+[2021-02-07 14:16:08.164 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:08.196 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:08.226 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:08.258 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:08.289 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:08.320 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:08.350 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:08.382 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:11.034 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:16:11.064 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:11.095 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:11.127 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:11.188 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:16:11.220 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:11.252 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:11.282 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:15.552 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:16:15.584 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:15.615 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:15.646 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:15.710 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:16:15.740 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:15.772 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:15.802 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:16.411 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:16.441 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:16.473 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:16.504 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:16.645 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:16.677 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:16.708 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:16.739 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:18.330 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:18.360 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:18.392 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:18.424 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:18.456 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:18.486 +09:00] [DEBUG] [RemoteKeycard] Door permission: Checkpoints, ScpOverride
+[2021-02-07 14:16:18.519 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:18.550 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:18.582 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardGuard (4)
+[2021-02-07 14:16:18.613 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:16:18.646 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardGuard (4) | P Checkpoints, ContainmentLevelOne, ArmoryLevelOne | P:string[] CONT_LVL_1, ARMORY_LVL_1, CHCKPOINT_ACC
+[2021-02-07 14:16:18.677 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardGuard (4)
+[2021-02-07 14:16:18.709 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:18.741 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:18.772 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:18.803 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:18.834 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:18.864 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:18.895 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:18.926 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:20.356 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:20.388 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:20.419 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:20.449 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:20.840 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:20.871 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:20.901 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:20.933 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:23.565 +09:00] [DEBUG] [RemoteKeycard] Player Goldmilk777 (76561198254130933@steam) is trying to access the door
+[2021-02-07 14:16:23.597 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:23.628 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:23.660 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:38.882 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:16:38.913 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:38.945 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:38.977 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:39.038 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:16:39.070 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:39.102 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:39.132 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:47.779 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:47.810 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:47.842 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:47.873 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:16:47.966 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:16:47.998 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:16:48.029 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:16:48.060 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:16:58.301 +09:00] Requested challenge for incoming connection from endpoint 125.180.34.30:58487.
+[2021-02-07 14:16:58.876 +09:00] Security challenge response of incoming connection from endpoint 125.180.34.30:58488 has been accepted.
+[2021-02-07 14:16:58.909 +09:00] Player 76561199030093565@steam preauthenticated from endpoint 125.180.34.30:58488.
+[2021-02-07 14:17:07.488 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:17:07.498 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:17:07.504 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:17:07.510 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-07 14:17:07.525 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:17:12.074 +09:00] Accepted authentication token of user 76561199030093565@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:17:12.105 +09:00] 76561199030093565@steam authenticated from endpoint 125.180.34.30:58488. Player ID assigned: 7. Auth token serial number: z5Ill4iiyBFN/Zqc
+[2021-02-07 14:17:12.136 +09:00] Nickname of 76561199030093565@steam is now 마이크 먹음.
+[2021-02-07 14:17:12.167 +09:00] Player 마이크 먹음 (76561199030093565@steam) (7) connected with the IP: 125.180.34.30
+[2021-02-07 14:17:14.981 +09:00] Authentication token of player 76561199030093565@steam has been confirmed by central server.
+[2021-02-07 14:17:31.463 +09:00] [STDOUT] 4.990784
+[2021-02-07 14:17:32.052 +09:00] [STDOUT] 6.226273
+[2021-02-07 14:17:37.281 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:17:37.312 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:17:37.342 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:17:37.375 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:17:37.482 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:17:37.514 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:17:37.545 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:17:37.574 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:17:41.963 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:17:41.994 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:17:42.025 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:17:42.054 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:17:42.086 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:17:42.118 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:17:42.150 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:17:42.180 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:17:44.406 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:17:44.437 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:17:44.470 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:17:44.500 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:17:53.252 +09:00] [STDOUT] NaN
+[2021-02-07 14:17:53.538 +09:00] [STDOUT] NaN
+[2021-02-07 14:17:53.758 +09:00] [STDOUT] NaN
+[2021-02-07 14:17:54.849 +09:00] [STDOUT] NaN
+[2021-02-07 14:17:55.068 +09:00] [STDOUT] NaN
+[2021-02-07 14:17:55.389 +09:00] [STDOUT] NaN
+[2021-02-07 14:17:56.788 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:17:56.819 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:17:56.851 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:17:56.882 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:17:59.198 +09:00] [STDOUT] 15.33453
+[2021-02-07 14:18:01.130 +09:00] [STDOUT] 8.624755
+[2021-02-07 14:18:01.552 +09:00] [STDOUT] 8.696377
+[2021-02-07 14:18:01.888 +09:00] [STDOUT] 8.933038
+[2021-02-07 14:18:02.191 +09:00] [STDOUT] 9.111959
+[2021-02-07 14:18:02.318 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:18:02.348 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:02.380 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:02.412 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:06.144 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:06.174 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:06.205 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:06.236 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:09.927 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:18:09.958 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:09.989 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:10.019 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:10.160 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:10.192 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:10.222 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:10.254 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:10.315 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:10.347 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:10.378 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:10.408 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:18:10.499 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:10.531 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:10.563 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:10.594 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:18:11.680 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:18:11.712 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:11.743 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:11.775 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:13.181 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:18:13.212 +09:00] [DEBUG] [RemoteKeycard] Door permission: Checkpoints, ScpOverride
+[2021-02-07 14:18:13.244 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:13.273 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:18:13.305 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:18:13.336 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:18:13.368 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:18:13.399 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:18:13.818 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:13.850 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:18:13.881 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:13.912 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:18:13.944 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardScientistMajor (2)
+[2021-02-07 14:18:13.976 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:18:14.008 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardScientistMajor (2) | P Checkpoints, ContainmentLevelOne, ContainmentLevelTwo, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:18:14.040 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardScientistMajor (2)
+[2021-02-07 14:18:14.072 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:14.104 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:18:14.136 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:14.167 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:18:14.197 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardScientistMajor (2)
+[2021-02-07 14:18:14.229 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:18:14.261 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardScientistMajor (2) | P Checkpoints, ContainmentLevelOne, ContainmentLevelTwo, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:18:14.292 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardScientistMajor (2)
+[2021-02-07 14:18:15.055 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:18:15.085 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:15.116 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:15.148 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:16.731 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:18:16.762 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:16.794 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:16.824 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:33.483 +09:00] [DEBUG] [RemoteKeycard] Player Benedit (76561199044409090@steam) is trying to access the door
+[2021-02-07 14:18:33.516 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:18:33.547 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:33.580 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:18:46.517 +09:00] [STDOUT] 6.767026
+[2021-02-07 14:18:46.616 +09:00] [STDOUT] 7.48486
+[2021-02-07 14:18:46.623 +09:00] [STDOUT] 32.61716
+[2021-02-07 14:18:46.717 +09:00] [STDOUT] 7.816926
+[2021-02-07 14:18:46.724 +09:00] [STDOUT] 39.51785
+[2021-02-07 14:18:46.817 +09:00] [STDOUT] 7.710228
+[2021-02-07 14:18:46.825 +09:00] [STDOUT] 42.48275
+[2021-02-07 14:18:46.918 +09:00] [STDOUT] 7.688707
+[2021-02-07 14:18:46.925 +09:00] [STDOUT] 42.56416
+[2021-02-07 14:18:47.019 +09:00] [STDOUT] 7.448005
+[2021-02-07 14:18:47.025 +09:00] [STDOUT] 41.6326
+[2021-02-07 14:18:47.711 +09:00] [STDOUT] 5.352195
+[2021-02-07 14:18:47.812 +09:00] [STDOUT] 5.959237
+[2021-02-07 14:18:47.913 +09:00] [STDOUT] 6.736951
+[2021-02-07 14:18:48.014 +09:00] [STDOUT] 7.560292
+[2021-02-07 14:18:48.114 +09:00] [STDOUT] 7.981334
+[2021-02-07 14:18:48.923 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:49.006 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:49.125 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:49.311 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:49.411 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:49.518 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:49.715 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:49.916 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.017 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.117 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.321 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.404 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.507 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.624 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.708 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.811 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:50.911 +09:00] [STDOUT] NaN
+[2021-02-07 14:18:51.048 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:51.079 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:18:51.110 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:51.142 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:18:51.173 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:18:51.204 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:18:51.235 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:18:51.265 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:18:51.296 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:18:51.327 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:18:51.359 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:18:51.389 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:18:51.416 +09:00] [STDOUT] 6.438414
+[2021-02-07 14:18:51.424 +09:00] [DEBUG] [RemoteKeycard] Door permission: ContainmentLevelOne
+[2021-02-07 14:18:51.453 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:18:51.483 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:18:51.515 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:18:51.526 +09:00] [STDOUT] 6.23568
+[2021-02-07 14:18:51.546 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:18:51.576 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:18:51.607 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:18:51.619 +09:00] [STDOUT] 6.87671
+[2021-02-07 14:18:51.626 +09:00] [STDOUT] 35.95431
+[2021-02-07 14:18:51.638 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:18:51.670 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:18:51.700 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:18:51.719 +09:00] [STDOUT] 7.670325
+[2021-02-07 14:18:51.906 +09:00] [STDOUT] 9.396573
+[2021-02-07 14:18:52.023 +09:00] [STDOUT] 10.48004
+[2021-02-07 14:18:52.107 +09:00] [STDOUT] 11.20782
+[2021-02-07 14:18:52.114 +09:00] [STDOUT] 87.98871
+[2021-02-07 14:18:52.208 +09:00] [STDOUT] 11.89258
+[2021-02-07 14:18:52.215 +09:00] [STDOUT] 101.6204
+[2021-02-07 14:18:52.311 +09:00] [STDOUT] 12.73746
+[2021-02-07 14:18:52.318 +09:00] [STDOUT] 117.3717
+[2021-02-07 14:18:52.411 +09:00] [STDOUT] 13.62041
+[2021-02-07 14:18:52.418 +09:00] [STDOUT] 133.4206
+[2021-02-07 14:18:52.515 +09:00] [STDOUT] 13.99795
+[2021-02-07 14:18:52.522 +09:00] [STDOUT] 144.9293
+[2021-02-07 14:18:52.713 +09:00] [STDOUT] 12.04757
+[2021-02-07 14:18:52.720 +09:00] [STDOUT] 128.4173
+[2021-02-07 14:19:32.674 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:32.706 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:19:32.739 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:32.771 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:19:32.879 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:32.910 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:19:32.941 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:32.972 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:33.001 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:33.033 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:19:33.064 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:33.094 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:35.757 +09:00] Requested challenge for incoming connection from endpoint 221.167.63.66:64849.
+[2021-02-07 14:19:36.303 +09:00] Security challenge response of incoming connection from endpoint 221.167.63.66:64850 has been accepted.
+[2021-02-07 14:19:36.334 +09:00] Player 76561198453742569@steam preauthenticated from endpoint 221.167.63.66:64850.
+[2021-02-07 14:19:36.397 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:36.427 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:36.458 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:36.490 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:36.519 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:36.550 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:36.581 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:36.611 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:36.642 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:36.672 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:36.703 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:36.734 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:36.765 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:36.796 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:36.827 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:36.858 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:36.888 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:36.919 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:36.951 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:36.983 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:37.015 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:37.046 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:37.077 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:37.108 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:37.141 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:37.172 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:37.202 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:37.233 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:37.264 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:37.296 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:37.327 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:37.359 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:37.391 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:38.165 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:38.197 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:38.228 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:38.260 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:38.290 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:38.322 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:38.353 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:38.385 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:38.415 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:38.447 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:38.479 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:38.510 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:38.540 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:38.570 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:38.602 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:38.634 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:38.665 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:38.695 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:38.727 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:38.758 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:38.788 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:38.820 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:38.851 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:38.882 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:38.913 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:38.945 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:38.975 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:39.005 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:39.036 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:39.068 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:39.100 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:39.131 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:39.161 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:46.549 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:19:46.557 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:19:46.567 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:19:46.573 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-07 14:19:46.598 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:19:46.707 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:46.737 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:46.770 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:46.802 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:46.833 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:46.864 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:46.896 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:46.927 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:46.959 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:46.990 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:47.021 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:48.811 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:48.841 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelOne
+[2021-02-07 14:19:48.873 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:48.904 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:48.935 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:19:48.967 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:48.997 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:19:49.029 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:19:49.061 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:19:49.091 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:19:49.121 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:19:51.200 +09:00] Accepted authentication token of user 76561198453742569@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:19:51.232 +09:00] 76561198453742569@steam authenticated from endpoint 221.167.63.66:64850. Player ID assigned: 8. Auth token serial number: hcoCCDacXJpLbq8V
+[2021-02-07 14:19:51.264 +09:00] Nickname of 76561198453742569@steam is now 사월과하월.
+[2021-02-07 14:19:51.294 +09:00] Player 사월과하월 (76561198453742569@steam) (8) connected with the IP: 221.167.63.66
+[2021-02-07 14:19:52.312 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:52.344 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:19:52.374 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:52.405 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:19:52.467 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:19:52.498 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:19:52.529 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:19:52.560 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:19:55.281 +09:00] Authentication token of player 76561198453742569@steam has been confirmed by central server.
+[2021-02-07 14:19:56.058 +09:00] Player 사월과하월 (76561198453742569@steam) (8) disconnected
+[2021-02-07 14:19:56.090 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:19:56.122 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:20:01.210 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:01.241 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:01.272 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:01.303 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:20:01.379 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:01.411 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:01.444 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:01.474 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:03.644 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:03.675 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:03.707 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:03.739 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:20:03.801 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:03.832 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:03.863 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:03.894 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:03.988 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:04.020 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:04.052 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:04.083 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:04.112 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:04.144 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:04.175 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:04.205 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:11.064 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:11.095 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:11.124 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:11.156 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:20:16.387 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:16.419 +09:00] [DEBUG] [RemoteKeycard] Door permission: Checkpoints, ScpOverride
+[2021-02-07 14:20:16.449 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:16.480 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:16.511 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:20:16.541 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:20:16.571 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:20:16.602 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:20:16.633 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:20:16.666 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:20:16.697 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:20:16.728 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:16.760 +09:00] [DEBUG] [RemoteKeycard] Door permission: Checkpoints, ScpOverride
+[2021-02-07 14:20:16.791 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:16.820 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:16.851 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:20:16.882 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:20:16.915 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:20:16.944 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:20:16.976 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:20:17.007 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:20:17.038 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:20:17.070 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:17.100 +09:00] [DEBUG] [RemoteKeycard] Door permission: Checkpoints, ScpOverride
+[2021-02-07 14:20:17.130 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:17.161 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:17.192 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:20:17.225 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:20:17.257 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:20:17.289 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:20:17.321 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:20:17.354 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:20:17.385 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:20:22.813 +09:00] Player 마이크 먹음 (76561199030093565@steam) (7) disconnected
+[2021-02-07 14:20:22.846 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:20:22.878 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:20:24.010 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:24.041 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:24.072 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:24.103 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:20:24.134 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:24.166 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:24.197 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:24.229 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:25.980 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:26.010 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:26.041 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:26.072 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:20:26.103 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:20:26.135 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:20:26.166 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:20:26.197 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:20:38.627 +09:00] [STDOUT] MissingFieldException: Field 'SerpentsHand.EventHandlers.isSpawnable' not found.
+[2021-02-07 14:20:38.636 +09:00] [STDOUT]   at RespawnTimer.Handler+<Timer>d__3.MoveNext () [0x00301] in <25bfc2e9c7524f52ac5524906579737d>:0
+[2021-02-07 14:20:38.647 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:20:38.654 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-07 14:20:38.662 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-07 14:20:38.669 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-07 14:20:38.678 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-07 14:20:38.685 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-07 14:20:38.692 +09:00] [STDOUT] (Filename: <25bfc2e9c7524f52ac5524906579737d> Line: 0)
+[2021-02-07 14:20:41.530 +09:00] Requested challenge for incoming connection from endpoint 125.128.133.50:62422.
+[2021-02-07 14:20:42.058 +09:00] Security challenge response of incoming connection from endpoint 125.128.133.50:62423 has been accepted.
+[2021-02-07 14:20:42.088 +09:00] Player 76561198979297897@steam preauthenticated from endpoint 125.128.133.50:62423.
+[2021-02-07 14:20:42.341 +09:00] Requested challenge for incoming connection from endpoint 125.128.133.49:50997.
+[2021-02-07 14:20:42.858 +09:00] Security challenge response of incoming connection from endpoint 125.128.133.49:50998 has been accepted.
+[2021-02-07 14:20:42.887 +09:00] Player 76561198862536750@steam preauthenticated from endpoint 125.128.133.49:50998.
+[2021-02-07 14:20:45.543 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:20:45.550 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:20:45.556 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-07 14:20:45.565 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:20:45.598 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:20:46.126 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:20:46.134 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:20:46.141 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-07 14:20:46.150 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:20:46.172 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:20:49.762 +09:00] Accepted authentication token of user 76561198862536750@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:20:49.792 +09:00] 76561198862536750@steam authenticated from endpoint 125.128.133.49:50998. Player ID assigned: 10. Auth token serial number: MC5KnsJWblN6CZr1
+[2021-02-07 14:20:49.826 +09:00] Nickname of 76561198862536750@steam is now sktws1.
+[2021-02-07 14:20:49.857 +09:00] Player sktws1 (76561198862536750@steam) (10) connected with the IP: 125.128.133.49
+[2021-02-07 14:20:49.948 +09:00] Accepted authentication token of user 76561198979297897@steam signed by Gravelines 2. No active global bans.
+[2021-02-07 14:20:49.979 +09:00] 76561198979297897@steam authenticated from endpoint 125.128.133.50:62423. Player ID assigned: 9. Auth token serial number: UXz5rzgSMwc5UwTB
+[2021-02-07 14:20:50.009 +09:00] Nickname of 76561198979297897@steam is now 메이드(ESP사용중).
+[2021-02-07 14:20:50.039 +09:00] Player 메이드(ESP사용중) (76561198979297897@steam) (9) connected with the IP: 125.128.133.50
+[2021-02-07 14:20:53.914 +09:00] Authentication token of player 76561198862536750@steam has been confirmed by central server.
+[2021-02-07 14:20:53.945 +09:00] Authentication token of player 76561198979297897@steam has been confirmed by central server.
+[2021-02-07 14:21:00.222 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the generator
+[2021-02-07 14:21:00.254 +09:00] [DEBUG] [RemoteKeycard] Generator permissions: ArmoryLevelTwo
+[2021-02-07 14:21:00.284 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:00.316 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:00.348 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:00.377 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:00.407 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:00.437 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:00.469 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:00.499 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:08.355 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:08.385 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:21:08.417 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:08.449 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:21:08.479 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:08.510 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:21:08.540 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:08.571 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:08.633 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:08.663 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:21:08.695 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:08.726 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:08.819 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:08.849 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:21:08.880 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:08.912 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:11.362 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:11.393 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-07 14:21:11.423 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:11.454 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:11.485 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:11.516 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:11.548 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:11.576 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:11.608 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:11.641 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:11.671 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:11.703 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:11.734 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-07 14:21:11.763 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:11.794 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:11.826 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:11.857 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:11.888 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:11.919 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:11.951 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:11.982 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:12.013 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:12.947 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:12.977 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-07 14:21:13.008 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:13.039 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:13.070 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:13.101 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:13.133 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:13.166 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:13.196 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:13.226 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:13.257 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:13.288 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:13.319 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-07 14:21:13.349 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:13.378 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:13.409 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:13.441 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:13.471 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:13.502 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:13.533 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:13.565 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:13.595 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:13.628 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:13.659 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-07 14:21:13.691 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:13.722 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:13.755 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:13.786 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:13.817 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:13.848 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:13.878 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:13.909 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:13.940 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:25.817 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:21:25.849 +09:00] [DEBUG] [RemoteKeycard] Door permission: ExitGates
+[2021-02-07 14:21:25.879 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:25.910 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:21:26.021 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:21:26.052 +09:00] [DEBUG] [RemoteKeycard] Door permission: ExitGates
+[2021-02-07 14:21:26.085 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:26.115 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:26.146 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardChaosInsurgency (10)
+[2021-02-07 14:21:26.176 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:26.208 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardChaosInsurgency (10) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, ARMORY_LVL_1, ARMORY_LVL_2, CHCKPOINT_ACC, INCOM_ACC, EXIT_ACC, ARMORY_LVL_3, PEDESTAL_ACC
+[2021-02-07 14:21:26.237 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardChaosInsurgency (10)
+[2021-02-07 14:21:26.716 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:26.748 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-07 14:21:26.780 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:26.811 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:26.841 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:26.871 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:26.901 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:26.933 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:26.965 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:26.998 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:27.028 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:27.060 +09:00] [DEBUG] [RemoteKeycard] Player 사과 (76561198956540241@steam) is trying to access the door
+[2021-02-07 14:21:27.090 +09:00] [DEBUG] [RemoteKeycard] Door permission: ArmoryLevelThree
+[2021-02-07 14:21:27.121 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:27.153 +09:00] [DEBUG] [RemoteKeycard] Further processing is allowed...
+[2021-02-07 14:21:27.185 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: GunE11SR (20)
+[2021-02-07 14:21:27.216 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:27.247 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Weapon (4) | T GunE11SR (20) | P None | P:string[]
+[2021-02-07 14:21:27.279 +09:00] [DEBUG] [RemoteKeycard] Processing an item in the player’s inventory: KeycardO5 (11)
+[2021-02-07 14:21:27.309 +09:00] [DEBUG] [RemoteKeycard] Game item is null: False
+[2021-02-07 14:21:27.340 +09:00] [DEBUG] [RemoteKeycard] Game item processing: C Keycard (1) | T KeycardO5 (11) | P Checkpoints, ExitGates, Intercom, ContainmentLevelOne, ContainmentLevelTwo, ContainmentLevelThree, ArmoryLevelOne, ArmoryLevelTwo, ArmoryLevelThree, Pedestal | P:string[] CONT_LVL_1, CONT_LVL_2, CONT_LVL_3, ARMORY_LVL_1, ARMORY_LVL_2, ARMORY_LVL_3, EXIT_ACC, INCOM_ACC, CHCKPOINT_ACC, PEDESTAL_ACC
+[2021-02-07 14:21:27.371 +09:00] [DEBUG] [RemoteKeycard] Item has successfully passed permission validation: KeycardO5 (11)
+[2021-02-07 14:21:27.931 +09:00] [DEBUG] [RemoteKeycard] Player POMXC (76561198986042822@steam) is trying to access the door
+[2021-02-07 14:21:27.962 +09:00] [DEBUG] [RemoteKeycard] Door permission: None
+[2021-02-07 14:21:27.993 +09:00] [DEBUG] [RemoteKeycard] Door lock mode: CanOpen, CanClose
+[2021-02-07 14:21:28.024 +09:00] [DEBUG] [RemoteKeycard] Door is locked, destroyed, or the player has access to open it
+[2021-02-07 14:21:32.951 +09:00] Round finished! Anomalies: 1 | Chaos: 5 | Facility Forces: 0 | D escaped percentage: 0 | S escaped percentage: : 0
+[2021-02-07 14:21:36.754 +09:00] [STDOUT] 3.156976
+[2021-02-07 14:21:37.057 +09:00] [STDOUT] 3.844464
+[2021-02-07 14:21:37.174 +09:00] [STDOUT] 3.637252
+[2021-02-07 14:21:44.478 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-07 14:21:44.510 +09:00] Idle mode is now temporarily blocked.
+[2021-02-07 14:21:44.961 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-07 14:21:44.967 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:44.983 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-07 14:21:44.988 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:44.993 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-07 14:21:44.999 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.004 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-07 14:21:45.010 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.015 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.021 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.026 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.032 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.038 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-07 14:21:45.044 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.049 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-07 14:21:45.053 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.059 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-07 14:21:45.064 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.068 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-07 14:21:45.073 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.078 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.082 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.087 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.092 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.097 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.101 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.106 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.111 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.115 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-07 14:21:45.120 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.126 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-07 14:21:45.130 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.134 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-07 14:21:45.139 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.144 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-07 14:21:45.149 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.153 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-07 14:21:45.158 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.163 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.167 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.171 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.177 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.181 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-07 14:21:45.185 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:45.192 +09:00] Player sktws1 (76561198862536750@steam) (10) disconnected
+[2021-02-07 14:21:45.215 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:21:45.232 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:21:45.262 +09:00] Player Goldmilk777 (76561198254130933@steam) (5) disconnected
+[2021-02-07 14:21:45.291 +09:00] [STDOUT] NullReferenceException
+[2021-02-07 14:21:45.296 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-07 14:21:45.300 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-07 14:21:45.305 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.310 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.315 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.319 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.324 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.330 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-07 14:21:45.335 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-07 14:21:45.346 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.351 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.357 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-07 14:21:45.362 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-07 14:21:45.368 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-07 14:21:45.373 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-07 14:21:45.379 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-07 14:21:45.384 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-07 14:21:45.392 +09:00] [STDOUT] NullReferenceException
+[2021-02-07 14:21:45.399 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-07 14:21:45.405 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-07 14:21:45.412 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.417 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.425 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.432 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.441 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.448 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-07 14:21:45.455 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-07 14:21:45.461 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.471 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:21:45.477 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.486 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-07 14:21:45.492 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-07 14:21:45.499 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-07 14:21:45.505 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-07 14:21:45.510 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-07 14:21:45.519 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-07 14:21:45.525 +09:00] [STDOUT] NullReferenceException
+[2021-02-07 14:21:45.533 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-07 14:21:45.538 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-07 14:21:45.545 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.553 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.560 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.570 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:21:45.576 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.583 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.588 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-07 14:21:45.594 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-07 14:21:45.600 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.606 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.612 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-07 14:21:45.619 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-07 14:21:45.624 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-07 14:21:45.630 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-07 14:21:45.637 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-07 14:21:45.643 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-07 14:21:45.649 +09:00] [STDOUT] NullReferenceException
+[2021-02-07 14:21:45.655 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-07 14:21:45.660 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-07 14:21:45.667 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.673 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-07 14:21:45.680 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.687 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.692 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-07 14:21:45.698 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-07 14:21:45.704 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-07 14:21:45.709 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.715 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-07 14:21:45.721 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-07 14:21:45.726 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-07 14:21:45.732 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-07 14:21:45.739 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-07 14:21:45.744 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-07 14:21:45.750 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-07 14:21:45.759 +09:00] Player Benedit (76561199044409090@steam) (2) disconnected
+[2021-02-07 14:21:45.782 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-07 14:21:45.814 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-07 14:21:45.846 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:21:45.879 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:21:45.910 +09:00] Player 사과 (76561198956540241@steam) (4) disconnected
+[2021-02-07 14:21:45.941 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-07 14:21:45.972 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-07 14:21:46.004 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:21:46.035 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:21:46.065 +09:00] Player 메이드(ESP사용중) (76561198979297897@steam) (9) disconnected
+[2021-02-07 14:21:46.095 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-07 14:21:46.127 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-07 14:21:46.158 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:21:46.191 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:21:46.219 +09:00] Player POMXC (76561198986042822@steam) (3) disconnected
+[2021-02-07 14:21:46.252 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-07 14:21:46.283 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-07 14:21:46.315 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:21:46.347 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:21:46.377 +09:00] Player (korea )D-1269 (76561199071968537@steam) (6) disconnected
+[2021-02-07 14:21:46.409 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-07 14:21:46.440 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-07 14:21:46.479 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-07 14:21:46.503 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-07 14:21:46.998 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-07 14:21:47.003 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.011 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-07 14:21:47.016 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.023 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-07 14:21:47.028 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.034 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.040 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.045 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.051 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.057 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.062 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.067 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.073 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.080 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.086 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.093 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.098 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.103 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.110 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.115 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.120 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.126 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.132 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.136 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.143 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.149 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-07 14:21:47.154 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.161 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.166 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.171 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.177 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.183 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.187 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.194 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.199 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.204 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.210 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.215 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.221 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.227 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.232 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.238 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-07 14:21:47.245 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.250 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-07 14:21:47.256 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-07 14:21:47.263 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.268 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.276 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.281 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.287 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.293 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.299 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.305 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.311 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.316 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.322 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.328 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.333 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.338 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.344 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.349 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.354 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.360 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.365 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.369 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.374 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.380 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.385 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.389 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.395 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.399 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.404 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.410 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.415 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.420 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.425 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-07 14:21:47.431 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.435 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.440 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.446 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.451 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.455 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.460 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.465 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.470 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.475 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.480 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.485 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.490 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.495 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.500 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.505 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.511 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.516 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.521 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.526 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-07 14:21:47.532 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.537 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-07 14:21:47.542 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.547 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.552 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-07 14:21:47.557 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.564 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-07 14:21:47.569 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.574 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.580 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-07 14:21:47.585 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.589 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.594 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.599 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.604 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-07 14:21:47.609 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.615 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-07 14:21:47.620 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.625 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.630 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-07 14:21:47.636 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.642 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-07 14:21:47.648 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.653 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.658 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-07 14:21:47.663 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.668 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.673 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.678 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.684 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-07 14:21:47.689 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.695 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.700 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.706 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.711 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-07 14:21:47.717 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.722 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.727 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.732 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.737 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-07 14:21:47.742 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.747 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-07 14:21:47.752 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.757 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.762 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.767 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.772 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-07 14:21:47.777 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.782 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.787 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.792 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.797 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-07 14:21:47.802 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.808 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.813 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.818 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.824 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-07 14:21:47.829 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-07 14:21:47.834 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-07 14:21:47.839 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-07 14:21:47.844 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-07 14:21:47.849 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-07 14:21:47.854 +09:00] [STDOUT] UnloadTime: 93.634100 ms
+[2021-02-07 14:21:47.859 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-07 14:21:47.864 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-07 14:21:47.870 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-07 14:21:47.875 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-07 14:21:47.881 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-07 14:21:47.886 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-07 14:21:47.891 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-07 14:21:47.895 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-07 14:21:47.901 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-07 14:21:47.907 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-07 14:21:47.912 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-07 14:21:47.917 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-07 14:21:47.922 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-07 14:21:47.928 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-07 14:21:47.935 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-07 14:21:47.940 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-07 14:21:47.945 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-07 14:21:47.950 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-07 14:21:47.955 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-07 14:21:47.960 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-07 14:21:47.965 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-07 14:21:47.970 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-07 14:21:47.976 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-07 14:21:47.981 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-07 14:21:47.986 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-07 14:21:47.991 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-07 14:21:47.997 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::14610
+[2021-02-07 14:21:48.002 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-07 14:21:48.007 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-07 14:21:48.014 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-07 14:21:48.035 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 227364651
+[2021-02-07 14:21:48.048 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 7846
+[2021-02-07 14:21:48.337 +09:00] [STDOUT] Unloading 286 unused Assets to reduce memory usage. Loaded Objects now: 117396.
+[2021-02-07 14:21:48.343 +09:00] [STDOUT] Total: 189.258600 ms (FindLiveObjects: 5.021700 ms CreateObjectMapping: 3.056000 ms MarkObjects: 180.781000 ms  DeleteObjects: 0.399600 ms)
+[2021-02-07 14:21:48.348 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-07 14:21:48.604 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-07 14:21:48.992 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 105413.
+[2021-02-07 14:21:48.998 +09:00] [STDOUT] Total: 134.648300 ms (FindLiveObjects: 4.655600 ms CreateObjectMapping: 2.900400 ms MarkObjects: 126.872900 ms  DeleteObjects: 0.219000 ms)
+[2021-02-07 14:21:49.030 +09:00] Incoming connections will be no longer delayed.
+[2021-02-07 14:21:49.061 +09:00] Idle mode is now available.
+[2021-02-07 14:21:49.090 +09:00] --- END OF LOG ---

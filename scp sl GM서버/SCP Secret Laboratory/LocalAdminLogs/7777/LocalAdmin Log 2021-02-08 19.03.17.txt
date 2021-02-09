@@ -1,0 +1,909 @@
+[2021-02-08 19:03:17.487 +09:00] Logging started.
+[2021-02-08 19:03:17.492 +09:00] Timezone offset: +09:00
+[2021-02-08 19:03:17.515 +09:00] Waiting for players...
+[2021-02-08 19:03:35.054 +09:00] Requested challenge for incoming connection from endpoint 58.237.121.251:50056.
+[2021-02-08 19:03:35.100 +09:00] Requested challenge for incoming connection from endpoint 221.141.217.143:52706.
+[2021-02-08 19:03:35.210 +09:00] Requested challenge for incoming connection from endpoint 211.37.72.148:64766.
+[2021-02-08 19:03:35.303 +09:00] Requested challenge for incoming connection from endpoint 211.213.249.85:52940.
+[2021-02-08 19:03:35.584 +09:00] Security challenge response of incoming connection from endpoint 58.237.121.251:50057 has been accepted.
+[2021-02-08 19:03:35.615 +09:00] Player 76561198977412318@steam preauthenticated from endpoint 58.237.121.251:50057.
+[2021-02-08 19:03:35.646 +09:00] Requested challenge for incoming connection from endpoint 124.153.148.198:52263.
+[2021-02-08 19:03:35.677 +09:00] Security challenge response of incoming connection from endpoint 221.141.217.143:52707 has been accepted.
+[2021-02-08 19:03:35.708 +09:00] Player 76561198857629393@steam preauthenticated from endpoint 221.141.217.143:52707.
+[2021-02-08 19:03:35.723 +09:00] Security challenge response of incoming connection from endpoint 211.37.72.148:64767 has been accepted.
+[2021-02-08 19:03:35.739 +09:00] Player 76561199093352805@steam preauthenticated from endpoint 211.37.72.148:64767.
+[2021-02-08 19:03:35.848 +09:00] Security challenge response of incoming connection from endpoint 211.213.249.85:52941 has been accepted.
+[2021-02-08 19:03:35.879 +09:00] Player 76561198109926552@steam preauthenticated from endpoint 211.213.249.85:52941.
+[2021-02-08 19:03:35.895 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:64333.
+[2021-02-08 19:03:36.160 +09:00] Security challenge response of incoming connection from endpoint 124.153.148.198:52264 has been accepted.
+[2021-02-08 19:03:36.191 +09:00] Player 76561198392832602@steam preauthenticated from endpoint 124.153.148.198:52264.
+[2021-02-08 19:03:36.377 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:64334 has been accepted.
+[2021-02-08 19:03:36.392 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:64334.
+[2021-02-08 19:03:36.582 +09:00] Requested challenge for incoming connection from endpoint 61.253.118.21:60191.
+[2021-02-08 19:03:36.661 +09:00] Requested challenge for incoming connection from endpoint 220.84.120.225:60464.
+[2021-02-08 19:03:37.129 +09:00] Security challenge response of incoming connection from endpoint 61.253.118.21:60192 has been accepted.
+[2021-02-08 19:03:37.158 +09:00] Player 76561199087358210@steam preauthenticated from endpoint 61.253.118.21:60192.
+[2021-02-08 19:03:37.205 +09:00] Security challenge response of incoming connection from endpoint 220.84.120.225:55738 has been accepted.
+[2021-02-08 19:03:37.237 +09:00] Player 76561199117410133@steam preauthenticated from endpoint 220.84.120.225:55738.
+[2021-02-08 19:03:38.182 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:38.186 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:38.191 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:38.197 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:38.218 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:38.561 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:38.566 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:38.571 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:38.582 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:38.614 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:38.696 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:38.701 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:38.708 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:38.714 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:38.743 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:39.434 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:39.439 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:39.444 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:39.462 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:39.479 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:39.799 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:39.804 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:39.809 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:39.816 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:39.841 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:40.080 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:40.085 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:40.090 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:40.096 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:40.125 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:42.094 +09:00] Accepted authentication token of user 76561198109926552@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:03:42.124 +09:00] 76561198109926552@steam authenticated from endpoint 211.213.249.85:52941. Player ID assigned: 2. Auth token serial number: eIlRdHz7jf82Rrb9
+[2021-02-08 19:03:42.155 +09:00] Nickname of 76561198109926552@steam is now UKUN.
+[2021-02-08 19:03:42.186 +09:00] Player UKUN (76561198109926552@steam) (2) connected with the IP: 211.213.249.85
+[2021-02-08 19:03:42.974 +09:00] Accepted authentication token of user 76561199093352805@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:03:43.006 +09:00] 76561199093352805@steam authenticated from endpoint 211.37.72.148:64767. Player ID assigned: 4. Auth token serial number: fzSPC0gItIJNBhHx
+[2021-02-08 19:03:43.038 +09:00] Nickname of 76561199093352805@steam is now 매미가되고싶은고구마.
+[2021-02-08 19:03:43.069 +09:00] Player 매미가되고싶은고구마 (76561199093352805@steam) (4) connected with the IP: 211.37.72.148
+[2021-02-08 19:03:43.834 +09:00] Authentication token of player 76561198109926552@steam has been confirmed by central server.
+[2021-02-08 19:03:43.864 +09:00] Authentication token of player 76561199093352805@steam has been confirmed by central server.
+[2021-02-08 19:03:44.370 +09:00] Accepted authentication token of user 76561198392832602@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:03:44.400 +09:00] 76561198392832602@steam authenticated from endpoint 124.153.148.198:52264. Player ID assigned: 5. Auth token serial number: ZPPpwbRmUdSqkli/
+[2021-02-08 19:03:44.432 +09:00] Nickname of 76561198392832602@steam is now Science Yasuo(잼민이 혐오).
+[2021-02-08 19:03:44.464 +09:00] Player Science Yasuo(잼민이 혐오) (76561198392832602@steam) (5) connected with the IP: 124.153.148.198
+[2021-02-08 19:03:44.543 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:03:44.562 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:44.569 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:44.576 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:44.583 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:64334. Player ID assigned: 6. Auth token serial number: 7Oqo3EOYUoA1D1WY
+[2021-02-08 19:03:44.607 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:44.640 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:44.671 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-08 19:03:44.702 +09:00] Player Goldmilk777 (76561198254130933@steam) (6) connected with the IP: 192.168.0.1
+[2021-02-08 19:03:44.709 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:03:44.715 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:03:44.722 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:03:44.733 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:03:44.766 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:03:44.796 +09:00] Accepted authentication token of user 76561198977412318@steam signed by Gravelines 1. No active global bans.
+[2021-02-08 19:03:44.827 +09:00] 76561198977412318@steam authenticated from endpoint 58.237.121.251:50057. Player ID assigned: 7. Auth token serial number: PCi9uJgTmF33AGap
+[2021-02-08 19:03:44.890 +09:00] Nickname of 76561198977412318@steam is now 머니샵.
+[2021-02-08 19:03:44.920 +09:00] Player 머니샵 (76561198977412318@steam) (7) connected with the IP: 58.237.121.251
+[2021-02-08 19:03:45.372 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.405 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.422 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.438 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.455 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.472 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.505 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.522 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.539 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.556 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.573 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.590 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.624 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.640 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.657 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.674 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.691 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.724 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.741 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.757 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.774 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.791 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.824 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.841 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.858 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.875 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.892 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.925 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.942 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.959 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.975 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:45.992 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.026 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.043 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.060 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.076 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.093 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.127 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.143 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.160 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.177 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.194 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.211 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.244 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.261 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.277 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.294 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.311 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.345 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:46.361 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:47.994 +09:00] Accepted authentication token of user 76561198857629393@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:03:48.025 +09:00] 76561198857629393@steam authenticated from endpoint 221.141.217.143:52707. Player ID assigned: 3. Auth token serial number: hWxx0M22bgSMiuUs
+[2021-02-08 19:03:48.057 +09:00] Nickname of 76561198857629393@steam is now 크리.
+[2021-02-08 19:03:48.087 +09:00] Player 크리 (76561198857629393@steam) (3) connected with the IP: 221.141.217.143
+[2021-02-08 19:03:49.210 +09:00] Authentication token of player 76561198392832602@steam has been confirmed by central server.
+[2021-02-08 19:03:49.242 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-08 19:03:49.273 +09:00] Authentication token of player 76561198977412318@steam has been confirmed by central server.
+[2021-02-08 19:03:49.305 +09:00] Authentication token of player 76561198857629393@steam has been confirmed by central server.
+[2021-02-08 19:03:50.348 +09:00] Accepted authentication token of user 76561199117410133@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:03:50.378 +09:00] 76561199117410133@steam authenticated from endpoint 220.84.120.225:55738. Player ID assigned: 8. Auth token serial number: 8RLpVXYtkMEOcJXX
+[2021-02-08 19:03:50.411 +09:00] Nickname of 76561199117410133@steam is now leemj10082009.
+[2021-02-08 19:03:50.442 +09:00] Player leemj10082009 (76561199117410133@steam) (8) connected with the IP: 220.84.120.225
+[2021-02-08 19:03:50.550 +09:00] Accepted authentication token of user 76561199087358210@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:03:50.582 +09:00] 76561199087358210@steam authenticated from endpoint 61.253.118.21:60192. Player ID assigned: 9. Auth token serial number: o6xr3NGli27m9QV5
+[2021-02-08 19:03:50.614 +09:00] Nickname of 76561199087358210@steam is now msn0088.
+[2021-02-08 19:03:50.645 +09:00] Player msn0088 (76561199087358210@steam) (9) connected with the IP: 61.253.118.21
+[2021-02-08 19:03:50.898 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:50.914 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:50.931 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:50.964 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:50.981 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:50.998 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.014 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.031 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.065 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.082 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.098 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.105 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.115 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.121 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.132 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.139 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.165 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.174 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.182 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.190 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.198 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.206 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.215 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.222 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.232 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.239 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.266 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.273 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.283 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.289 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.300 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.307 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.316 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.324 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.333 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.340 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.366 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.374 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.383 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.391 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.401 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.408 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.417 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.425 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.434 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.441 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.450 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.458 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.484 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.492 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.500 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.508 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.517 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.524 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.534 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.541 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.551 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.558 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.585 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.592 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.602 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.609 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.619 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.626 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.636 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.643 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.652 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.660 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.686 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.694 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.703 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.711 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.719 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.727 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.736 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.744 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.753 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.761 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.770 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.777 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.804 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.811 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.820 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.828 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.837 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.845 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.854 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.861 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.871 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.878 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.905 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.912 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.922 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.929 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.939 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.946 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.956 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.963 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.973 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:51.980 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.006 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.014 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.023 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.030 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.039 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.047 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.056 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.064 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.073 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.081 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.107 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.114 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.123 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.131 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.140 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.148 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.156 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.164 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.173 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.207 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.224 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.241 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.258 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.275 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.292 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.325 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.342 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.359 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.376 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.393 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.426 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.443 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.460 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.477 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.493 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.510 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.544 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.561 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.578 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.594 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.611 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.644 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.662 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.678 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.695 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.711 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.746 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.762 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.779 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.796 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.814 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.847 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.863 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.880 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.897 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.914 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.931 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.965 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.982 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:52.999 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.015 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.033 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.067 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.084 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.100 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.117 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.134 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.150 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.184 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.201 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.218 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.235 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.252 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.286 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.302 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.319 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.336 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.353 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.386 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.404 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.420 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.437 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.454 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.470 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.504 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.521 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.537 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.554 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.571 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.604 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.621 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.654 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.671 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.705 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.722 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.738 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.755 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.772 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.805 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.822 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.839 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.856 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.872 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.906 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.923 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.940 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.956 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:53.973 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:54.007 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:54.024 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 19:03:54.563 +09:00] Authentication token of player 76561199117410133@steam has been confirmed by central server.
+[2021-02-08 19:03:54.594 +09:00] Authentication token of player 76561199087358210@steam has been confirmed by central server.
+[2021-02-08 19:04:10.877 +09:00] New round has been started.
+[2021-02-08 19:04:11.947 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-08 19:04:11.979 +09:00] [INFO] [BroadcastPlugin] 이 서버는 ombe1229의 브로드캐스트 플러그인을 사용 중입니다.
+[2021-02-08 19:04:12.010 +09:00] [INFO] [RespawnTimer] RespawnTimer coroutine started successfully! The timer will be refreshed every 1 second/s!
+[2021-02-08 19:05:00.122 +09:00] Requested challenge for incoming connection from endpoint 175.208.101.192:62060.
+[2021-02-08 19:05:00.637 +09:00] Security challenge response of incoming connection from endpoint 175.208.101.192:62061 has been accepted.
+[2021-02-08 19:05:00.669 +09:00] Player 76561199123553986@steam preauthenticated from endpoint 175.208.101.192:62061.
+[2021-02-08 19:06:25.984 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:06:25.993 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:06:26.001 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:06:26.008 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:06:26.027 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:06:33.721 +09:00] Accepted authentication token of user 76561199123553986@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:06:33.752 +09:00] 76561199123553986@steam authenticated from endpoint 175.208.101.192:62061. Player ID assigned: 10. Auth token serial number: mtfVvMCdO/SlQPiH
+[2021-02-08 19:06:33.784 +09:00] Nickname of 76561199123553986@steam is now 나만없어고양이.
+[2021-02-08 19:06:33.813 +09:00] Player 나만없어고양이 (76561199123553986@steam) (10) connected with the IP: 175.208.101.192
+[2021-02-08 19:06:34.883 +09:00] Authentication token of player 76561199123553986@steam has been confirmed by central server.
+[2021-02-08 19:07:11.176 +09:00] Requested challenge for incoming connection from endpoint 124.120.194.246:53318.
+[2021-02-08 19:07:11.863 +09:00] [WARN] [Exiled.Events] [ANTI-BACKDOOR]: Exiled.Events allowed banning user with ID: 76561198857629393@steam - 2021-02-08 19:07:11.852 +09:00
+[2021-02-08 19:07:11.905 +09:00] [STDOUT] HandleData Unknown connectionId:10
+[2021-02-08 19:07:11.913 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:07:11.921 +09:00] [STDOUT] HandleData Unknown connectionId:10
+[2021-02-08 19:07:11.927 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:07:11.935 +09:00] [STDOUT] HandleData Unknown connectionId:10
+[2021-02-08 19:07:11.942 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:07:11.951 +09:00] Player 크리 (76561198857629393@steam) (3) disconnected
+[2021-02-08 19:07:11.971 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:07:12.003 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:07:12.033 +09:00] Security challenge response of incoming connection from endpoint 124.120.194.246:53319 has been accepted.
+[2021-02-08 19:07:12.063 +09:00] Player 76561198829216242@steam preauthenticated from endpoint 124.120.194.246:53319.
+[2021-02-08 19:07:21.485 +09:00] Requested challenge for incoming connection from endpoint 221.141.217.143:55850.
+[2021-02-08 19:07:22.003 +09:00] Security challenge response of incoming connection from endpoint 221.141.217.143:55851 has been accepted.
+[2021-02-08 19:07:22.033 +09:00] Player 76561198857629393@steam preauthenticated from endpoint 221.141.217.143:55851.
+[2021-02-08 19:07:23.424 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:07:23.432 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:07:23.439 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:07:23.447 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:07:23.456 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:07:24.876 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:07:24.885 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:07:24.892 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:07:24.900 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:07:24.910 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:07:29.072 +09:00] Accepted authentication token of user 76561198857629393@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:07:29.103 +09:00] 76561198857629393@steam authenticated from endpoint 221.141.217.143:55851. Player ID assigned: 12. Auth token serial number: WXSVLp3Hokz2Obc0
+[2021-02-08 19:07:29.134 +09:00] Nickname of 76561198857629393@steam is now 크리.
+[2021-02-08 19:07:29.164 +09:00] Player 크리 (76561198857629393@steam) (12) connected with the IP: 221.141.217.143
+[2021-02-08 19:07:29.921 +09:00] Accepted authentication token of user 76561198829216242@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:07:29.953 +09:00] 76561198829216242@steam authenticated from endpoint 124.120.194.246:53319. Player ID assigned: 11. Auth token serial number: duab/6zJVeGkG2hB
+[2021-02-08 19:07:30.318 +09:00] Nickname of 76561198829216242@steam is now chqheorkfl.
+[2021-02-08 19:07:30.351 +09:00] Player chqheorkfl (76561198829216242@steam) (11) connected with the IP: 124.120.194.246
+[2021-02-08 19:07:30.382 +09:00] [INFO] [ScpUtils] chqheorkfl is not present on DB, creating account!
+[2021-02-08 19:07:33.531 +09:00] Authentication token of player 76561198857629393@steam has been confirmed by central server.
+[2021-02-08 19:07:33.562 +09:00] Authentication token of player 76561198829216242@steam has been confirmed by central server.
+[2021-02-08 19:07:44.741 +09:00] Player chqheorkfl (76561198829216242@steam) (11) disconnected
+[2021-02-08 19:07:44.774 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:07:44.804 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:09:31.850 +09:00] [STDOUT] MissingFieldException: Field 'SerpentsHand.EventHandlers.isSpawnable' not found.
+[2021-02-08 19:09:31.863 +09:00] [STDOUT]   at RespawnTimer.Handler+<Timer>d__3.MoveNext () [0x00301] in <25bfc2e9c7524f52ac5524906579737d>:0
+[2021-02-08 19:09:31.874 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:09:31.881 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:09:31.889 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:09:31.897 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:09:31.905 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:09:31.912 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:09:31.921 +09:00] [STDOUT] (Filename: <25bfc2e9c7524f52ac5524906579737d> Line: 0)
+[2021-02-08 19:09:55.009 +09:00] Requested challenge for incoming connection from endpoint 118.222.215.119:55210.
+[2021-02-08 19:09:55.539 +09:00] Security challenge response of incoming connection from endpoint 118.222.215.119:55212 has been accepted.
+[2021-02-08 19:09:55.572 +09:00] Player 76561199130647701@steam preauthenticated from endpoint 118.222.215.119:55212.
+[2021-02-08 19:10:07.279 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:10:07.292 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:10:07.300 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:10:07.306 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 19:10:07.315 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:10:13.130 +09:00] Accepted authentication token of user 76561199130647701@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 19:10:13.160 +09:00] 76561199130647701@steam authenticated from endpoint 118.222.215.119:55212. Player ID assigned: 13. Auth token serial number: fpQKsjxjFiLDqa5G
+[2021-02-08 19:10:13.191 +09:00] Nickname of 76561199130647701@steam is now 햄최몇.
+[2021-02-08 19:10:13.224 +09:00] Player 햄최몇 (76561199130647701@steam) (13) connected with the IP: 118.222.215.119
+[2021-02-08 19:10:13.255 +09:00] [INFO] [ScpUtils] 햄최몇 is not present on DB, creating account!
+[2021-02-08 19:10:18.833 +09:00] Authentication token of player 76561199130647701@steam has been confirmed by central server.
+[2021-02-08 19:10:41.578 +09:00] [STDOUT] 7.714835
+[2021-02-08 19:10:41.696 +09:00] [STDOUT] 8.563179
+[2021-02-08 19:13:22.352 +09:00] [INFO] [ChopperDrop-2.4] Spawning chopper!
+[2021-02-08 19:13:37.406 +09:00] [INFO] [ChopperDrop-2.4] Spawning 1 MicroHID's
+[2021-02-08 19:13:37.438 +09:00] [INFO] [ChopperDrop-2.4] Spawning 1 KeycardFacilityManager's
+[2021-02-08 19:13:37.469 +09:00] [INFO] [ChopperDrop-2.4] Spawning 3 Medkit's
+[2021-02-08 19:13:37.501 +09:00] [INFO] [ChopperDrop-2.4] Spawning 3 Adrenaline's
+[2021-02-08 19:15:15.001 +09:00] [ERROR] [Exiled.Events] Method "OnPlayerDied" of the class "Common_Utilities.EventHandlers.PlayerHandlers" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.DiedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:15.032 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Common_Utilities.EventHandlers.PlayerHandlers.OnPlayerDied (Exiled.Events.EventArgs.DiedEventArgs ev) [0x00017] in <5f1410f9e4b94bf593b3b9c1c9280df3>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:15.079 +09:00] Round finished! Anomalies: 0 | Chaos: 3 | Facility Forces: 0 | D escaped percentage: 0 | S escaped percentage: : 0
+[2021-02-08 19:15:26.583 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-08 19:15:26.615 +09:00] Idle mode is now temporarily blocked.
+[2021-02-08 19:15:27.088 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.093 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.097 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.102 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.107 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.112 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.118 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.124 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.129 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.134 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.139 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.145 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.151 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.157 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.164 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.171 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.176 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.181 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.187 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.192 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.197 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:15:27.205 +09:00] Player 햄최몇 (76561199130647701@steam) (13) disconnected
+[2021-02-08 19:15:27.212 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.219 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:15:27.227 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.231 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:15:27.240 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.247 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-08 19:15:27.257 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.272 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:27.280 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-08 19:15:27.286 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.293 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.298 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.305 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:15:27.310 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.315 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.321 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.326 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.331 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.338 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 19:15:27.343 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.348 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-08 19:15:27.353 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.358 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-08 19:15:27.363 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.368 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.374 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.380 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.385 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.391 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 19:15:27.395 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:27.400 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:15:27.406 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:15:27.410 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:15:27.415 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.421 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.426 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.431 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.436 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.441 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:15:27.446 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:15:27.451 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.456 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.460 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:15:27.465 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:15:27.470 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:15:27.475 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:15:27.479 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:15:27.484 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:15:27.489 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:15:27.493 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:15:27.499 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:15:27.504 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.509 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.516 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.525 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.530 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.536 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:15:27.542 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:15:27.547 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.552 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.557 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:15:27.562 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:15:27.567 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:15:27.573 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:15:27.577 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:15:27.582 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:15:27.590 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:15:27.595 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:15:27.599 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:15:27.606 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.611 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.616 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.621 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.626 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.631 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:15:27.637 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:15:27.642 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.648 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.655 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:15:27.661 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:15:27.667 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:15:27.674 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:15:27.680 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:15:27.687 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:15:27.692 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 19:15:27.702 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:27.709 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 19:15:27.714 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 19:15:27.719 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.724 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 19:15:27.729 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.734 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.740 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 19:15:27.745 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 19:15:27.751 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 19:15:27.757 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.763 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 19:15:27.770 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 19:15:27.775 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 19:15:27.782 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 19:15:27.790 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 19:15:27.794 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 19:15:27.799 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 19:15:27.806 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:15:27.821 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:15:27.837 +09:00] Player Goldmilk777 (76561198254130933@steam) (6) disconnected
+[2021-02-08 19:15:27.870 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:27.902 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:27.932 +09:00] Player leemj10082009 (76561199117410133@steam) (8) disconnected
+[2021-02-08 19:15:27.964 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:27.995 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.026 +09:00] Player msn0088 (76561199087358210@steam) (9) disconnected
+[2021-02-08 19:15:28.057 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:28.088 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.118 +09:00] Player 크리 (76561198857629393@steam) (12) disconnected
+[2021-02-08 19:15:28.151 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:28.181 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.212 +09:00] Player Science Yasuo(잼민이 혐오) (76561198392832602@steam) (5) disconnected
+[2021-02-08 19:15:28.244 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:28.276 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.307 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:15:28.338 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:15:28.369 +09:00] Player 나만없어고양이 (76561199123553986@steam) (10) disconnected
+[2021-02-08 19:15:28.400 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:28.432 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.463 +09:00] Player UKUN (76561198109926552@steam) (2) disconnected
+[2021-02-08 19:15:28.494 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:28.526 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.556 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:15:28.587 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:15:28.619 +09:00] Player 머니샵 (76561198977412318@steam) (7) disconnected
+[2021-02-08 19:15:28.650 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:28.681 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.712 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:15:28.742 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:15:28.774 +09:00] Player 매미가되고싶은고구마 (76561199093352805@steam) (4) disconnected
+[2021-02-08 19:15:28.805 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 19:15:28.847 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 19:15:28.882 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 19:15:28.914 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 19:15:29.139 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-08 19:15:29.144 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.151 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-08 19:15:29.156 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.161 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-08 19:15:29.168 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.172 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.178 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.184 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.189 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.195 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.201 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.206 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.211 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.218 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.223 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.227 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.235 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.240 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.246 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.251 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.256 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.261 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.267 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.272 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.277 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.283 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 19:15:29.288 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.293 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.300 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.305 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.310 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.316 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.321 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.326 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.331 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.337 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.341 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.346 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.352 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.359 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.364 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.370 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 19:15:29.374 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.379 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-08 19:15:29.384 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 19:15:29.389 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.394 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.400 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.405 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.409 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.415 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.420 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.424 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.429 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.434 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.439 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.444 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.449 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.454 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.459 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.464 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.470 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.475 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.479 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.485 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.490 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.495 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.500 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.505 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.510 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.514 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.521 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.526 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.530 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.536 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.540 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-08 19:15:29.545 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.551 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.556 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.561 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.566 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.571 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.575 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.580 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.586 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.590 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.595 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.601 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.606 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.611 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.616 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.621 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.626 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.630 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.636 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.641 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 19:15:29.645 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.651 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 19:15:29.656 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.660 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.665 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-08 19:15:29.671 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.677 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-08 19:15:29.682 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.688 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.693 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:15:29.697 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.703 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.708 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.713 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.718 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-08 19:15:29.724 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.729 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-08 19:15:29.734 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.739 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.745 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-08 19:15:29.751 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.756 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-08 19:15:29.761 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.766 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.771 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:15:29.777 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.782 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.788 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.793 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.798 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:15:29.803 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.808 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.813 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.819 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.825 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:15:29.830 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.835 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.840 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.845 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.850 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-08 19:15:29.854 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.860 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:15:29.867 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.871 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.876 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.881 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.886 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:15:29.891 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.896 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.902 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.908 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.913 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 19:15:29.918 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.923 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.928 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.933 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.938 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 19:15:29.943 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 19:15:29.949 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 19:15:29.954 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 19:15:29.959 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 19:15:29.964 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-08 19:15:29.969 +09:00] [STDOUT] UnloadTime: 95.994000 ms
+[2021-02-08 19:15:29.974 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 19:15:29.979 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 19:15:29.984 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 19:15:29.989 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 19:15:29.994 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 19:15:29.999 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 19:15:30.005 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-08 19:15:30.010 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-08 19:15:30.015 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-08 19:15:30.063 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-08 19:15:30.068 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-08 19:15:30.073 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-08 19:15:30.078 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-08 19:15:30.083 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-08 19:15:30.089 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-08 19:15:30.094 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-08 19:15:30.099 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-08 19:15:30.105 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-08 19:15:30.111 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-08 19:15:30.116 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-08 19:15:30.121 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-08 19:15:30.126 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-08 19:15:30.131 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-08 19:15:30.136 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-08 19:15:30.141 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-08 19:15:30.146 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-08 19:15:30.151 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::9625
+[2021-02-08 19:15:30.157 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-08 19:15:30.173 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 19:15:30.179 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 19:15:30.228 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 167384581
+[2021-02-08 19:15:30.244 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 5382
+[2021-02-08 19:15:30.590 +09:00] [STDOUT] Unloading 281 unused Assets to reduce memory usage. Loaded Objects now: 117626.
+[2021-02-08 19:15:30.596 +09:00] [STDOUT] Total: 258.539500 ms (FindLiveObjects: 5.270100 ms CreateObjectMapping: 2.717400 ms MarkObjects: 250.123300 ms  DeleteObjects: 0.428500 ms)
+[2021-02-08 19:15:30.600 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-08 19:15:30.861 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-08 19:15:31.310 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 104123.
+[2021-02-08 19:15:31.316 +09:00] [STDOUT] Total: 201.171900 ms (FindLiveObjects: 4.829200 ms CreateObjectMapping: 2.732000 ms MarkObjects: 193.376400 ms  DeleteObjects: 0.233900 ms)
+[2021-02-08 19:15:31.353 +09:00] Incoming connections will be no longer delayed.
+[2021-02-08 19:15:31.368 +09:00] Idle mode is now available.
+[2021-02-08 19:15:31.382 +09:00] --- END OF LOG ---

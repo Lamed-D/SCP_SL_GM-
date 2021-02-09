@@ -1,0 +1,1405 @@
+[2021-02-08 18:41:44.998 +09:00] Logging started.
+[2021-02-08 18:41:45.002 +09:00] Timezone offset: +09:00
+[2021-02-08 18:41:45.027 +09:00] Waiting for players...
+[2021-02-08 18:41:53.910 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:50697.
+[2021-02-08 18:41:53.941 +09:00] Requested challenge for incoming connection from endpoint 124.153.148.198:53137.
+[2021-02-08 18:41:54.019 +09:00] Requested challenge for incoming connection from endpoint 211.187.127.126:58823.
+[2021-02-08 18:41:54.316 +09:00] Requested challenge for incoming connection from endpoint 211.213.249.85:59153.
+[2021-02-08 18:41:54.425 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:50698 has been accepted.
+[2021-02-08 18:41:54.455 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:50698.
+[2021-02-08 18:41:54.487 +09:00] Security challenge response of incoming connection from endpoint 124.153.148.198:53138 has been accepted.
+[2021-02-08 18:41:54.517 +09:00] Player 76561198392832602@steam preauthenticated from endpoint 124.153.148.198:53138.
+[2021-02-08 18:41:54.548 +09:00] Security challenge response of incoming connection from endpoint 211.187.127.126:58824 has been accepted.
+[2021-02-08 18:41:54.564 +09:00] Player 76561199112849985@steam preauthenticated from endpoint 211.187.127.126:58824.
+[2021-02-08 18:41:54.689 +09:00] Requested challenge for incoming connection from endpoint 61.253.118.21:63744.
+[2021-02-08 18:41:54.782 +09:00] Requested challenge for incoming connection from endpoint 220.84.120.225:59196.
+[2021-02-08 18:41:54.861 +09:00] Security challenge response of incoming connection from endpoint 211.213.249.85:59154 has been accepted.
+[2021-02-08 18:41:54.893 +09:00] Player 76561198109926552@steam preauthenticated from endpoint 211.213.249.85:59154.
+[2021-02-08 18:41:55.208 +09:00] Security challenge response of incoming connection from endpoint 61.253.118.21:63745 has been accepted.
+[2021-02-08 18:41:55.237 +09:00] Player 76561199087358210@steam preauthenticated from endpoint 61.253.118.21:63745.
+[2021-02-08 18:41:55.329 +09:00] Security challenge response of incoming connection from endpoint 220.84.120.225:59197 has been accepted.
+[2021-02-08 18:41:55.358 +09:00] Player 76561199117410133@steam preauthenticated from endpoint 220.84.120.225:59197.
+[2021-02-08 18:41:57.137 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:41:57.141 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:41:57.145 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 9806
+[2021-02-08 18:41:57.151 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:41:57.167 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:41:57.618 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:41:57.623 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:41:57.629 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 12316
+[2021-02-08 18:41:57.638 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:41:57.669 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:41:57.840 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:41:57.845 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:41:57.852 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:41:57.856 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 13683
+[2021-02-08 18:41:57.876 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:41:57.991 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:41:57.996 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:41:58.004 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:41:58.009 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 14440
+[2021-02-08 18:41:58.030 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:42:00.812 +09:00] Accepted authentication token of user 76561198109926552@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:42:00.844 +09:00] 76561198109926552@steam authenticated from endpoint 211.213.249.85:59154. Player ID assigned: 2. Auth token serial number: vYA8qPhY6kGbuLyZ
+[2021-02-08 18:42:00.891 +09:00] Nickname of 76561198109926552@steam is now UKUN.
+[2021-02-08 18:42:00.907 +09:00] Player UKUN (76561198109926552@steam) (2) connected with the IP: 211.213.249.85
+[2021-02-08 18:42:01.731 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:42:01.763 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:50698. Player ID assigned: 4. Auth token serial number: bd18R5mSMm6sNsYK
+[2021-02-08 18:42:01.795 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-08 18:42:01.827 +09:00] Player Goldmilk777 (76561198254130933@steam) (4) connected with the IP: 192.168.0.1
+[2021-02-08 18:42:02.063 +09:00] Accepted authentication token of user 76561199112849985@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:42:02.094 +09:00] 76561199112849985@steam authenticated from endpoint 211.187.127.126:58824. Player ID assigned: 3. Auth token serial number: fLukd1oMH2eJOqde
+[2021-02-08 18:42:02.126 +09:00] Nickname of 76561199112849985@steam is now 하고하고.
+[2021-02-08 18:42:02.157 +09:00] Player 하고하고 (76561199112849985@steam) (3) connected with the IP: 211.187.127.126
+[2021-02-08 18:42:02.246 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.263 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.297 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.314 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.331 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.347 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.365 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.382 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.415 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.431 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.448 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.465 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.501 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:42:02.508 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:42:02.514 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:42:02.520 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 17076
+[2021-02-08 18:42:02.533 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:42:02.541 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.548 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.553 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.559 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.568 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.585 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.602 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.636 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.647 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.659 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.667 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.675 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.683 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.691 +09:00] Accepted authentication token of user 76561198392832602@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:42:02.698 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.704 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.711 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.717 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.724 +09:00] 76561198392832602@steam authenticated from endpoint 124.153.148.198:53138. Player ID assigned: 5. Auth token serial number: XHBDH1K7THaOoGcA
+[2021-02-08 18:42:02.732 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.738 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:02.814 +09:00] Nickname of 76561198392832602@steam is now Science Yasuo(잼민이 혐오).
+[2021-02-08 18:42:02.847 +09:00] Player Science Yasuo(잼민이 혐오) (76561198392832602@steam) (5) connected with the IP: 124.153.148.198
+[2021-02-08 18:42:02.885 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:42:02.892 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:42:02.898 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 18:42:02.906 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:42:02.926 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:42:03.317 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.334 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.350 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.368 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.385 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.401 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.435 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.451 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.468 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.485 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.502 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.536 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.552 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.569 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.586 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.603 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.636 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.653 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.670 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.687 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.704 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.737 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.754 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.771 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.787 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.804 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:03.839 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:05.268 +09:00] Authentication token of player 76561198109926552@steam has been confirmed by central server.
+[2021-02-08 18:42:05.299 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-08 18:42:05.331 +09:00] Authentication token of player 76561199112849985@steam has been confirmed by central server.
+[2021-02-08 18:42:05.364 +09:00] Authentication token of player 76561198392832602@steam has been confirmed by central server.
+[2021-02-08 18:42:08.337 +09:00] Accepted authentication token of user 76561199087358210@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:42:08.368 +09:00] 76561199087358210@steam authenticated from endpoint 61.253.118.21:63745. Player ID assigned: 7. Auth token serial number: EiFpZ54liTH2k8Ep
+[2021-02-08 18:42:08.399 +09:00] Nickname of 76561199087358210@steam is now msn0088.
+[2021-02-08 18:42:08.430 +09:00] Player msn0088 (76561199087358210@steam) (7) connected with the IP: 61.253.118.21
+[2021-02-08 18:42:08.539 +09:00] Accepted authentication token of user 76561199117410133@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:42:08.570 +09:00] 76561199117410133@steam authenticated from endpoint 220.84.120.225:59197. Player ID assigned: 6. Auth token serial number: tH9U8L7ELU5TEkdC
+[2021-02-08 18:42:08.650 +09:00] Nickname of 76561199117410133@steam is now leemj10082009.
+[2021-02-08 18:42:08.681 +09:00] Player leemj10082009 (76561199117410133@steam) (6) connected with the IP: 220.84.120.225
+[2021-02-08 18:42:08.875 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:08.891 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:08.908 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:08.925 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:08.942 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:08.975 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:08.992 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.009 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.025 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.042 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.076 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.093 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.110 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.126 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.134 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.143 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.151 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.177 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.184 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.194 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.200 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.210 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.217 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.227 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.234 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.244 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.255 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.278 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.285 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.295 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.301 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.312 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.318 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.329 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.336 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.346 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.354 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.363 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.370 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.397 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.404 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.414 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.420 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.430 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.437 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.447 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.455 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.465 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.472 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.498 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.506 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.515 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.523 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.532 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.539 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.550 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.556 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.566 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.574 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.583 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.591 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.617 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.624 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.633 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.640 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.650 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.657 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.667 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.675 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.684 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.691 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.717 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.724 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.734 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.740 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.750 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.757 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.767 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.774 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.784 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.792 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.817 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.825 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.834 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.841 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.851 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.858 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.868 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.874 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.885 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.891 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.918 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.926 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.935 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.942 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.953 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.960 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.969 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.976 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.986 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:09.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.003 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.010 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.037 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.043 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.054 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.062 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.071 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.078 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.088 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.095 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.105 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.112 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.138 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.145 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.154 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.162 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.171 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.178 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.188 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.195 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.205 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.213 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.238 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.245 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.255 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.262 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.272 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.279 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.289 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.296 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.305 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.313 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.322 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.329 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.356 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.362 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.373 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.379 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.389 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.397 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.406 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.414 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.423 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.430 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.456 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.463 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.473 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.480 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.489 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.497 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.507 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.514 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.523 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.531 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.556 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.563 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.573 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.580 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.591 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.598 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.607 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.614 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.624 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.632 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.640 +09:00] Authentication token of player 76561199087358210@steam has been confirmed by central server.
+[2021-02-08 18:42:10.657 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.664 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.672 +09:00] Authentication token of player 76561199117410133@steam has been confirmed by central server.
+[2021-02-08 18:42:10.678 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.685 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.691 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.698 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.707 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.715 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.724 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.732 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.758 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.766 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.775 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.783 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.792 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.800 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.808 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.815 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.825 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.833 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.842 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.848 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.876 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.884 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.893 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.901 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.909 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.917 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.926 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.934 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.943 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.951 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.976 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.984 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:10.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.001 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.010 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.017 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.027 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.035 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.044 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.052 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.077 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.085 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.094 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.102 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.111 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.118 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.127 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.135 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.144 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.152 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.178 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.185 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.195 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.201 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.211 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.218 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.228 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.235 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.245 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.252 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.262 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.273 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.296 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.304 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.313 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.319 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.330 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.336 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.347 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.354 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.363 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.371 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.397 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.404 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.414 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.421 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.430 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.438 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.447 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.456 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.465 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.473 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.482 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.489 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.516 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.523 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.533 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.539 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.549 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.556 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.566 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.573 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.583 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.591 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.616 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.624 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.633 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.641 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.650 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.657 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.667 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.674 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.683 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.691 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.717 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.725 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.734 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.741 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.750 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.758 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.767 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.774 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.784 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.791 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.817 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.825 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.834 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.841 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.851 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.858 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.868 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.876 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.885 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.893 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.902 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.909 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.935 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.943 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.952 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.959 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.970 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.976 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.987 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:11.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.003 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.011 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.037 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.045 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.054 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.062 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.071 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.078 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.087 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.095 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.104 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.112 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.138 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.145 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.155 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.162 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.171 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.178 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.188 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.195 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.205 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.212 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.222 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.229 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.256 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.264 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.272 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.281 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.289 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.297 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.306 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.313 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.323 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.331 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.356 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.363 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.373 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.379 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.389 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.396 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.406 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.413 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.424 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.431 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.457 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.465 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.474 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.481 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.491 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.497 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.508 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.515 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.525 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.533 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.542 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.550 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.576 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.583 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.593 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.600 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.610 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.617 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.627 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.640 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.648 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.654 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.678 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.685 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.695 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.703 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.711 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.719 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.728 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.736 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.745 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.753 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.762 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.769 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.796 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.803 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.812 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.819 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.830 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.837 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.847 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.855 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.864 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.871 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.897 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.905 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.914 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.922 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.931 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.939 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.948 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.955 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.965 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.972 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.982 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:12.989 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.016 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.024 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.034 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.041 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.050 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.057 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.067 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.075 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.083 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.091 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.117 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.125 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.134 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.142 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.151 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.158 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.167 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.176 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.184 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.192 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.217 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.226 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.234 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.242 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.251 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.259 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.268 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.276 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.285 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.293 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.302 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.309 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.336 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.344 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.353 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.361 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.370 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.378 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.386 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.395 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.403 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.411 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.437 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.444 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.453 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.461 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.470 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.477 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.487 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.494 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.504 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.511 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.537 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.546 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.554 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.562 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.571 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.578 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.588 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.595 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.605 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.612 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.638 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.645 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.655 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.662 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.672 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.680 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.689 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.697 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.706 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.714 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.722 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.730 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.756 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.764 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.773 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.780 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.790 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.798 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.807 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.815 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.824 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.831 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.858 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.866 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.875 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.883 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.891 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.899 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.908 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.917 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.925 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.942 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.975 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:13.992 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.009 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.025 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.042 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.075 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.092 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.109 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.126 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.143 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.176 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.193 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.210 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.227 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.244 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.277 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.294 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.311 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.327 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.344 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.377 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.394 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.411 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.428 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.445 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.462 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.495 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.512 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.529 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.546 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.562 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.596 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.613 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.630 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.646 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.663 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.697 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.714 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.730 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.747 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.763 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.797 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.814 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.831 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.848 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.865 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.882 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.916 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.933 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.949 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.966 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:14.984 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.018 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.035 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.051 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.069 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.085 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.102 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.135 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.152 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.169 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.185 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.202 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.236 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.254 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.270 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.287 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.304 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.338 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.355 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.371 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.388 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.405 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.439 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.456 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.473 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.490 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.506 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.524 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.558 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.574 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.591 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.607 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.624 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.658 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.675 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.691 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.708 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.725 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.742 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.775 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.792 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.809 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.826 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.843 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.877 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.893 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.910 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.927 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.943 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.977 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:15.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.010 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.027 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.044 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.078 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.095 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.111 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.128 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.145 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.162 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.195 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.212 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.229 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.246 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.263 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.298 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.314 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.331 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.347 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.364 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.398 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.415 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.432 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.448 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.465 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.482 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.516 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.532 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.549 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.566 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.583 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.616 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.633 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.649 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.666 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.683 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.716 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.733 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.750 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.767 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.784 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.817 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.834 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.851 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.867 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.884 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.918 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.935 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.952 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.968 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:16.985 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.002 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.036 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.053 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.070 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.086 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.103 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.137 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.154 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.171 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.187 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.204 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.238 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.255 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.271 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.289 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.305 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.323 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.356 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.373 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.390 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.407 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.424 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.457 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.474 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.490 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.507 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.524 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.558 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.575 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.592 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.609 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.625 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.642 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.676 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.692 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.709 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.726 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.742 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.776 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.793 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.810 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.827 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.844 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.877 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.894 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.910 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.927 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.944 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.978 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:17.994 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.011 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.028 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.045 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.062 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.096 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.112 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.129 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.146 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.163 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.197 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.213 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.230 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.247 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.264 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.297 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.314 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.331 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.348 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.365 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.398 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.415 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.432 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.448 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.465 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.482 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.516 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.533 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.549 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.566 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.583 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.617 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.633 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.650 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.667 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.684 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.717 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.734 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.751 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.767 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.784 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.817 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.834 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.851 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.868 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.885 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.902 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.935 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.953 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:18.969 +09:00] [STDOUT] Look rotation viewing vector is zero
+[2021-02-08 18:42:26.359 +09:00] New round has been started.
+[2021-02-08 18:42:27.391 +09:00] [INFO] [ChopperDrop-2.4] Starting Chopper Thread.
+[2021-02-08 18:42:27.423 +09:00] [INFO] [BroadcastPlugin] 이 서버는 ombe1229의 브로드캐스트 플러그인을 사용 중입니다.
+[2021-02-08 18:42:27.454 +09:00] [INFO] [RespawnTimer] RespawnTimer coroutine started successfully! The timer will be refreshed every 1 second/s!
+[2021-02-08 18:43:29.241 +09:00] Requested challenge for incoming connection from endpoint 221.141.217.143:59836.
+[2021-02-08 18:43:29.759 +09:00] Security challenge response of incoming connection from endpoint 221.141.217.143:59837 has been accepted.
+[2021-02-08 18:43:29.791 +09:00] Player 76561198857629393@steam preauthenticated from endpoint 221.141.217.143:59837.
+[2021-02-08 18:43:38.143 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:43:38.155 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:43:38.162 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:43:38.169 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 18:43:38.179 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:43:42.605 +09:00] Accepted authentication token of user 76561198857629393@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:43:42.637 +09:00] 76561198857629393@steam authenticated from endpoint 221.141.217.143:59837. Player ID assigned: 8. Auth token serial number: 3gKOcBaOXLsCrcbW
+[2021-02-08 18:43:42.669 +09:00] Nickname of 76561198857629393@steam is now 크리.
+[2021-02-08 18:43:42.700 +09:00] Player 크리 (76561198857629393@steam) (8) connected with the IP: 221.141.217.143
+[2021-02-08 18:43:46.531 +09:00] Authentication token of player 76561198857629393@steam has been confirmed by central server.
+[2021-02-08 18:46:23.897 +09:00] Player Goldmilk777 (76561198254130933@steam) (4) disconnected
+[2021-02-08 18:46:23.928 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:46:23.962 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:46:23.989 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:46:24.020 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:46:26.024 +09:00] Requested challenge for incoming connection from endpoint 192.168.0.1:55578.
+[2021-02-08 18:46:26.525 +09:00] Security challenge response of incoming connection from endpoint 192.168.0.1:55579 has been accepted.
+[2021-02-08 18:46:26.556 +09:00] Player 76561198254130933@steam preauthenticated from endpoint 192.168.0.1:55579.
+[2021-02-08 18:46:30.254 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:46:30.260 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:46:30.267 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:46:30.272 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 18:46:30.289 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:46:34.658 +09:00] Accepted authentication token of user 76561198254130933@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:46:34.689 +09:00] 76561198254130933@steam authenticated from endpoint 192.168.0.1:55579. Player ID assigned: 9. Auth token serial number: F44G93c43B6fDFNU
+[2021-02-08 18:46:34.721 +09:00] Nickname of 76561198254130933@steam is now Goldmilk777.
+[2021-02-08 18:46:34.752 +09:00] Player Goldmilk777 (76561198254130933@steam) (9) connected with the IP: 192.168.0.1
+[2021-02-08 18:46:37.558 +09:00] Authentication token of player 76561198254130933@steam has been confirmed by central server.
+[2021-02-08 18:47:23.171 +09:00] [STDOUT] MissingFieldException: Field 'SerpentsHand.EventHandlers.isSpawnable' not found.
+[2021-02-08 18:47:23.180 +09:00] [STDOUT]   at RespawnTimer.Handler+<Timer>d__3.MoveNext () [0x00301] in <25bfc2e9c7524f52ac5524906579737d>:0
+[2021-02-08 18:47:23.187 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:47:23.195 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 18:47:23.202 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 18:47:23.210 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 18:47:23.219 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 18:47:23.227 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 18:47:23.233 +09:00] [STDOUT] (Filename: <25bfc2e9c7524f52ac5524906579737d> Line: 0)
+[2021-02-08 18:48:44.580 +09:00] [STDOUT] 6.99204
+[2021-02-08 18:48:44.697 +09:00] [STDOUT] 6.660093
+[2021-02-08 18:48:44.933 +09:00] [STDOUT] 6.121755
+[2021-02-08 18:48:45.033 +09:00] [STDOUT] 5.847984
+[2021-02-08 18:48:45.251 +09:00] [STDOUT] 5.185079
+[2021-02-08 18:48:45.352 +09:00] [STDOUT] 4.880098
+[2021-02-08 18:48:45.421 +09:00] [STDOUT] 4.708938
+[2021-02-08 18:48:45.471 +09:00] [STDOUT] 4.684571
+[2021-02-08 18:48:46.245 +09:00] [STDOUT] 4.497111
+[2021-02-08 18:48:46.397 +09:00] [STDOUT] 3.418614
+[2021-02-08 18:48:47.107 +09:00] [STDOUT] 3.09602
+[2021-02-08 18:48:47.208 +09:00] [STDOUT] 3.663584
+[2021-02-08 18:48:47.444 +09:00] [STDOUT] 3.903115
+[2021-02-08 18:48:47.451 +09:00] [STDOUT] 7.17196
+[2021-02-08 18:48:47.664 +09:00] [STDOUT] 3.618831
+[2021-02-08 18:48:47.671 +09:00] [STDOUT] 7.080263
+[2021-02-08 18:48:47.883 +09:00] [STDOUT] 3.652492
+[2021-02-08 18:48:47.890 +09:00] [STDOUT] 6.615161
+[2021-02-08 18:49:26.315 +09:00] [STDOUT] 9.383229
+[2021-02-08 18:49:26.484 +09:00] [STDOUT] 9.189919
+[2021-02-08 18:49:26.519 +09:00] [STDOUT] 10.5125
+[2021-02-08 18:49:26.639 +09:00] [STDOUT] 9.009418
+[2021-02-08 18:49:26.723 +09:00] [STDOUT] 8.869949
+[2021-02-08 18:49:26.839 +09:00] [STDOUT] 10.18512
+[2021-02-08 18:49:26.940 +09:00] [STDOUT] 10.03994
+[2021-02-08 18:49:27.124 +09:00] [STDOUT] 8.160363
+[2021-02-08 18:49:27.143 +09:00] [STDOUT] 9.734276
+[2021-02-08 18:49:27.209 +09:00] [STDOUT] 9.381906
+[2021-02-08 18:49:27.426 +09:00] [STDOUT] 7.634201
+[2021-02-08 18:49:27.528 +09:00] [STDOUT] 7.334888
+[2021-02-08 18:49:28.234 +09:00] [STDOUT] 6.686765
+[2021-02-08 18:49:28.454 +09:00] [STDOUT] 8.484879
+[2021-02-08 18:49:28.554 +09:00] [STDOUT] 8.640141
+[2021-02-08 18:49:30.420 +09:00] [STDOUT] 2.743592
+[2021-02-08 18:49:42.738 +09:00] [STDOUT] 5.255523
+[2021-02-08 18:49:42.855 +09:00] [STDOUT] 5.264401
+[2021-02-08 18:49:42.940 +09:00] [STDOUT] 5.258626
+[2021-02-08 18:49:43.056 +09:00] [STDOUT] 5.248443
+[2021-02-08 18:50:32.111 +09:00] Requested challenge for incoming connection from endpoint 211.37.72.148:52601.
+[2021-02-08 18:50:32.626 +09:00] Security challenge response of incoming connection from endpoint 211.37.72.148:52602 has been accepted.
+[2021-02-08 18:50:32.658 +09:00] Player 76561199093352805@steam preauthenticated from endpoint 211.37.72.148:52602.
+[2021-02-08 18:50:35.557 +09:00] [ERROR] [Exiled.Events] Method "OnJoined" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.JoinedEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:50:35.563 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:50:35.570 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:50:35.576 +09:00] [STDOUT] Restart too long or the server has just started.
+[2021-02-08 18:50:35.590 +09:00] [ERROR] [Exiled.Events] System.NullReferenceException: Object reference not set to an instance of an object
+  at Exiled.API.Features.Player.get_RawUserId () [0x0000d] in <96f016e0fff44e9998579596fcb76126>:0 
+  at TextChat.Events.PlayerHandler.OnJoined (Exiled.Events.EventArgs.JoinedEventArgs ev) [0x00042] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:50:39.696 +09:00] Accepted authentication token of user 76561199093352805@steam signed by Gravelines 2. No active global bans.
+[2021-02-08 18:50:39.726 +09:00] 76561199093352805@steam authenticated from endpoint 211.37.72.148:52602. Player ID assigned: 10. Auth token serial number: OI3n7XM6npjmtmp8
+[2021-02-08 18:50:39.757 +09:00] Nickname of 76561199093352805@steam is now 매미가되고싶은고구마.
+[2021-02-08 18:50:39.789 +09:00] Player 매미가되고싶은고구마 (76561199093352805@steam) (10) connected with the IP: 211.37.72.148
+[2021-02-08 18:50:42.753 +09:00] Authentication token of player 76561199093352805@steam has been confirmed by central server.
+[2021-02-08 18:51:38.686 +09:00] [INFO] [ChopperDrop-2.4] Spawning chopper!
+[2021-02-08 18:51:47.095 +09:00] Round finished! Anomalies: 0 | Chaos: 0 | Facility Forces: 3 | D escaped percentage: 0 | S escaped percentage: : 2
+[2021-02-08 18:51:53.726 +09:00] [INFO] [ChopperDrop-2.4] Spawning 1 MicroHID's
+[2021-02-08 18:51:53.758 +09:00] [INFO] [ChopperDrop-2.4] Spawning 1 KeycardFacilityManager's
+[2021-02-08 18:51:53.788 +09:00] [INFO] [ChopperDrop-2.4] Spawning 3 Medkit's
+[2021-02-08 18:51:53.821 +09:00] [INFO] [ChopperDrop-2.4] Spawning 3 Adrenaline's
+[2021-02-08 18:51:58.594 +09:00] Incoming connections will be now delayed by 5 seconds.
+[2021-02-08 18:51:58.624 +09:00] Idle mode is now temporarily blocked.
+[2021-02-08 18:51:59.110 +09:00] Player 매미가되고싶은고구마 (76561199093352805@steam) (10) disconnected
+[2021-02-08 18:51:59.114 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.118 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.123 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 18:51:59.128 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.132 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.137 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.143 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.149 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.154 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 18:51:59.159 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.164 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-08 18:51:59.169 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.174 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-08 18:51:59.180 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.186 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:51:59.190 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.196 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.200 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.204 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.209 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.214 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.218 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 18:51:59.222 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.227 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 18:51:59.232 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.236 +09:00] [STDOUT] TargetRpc TargetSyncHp called on un-spawned object: Player
+[2021-02-08 18:51:59.241 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.246 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.251 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.255 +09:00] [STDOUT] TargetRpc TargetForcePosition called on un-spawned object: Player
+[2021-02-08 18:51:59.260 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.265 +09:00] [STDOUT] TargetRpc TargetSetRotation called on un-spawned object: Player
+[2021-02-08 18:51:59.269 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.273 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.279 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.283 +09:00] [STDOUT] TargetRpc TargetPrintOnConsole called on un-spawned object: Player
+[2021-02-08 18:51:59.288 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:51:59.295 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:51:59.316 +09:00] Player Goldmilk777 (76561198254130933@steam) (9) disconnected
+[2021-02-08 18:51:59.347 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:51:59.380 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:51:59.409 +09:00] Player 크리 (76561198857629393@steam) (8) disconnected
+[2021-02-08 18:51:59.415 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 18:51:59.420 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 18:51:59.425 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 18:51:59.431 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.436 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.441 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.447 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.452 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.457 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 18:51:59.461 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 18:51:59.466 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.471 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.475 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 18:51:59.480 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 18:51:59.484 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 18:51:59.489 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 18:51:59.493 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 18:51:59.498 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 18:51:59.502 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 18:51:59.506 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 18:51:59.511 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 18:51:59.515 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.520 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.526 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.532 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.537 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.542 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 18:51:59.548 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 18:51:59.552 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.557 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.563 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 18:51:59.568 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 18:51:59.572 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 18:51:59.577 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 18:51:59.583 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 18:51:59.588 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 18:51:59.593 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 18:51:59.599 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 18:51:59.604 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 18:51:59.609 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.616 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.622 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.628 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.635 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.640 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 18:51:59.646 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 18:51:59.652 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.658 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.667 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 18:51:59.674 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 18:51:59.683 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 18:51:59.690 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 18:51:59.699 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 18:51:59.706 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 18:51:59.716 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:51:59.723 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 18:51:59.732 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.GetComponentFastPath(UnityEngine.Component,System.Type,intptr)
+[2021-02-08 18:51:59.740 +09:00] [STDOUT]   at UnityEngine.Component.GetComponent[T] () [0x00021] in <f15e66ec8bac455da00fc30eb5e18d09>:0
+[2021-02-08 18:51:59.747 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_netIdentity () [0x0000e] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.754 +09:00] [STDOUT]   at Mirror.NetworkBehaviour.get_connectionToClient () [0x00000] in <97724ebd33dc4c039a9b4076103bfe57>:0
+[2021-02-08 18:51:59.760 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos, System.String anticheatCode, System.Boolean reset, System.Boolean grantSafeTime, System.Boolean resetPrevSafePositions) [0x00197] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.766 +09:00] [STDOUT]   at PlayerMovementSync.ForcePosition (UnityEngine.Vector3 pos) [0x00000] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.771 +09:00] [STDOUT]   at PlayerMovementSync.OverridePosition (UnityEngine.Vector3 pos, System.Single rot, System.Boolean forceGround) [0x0003f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.778 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:51:59.786 +09:00] [STDOUT]   at Exiled.API.Features.Player.set_Position (UnityEngine.Vector3 value) [0x00006] in <96f016e0fff44e9998579596fcb76126>:0
+[2021-02-08 18:51:59.792 +09:00] [STDOUT]   at DCReplace.EventHandlers+<>c__DisplayClass11_1.<OnPlayerLeave>b__2 () [0x00000] in <4f8974af5cd9454a95d1be9cea71b3e1>:0
+[2021-02-08 18:51:59.799 +09:00] [STDOUT]   at MEC.Timing+<_DelayedCall>d__310.MoveNext () [0x00056] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.811 +09:00] [STDOUT]   at MEC.Timing.Update () [0x0043c] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.817 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 18:51:59.823 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 18:51:59.829 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 18:51:59.838 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 18:51:59.844 +09:00] [STDOUT] MEC.Timing:Update()
+[2021-02-08 18:51:59.852 +09:00] [STDOUT] (Filename: <f15e66ec8bac455da00fc30eb5e18d09> Line: 0)
+[2021-02-08 18:51:59.857 +09:00] [STDOUT] NullReferenceException
+[2021-02-08 18:51:59.864 +09:00] [STDOUT]   at (wrapper managed-to-native) UnityEngine.Component.get_gameObject(UnityEngine.Component)
+[2021-02-08 18:51:59.871 +09:00] [STDOUT]   at (wrapper dynamic-method) Grenades.FragGrenade.Grenades.FragGrenade.ServersideExplosion_Patch0(Grenades.FragGrenade)
+[2021-02-08 18:51:59.876 +09:00] [STDOUT]   at Grenades.Grenade+<_Fuse>d__31.MoveNext () [0x0006f] in <beb2be7759da4e50a7938a1f4b98d542>:0
+[2021-02-08 18:51:59.883 +09:00] [STDOUT]   at MEC.Timing.FixedUpdate () [0x000d1] in <543530d36aaa42f39c46436e47f22a69>:0
+[2021-02-08 18:51:59.889 +09:00] [STDOUT] UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+[2021-02-08 18:51:59.894 +09:00] [STDOUT] UnityEngine.DebugLogHandler:LogException(Exception, Object)
+[2021-02-08 18:51:59.901 +09:00] [STDOUT] UnityEngine.Logger:LogException(Exception, Object)
+[2021-02-08 18:51:59.906 +09:00] [STDOUT] UnityEngine.Debug:LogException(Exception)
+[2021-02-08 18:51:59.911 +09:00] [STDOUT] MEC.Timing:FixedUpdate()
+[2021-02-08 18:51:59.919 +09:00] [STDOUT] (Filename: <beb2be7759da4e50a7938a1f4b98d542> Line: 0)
+[2021-02-08 18:51:59.931 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:51:59.960 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:51:59.991 +09:00] Player Science Yasuo(잼민이 혐오) (76561198392832602@steam) (5) disconnected
+[2021-02-08 18:52:00.010 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:52:00.039 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:52:00.071 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:52:00.101 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:52:00.133 +09:00] Player 하고하고 (76561199112849985@steam) (3) disconnected
+[2021-02-08 18:52:00.166 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:52:00.197 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:52:00.227 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:52:00.258 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:52:00.289 +09:00] Player msn0088 (76561199087358210@steam) (7) disconnected
+[2021-02-08 18:52:00.320 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:52:00.352 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:52:00.382 +09:00] Player UKUN (76561198109926552@steam) (2) disconnected
+[2021-02-08 18:52:00.415 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:52:00.445 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:52:00.478 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:52:00.508 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:52:00.539 +09:00] Player leemj10082009 (76561199117410133@steam) (6) disconnected
+[2021-02-08 18:52:00.571 +09:00] [ERROR] [Exiled.Events] Method "OnLeft" of the class "TextChat.Events.PlayerHandler" caused an exception when handling the event "Exiled.Events.Events+CustomEventHandler`1[[Exiled.Events.EventArgs.LeftEventArgs, Exiled.Events, Version=2.1.31.0, Culture=neutral, PublicKeyToken=null]]"
+[2021-02-08 18:52:00.601 +09:00] [ERROR] [Exiled.Events] System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+  at LiteDB.LiteCollection`1[T].Upsert (T entity) [0x00008] in <ca87e3e06962463fb463e94e3bd88728>:0 
+  at TextChat.Events.PlayerHandler.OnLeft (Exiled.Events.EventArgs.LeftEventArgs ev) [0x00061] in <f455936f696741618c65116a7c62559e>:0 
+  at Exiled.Events.Extensions.Event.InvokeSafely[T] (Exiled.Events.Events+CustomEventHandler`1[TEventArgs] ev, T arg) [0x00024] in <a03fd96899744b31b487757358e08669>:0
+[2021-02-08 18:52:00.632 +09:00] [DEBUG] [DCReplace] SCP-035 is not installed, skipping method call...
+[2021-02-08 18:52:00.662 +09:00] [DEBUG] [DCReplace] CISpy is not installed, skipping method call...
+[2021-02-08 18:52:01.153 +09:00] [STDOUT] The referenced script (Respawning.Misc.ChaosBrakeLights) on this Behaviour is missing!
+[2021-02-08 18:52:01.159 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.167 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationClientTimer) on this Behaviour is missing!
+[2021-02-08 18:52:01.172 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.178 +09:00] [STDOUT] The referenced script (SoundtrackManager) on this Behaviour is missing!
+[2021-02-08 18:52:01.184 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.188 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.194 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.200 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.205 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.210 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.216 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.221 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.226 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.233 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.238 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.244 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.250 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.255 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.260 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.267 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.272 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.277 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.284 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.290 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.294 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.301 +09:00] [STDOUT] The referenced script (WorkStationUpgrader) on this Behaviour is missing!
+[2021-02-08 18:52:01.306 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.311 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.318 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.322 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.327 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.334 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.339 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.344 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.350 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.355 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.359 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.365 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.370 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.375 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.380 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.386 +09:00] [STDOUT] The referenced script (LightContainmentZoneDecontamination.DecontaminationScreen) on this Behaviour is missing!
+[2021-02-08 18:52:01.390 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.394 +09:00] [STDOUT] The referenced script (TMP_LinkOpener) on this Behaviour is missing!
+[2021-02-08 18:52:01.400 +09:00] [STDOUT] (Filename:  Line: 199)
+[2021-02-08 18:52:01.405 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.410 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.415 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.420 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.425 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.430 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.436 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.440 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.445 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.451 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.457 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.461 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.467 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.472 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.477 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.483 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.488 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.493 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.497 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.503 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.508 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.512 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.518 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.523 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.528 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.533 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.538 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.543 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.548 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.554 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.558 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station (1)') is missing!
+[2021-02-08 18:52:01.563 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.569 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.574 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.578 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.583 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.589 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.593 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.597 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.603 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.607 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.612 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.618 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.623 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.627 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.632 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.638 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.642 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.647 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.652 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.657 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Work Station') is missing!
+[2021-02-08 18:52:01.662 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.666 +09:00] [STDOUT] A scripted object (probably WorkStationUpgrader?) has a different serialization layout when loading. (Read 32 bytes but expected 124 bytes)
+[2021-02-08 18:52:01.672 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.677 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.681 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'SoundtrackManager') is missing!
+[2021-02-08 18:52:01.688 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.693 +09:00] [STDOUT] A scripted object (probably SoundtrackManager?) has a different serialization layout when loading. (Read 32 bytes but expected 384 bytes)
+[2021-02-08 18:52:01.698 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.704 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.709 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 18:52:01.714 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.718 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.723 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.728 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.733 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'DecontaminationManager') is missing!
+[2021-02-08 18:52:01.738 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.743 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationClientTimer?) has a different serialization layout when loading. (Read 32 bytes but expected 492 bytes)
+[2021-02-08 18:52:01.749 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.755 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.760 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Car_Body') is missing!
+[2021-02-08 18:52:01.765 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.770 +09:00] [STDOUT] A scripted object (probably Respawning.Misc.ChaosBrakeLights?) has a different serialization layout when loading. (Read 32 bytes but expected 96 bytes)
+[2021-02-08 18:52:01.775 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.780 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.785 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 18:52:01.790 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.795 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.800 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.806 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.812 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 18:52:01.817 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.822 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.829 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.834 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.839 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 18:52:01.845 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.850 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.855 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.859 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.864 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Info') is missing!
+[2021-02-08 18:52:01.869 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.873 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 18:52:01.879 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.884 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.889 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.893 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.898 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 18:52:01.903 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.908 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.913 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.918 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.922 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse (1)') is missing!
+[2021-02-08 18:52:01.927 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.932 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.937 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.942 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.947 +09:00] [STDOUT] The referenced script on this Behaviour (Game Object 'Blatant Asset Reuse') is missing!
+[2021-02-08 18:52:01.952 +09:00] [STDOUT] (Filename:  Line: 334)
+[2021-02-08 18:52:01.957 +09:00] [STDOUT] A scripted object (probably LightContainmentZoneDecontamination.DecontaminationScreen?) has a different serialization layout when loading. (Read 32 bytes but expected 60 bytes)
+[2021-02-08 18:52:01.961 +09:00] [STDOUT] Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?
+[2021-02-08 18:52:01.966 +09:00] [STDOUT] (Filename:  Line: 2324)
+[2021-02-08 18:52:01.971 +09:00] [STDOUT] Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-08 18:52:01.977 +09:00] [STDOUT] UnloadTime: 98.338200 ms
+[2021-02-08 18:52:01.981 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 18:52:01.986 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 18:52:01.991 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 18:52:01.996 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 18:52:02.001 +09:00] [STDOUT] HDR Render Texture not supported, disabling HDR on reflection probe.
+[2021-02-08 18:52:02.006 +09:00] [STDOUT] (Filename:  Line: 277)
+[2021-02-08 18:52:02.011 +09:00] [STDOUT] Setting 06AudioSettings_Master to 1
+[2021-02-08 18:52:02.016 +09:00] [STDOUT] Setting 06AudioSettings_Effects to 1
+[2021-02-08 18:52:02.021 +09:00] [STDOUT] Setting 06AudioSettings_VoiceChat to 1
+[2021-02-08 18:52:02.059 +09:00] [STDOUT] Loaded settings: 06AudioSettings_Master::-%(|::1
+[2021-02-08 18:52:02.064 +09:00] [STDOUT] 06AudioSettings_Effects::-%(|::1
+[2021-02-08 18:52:02.069 +09:00] [STDOUT] 06AudioSettings_MenuMusic::-%(|::1
+[2021-02-08 18:52:02.074 +09:00] [STDOUT] 06AudioSettings_VoiceChat::-%(|::1
+[2021-02-08 18:52:02.079 +09:00] [STDOUT] 06AudioSettings_Interface::-%(|::1
+[2021-02-08 18:52:02.084 +09:00] [STDOUT] 00y_invert::-%(|::false
+[2021-02-08 18:52:02.089 +09:00] [STDOUT] 06gammavalue::-%(|::2
+[2021-02-08 18:52:02.094 +09:00] [STDOUT] 06Sens::-%(|::1.736935
+[2021-02-08 18:52:02.100 +09:00] [STDOUT] 07W_1_0::-%(|::1
+[2021-02-08 18:52:02.105 +09:00] [STDOUT] 07W_1_1::-%(|::3
+[2021-02-08 18:52:02.110 +09:00] [STDOUT] 07W_1_2::-%(|::1
+[2021-02-08 18:52:02.114 +09:00] [STDOUT] 07W_2_0::-%(|::3
+[2021-02-08 18:52:02.119 +09:00] [STDOUT] 07W_2_1::-%(|::4
+[2021-02-08 18:52:02.124 +09:00] [STDOUT] 07W_2_2::-%(|::4
+[2021-02-08 18:52:02.129 +09:00] [STDOUT] 07W_3_0::-%(|::2
+[2021-02-08 18:52:02.134 +09:00] [STDOUT] 07W_3_2::-%(|::1
+[2021-02-08 18:52:02.138 +09:00] [STDOUT] 07W_3_1::-%(|::1
+[2021-02-08 18:52:02.144 +09:00] [STDOUT] 07LastRoundrestartTime::-%(|::17076
+[2021-02-08 18:52:02.150 +09:00] Scene Manager: Loaded scene 'Facility' [Assets/_Scenes/Facility.unity]
+[2021-02-08 18:52:02.182 +09:00] [STDOUT] [AmplifyBloom] Null graphics device detected. Skipping effect silently.
+[2021-02-08 18:52:02.187 +09:00] [STDOUT] (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[2021-02-08 18:52:02.223 +09:00] [DEBUG_MAPGEN] Server has successfully generated a random seed: 916594176
+[2021-02-08 18:52:02.274 +09:00] [STDOUT] Setting 07LastRoundrestartTime to 9115
+[2021-02-08 18:52:02.577 +09:00] [STDOUT] Unloading 283 unused Assets to reduce memory usage. Loaded Objects now: 117478.
+[2021-02-08 18:52:02.582 +09:00] [STDOUT] Total: 218.490400 ms (FindLiveObjects: 5.284300 ms CreateObjectMapping: 2.790500 ms MarkObjects: 210.008400 ms  DeleteObjects: 0.406800 ms)
+[2021-02-08 18:52:02.588 +09:00] [STDOUT] Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[2021-02-08 18:52:02.871 +09:00] [DEBUG_MAPGEN] Sequence of procedural level generation completed.
+[2021-02-08 18:52:03.319 +09:00] [STDOUT] Unloading 481 unused Assets to reduce memory usage. Loaded Objects now: 105276.
+[2021-02-08 18:52:03.325 +09:00] [STDOUT] Total: 171.180400 ms (FindLiveObjects: 5.430400 ms CreateObjectMapping: 3.353400 ms MarkObjects: 162.162000 ms  DeleteObjects: 0.234200 ms)
+[2021-02-08 18:52:03.360 +09:00] Incoming connections will be no longer delayed.
+[2021-02-08 18:52:03.390 +09:00] Idle mode is now available.
+[2021-02-08 18:52:03.420 +09:00] --- END OF LOG ---
